@@ -12,25 +12,25 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-keyboard/8.0.0/data/screenshot-layout.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-keyboard/8.0.0/data/screenshot-layout.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-keyboard/8.0.0/data/screenshot-input-method.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-keyboard/8.0.0/data/screenshot-input-method.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-keyboard/8.0.0/data/screenshot-shortcuts.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-keyboard/8.0.0/data/screenshot-shortcuts.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-keyboard/8.0.0/data/screenshot-behavior.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-keyboard/8.0.0/data/screenshot-behavior.png</image>
     </screenshot>
   </screenshots>
 
   <content_rating type="oars-1.1" />
 
   <url type="homepage">https://elementary.io/</url>
-  <url type="bugtracker">https://github.com/elementary/switchboard-plug-keyboard/issues</url>
+  <url type="bugtracker">https://github.com/elementary/settings-keyboard/issues</url>
   <url type="donation">https://elementary.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/switchboard-plug-keyboard/discussions</url>
+  <url type="help">https://github.com/elementary/settings-keyboard/discussions</url>
   <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
 
   <developer id="org.elementaryos">
@@ -61,11 +61,11 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/434">Media keys no longer assignable</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/439">Keyboard / Input Method / Switch engines setting should default to Disabled</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/472">Free up the Super key </issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/434">Media keys no longer assignable</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/439">Keyboard / Input Method / Switch engines setting should default to Disabled</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/472">Free up the Super key </issue>
         <issue url="https://github.com/elementary/triage/issues/18">Strange behavior with ctrl + shift + e shortcut</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/238">Plugin takes long time to open</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/238">Plugin takes long time to open</issue>
       </issues>
     </release>
 
@@ -81,7 +81,7 @@
       </description>
       <issues>
         <issue url="https://github.com/elementary/wingpanel-indicator-keyboard/issues/108">Keyboard layout does not change properly</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/430">Cannot set "PrintScreen" as a shortcut for any command</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/430">Cannot set "PrintScreen" as a shortcut for any command</issue>
       </issues>
     </release>
 
@@ -94,10 +94,10 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/191">Expose typing delays from a11y</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/192">Expose "fast typing" settings from a11y</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/193">Expose modifier key settings</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/389">Add specific sections link for Keyboard Shortcuts</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/191">Expose typing delays from a11y</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/192">Expose "fast typing" settings from a11y</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/193">Expose modifier key settings</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/389">Add specific sections link for Keyboard Shortcuts</issue>
       </issues>
     </release>
 
@@ -109,7 +109,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-keyboard/issues/426">Potential crash from missing settings schema</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/426">Potential crash from missing settings schema</issue>
       </issues>
     </release>
 
