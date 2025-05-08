@@ -77,7 +77,7 @@ namespace Keyboard.Shortcuts {
             workspaces_group = {};
             workspaces_group.icon_name = "preferences-desktop-workspaces";
             workspaces_group.label = _("Workspaces");
-            add_action (ref workspaces_group, Schema.WM, _("Multitasking View"), "show-desktop");
+            add_action (ref workspaces_group, Schema.GALA, _("Multitasking View"), "toggle-multitasking-view");
             add_action (ref workspaces_group, Schema.WM, _("Switch left"), "switch-to-workspace-left");
             add_action (ref workspaces_group, Schema.WM, _("Switch right"), "switch-to-workspace-right");
             add_action (ref workspaces_group, Schema.GALA, _("Switch to first"), "switch-to-workspace-first");
