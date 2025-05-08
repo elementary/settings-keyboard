@@ -221,7 +221,7 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
         input_sources_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
         var per_window_action = new SimpleAction.stateful (
             "per-window",
-            null, 
+            null,
             new Variant.boolean (input_sources_settings.get_boolean ("per-window"))
         );
         var action_group = new SimpleActionGroup ();
