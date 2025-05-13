@@ -19,13 +19,13 @@ Homepage: https://github.com/elementary/switchboard-plug-keyboard
 
 Package: io.elementary.settings.keyboard
 Architecture: any
-Depends: gala (>= 8.2.0),
-         ibus,
+Depends: ibus,
          xkb-data,
          onboard,
          ${misc:Depends},
          ${shlibs:Depends}
 Enhances: io.elementary.settings
+Recommends: gala (>= 8.2.0)
 Description: Settings plugin for keyboard settings
  This plug can be used to change several keyboard settings, for example the
  delay and speed of the key repetition, or the cursor blinking speed. You can
