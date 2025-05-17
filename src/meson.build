@@ -39,6 +39,7 @@ plug_files = files(
     'Shortcuts/Backend/ShortcutsList.vala',
     'Shortcuts/Widgets/ConflictDialog.vala',
     'Shortcuts/Widgets/CustomShortcutListBox.vala',
+    'Shortcuts/Widgets/CustomShortcutRow.vala',
     'Shortcuts/Widgets/ShortcutListBox.vala',
     'Shortcuts/Shortcuts.vala',
     'Plug.vala'
