@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2024-12-12 05:36+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -32,38 +32,40 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
-#: data/keyboard.metainfo.xml.in:74 data/keyboard.metainfo.xml.in:90
-#: data/keyboard.metainfo.xml.in:106 data/keyboard.metainfo.xml.in:124
+#: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
+#: data/keyboard.metainfo.xml.in:99 data/keyboard.metainfo.xml.in:115
+#: data/keyboard.metainfo.xml.in:133
 msgid "Minor updates:"
 msgstr "マイナーアップデート:"
 
-#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:60
-#: data/keyboard.metainfo.xml.in:79 data/keyboard.metainfo.xml.in:93
-#: data/keyboard.metainfo.xml.in:108 data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:56
+#: data/keyboard.metainfo.xml.in:69 data/keyboard.metainfo.xml.in:88
+#: data/keyboard.metainfo.xml.in:102 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:136
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/keyboard.metainfo.xml.in:56
+#: data/keyboard.metainfo.xml.in:65
 msgid "Updated shortcut category icons"
 msgstr "ショートカットタブのカテゴリーアイコンを更新"
 
-#: data/keyboard.metainfo.xml.in:57
+#: data/keyboard.metainfo.xml.in:66
 msgid "Improved screen reader accessibility"
 msgstr "スクリーンリーダーのアクセシビリティを改善"
 
-#: data/keyboard.metainfo.xml.in:58
+#: data/keyboard.metainfo.xml.in:67
 msgid "New shortcut settings for launching dock items"
 msgstr "ドック項目を起動するための新しいショートカット設定を追加"
 
-#: data/keyboard.metainfo.xml.in:59
+#: data/keyboard.metainfo.xml.in:68
 msgid "Clearer actions for managing keyboard layouts"
 msgstr "キーボードレイアウトを管理するためのアクションを明確化"
 
-#: data/keyboard.metainfo.xml.in:76
+#: data/keyboard.metainfo.xml.in:85
 msgid "Fix potential crashes"
 msgstr "クラッシュすることがある不具合を修正"
 
-#: data/keyboard.metainfo.xml.in:77
+#: data/keyboard.metainfo.xml.in:86
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
@@ -71,31 +73,31 @@ msgstr ""
 "“同一アプリのウィンドウを切り替え”および“逆順で同一アプリのウィンドウを切り替"
 "え”ショートカットを追加"
 
-#: data/keyboard.metainfo.xml.in:78
+#: data/keyboard.metainfo.xml.in:87
 msgid "Improve experience installing input methods"
 msgstr "インプットメソッドインストール時の UX を向上"
 
-#: data/keyboard.metainfo.xml.in:92
+#: data/keyboard.metainfo.xml.in:101
 msgid "Show the values associated with sliders while dragging"
 msgstr "スライダーをドラッグ中に値を表示するように修正"
 
-#: data/keyboard.metainfo.xml.in:118
+#: data/keyboard.metainfo.xml.in:127
 msgid "New features:"
 msgstr "新機能:"
 
-#: data/keyboard.metainfo.xml.in:120
+#: data/keyboard.metainfo.xml.in:129
 msgid "Revert shortcuts to default"
 msgstr "デフォルトのショートカットを復元できる機能を追加"
 
-#: data/keyboard.metainfo.xml.in:121
+#: data/keyboard.metainfo.xml.in:130
 msgid "Easily disable a shortcut"
 msgstr "ショートカットを簡単に無効化できる機能を追加"
 
-#: data/keyboard.metainfo.xml.in:122
+#: data/keyboard.metainfo.xml.in:131
 msgid "Support Rime input method for Chinese"
 msgstr "中国語のインプットメソッドエディター、Rime に対応"
 
-#: data/keyboard.metainfo.xml.in:126
+#: data/keyboard.metainfo.xml.in:135
 msgid "Remove custom shortcuts from their menu"
 msgstr "カスタムショートカットの削除はメニューから行うように修正"
 

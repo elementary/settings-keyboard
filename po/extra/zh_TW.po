@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2024-09-07 17:04+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -32,67 +32,69 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
-#: data/keyboard.metainfo.xml.in:74 data/keyboard.metainfo.xml.in:90
-#: data/keyboard.metainfo.xml.in:106 data/keyboard.metainfo.xml.in:124
+#: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
+#: data/keyboard.metainfo.xml.in:99 data/keyboard.metainfo.xml.in:115
+#: data/keyboard.metainfo.xml.in:133
 msgid "Minor updates:"
 msgstr "小型更新："
 
-#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:60
-#: data/keyboard.metainfo.xml.in:79 data/keyboard.metainfo.xml.in:93
-#: data/keyboard.metainfo.xml.in:108 data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:56
+#: data/keyboard.metainfo.xml.in:69 data/keyboard.metainfo.xml.in:88
+#: data/keyboard.metainfo.xml.in:102 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:136
 msgid "Updated translations"
 msgstr "翻譯更新"
 
-#: data/keyboard.metainfo.xml.in:56
+#: data/keyboard.metainfo.xml.in:65
 msgid "Updated shortcut category icons"
 msgstr "更新快捷鍵分類圖示"
 
-#: data/keyboard.metainfo.xml.in:57
+#: data/keyboard.metainfo.xml.in:66
 msgid "Improved screen reader accessibility"
 msgstr "改善螢幕閱讀器輔助"
 
-#: data/keyboard.metainfo.xml.in:58
+#: data/keyboard.metainfo.xml.in:67
 msgid "New shortcut settings for launching dock items"
 msgstr "新增啟動 Dock 項目的快捷鍵設定"
 
-#: data/keyboard.metainfo.xml.in:59
+#: data/keyboard.metainfo.xml.in:68
 msgid "Clearer actions for managing keyboard layouts"
 msgstr "讓管理鍵盤配置的動作變得更清楚"
 
-#: data/keyboard.metainfo.xml.in:76
+#: data/keyboard.metainfo.xml.in:85
 msgid "Fix potential crashes"
 msgstr "修正可能發生的崩潰"
 
-#: data/keyboard.metainfo.xml.in:77
+#: data/keyboard.metainfo.xml.in:86
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
 msgstr "新增「循環切換應用程式視窗」和「往後循環切換應用程式視窗」快捷鍵"
 
-#: data/keyboard.metainfo.xml.in:78
+#: data/keyboard.metainfo.xml.in:87
 msgid "Improve experience installing input methods"
 msgstr "改善安裝輸入法的體驗"
 
-#: data/keyboard.metainfo.xml.in:92
+#: data/keyboard.metainfo.xml.in:101
 msgid "Show the values associated with sliders while dragging"
 msgstr "拖曳時顯示滑條關聯的數值"
 
-#: data/keyboard.metainfo.xml.in:118
+#: data/keyboard.metainfo.xml.in:127
 msgid "New features:"
 msgstr "新功能："
 
-#: data/keyboard.metainfo.xml.in:120
+#: data/keyboard.metainfo.xml.in:129
 msgid "Revert shortcuts to default"
 msgstr "新增將快捷鍵恢復為預設的功能"
 
-#: data/keyboard.metainfo.xml.in:121
+#: data/keyboard.metainfo.xml.in:130
 msgid "Easily disable a shortcut"
 msgstr "讓快捷鍵可以輕易停用"
 
-#: data/keyboard.metainfo.xml.in:122
+#: data/keyboard.metainfo.xml.in:131
 msgid "Support Rime input method for Chinese"
 msgstr "為中文支援 RIME 輸入法"
 
-#: data/keyboard.metainfo.xml.in:126
+#: data/keyboard.metainfo.xml.in:135
 msgid "Remove custom shortcuts from their menu"
 msgstr "用選單來移除自訂快捷鍵"
