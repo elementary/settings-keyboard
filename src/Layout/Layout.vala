@@ -13,7 +13,6 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
     private Gtk.SizeGroup [] size_group;
     private Gtk.Entry entry_test;
     private Gtk.Stack stack;
-    private GLib.Settings input_sources_settings;
 
     construct {
         settings = SourceSettings.get_instance ();
@@ -218,23 +217,9 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
             }
         });
 
-        input_sources_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
-        var per_window_action = new SimpleAction.stateful (
-            "per-window",
-            null,
-            new Variant.boolean (input_sources_settings.get_boolean ("per-window"))
-        );
         var action_group = new SimpleActionGroup ();
-        action_group.add_action (per_window_action);
+        action_group.add_action (new GLib.Settings ("org.gnome.desktop.input-sources").create_action ("per-window"));
         insert_action_group ("layout-settings", action_group);
-
-        per_window_action.change_state.connect ((value) => {
-            if (!per_window_action.get_state ().equal (value)) {
-                per_window_action.set_state (value);
-                input_sources_settings.set_boolean ("per-window", value.get_boolean ());
-            }
-        });
-
     }
 
     private AdvancedSettingsPanel? third_level_layouts_panel () {
