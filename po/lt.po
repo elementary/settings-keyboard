@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2021-11-01 17:20+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
@@ -143,7 +143,6 @@ msgid "Add Engine…"
 msgstr ""
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:167
 msgid "Remove"
 msgstr "Šalinti"
 
@@ -159,8 +158,6 @@ msgstr "Perjungti langus"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:126
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:427
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -968,54 +965,48 @@ msgstr ""
 msgid "Reassign"
 msgstr "Priskirti iš naujo"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:29
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "Add Shortcut"
 msgstr "Susiejimai"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:123
-#, fuzzy
-#| msgid "Enter Command"
-msgid "Enter a command here"
-msgstr "Įrašykite komandą"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:156
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Set New Shortcut"
 msgstr "Susiejimas"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:161
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+#, fuzzy
+#| msgid "Default"
+msgid "Reset to Default"
+msgstr "Numatytasis"
+
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 #, fuzzy
 #| msgid "Disabled"
 msgid "Disable"
 msgstr "Išjungta"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:299
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr ""
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:369
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr ""
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:370
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, fuzzy, c-format
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s jau yra naudojamas veiksmui %s"
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 #, fuzzy
-#| msgid "Default"
-msgid "Reset to Default"
-msgstr "Numatytasis"
+#~| msgid "Enter Command"
+#~ msgid "Enter a command here"
+#~ msgstr "Įrašykite komandą"
 
 #~ msgid "Add…"
 #~ msgstr "Pridėti…"

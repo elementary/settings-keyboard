@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2024-06-29 14:16+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -140,7 +140,6 @@ msgid "Add Engine…"
 msgstr "Add Engine…"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:167
 msgid "Remove"
 msgstr "Remove"
 
@@ -154,8 +153,6 @@ msgstr "Switch engines:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:126
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:427
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -925,43 +922,37 @@ msgstr "If you reassign the shortcut to %s, %s will be disabled."
 msgid "Reassign"
 msgstr "Reassign"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:29
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Add Shortcut"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:123
-msgid "Enter a command here"
-msgstr "Enter a command here"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:156
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Set New Shortcut"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:161
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+msgid "Reset to Default"
+msgstr "Reset to Default"
+
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Disable"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:299
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Enter new shortcut…"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:369
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Unable to set new shortcut due to conflicts"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:370
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” is already used for “%s → %s”."
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-msgid "Reset to Default"
-msgstr "Reset to Default"
+#~ msgid "Enter a command here"
+#~ msgstr "Enter a command here"
 
 #~ msgid "Add…"
 #~ msgstr "Add…"

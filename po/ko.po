@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2022-08-06 20:16+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -149,7 +149,6 @@ msgid "Add Engine…"
 msgstr "엔진 추가"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:167
 msgid "Remove"
 msgstr "제거"
 
@@ -163,8 +162,6 @@ msgstr "엔진 전환:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:126
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:427
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -944,48 +941,42 @@ msgstr "단축키를 %s에 할당하면, %s에 기존의 단축키를 사용할 
 msgid "Reassign"
 msgstr "재할당"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:29
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "Add Shortcut"
 msgstr "바로가기"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:123
-msgid "Enter a command here"
-msgstr "여기에 명령어를 입력하세요"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:156
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "새 단축키 설정"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:161
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
-msgid "Disable"
-msgstr "사용 안 함"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:299
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
-msgid "Enter new shortcut…"
-msgstr "새 단축기 입력…"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:369
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
-msgid "Unable to set new shortcut due to conflicts"
-msgstr ""
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:370
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
-#, fuzzy, c-format
-#| msgid "%s is already used for %s"
-msgid "“%s” is already used for “%s → %s”."
-msgstr "%s는 이미 %s에서 사용하고 있습니다"
 
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 #, fuzzy
 #| msgid "Default"
 msgid "Reset to Default"
 msgstr "기본"
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
+msgid "Disable"
+msgstr "사용 안 함"
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
+msgid "Enter new shortcut…"
+msgstr "새 단축기 입력…"
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
+msgid "Unable to set new shortcut due to conflicts"
+msgstr ""
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
+#, fuzzy, c-format
+#| msgid "%s is already used for %s"
+msgid "“%s” is already used for “%s → %s”."
+msgstr "%s는 이미 %s에서 사용하고 있습니다"
+
+#~ msgid "Enter a command here"
+#~ msgstr "여기에 명령어를 입력하세요"
 
 #~ msgid "Add…"
 #~ msgstr "추가…"

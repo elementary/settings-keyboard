@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2023-02-02 23:25+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -143,7 +143,6 @@ msgid "Add Engine…"
 msgstr "زیادکردنی بزوێنەر"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:167
 msgid "Remove"
 msgstr "سڕینەوە"
 
@@ -157,8 +156,6 @@ msgstr "گۆڕینی بزوێنەر:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:126
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:427
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -938,43 +935,37 @@ msgstr "ئەگەر قەتبڕەکە بکەیتە %s، ئەوا %s پەک دەخ�
 msgid "Reassign"
 msgstr "دەستنیشانکردنەوە"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:29
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "زیادکردنی قەتبڕ"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:123
-msgid "Enter a command here"
-msgstr "لێرە فەرمانێک بنووسە"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:156
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "دانانی قەتبڕێکی نوێ"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:161
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+msgid "Reset to Default"
+msgstr "گەڕاندنەوەی قەتبڕەکان بۆ دۆخی بنەڕەت"
+
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "ناچالاککردن"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:299
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "قەتبڕێکی نوێ بنووسە…"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:369
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "بەهۆی ناکۆکی لەنێوان قەتبڕەکاندا، نەتوانرا کورتکراوەی نوێ دابنرێت"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:370
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "\"%s\" بەکارهاتووە بۆ \"%s → %s.\""
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-msgid "Reset to Default"
-msgstr "گەڕاندنەوەی قەتبڕەکان بۆ دۆخی بنەڕەت"
+#~ msgid "Enter a command here"
+#~ msgstr "لێرە فەرمانێک بنووسە"
 
 #~ msgid "Add…"
 #~ msgstr "زیادکردن…"

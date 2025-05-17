@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 13:58+0000\n"
+"POT-Creation-Date: 2025-05-17 21:40+0000\n"
 "PO-Revision-Date: 2024-06-13 15:29+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -141,7 +141,6 @@ msgid "Add Engine…"
 msgstr "Добавить метод ввода…"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:167
 msgid "Remove"
 msgstr "Удалить"
 
@@ -155,8 +154,6 @@ msgstr "Переключить методы ввода:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:126
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:427
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -926,43 +923,37 @@ msgstr "Если вы переназначите сочетание клавиш
 msgid "Reassign"
 msgstr "Переопределить"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:29
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Добавить сочетание клавиш"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:123
-msgid "Enter a command here"
-msgstr "Введите команду сюда"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:156
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Задать новое сочетание клавиш"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:161
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+msgid "Reset to Default"
+msgstr "Сбросить до настроек по умолчанию"
+
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Отключить"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:299
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Ввести новое сочетание клавиш…"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:369
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Не удалось установить новое сочетание клавиш из-за конфликтов"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:370
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "«%s» уже используется для «%s→%s»."
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-msgid "Reset to Default"
-msgstr "Сбросить до настроек по умолчанию"
+#~ msgid "Enter a command here"
+#~ msgstr "Введите команду сюда"
 
 #~ msgid "Add…"
 #~ msgstr "Добавить…"
