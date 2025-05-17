@@ -40,6 +40,7 @@ plug_files = files(
     'Shortcuts/Widgets/AppChooser.vala',
     'Shortcuts/Widgets/AppChooserRow.vala',
     'Shortcuts/Widgets/CustomShortcutListBox.vala',
+    'Shortcuts/Widgets/CustomShortcutRow.vala',
     'Shortcuts/Widgets/ShortcutListBox.vala',
     'Shortcuts/AppInfo.vala',
     'Shortcuts/Shortcuts.vala',
