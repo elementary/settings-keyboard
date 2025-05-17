@@ -39,10 +39,6 @@ class Keyboard.Shortcuts.CustomShortcutListBox : Gtk.Box {
 
         load_and_display_custom_shortcuts ();
 
-        realize.connect (() => {
-            list_box.select_row (list_box.get_row_at_index (0));
-        });
-
         add_button.clicked.connect (on_add_clicked);
     }
 
