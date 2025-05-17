@@ -99,37 +99,31 @@ class Keyboard.Shortcuts.CustomShortcutListBox : Gtk.Box {
             app_chooser.present ();
         });
 
-        // TODO: DRY
         app_chooser.app_chosen.connect ((path) => {
             var filename = GLib.File.new_for_path (path).get_basename ();
             if (filename == null) {
                 return;
             }
 
-            CustomShortcuts.ParsedShortcut new_shortcut = {
-                CustomShortcuts.ActionType.DESKTOP_FILE,
-                filename,
-                new GLib.HashTable<string, Variant> (GLib.str_hash, GLib.str_equal),
-                {}
-            };
-
-            var shortcuts = (CustomShortcuts.ParsedShortcut[]) settings.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
-            shortcuts += new_shortcut;
-            settings.set_value (CustomShortcuts.APPLICATION_SHORTCUTS, shortcuts);
+            add_new_shortcut (CustomShortcuts.ActionType.DESKTOP_FILE, filename);
         });
 
         app_chooser.custom_command_chosen.connect ((command) => {
-            CustomShortcuts.ParsedShortcut new_shortcut = {
-                CustomShortcuts.ActionType.COMMAND_LINE,
-                command,
-                new GLib.HashTable<string, Variant> (GLib.str_hash, GLib.str_equal),
-                {}
-            };
-
-            var shortcuts = (CustomShortcuts.ParsedShortcut[]) settings.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
-            shortcuts += new_shortcut;
-            settings.set_value (CustomShortcuts.APPLICATION_SHORTCUTS, shortcuts);
+            add_new_shortcut (CustomShortcuts.ActionType.COMMAND_LINE, command);
         });
+    }
+
+    private void load_and_display_custom_shortcuts () {
+        while (list_box.get_row_at_index (0) != null) {
+            list_box.remove (list_box.get_row_at_index (0));
+        }
+
+        var shortcuts = (CustomShortcuts.ParsedShortcut[]) settings.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
+        for (var i = 0; i < shortcuts.length; i++) {
+            var row = new CustomShortcutRow (shortcuts[i]);
+            row.shortcut_changed.connect (sync_shortcuts);
+            list_box.append (row);
+        }
     }
 
     private string[] enumerate_children (string dir) throws Error {
@@ -170,17 +164,17 @@ class Keyboard.Shortcuts.CustomShortcutListBox : Gtk.Box {
         return "";
     }
 
-    private void load_and_display_custom_shortcuts () {
-        while (list_box.get_row_at_index (0) != null) {
-            list_box.remove (list_box.get_row_at_index (0));
-        }
+    private void add_new_shortcut (CustomShortcuts.ActionType type, string target) {
+        CustomShortcuts.ParsedShortcut new_shortcut = {
+            type,
+            target,
+            new GLib.HashTable<string, Variant> (GLib.str_hash, GLib.str_equal),
+            {}
+        };
 
         var shortcuts = (CustomShortcuts.ParsedShortcut[]) settings.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
-        for (var i = 0; i < shortcuts.length; i++) {
-            var row = new CustomShortcutRow (shortcuts[i]);
-            row.shortcut_changed.connect (sync_shortcuts);
-            list_box.append (row);
-        }
+        shortcuts += new_shortcut;
+        settings.set_value (CustomShortcuts.APPLICATION_SHORTCUTS, shortcuts);
     }
 
     private void sync_shortcuts () {
