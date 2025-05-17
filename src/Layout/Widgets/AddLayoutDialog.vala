@@ -208,7 +208,7 @@ public class Keyboard.LayoutPage.AddLayoutDialog : Granite.Dialog {
         keyboard_map_button.clicked.connect (() => {
             string command = "gkbd-keyboard-display \"--layout=" + layout_id + "\"";
             try {
-                AppInfo.create_from_commandline (command, null, AppInfoCreateFlags.NONE).launch (null, null);
+                GLib.AppInfo.create_from_commandline (command, null, AppInfoCreateFlags.NONE).launch (null, null);
             } catch (Error e) {
                 warning ("Error launching keyboard layout display: %s", e.message);
             }
