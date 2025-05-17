@@ -33,13 +33,15 @@ plug_files = files(
     'Layout/Widgets/Display.vala',
     'Layout/Layout.vala',
     'Shortcuts/Backend/ConflictsManager.vala',
-    'Shortcuts/Backend/CustomShortcutSettings.vala',
+    'Shortcuts/Backend/CustomShortcuts.vala',
     'Shortcuts/Backend/Settings.vala',
     'Shortcuts/Backend/Shortcut.vala',
     'Shortcuts/Backend/ShortcutsList.vala',
-    'Shortcuts/Widgets/ConflictDialog.vala',
+    'Shortcuts/Widgets/AppChooser.vala',
+    'Shortcuts/Widgets/AppChooserRow.vala',
     'Shortcuts/Widgets/CustomShortcutListBox.vala',
     'Shortcuts/Widgets/ShortcutListBox.vala',
+    'Shortcuts/AppInfo.vala',
     'Shortcuts/Shortcuts.vala',
     'Plug.vala'
 )
