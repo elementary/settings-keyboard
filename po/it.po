@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2021-11-01 17:20+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -240,7 +240,6 @@ msgstr "Installa medoti non in elenco…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -944,20 +943,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr ""
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s è già utilizzato per %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Se assegni nuovamente la scorciatoia a %s, %s sarà disabilitato."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Riassegna"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
@@ -995,6 +980,17 @@ msgstr ""
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s è già utilizzato per %s"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s è già utilizzato per %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Se assegni nuovamente la scorciatoia a %s, %s sarà disabilitato."
+
+#~ msgid "Reassign"
+#~ msgstr "Riassegna"
 
 #, fuzzy
 #~| msgid "Enter Command"

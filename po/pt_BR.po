@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-04-24 13:13+0000\n"
 "Last-Translator: Matheus Torres Carvalho <matheustcarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -230,7 +230,6 @@ msgstr ""
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -942,20 +941,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr ""
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s já é utilizado para %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Se atribuir o atalho para %s, %s será desativado."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Reatribuir"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
@@ -992,6 +977,17 @@ msgstr ""
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” já está em utilização para “%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s já é utilizado para %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Se atribuir o atalho para %s, %s será desativado."
+
+#~ msgid "Reassign"
+#~ msgstr "Reatribuir"
 
 #, fuzzy
 #~| msgid "Enter Command"

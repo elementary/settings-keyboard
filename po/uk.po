@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-07-01 16:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -221,7 +221,6 @@ msgstr "Встановити не перелічені рушії…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -909,20 +908,6 @@ msgstr "Meta"
 msgid "Accessibility"
 msgstr "Доступність"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s вже застосовується для %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Якщо змінити комбінацію клавіш %s, %s буде вимкнено."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Перепризначити"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Додати комбінацію клавіш"
@@ -951,6 +936,17 @@ msgstr "Неможливо призначити нову комбінацію к
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "«%s» вже використано для «%s → %s»."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s вже застосовується для %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Якщо змінити комбінацію клавіш %s, %s буде вимкнено."
+
+#~ msgid "Reassign"
+#~ msgstr "Перепризначити"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Введіть команду сюди"

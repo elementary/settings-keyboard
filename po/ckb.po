@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2023-02-02 23:25+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -223,7 +223,6 @@ msgstr "دامەزراندنی بزوێنەرە لیست-نەکراوەکان…
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "هەڵوەشاندنەوە"
 
@@ -921,20 +920,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr "دەستگەیشتن"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s بەکارهاتووە بۆ %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "ئەگەر قەتبڕەکە بکەیتە %s، ئەوا %s پەک دەخرێت."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "دەستنیشانکردنەوە"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "زیادکردنی قەتبڕ"
@@ -963,6 +948,17 @@ msgstr "بەهۆی ناکۆکی لەنێوان قەتبڕەکاندا، نەتو
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "\"%s\" بەکارهاتووە بۆ \"%s → %s.\""
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s بەکارهاتووە بۆ %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "ئەگەر قەتبڕەکە بکەیتە %s، ئەوا %s پەک دەخرێت."
+
+#~ msgid "Reassign"
+#~ msgstr "دەستنیشانکردنەوە"
 
 #~ msgid "Enter a command here"
 #~ msgstr "لێرە فەرمانێک بنووسە"

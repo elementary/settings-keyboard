@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2022-08-06 20:16+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -229,7 +229,6 @@ msgstr "목록에 없는 엔진 설치하기…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "취소"
 
@@ -927,20 +926,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr ""
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s는 이미 %s에서 사용하고 있습니다"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "단축키를 %s에 할당하면, %s에 기존의 단축키를 사용할 수 없게 됩니다."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "재할당"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
@@ -974,6 +959,17 @@ msgstr ""
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s는 이미 %s에서 사용하고 있습니다"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s는 이미 %s에서 사용하고 있습니다"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "단축키를 %s에 할당하면, %s에 기존의 단축키를 사용할 수 없게 됩니다."
+
+#~ msgid "Reassign"
+#~ msgstr "재할당"
 
 #~ msgid "Enter a command here"
 #~ msgstr "여기에 명령어를 입력하세요"
