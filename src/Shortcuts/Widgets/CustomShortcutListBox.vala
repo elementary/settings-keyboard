@@ -4,7 +4,13 @@
  */
 
 class Keyboard.Shortcuts.CustomShortcutListBox : Gtk.Box {
+    private GLib.Settings settings;
+    private string[] preferred_languages;
+    private ulong settings_load_id = 0;
+
     private Gtk.ListBox list_box;
+    private AppChooser app_chooser;
+
     construct {
         list_box = new Gtk.ListBox () {
             hexpand = true,
@@ -37,9 +43,34 @@ class Keyboard.Shortcuts.CustomShortcutListBox : Gtk.Box {
         append (list_box);
         append (actionbar);
 
-        load_and_display_custom_shortcuts ();
+        settings = new GLib.Settings ("io.elementary.settings-daemon.applications");
+        preferred_languages = Intl.get_language_names ();
 
-        add_button.clicked.connect (on_add_clicked);
+        load_and_display_custom_shortcuts ();
+        settings_load_id = settings.changed.connect (load_and_display_custom_shortcuts);
+
+        var app_infos = new GLib.List<GLib.DesktopAppInfo> ();
+        foreach (var app_info in GLib.AppInfo.get_all ()) {
+            if (app_info is GLib.DesktopAppInfo && app_info.should_show ()) {
+                app_infos.append ((GLib.DesktopAppInfo) app_info);
+            }
+        }
+
+        app_chooser = new AppChooser ();
+        app_chooser.init_list (app_infos);
+
+        add_button.clicked.connect (() => {
+            app_chooser.transient_for = (Gtk.Window) get_root ();
+            app_chooser.present ();
+        });
+
+        app_chooser.app_chosen.connect ((filename, parameters) => {
+            add_new_shortcut (CustomShortcuts.ActionType.DESKTOP_FILE, filename, parameters);
+        });
+
+        app_chooser.custom_command_chosen.connect ((command, parameters) => {
+            add_new_shortcut (CustomShortcuts.ActionType.COMMAND_LINE, command, parameters);
+        });
     }
 
     private void load_and_display_custom_shortcuts () {
@@ -47,27 +78,53 @@ class Keyboard.Shortcuts.CustomShortcutListBox : Gtk.Box {
             list_box.remove (list_box.get_row_at_index (0));
         }
 
-        foreach (var custom_shortcut in CustomShortcutSettings.list_custom_shortcuts ()) {
-            list_box.append (new CustomShortcutRow (custom_shortcut));
+        var shortcuts = (CustomShortcuts.ParsedShortcut[]) settings.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
+        for (var i = 0; i < shortcuts.length; i++) {
+            var row = new CustomShortcutRow (shortcuts[i]);
+            row.shortcut_changed.connect (sync_shortcuts);
+            list_box.append (row);
         }
     }
 
-    private void add_row (CustomShortcut? shortcut) {
-        CustomShortcutRow new_row;
-        if (shortcut != null) {
-            new_row = new CustomShortcutRow (shortcut);
-        } else {
-            var relocatable_schema = CustomShortcutSettings.create_shortcut ();
-            CustomShortcut new_custom_shortcut = {"", "", relocatable_schema};
-            new_row = new CustomShortcutRow (new_custom_shortcut);
-        }
+    private void add_new_shortcut (CustomShortcuts.ActionType type, string target, GLib.HashTable<string, Variant> parameters) {
+        CustomShortcuts.ParsedShortcut new_shortcut = {
+            type,
+            target,
+            parameters,
+            {}
+        };
 
-        list_box.append (new_row);
-        list_box.select_row (new_row);
+        var shortcuts = (CustomShortcuts.ParsedShortcut[]) settings.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
+        shortcuts += new_shortcut;
+        settings.set_value (CustomShortcuts.APPLICATION_SHORTCUTS, shortcuts);
     }
 
-    private void on_add_clicked () {
-        add_row (null);
-        list_box.unselect_all ();
+    private void sync_shortcuts () {
+        Gtk.Widget? _row = list_box.get_first_child ();
+        if (_row == null) {
+            return;
+        }
+
+        var should_rebuild_list = false;
+        CustomShortcuts.ParsedShortcut[] shortcuts = {};
+        do {
+            var row = (CustomShortcutRow) _row;
+            if (row.shortcut == null) {
+                should_rebuild_list = true;
+                continue;
+            }
+
+            shortcuts += row.shortcut;
+        } while ((_row = _row.get_next_sibling ()) != null);
+
+        if (!should_rebuild_list) {
+            GLib.SignalHandler.block (settings, settings_load_id);
+        }
+
+        settings.set_value (CustomShortcuts.APPLICATION_SHORTCUTS, shortcuts);
+
+        if (!should_rebuild_list) {
+            GLib.SignalHandler.unblock (settings, settings_load_id);
+        }
     }
 }

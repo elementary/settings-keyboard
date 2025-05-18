@@ -20,11 +20,13 @@ src/Layout/Widgets/AdvancedSettingsPanel.vala
 src/Layout/Widgets/Display.vala
 src/Plug.vala
 src/Shortcuts/Backend/ConflictsManager.vala
-src/Shortcuts/Backend/CustomShortcutSettings.vala
+src/Shortcuts/Backend/CustomShortcuts.vala
 src/Shortcuts/Backend/Settings.vala
-src/Shortcuts/Backend/ShortcutsList.vala
 src/Shortcuts/Backend/Shortcut.vala
-src/Shortcuts/Shortcuts.vala
-src/Shortcuts/Widgets/ConflictDialog.vala
+src/Shortcuts/Backend/ShortcutsList.vala
+src/Shortcuts/Widgets/AppChooser.vala
+src/Shortcuts/Widgets/AppChooserRow.vala
 src/Shortcuts/Widgets/CustomShortcutListBox.vala
+src/Shortcuts/Widgets/CustomShortcutRow.vala
 src/Shortcuts/Widgets/ShortcutListBox.vala
+src/Shortcuts/Shortcuts.vala
