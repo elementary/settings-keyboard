@@ -27,7 +27,7 @@ public class Keyboard.Shortcuts.Shortcut : GLib.Object {
 
     public Shortcut (uint key = 0, Gdk.ModifierType mod = (Gdk.ModifierType) 0) {
         Object (
-            accel_key: key,
+            accel_key: (uint) (((char) key).to_string ().ascii_down ()[0]),
             modifiers: mod
         );
     }
@@ -99,11 +99,7 @@ public class Keyboard.Shortcuts.Shortcut : GLib.Object {
     }
 
     public bool is_equal (Shortcut shortcut) {
-        if (shortcut.modifiers == modifiers && shortcut.accel_key == accel_key) {
-            return true;
-        }
-
-        return false;
+        return shortcut.modifiers == modifiers && shortcut.accel_key == accel_key;
     }
 
     // validator
