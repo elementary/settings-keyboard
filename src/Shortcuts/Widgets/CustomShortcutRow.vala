@@ -299,20 +299,6 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
             message_dialog.present ();
             gsettings.set_value (BINDING_KEY, previous_binding);
             return;
-        } else if (CustomShortcutSettings.shortcut_conflicts (shortcut, out conflict_name, out relocatable_schema)) {
-            var dialog = new ConflictDialog (shortcut.to_readable (), conflict_name, command_entry.text);
-            dialog.responded.connect ((response_id) => {
-                if (response_id == Gtk.ResponseType.ACCEPT) {
-                    gsettings.set_string (BINDING_KEY, shortcut.to_gsettings ());
-                    var conflict_gsettings = CustomShortcutSettings.get_gsettings_for_relocatable_schema (relocatable_schema);
-                    conflict_gsettings.set_string (BINDING_KEY, "");
-                } else {
-                    gsettings.set_value (BINDING_KEY, previous_binding);
-                }
-            });
-
-            dialog.transient_for = (Gtk.Window) this.get_root ();
-            dialog.present ();
         } else {
             gsettings.set_string (BINDING_KEY, shortcut.to_gsettings ());
         }

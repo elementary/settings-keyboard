@@ -25,6 +25,5 @@ src/Shortcuts/Backend/Settings.vala
 src/Shortcuts/Backend/ShortcutsList.vala
 src/Shortcuts/Backend/Shortcut.vala
 src/Shortcuts/Shortcuts.vala
-src/Shortcuts/Widgets/ConflictDialog.vala
 src/Shortcuts/Widgets/CustomShortcutListBox.vala
 src/Shortcuts/Widgets/ShortcutListBox.vala
