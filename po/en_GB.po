@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-06-29 14:16+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -220,7 +220,6 @@ msgstr "Install Unlisted Engines…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -908,20 +907,6 @@ msgstr "Meta"
 msgid "Accessibility"
 msgstr "Accessibility"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s is already used for %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "If you reassign the shortcut to %s, %s will be disabled."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Reassign"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Add Shortcut"
@@ -950,6 +935,17 @@ msgstr "Unable to set new shortcut due to conflicts"
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” is already used for “%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s is already used for %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "If you reassign the shortcut to %s, %s will be disabled."
+
+#~ msgid "Reassign"
+#~ msgstr "Reassign"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Enter a command here"

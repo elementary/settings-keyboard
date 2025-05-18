@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
@@ -230,7 +230,6 @@ msgstr "Nainstalovat enginy, které nejsou v seznamu…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Storno"
 
@@ -928,20 +927,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr ""
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s se už používá pro %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Pokud přeřadíte klávesovou zkratku k %s, %s bude vypnuto."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Přeřadit"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
@@ -975,6 +960,17 @@ msgstr ""
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s se už používá pro %s"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s se už používá pro %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Pokud přeřadíte klávesovou zkratku k %s, %s bude vypnuto."
+
+#~ msgid "Reassign"
+#~ msgstr "Přeřadit"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Sem vložte příkaz"

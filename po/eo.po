@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2021-11-01 17:20+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
@@ -221,7 +221,6 @@ msgstr ""
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Rezigni"
 
@@ -941,20 +940,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr ""
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s estas jam uzata por %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Se vi reagordas la klavkomandon %s, %s malebliĝos."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Reatribui"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 #, fuzzy
 #| msgid "Shortcuts"
@@ -992,6 +977,17 @@ msgstr ""
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s estas jam uzata por %s"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s estas jam uzata por %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Se vi reagordas la klavkomandon %s, %s malebliĝos."
+
+#~ msgid "Reassign"
+#~ msgstr "Reatribui"
 
 #, fuzzy
 #~| msgid "Enter Command"

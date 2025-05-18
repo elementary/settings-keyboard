@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2020-10-04 21:15+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Sinhala <https://l10n.elementary.io/projects/switchboard/"
@@ -211,7 +211,6 @@ msgstr ""
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
@@ -897,20 +896,6 @@ msgstr ""
 
 #: src/Shortcuts/Shortcuts.vala:49
 msgid "Accessibility"
-msgstr ""
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr ""
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr ""
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
 msgstr ""
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15

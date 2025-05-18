@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-08-04 00:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -221,7 +221,6 @@ msgstr "一覧にないエンジンをインストール…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -909,20 +908,6 @@ msgstr "Meta"
 msgid "Accessibility"
 msgstr "アクセシビリティ"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s はすでに %s で使用されています"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "%s にショートカットを再割り当てすると、%s は無効になります。"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "再割り当て"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "ショートカットを追加"
@@ -951,6 +936,17 @@ msgstr "指定されたショートカットは競合するため設定できま
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s”はすでに“%s → %s”で使用されています。"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s はすでに %s で使用されています"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "%s にショートカットを再割り当てすると、%s は無効になります。"
+
+#~ msgid "Reassign"
+#~ msgstr "再割り当て"
 
 #~ msgid "Enter a command here"
 #~ msgstr "コマンドを入力"

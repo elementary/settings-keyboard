@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-06-13 15:29+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -221,7 +221,6 @@ msgstr "Установить методы ввода вне списка…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -909,20 +908,6 @@ msgstr "Meta"
 msgid "Accessibility"
 msgstr "Универсальный доступ"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s уже используется для %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Если вы переназначите сочетание клавиш на %s, то %s будет отключён."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Переопределить"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Добавить сочетание клавиш"
@@ -951,6 +936,17 @@ msgstr "Не удалось установить новое сочетание �
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "«%s» уже используется для «%s→%s»."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s уже используется для %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Если вы переназначите сочетание клавиш на %s, то %s будет отключён."
+
+#~ msgid "Reassign"
+#~ msgstr "Переопределить"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Введите команду сюда"
