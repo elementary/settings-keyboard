@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2023-08-08 09:08+0000\n"
 "Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -226,7 +226,6 @@ msgstr "安装列表外的引擎…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "取消"
 
@@ -924,20 +923,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr "通用辅助"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s 已经用于 %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "如果您重新指定 %s 为快捷键，%s 将被替换。"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "重新分配"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "添加快捷键"
@@ -966,6 +951,17 @@ msgstr "检测到按键冲突，无法设置快捷键"
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” 已经用于 “%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s 已经用于 %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "如果您重新指定 %s 为快捷键，%s 将被替换。"
+
+#~ msgid "Reassign"
+#~ msgstr "重新分配"
 
 #~ msgid "Enter a command here"
 #~ msgstr "在此处输入命令"

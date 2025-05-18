@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-05-31 01:46+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -221,7 +221,6 @@ msgstr "Installeer engines die niet op de lijst staan…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -909,20 +908,6 @@ msgstr "Super"
 msgid "Accessibility"
 msgstr "Toegankelijkheid"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s wordt reeds gebruikt voor %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Als u de sneltoets toewijst aan %s, dan zal %s uitgeschakeld worden."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Opnieuw toewijzen"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Sneltoets toevoegen"
@@ -951,6 +936,18 @@ msgstr "Kon nieuwe sneltoets niet toevoegen door conflicten"
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” wordt reeds gebruikt voor “%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s wordt reeds gebruikt voor %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr ""
+#~ "Als u de sneltoets toewijst aan %s, dan zal %s uitgeschakeld worden."
+
+#~ msgid "Reassign"
+#~ msgstr "Opnieuw toewijzen"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Voer hier een opdracht in"

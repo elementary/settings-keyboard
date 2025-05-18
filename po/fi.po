@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-12-02 14:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -224,7 +224,6 @@ msgstr "Asenna luettelemattomia moottoreita…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Peru"
 
@@ -912,22 +911,6 @@ msgstr ""
 msgid "Accessibility"
 msgstr "Esteettömyys"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s on jo käytössä toiminnolle %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr ""
-"Jos asetat pikanäppäimen toimintoon %s, toiminnon %s pikanäppäin poistetaan "
-"käytöstä."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Aseta uudelleen"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Lisää pikanäppäin"
@@ -956,6 +939,19 @@ msgstr "Uutta pikanäppäintä ei voitu asettaa ristiriitojen vuoksi"
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” on jo käytössä toiminnolle “%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s on jo käytössä toiminnolle %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr ""
+#~ "Jos asetat pikanäppäimen toimintoon %s, toiminnon %s pikanäppäin "
+#~ "poistetaan käytöstä."
+
+#~ msgid "Reassign"
+#~ msgstr "Aseta uudelleen"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Kirjoita komento tähän"

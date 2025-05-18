@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2025-01-01 22:16+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -221,7 +221,6 @@ msgstr "Nem megjelenített motor telepítése…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -911,21 +910,6 @@ msgstr "Meta"
 msgid "Accessibility"
 msgstr "Kisegítő lehetőségek"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "A(z) %s már használatban van: %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr ""
-"Ha hozzárendeli a billentyűparancsot ehhez: %s, akkor %s ki lesz kapcsolva."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Hozzárendelés"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Billentyűparancs hozzáadása"
@@ -954,6 +938,19 @@ msgstr "Új billentyűparancs beállítása sikertelen konfliktusok miatt"
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "A(z) \"%s\" már használatban van: \"%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "A(z) %s már használatban van: %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr ""
+#~ "Ha hozzárendeli a billentyűparancsot ehhez: %s, akkor %s ki lesz "
+#~ "kapcsolva."
+
+#~ msgid "Reassign"
+#~ msgstr "Hozzárendelés"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Írjon ide egy parancsot"

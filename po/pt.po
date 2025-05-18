@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 21:40+0000\n"
+"POT-Creation-Date: 2025-05-18 14:05+0000\n"
 "PO-Revision-Date: 2024-11-28 11:16+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -220,7 +220,6 @@ msgstr "Instalar mecanismos não listados…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
-#: src/Shortcuts/Widgets/ConflictDialog.vala:36
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -908,20 +907,6 @@ msgstr "Meta"
 msgid "Accessibility"
 msgstr "Acessibilidade"
 
-#: src/Shortcuts/Widgets/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s já está em utilização para %s"
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Se reatribuir o atalho a %s, %s será desativado."
-
-#: src/Shortcuts/Widgets/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Reatribuir"
-
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
 msgid "Add Shortcut"
 msgstr "Adicionar atalho"
@@ -950,6 +935,17 @@ msgstr "Incapaz de definir novo atalho devido a conflitos"
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” já está em utilização para “%s → %s”."
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s já está em utilização para %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Se reatribuir o atalho a %s, %s será desativado."
+
+#~ msgid "Reassign"
+#~ msgstr "Reatribuir"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Introduza um comando aqui"
