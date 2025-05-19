@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2025 elementary, Inc. (https://elementary.io)
  */
 
-public class Keyboard.AppChooser : Granite.Dialog {
+public class Keyboard.Shortcuts.AppChooser : Granite.Dialog {
     public signal void app_chosen (string filename, GLib.HashTable<string, Variant> parameters);
     public signal void custom_command_chosen (string command, GLib.HashTable<string, Variant> parameters);
 
@@ -14,6 +14,7 @@ public class Keyboard.AppChooser : Granite.Dialog {
         search_entry = new Gtk.SearchEntry () {
             placeholder_text = _("Search Applications")
         };
+        search_entry.set_key_capture_widget (this);
 
         list = new Gtk.ListBox () {
             hexpand = true,
@@ -24,11 +25,8 @@ public class Keyboard.AppChooser : Granite.Dialog {
         list.set_filter_func (filter_function);
 
         var scrolled = new Gtk.ScrolledWindow () {
-            child = list
-        };
-
-        var frame = new Gtk.Frame (null) {
-            child = scrolled
+            child = list,
+            has_frame = true
         };
 
         custom_entry = new Gtk.Entry () {
@@ -39,7 +37,7 @@ public class Keyboard.AppChooser : Granite.Dialog {
 
         var box = new Gtk.Box (VERTICAL, 6);
         box.append (search_entry);
-        box.append (frame);
+        box.append (scrolled);
         box.append (custom_entry);
 
         modal = true;
@@ -49,7 +47,7 @@ public class Keyboard.AppChooser : Granite.Dialog {
         add_button (_("Cancel"), Gtk.ResponseType.CANCEL);
 
         // TRANSLATORS: This string is used by screen reader
-        update_property (Gtk.AccessibleProperty.LABEL, _("Select startup app"), -1);
+        update_property (Gtk.AccessibleProperty.LABEL, _("Select an app"), -1);
 
         search_entry.grab_focus ();
         search_entry.search_changed.connect (() => {
@@ -66,14 +64,18 @@ public class Keyboard.AppChooser : Granite.Dialog {
         foreach (var app_info in app_infos) {
             var icon = app_info.get_icon () ?? new ThemedIcon ("application-default-icon");
             var name = app_info.get_name ();
+            var description = app_info.get_description ();
             var filename = File.new_for_path (app_info.get_filename ()).get_basename ();
 
-            list.prepend (new AppChooserRow ({icon, name, app_info.get_description (), null, filename}));
+            list.prepend (new AppChooserRow ({icon, null, name, description, null, filename}));
 
+            unowned var icon_theme = Gtk.IconTheme.get_for_display (Gdk.Display.get_default ());
             var actions = app_info.list_actions ();
             for (var i = 0; i < actions.length; i++) {
                 var action = actions[i];
-                list.prepend (new AppChooserRow ({icon, name, app_info.get_action_name (action), action, filename}));
+                var action_icon = Utils.get_action_icon (app_info, action);
+                var action_name = "%s → %s".printf (name, app_info.get_action_name (action));
+                list.prepend (new AppChooserRow ({icon, action_icon, action_name, description, action, filename}));
             }
         }
     }

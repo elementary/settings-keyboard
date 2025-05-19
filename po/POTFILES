@@ -24,6 +24,7 @@ src/Shortcuts/Backend/CustomShortcuts.vala
 src/Shortcuts/Backend/Settings.vala
 src/Shortcuts/Backend/Shortcut.vala
 src/Shortcuts/Backend/ShortcutsList.vala
+src/Shortcuts/Backend/Utils.vala
 src/Shortcuts/Widgets/AppChooser.vala
 src/Shortcuts/Widgets/AppChooserRow.vala
 src/Shortcuts/Widgets/CustomShortcutListBox.vala

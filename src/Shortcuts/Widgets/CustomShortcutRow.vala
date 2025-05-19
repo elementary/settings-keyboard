@@ -20,27 +20,56 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
     }
 
     construct {
-        GLib.Icon icon;
         string name, description;
+        Gtk.Widget icon_widget;
         if (shortcut.type == DESKTOP_FILE) {
             var desktop_file = new DesktopAppInfo (shortcut.target);
-            icon = desktop_file.get_icon () ?? new ThemedIcon ("application-default-icon");
-            name = desktop_file.get_name ();
-            description = (
-                "action" in shortcut.parameters ?
-                desktop_file.get_action_name (shortcut.parameters["action"].get_string ()) :
-                desktop_file.get_description ()
-            );
+
+            string? action = null;
+            if ("action" in shortcut.parameters) {
+                action = shortcut.parameters["action"].get_string ();
+            }
+
+            if (action != null) {
+                name = "%s -> %s".printf (desktop_file.get_name (), desktop_file.get_action_name (action));
+            } else {
+                name = desktop_file.get_name ();
+            }
+
+            description = desktop_file.get_description ();
+
+            var image = new Gtk.Image () {
+                pixel_size = 32,
+                gicon = desktop_file.get_icon () ?? new ThemedIcon ("application-default-icon")
+            };
+
+            if (action != null) {
+                var action_icon = Utils.get_action_icon (desktop_file, action);
+
+                var overlay_image = new Gtk.Image () {
+                    pixel_size = 16,
+                    gicon = action_icon,
+                    halign = END,
+                    valign = END
+                };
+
+                var overlay = new Gtk.Overlay () {
+                    child = image
+                };
+                overlay.add_overlay (overlay_image);
+
+                icon_widget = overlay;
+            } else {
+                icon_widget = image;
+            }
         } else {
-            icon = new ThemedIcon ("application-default-icon");
             name = _("Custom Command");
             description = shortcut.target;
+            icon_widget = new Gtk.Image () {
+                pixel_size = 32,
+                gicon = new ThemedIcon ("application-default-icon")
+            };
         }
-
-        var image = new Gtk.Image () {
-            pixel_size = 32,
-            gicon = icon
-        };
 
         var app_name = new Gtk.Label (name) {
             xalign = 0
@@ -57,7 +86,7 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
             column_spacing = 6,
             hexpand = true
         };
-        app_grid.attach (image, 0, 0, 1, 2);
+        app_grid.attach (icon_widget, 0, 0, 1, 2);
         app_grid.attach (app_name, 1, 0);
         app_grid.attach (app_comment, 1, 1);
 
