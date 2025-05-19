@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 15:21+0000\n"
+"POT-Creation-Date: 2025-05-19 21:22+0000\n"
 "PO-Revision-Date: 2024-06-13 15:29+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -154,7 +154,7 @@ msgstr "Переключить методы ввода:"
 #. Compose key position menu
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
-#: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
+#: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
@@ -495,13 +495,136 @@ msgstr "Показать окно-кандидат"
 msgid "Embed preedit text in application window"
 msgstr "Вставить предварительно измененный текст в окно приложения"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
-msgid "Windows"
-msgstr "Окна"
+#: src/Shortcuts/Backend/ConflictsManager.vala:62
+#: src/Shortcuts/Backend/ConflictsManager.vala:63
+#: src/Shortcuts/Backend/ConflictsManager.vala:64
+#: src/Shortcuts/Backend/ConflictsManager.vala:65
+#: src/Shortcuts/Backend/ConflictsManager.vala:66
+#: src/Shortcuts/Backend/ConflictsManager.vala:67
+msgid "Edit"
+msgstr ""
 
+#: src/Shortcuts/Backend/ConflictsManager.vala:62
+msgid "Copy"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:63
+msgid "Paste"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:64
+#, fuzzy
+#| msgid "Custom"
+msgid "Cut"
+msgstr "Пользовательские"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:65
+msgid "Undo"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:66
+msgid "Redo"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:67
+msgid "Find"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:69
+#: src/Shortcuts/Backend/ConflictsManager.vala:70
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:72
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:74
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
+msgid "Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:69
+msgid "Select All"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:70
+msgid "Move Right by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
+msgid "Move Left by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:72
+msgid "Expand Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
+msgid "Shrink Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:74
+msgid "Expand Selection by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
+msgid "Shrink Selection by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+msgid "Expand Selection Up"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
+msgid "Expand Selection Down"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:83
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:85
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "File"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
+msgid "Save"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+msgid "Save As"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
+msgid "New"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "Закрыть"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:83
+msgid "New Tab"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+msgid "Restore Closed Tab"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:85
+msgid "Refresh"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Quit"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+msgid "Windows"
+msgstr "Окна"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:55
 msgid "Lower"
@@ -891,19 +1014,19 @@ msgstr "Включить ввод текста в Юникоде"
 msgid "Custom"
 msgstr "Пользовательские"
 
-#: src/Shortcuts/Backend/Shortcut.vala:61
+#: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
 msgstr "Shift"
 
-#: src/Shortcuts/Backend/Shortcut.vala:69
+#: src/Shortcuts/Backend/Shortcut.vala:61
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/Shortcuts/Backend/Shortcut.vala:73
+#: src/Shortcuts/Backend/Shortcut.vala:65
 msgid "Alt"
 msgstr "Alt"
 
-#: src/Shortcuts/Backend/Shortcut.vala:77
+#: src/Shortcuts/Backend/Shortcut.vala:69
 msgid "Meta"
 msgstr "Meta"
 
