@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-18 14:05+0000\n"
+"POT-Creation-Date: 2025-05-19 15:21+0000\n"
 "PO-Revision-Date: 2023-08-08 09:08+0000\n"
 "Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -146,6 +146,7 @@ msgid "Add Engine…"
 msgstr "添加引擎"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:81
 msgid "Remove"
 msgstr "删除"
 
@@ -159,6 +160,8 @@ msgstr "切换输入法："
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -927,30 +930,39 @@ msgstr "通用辅助"
 msgid "Add Shortcut"
 msgstr "添加快捷键"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:37
+msgid "Enter a command here"
+msgstr "在此处输入命令"
+
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:70
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "设置新快捷键"
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-msgid "Reset to Default"
-msgstr "重置为默认"
-
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:75
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "禁用"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:213
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "输入新快捷键…"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:283
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "检测到按键冲突，无法设置快捷键"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:284
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” 已经用于 “%s → %s”."
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+msgid "Reset to Default"
+msgstr "重置为默认"
 
 #, c-format
 #~ msgid "%s is already used for %s"
@@ -962,9 +974,6 @@ msgstr "“%s” 已经用于 “%s → %s”."
 
 #~ msgid "Reassign"
 #~ msgstr "重新分配"
-
-#~ msgid "Enter a command here"
-#~ msgstr "在此处输入命令"
 
 #~ msgid "Add…"
 #~ msgstr "添加…"
