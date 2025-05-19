@@ -75,7 +75,7 @@ class Keyboard.Shortcuts.ConflictsManager : GLib.Object {
                 {new Shortcut.parse ("<Shift><Ctrl>Left"), _("Selection"), _("Shrink Selection by Word")},
                 {new Shortcut.parse ("<Shift>Up"), _("Selection"), _("Expand Selection Up")},
                 {new Shortcut.parse ("<Shift>Down"), _("Selection"), _("Expand Selection Down")},
-                
+
                 {new Shortcut.parse ("<Ctrl>S"), _("File"), _("Save")},
                 {new Shortcut.parse ("<Ctrl><Shift>S"), _("File"), _("Save As")},
                 {new Shortcut.parse ("<Ctrl>N"), _("File"), _("New")},
