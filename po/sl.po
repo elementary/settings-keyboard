@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 21:22+0000\n"
-"PO-Revision-Date: 2020-10-04 21:15+0000\n"
+"PO-Revision-Date: 2025-05-20 15:42+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/sl/>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-12 06:18+0000\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
@@ -548,7 +548,7 @@ msgstr "Po meri"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:65
 msgid "Undo"
-msgstr ""
+msgstr "Razveljavi"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:66
 msgid "Redo"
@@ -644,7 +644,7 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:85
 msgid "Refresh"
-msgstr ""
+msgstr "Osveži"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Quit"
