@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 21:22+0000\n"
-"PO-Revision-Date: 2024-06-12 19:16+0000\n"
-"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/pl/>\n"
+"PO-Revision-Date: 2025-05-20 15:41+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Polish <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-15 06:32+0000\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
@@ -520,7 +520,7 @@ msgstr "Własny"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:65
 msgid "Undo"
-msgstr ""
+msgstr "Cofnij"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:66
 msgid "Redo"
@@ -591,7 +591,7 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Save As"
@@ -616,7 +616,7 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:85
 msgid "Refresh"
-msgstr ""
+msgstr "Odśwież"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Quit"
