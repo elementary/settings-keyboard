@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 21:22+0000\n"
 "PO-Revision-Date: 2025-05-20 15:42+0000\n"
-"Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/es/>\n"
 "Language: es\n"
@@ -522,7 +522,7 @@ msgstr "Personalizado"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:65
 msgid "Undo"
-msgstr ""
+msgstr "Deshacer"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:66
 msgid "Redo"
@@ -593,7 +593,7 @@ msgstr "Archivo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Save As"
@@ -618,7 +618,7 @@ msgstr "Restaurar pestaña cerrada"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:85
 msgid "Refresh"
-msgstr ""
+msgstr "Actualizar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Quit"
