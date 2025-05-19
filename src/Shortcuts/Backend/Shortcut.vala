@@ -10,9 +10,11 @@ public class Keyboard.Shortcuts.Shortcut : GLib.Object {
     public uint accel_key { get; construct; }
 
     private const string SEPARATOR = " + ";
+    private const uint A_UPPERCASE_ASCII = 65;
+    private const uint Z_UPPERCASE_ASCII = 90;
 
     public Shortcut (uint key = 0, Gdk.ModifierType mod = (Gdk.ModifierType) 0) {
-        if (key >= 65 && key <= 90) {
+        if (key >= A_UPPERCASE_ASCII && key <= Z_UPPERCASE_ASCII) {
             key = (uint) (((char) key).to_string ().ascii_down ()[0]);
         }
 
