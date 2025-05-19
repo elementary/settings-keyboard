@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keyboard-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-18 14:05+0000\n"
+"POT-Creation-Date: 2025-05-19 15:21+0000\n"
 "PO-Revision-Date: 2018-05-29 00:12+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
@@ -141,6 +141,7 @@ msgid "Add Engine…"
 msgstr ""
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:81
 msgid "Remove"
 msgstr "Șterge"
 
@@ -156,6 +157,8 @@ msgstr "Treceți la unul nou"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -952,37 +955,48 @@ msgstr ""
 msgid "Add Shortcut"
 msgstr "Comenzi rapide"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:37
+#, fuzzy
+#| msgid "Enter Command"
+msgid "Enter a command here"
+msgstr "Introduceți comandă"
+
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:70
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Set New Shortcut"
 msgstr "Scurtătură"
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-#, fuzzy
-#| msgid "Default"
-msgid "Reset to Default"
-msgstr "Mod implicit"
-
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:75
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 #, fuzzy
 #| msgid "Disabled"
 msgid "Disable"
 msgstr "Dezactivat"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:213
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr ""
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:283
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr ""
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:284
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, fuzzy, c-format
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s 1 este deja folosit pentru %s 2"
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+#, fuzzy
+#| msgid "Default"
+msgid "Reset to Default"
+msgstr "Mod implicit"
 
 #, c-format
 #~ msgid "%s is already used for %s"
@@ -994,11 +1008,6 @@ msgstr "%s 1 este deja folosit pentru %s 2"
 
 #~ msgid "Reassign"
 #~ msgstr "Realocaţi"
-
-#, fuzzy
-#~| msgid "Enter Command"
-#~ msgid "Enter a command here"
-#~ msgstr "Introduceți comandă"
 
 #~ msgid "Add…"
 #~ msgstr "Adaugă…"

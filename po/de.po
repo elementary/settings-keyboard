@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-18 14:05+0000\n"
+"POT-Creation-Date: 2025-05-19 15:21+0000\n"
 "PO-Revision-Date: 2024-10-03 13:16+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -145,6 +145,7 @@ msgid "Add Engine…"
 msgstr "Engine hinzufügen …"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:81
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -158,6 +159,8 @@ msgstr "Engine wechseln:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -918,31 +921,40 @@ msgstr "Zugangshilfen"
 msgid "Add Shortcut"
 msgstr "Tastenkombination hinzufügen"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:37
+msgid "Enter a command here"
+msgstr "Befehl hier eingeben"
+
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:70
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Neue Tastenkombination festlegen"
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-msgid "Reset to Default"
-msgstr "Auf Standard zurücksetzen"
-
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:75
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Deaktivieren"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:213
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Neue Tastenkombination eingeben …"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:283
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr ""
 "Neue Tastenkombination konnte wegen Konflikten nicht hinzugefügt werden"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:284
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "»%s« wird bereits für »%s → %s« verwendet."
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+msgid "Reset to Default"
+msgstr "Auf Standard zurücksetzen"
 
 #, c-format
 #~ msgid "%s is already used for %s"
@@ -955,9 +967,6 @@ msgstr "»%s« wird bereits für »%s → %s« verwendet."
 
 #~ msgid "Reassign"
 #~ msgstr "Neu zuordnen"
-
-#~ msgid "Enter a command here"
-#~ msgstr "Befehl hier eingeben"
 
 #~ msgid "Add…"
 #~ msgstr "Hinzufügen…"

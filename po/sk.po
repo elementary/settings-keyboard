@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-18 14:05+0000\n"
+"POT-Creation-Date: 2025-05-19 15:21+0000\n"
 "PO-Revision-Date: 2023-10-27 11:10+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -146,6 +146,7 @@ msgid "Add Engine…"
 msgstr "Pridať engine"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:81
 msgid "Remove"
 msgstr "Odstrániť"
 
@@ -159,6 +160,8 @@ msgstr "Prepínať enginy:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:55
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
 msgid "Disabled"
@@ -921,30 +924,39 @@ msgstr "Prístupnosť"
 msgid "Add Shortcut"
 msgstr "Pridať skratku"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:37
+msgid "Enter a command here"
+msgstr "Sem vložte príkaz"
+
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:70
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Nastaviť novú skratku"
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
-msgid "Reset to Default"
-msgstr "Resetovať na predvolené"
-
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:75
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Vypnúť"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:213
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Pridajte novú skratku…"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:283
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Nie je možné nastaviť novú skratku kvôli konfliktom"
 
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:284
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "„%s“ sa už používa pre „%s → %s“."
+
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+msgid "Reset to Default"
+msgstr "Resetovať na predvolené"
 
 #, c-format
 #~ msgid "%s is already used for %s"
@@ -956,9 +968,6 @@ msgstr "„%s“ sa už používa pre „%s → %s“."
 
 #~ msgid "Reassign"
 #~ msgstr "Preradiť"
-
-#~ msgid "Enter a command here"
-#~ msgstr "Sem vložte príkaz"
 
 #~ msgid "Add…"
 #~ msgstr "Pridať…"
