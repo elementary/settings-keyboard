@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 21:22+0000\n"
+"POT-Creation-Date: 2025-05-20 21:39+0000\n"
 "PO-Revision-Date: 2025-05-20 21:39+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementaryos.org/projects/settings/"
@@ -495,128 +495,154 @@ msgstr "Показать окно-кандидат"
 msgid "Embed preedit text in application window"
 msgstr "Вставить предварительно измененный текст в окно приложения"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:62
+#. / The name of Ctrl + C shortcut: "Edit -> Copy"
+#. / The name of Ctrl + V shortcut: "Edit -> Paste"
+#. / The name of Ctrl + X shortcut: "Edit -> Cut"
+#. / The name of Ctrl + Z shortcut: "Edit -> Undo"
+#. / The name of Ctrl + Y shortcut: "Edit -> Redo"
+#. / The name of Ctrl + F shortcut: "Edit -> Find"
 #: src/Shortcuts/Backend/ConflictsManager.vala:63
-#: src/Shortcuts/Backend/ConflictsManager.vala:64
 #: src/Shortcuts/Backend/ConflictsManager.vala:65
-#: src/Shortcuts/Backend/ConflictsManager.vala:66
 #: src/Shortcuts/Backend/ConflictsManager.vala:67
+#: src/Shortcuts/Backend/ConflictsManager.vala:69
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Edit"
 msgstr "Правка"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:62
+#: src/Shortcuts/Backend/ConflictsManager.vala:63
 msgid "Copy"
 msgstr "Копировать"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:63
+#: src/Shortcuts/Backend/ConflictsManager.vala:65
 msgid "Paste"
 msgstr "Вставить"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:64
+#: src/Shortcuts/Backend/ConflictsManager.vala:67
 msgid "Cut"
 msgstr "Вырезать"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:65
+#: src/Shortcuts/Backend/ConflictsManager.vala:69
 msgid "Undo"
 msgstr "Отменить"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:66
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Redo"
 msgstr "Повторить"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:67
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Find"
 msgstr "Найти"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:69
-#: src/Shortcuts/Backend/ConflictsManager.vala:70
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
-#: src/Shortcuts/Backend/ConflictsManager.vala:72
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
-#: src/Shortcuts/Backend/ConflictsManager.vala:74
-#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#. / The name of Ctrl + A shortcut: "Selection -> Select All"
+#. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
+#. / The name of Ctrl + Left shortcut: "Selection -> Move Left by Word"
+#. / The name of Shift + Right shortcut: "Selection -> Expand Selection"
+#. / The name of Shift + Left shortcut: "Selection -> Shrink Selection"
+#. / The name of Shift + Ctrl + Right shortcut: "Selection -> Expand Selection by Word"
+#. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
+#. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
+#. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
-#: src/Shortcuts/Backend/ConflictsManager.vala:77
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Selection"
 msgstr "Выделение"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:69
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Select All"
 msgstr "Выделить всё"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:70
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Move Right by Word"
 msgstr "Переместиться вправо на слово"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Move Left by Word"
 msgstr "Переместиться влево на слово"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:72
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Expand Selection"
 msgstr "Увеличить выделение"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Shrink Selection"
 msgstr "Уменьшить выделение"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:74
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Expand Selection by Word"
 msgstr "Увеличить выделение на слово"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Shrink Selection by Word"
 msgstr "Уменьшить выделение на слово"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection Up"
 msgstr "Расширить выделение вверх"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:77
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Expand Selection Down"
 msgstr "Расширить выделение вниз"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:79
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
-#: src/Shortcuts/Backend/ConflictsManager.vala:81
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
-#: src/Shortcuts/Backend/ConflictsManager.vala:83
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
-#: src/Shortcuts/Backend/ConflictsManager.vala:85
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#. / The name of Ctrl + S shortcut: "File -> Save"
+#. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
+#. / The name of Ctrl + N shortcut: "File -> New"
+#. / The name of Ctrl + W shortcut: "File -> Close"
+#. / The name of Ctrl + T shortcut: "File -> New Tab"
+#. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
+#. / The name of Ctrl + R shortcut: "File -> Refresh"
+#. / The name of Ctrl + Q shortcut: "File -> Quit"
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "File"
 msgstr "Файл"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:79
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Save"
 msgstr "Сохранить"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Save As"
 msgstr "Сохранить как"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:81
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "New"
 msgstr "Новый"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:83
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "New Tab"
 msgstr "Новая вкладка"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Restore Closed Tab"
 msgstr "Восстановить закрытую вкладку"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:85
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#, fuzzy
+#| msgid "Refresh"
+msgctxt "keyboard"
 msgid "Refresh"
 msgstr "Проверить обновления"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "Quit"
 msgstr "Выйти"
 
