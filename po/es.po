@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 21:22+0000\n"
-"PO-Revision-Date: 2024-06-29 14:16+0000\n"
-"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/es/>\n"
+"PO-Revision-Date: 2025-05-20 15:42+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
+"Language-Team: Spanish <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-03-14 07:05+0000\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
@@ -504,15 +504,15 @@ msgstr "Incrustar texto de preedición en la ventana de la aplicación"
 #: src/Shortcuts/Backend/ConflictsManager.vala:66
 #: src/Shortcuts/Backend/ConflictsManager.vala:67
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:62
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:63
 msgid "Paste"
-msgstr ""
+msgstr "Pegar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:64
 #, fuzzy
@@ -526,11 +526,11 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:66
 msgid "Redo"
-msgstr ""
+msgstr "Rehacer"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:67
 msgid "Find"
-msgstr ""
+msgstr "Buscar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:69
 #: src/Shortcuts/Backend/ConflictsManager.vala:70
@@ -542,43 +542,43 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 #: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Selection"
-msgstr ""
+msgstr "Selección"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:69
 msgid "Select All"
-msgstr ""
+msgstr "Seleccionar todo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:70
 msgid "Move Right by Word"
-msgstr ""
+msgstr "A la derecha de la palabra"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Move Left by Word"
-msgstr ""
+msgstr "A la izquierda de la palabra"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:72
 msgid "Expand Selection"
-msgstr ""
+msgstr "Ampliar selección"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Shrink Selection"
-msgstr ""
+msgstr "Reducir selección"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:74
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "Ampliar selección por palabra"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:75
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "Reducir selección por palabra"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "Ampliar selección hacia arriba"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "Ampliar selección hacia abajo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:79
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
@@ -589,7 +589,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:85
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "File"
-msgstr ""
+msgstr "Archivo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Save"
@@ -597,11 +597,11 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Save As"
-msgstr ""
+msgstr "Guardar como"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "New"
-msgstr ""
+msgstr "Nuevo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
@@ -610,11 +610,11 @@ msgstr "Cerrar"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:83
 msgid "New Tab"
-msgstr ""
+msgstr "Nueva pestaña"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "Restaurar pestaña cerrada"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:85
 msgid "Refresh"
@@ -622,7 +622,7 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Quit"
-msgstr ""
+msgstr "Salir"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
