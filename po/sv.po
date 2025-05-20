@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-20 21:39+0000\n"
-"PO-Revision-Date: 2025-05-20 15:42+0000\n"
+"PO-Revision-Date: 2025-05-21 21:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/sv/>\n"
@@ -664,8 +664,6 @@ msgid "Restore Closed Tab"
 msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
-#, fuzzy
-#| msgid "Refresh"
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "Uppdatera"
