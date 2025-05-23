@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-20 21:39+0000\n"
-"PO-Revision-Date: 2025-05-21 21:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-05-24 13:55+0000\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/hu/>\n"
 "Language: hu\n"
@@ -510,21 +510,19 @@ msgstr "Előszerkesztett szöveg beágyazása az alkalmazás ablakába"
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:63
 msgid "Copy"
-msgstr ""
+msgstr "Másolás"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:65
 msgid "Paste"
-msgstr ""
+msgstr "Beillesztés"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:67
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "Egyedi"
+msgstr "Kivágás"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:69
 msgid "Undo"
@@ -532,11 +530,11 @@ msgstr "Visszavonás"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Redo"
-msgstr ""
+msgstr "Újra"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Find"
-msgstr ""
+msgstr "Keresés"
 
 #. / The name of Ctrl + A shortcut: "Selection -> Select All"
 #. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
@@ -557,43 +555,43 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:90
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Selection"
-msgstr ""
+msgstr "Kiválasztás"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Select All"
-msgstr ""
+msgstr "Összes kijelölése"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Move Right by Word"
-msgstr ""
+msgstr "Jobbra mozdulás egy szóval"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Move Left by Word"
-msgstr ""
+msgstr "Balra mozdulás egy szóval"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Expand Selection"
-msgstr ""
+msgstr "Kijelölés kiterjesztése"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Shrink Selection"
-msgstr ""
+msgstr "Kijelölés zsugorítása"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "Kijelölés kiterjesztése egy szóval"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "Kijelölés zsugorítása egy szóval"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "Kijelölés kiterjesztése felfelé"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "Kijelölés kiterjesztése lefelé"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -612,7 +610,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "File"
-msgstr ""
+msgstr "Fájl"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Save"
@@ -620,11 +618,11 @@ msgstr "Mentés"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Save As"
-msgstr ""
+msgstr "Mentés másként"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "New"
-msgstr ""
+msgstr "Új"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
@@ -633,11 +631,11 @@ msgstr "Bezárás"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "New Tab"
-msgstr ""
+msgstr "Új lap"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "Bezárt lap visszaállítása"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgctxt "keyboard"
@@ -646,7 +644,7 @@ msgstr "Frissítés"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "Quit"
-msgstr ""
+msgstr "Kilépés"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
