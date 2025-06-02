@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-20 21:39+0000\n"
-"PO-Revision-Date: 2025-05-21 21:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-06-03 03:55+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "l10n.elementaryos.org/projects/settings/keyboard/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -505,33 +505,31 @@ msgstr "將預編輯文字內嵌於應用程式視窗中"
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:63
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:65
 msgid "Paste"
-msgstr ""
+msgstr "貼上"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:67
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "自訂"
+msgstr "剪下"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:69
 msgid "Undo"
-msgstr "取消動作"
+msgstr "復原"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Redo"
-msgstr ""
+msgstr "重做"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Find"
-msgstr ""
+msgstr "尋找"
 
 #. / The name of Ctrl + A shortcut: "Selection -> Select All"
 #. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
@@ -552,43 +550,43 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:90
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Selection"
-msgstr ""
+msgstr "選取"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Select All"
-msgstr ""
+msgstr "全部選取"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Move Right by Word"
-msgstr ""
+msgstr "向右移動一個單詞"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Move Left by Word"
-msgstr ""
+msgstr "向左移動一個單詞"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Expand Selection"
-msgstr ""
+msgstr "擴大選取範圍"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Shrink Selection"
-msgstr ""
+msgstr "縮小選取範圍"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "擴大選取範圍一個單詞"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "縮小選取範圍一個單詞"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "向上擴大選取範圍"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "向下擴大選取範圍"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -607,7 +605,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "File"
-msgstr ""
+msgstr "檔案"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Save"
@@ -615,11 +613,11 @@ msgstr "儲存"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Save As"
-msgstr ""
+msgstr "儲存為"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "New"
-msgstr ""
+msgstr "新增"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
@@ -628,11 +626,11 @@ msgstr "關閉"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "New Tab"
-msgstr ""
+msgstr "新增分頁"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "重新開啟已關閉的分頁"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgctxt "keyboard"
@@ -641,7 +639,7 @@ msgstr "重新整理"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "Quit"
-msgstr ""
+msgstr "離開"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
