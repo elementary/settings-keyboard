@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-05-21 21:55+0000\n"
+"PO-Revision-Date: 2025-06-11 20:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/ko/>\n"
@@ -1074,14 +1074,12 @@ msgid "Custom"
 msgstr "사용자 설정"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:15
-#, fuzzy
-#| msgid "Applications"
 msgid "Search Applications"
-msgstr "애플리케이션"
+msgstr "프로그램 검색"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:33
 msgid "Type in a custom command"
-msgstr ""
+msgstr "사용자 지정 명령어 입력"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
@@ -1097,10 +1095,8 @@ msgid "Add Shortcut"
 msgstr "바로가기"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
-#, fuzzy
-#| msgid "Command"
 msgid "Custom Command"
-msgstr "명령어"
+msgstr "사용자 지정 명령어"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
