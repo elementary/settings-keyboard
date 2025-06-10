@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 21:39+0000\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
 "PO-Revision-Date: 2025-06-10 19:54+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/settings/"
@@ -141,7 +141,7 @@ msgid "Add Engine…"
 msgstr "Додати рушій…"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:81
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
 msgid "Remove"
 msgstr "Вилучити"
 
@@ -155,7 +155,7 @@ msgstr "Перемкнути рушії:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
@@ -224,6 +224,7 @@ msgstr "Встановити не перелічені рушії…"
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
+#: src/Shortcuts/Widgets/AppChooser.vala:47
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -501,36 +502,36 @@ msgstr "Вставити попередньо змінений текст у в�
 #. / The name of Ctrl + Z shortcut: "Edit -> Undo"
 #. / The name of Ctrl + Y shortcut: "Edit -> Redo"
 #. / The name of Ctrl + F shortcut: "Edit -> Find"
-#: src/Shortcuts/Backend/ConflictsManager.vala:63
-#: src/Shortcuts/Backend/ConflictsManager.vala:65
-#: src/Shortcuts/Backend/ConflictsManager.vala:67
-#: src/Shortcuts/Backend/ConflictsManager.vala:69
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Edit"
 msgstr "Змінити"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:63
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Copy"
 msgstr "Копіювати"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:65
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Paste"
 msgstr "Вставити"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:67
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Cut"
 msgstr "Вирізати"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:69
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
 msgstr "Скасувати"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Redo"
 msgstr "Відновити"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Find"
 msgstr "Пошук"
 
@@ -543,51 +544,51 @@ msgstr "Пошук"
 #. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
 #. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
 #. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
-#: src/Shortcuts/Backend/ConflictsManager.vala:88
-#: src/Shortcuts/Backend/ConflictsManager.vala:90
-#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Selection"
 msgstr "Вибір"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
 msgid "Select All"
 msgstr "Вибрати все"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
 msgstr "Переміститися на слово вправо"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
 msgstr "Переміститися на слово вліво"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
 msgstr "Розширити виділення"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
 msgstr "Скоротити виділення"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
 msgstr "Розширити виділення на слово"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
 msgstr "Скоротити виділення на слово"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
 msgstr "Розширити виділення вгору"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
 msgstr "Розширити виділення вниз"
 
@@ -599,50 +600,66 @@ msgstr "Розширити виділення вниз"
 #. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
 #. / The name of Ctrl + R shortcut: "File -> Refresh"
 #. / The name of Ctrl + Q shortcut: "File -> Quit"
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
-#: src/Shortcuts/Backend/ConflictsManager.vala:107
-#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "File"
 msgstr "Файл"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
 msgid "Save"
 msgstr "Зберегти"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
 msgid "Save As"
 msgstr "Зберегти як"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
 msgid "New"
 msgstr "Новий"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "Закрити"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
 msgid "New Tab"
 msgstr "Нова вкладка"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
 msgid "Restore Closed Tab"
 msgstr "Відновити закриту вкладку"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "Оновити"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "Quit"
 msgstr "Вихід"
+
+#: src/Shortcuts/Backend/Shortcut.vala:53
+msgid "Shift"
+msgstr "Shift"
+
+#: src/Shortcuts/Backend/Shortcut.vala:61
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: src/Shortcuts/Backend/Shortcut.vala:65
+msgid "Alt"
+msgstr "Alt"
+
+#: src/Shortcuts/Backend/Shortcut.vala:69
+msgid "Meta"
+msgstr "Meta"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
@@ -1036,55 +1053,54 @@ msgstr "Увімкнути введення символів юнікоду"
 msgid "Custom"
 msgstr "Власні"
 
-#: src/Shortcuts/Backend/Shortcut.vala:53
-msgid "Shift"
-msgstr "Shift"
+#: src/Shortcuts/Widgets/AppChooser.vala:15
+#, fuzzy
+#| msgid "Applications"
+msgid "Search Applications"
+msgstr "Застосунки"
 
-#: src/Shortcuts/Backend/Shortcut.vala:61
-msgid "Ctrl"
-msgstr "Ctrl"
+#: src/Shortcuts/Widgets/AppChooser.vala:33
+msgid "Type in a custom command"
+msgstr ""
 
-#: src/Shortcuts/Backend/Shortcut.vala:65
-msgid "Alt"
-msgstr "Alt"
+#. TRANSLATORS: This string is used by screen reader
+#: src/Shortcuts/Widgets/AppChooser.vala:50
+#, fuzzy
+#| msgid "Selection"
+msgid "Select an app"
+msgstr "Вибір"
 
-#: src/Shortcuts/Backend/Shortcut.vala:69
-msgid "Meta"
-msgstr "Meta"
-
-#: src/Shortcuts/Shortcuts.vala:49
-msgid "Accessibility"
-msgstr "Доступність"
-
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
 msgstr "Додати комбінацію клавіш"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:37
-msgid "Enter a command here"
-msgstr "Введіть команду сюди"
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
+#, fuzzy
+#| msgid "Command"
+msgid "Custom Command"
+msgstr "Команда"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:70
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Вказати нову комбінацію клавіш"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:75
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Вимкнути"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:213
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Ввести нову комбінацію клавіш…"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:283
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Неможливо призначити нову комбінацію клавіш через суперечності"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:284
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
@@ -1093,6 +1109,13 @@ msgstr "«%s» вже використано для «%s → %s»."
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 msgid "Reset to Default"
 msgstr "Відновити типові"
+
+#: src/Shortcuts/Shortcuts.vala:49
+msgid "Accessibility"
+msgstr "Доступність"
+
+#~ msgid "Enter a command here"
+#~ msgstr "Введіть команду сюди"
 
 #, c-format
 #~ msgid "%s is already used for %s"
@@ -1137,9 +1160,6 @@ msgstr "Відновити типові"
 
 #~ msgid "Add"
 #~ msgstr "Додати"
-
-#~ msgid "Command"
-#~ msgstr "Команда"
 
 #~ msgid "Show candidate window:"
 #~ msgstr "Показати вікно-кандидат:"

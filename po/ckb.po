@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 21:39+0000\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
 "PO-Revision-Date: 2025-05-21 21:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementaryos.org/projects/"
@@ -143,7 +143,7 @@ msgid "Add Engine…"
 msgstr "زیادکردنی بزوێنەر"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:81
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
 msgid "Remove"
 msgstr "سڕینەوە"
 
@@ -157,7 +157,7 @@ msgstr "گۆڕینی بزوێنەر:"
 #: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:40
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:86
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:343
@@ -226,6 +226,7 @@ msgstr "دامەزراندنی بزوێنەرە لیست-نەکراوەکان…
 #: src/InputMethod/Widgets/AddEngineDialog.vala:75
 #: src/InputMethod/Widgets/ProgressDialog.vala:60
 #: src/Layout/Widgets/AddLayoutDialog.vala:150
+#: src/Shortcuts/Widgets/AppChooser.vala:47
 msgid "Cancel"
 msgstr "هەڵوەشاندنەوە"
 
@@ -505,38 +506,38 @@ msgstr "دەقی پێش دەستکاریکردن لە پەنجەرەی بەرن�
 #. / The name of Ctrl + Z shortcut: "Edit -> Undo"
 #. / The name of Ctrl + Y shortcut: "Edit -> Redo"
 #. / The name of Ctrl + F shortcut: "Edit -> Find"
-#: src/Shortcuts/Backend/ConflictsManager.vala:63
-#: src/Shortcuts/Backend/ConflictsManager.vala:65
-#: src/Shortcuts/Backend/ConflictsManager.vala:67
-#: src/Shortcuts/Backend/ConflictsManager.vala:69
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Edit"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:63
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Copy"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:65
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Paste"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:67
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
 #, fuzzy
 #| msgid "Custom"
 msgid "Cut"
 msgstr "تایبەت"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:69
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
 msgstr "هەڵوەشاندنەوە"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Redo"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Find"
 msgstr ""
 
@@ -549,51 +550,51 @@ msgstr ""
 #. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
 #. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
 #. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
-#: src/Shortcuts/Backend/ConflictsManager.vala:88
-#: src/Shortcuts/Backend/ConflictsManager.vala:90
-#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
 msgid "Select All"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
 msgstr ""
 
@@ -605,49 +606,65 @@ msgstr ""
 #. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
 #. / The name of Ctrl + R shortcut: "File -> Refresh"
 #. / The name of Ctrl + Q shortcut: "File -> Quit"
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
-#: src/Shortcuts/Backend/ConflictsManager.vala:107
-#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "File"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
 msgid "Save"
 msgstr "پاشەکەوتکردن"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
 msgid "Save As"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
 msgid "New"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "داخستن"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
 msgid "New Tab"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
 msgid "Restore Closed Tab"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "نوێکردنەوە"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "Quit"
+msgstr ""
+
+#: src/Shortcuts/Backend/Shortcut.vala:53
+msgid "Shift"
+msgstr "شیفت"
+
+#: src/Shortcuts/Backend/Shortcut.vala:61
+msgid "Ctrl"
+msgstr "کۆنتڕۆڵ"
+
+#: src/Shortcuts/Backend/Shortcut.vala:65
+msgid "Alt"
+msgstr "ئاڵت"
+
+#: src/Shortcuts/Backend/Shortcut.vala:69
+msgid "Meta"
 msgstr ""
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
@@ -1050,55 +1067,54 @@ msgstr ""
 msgid "Custom"
 msgstr "تایبەت"
 
-#: src/Shortcuts/Backend/Shortcut.vala:53
-msgid "Shift"
-msgstr "شیفت"
+#: src/Shortcuts/Widgets/AppChooser.vala:15
+#, fuzzy
+#| msgid "Applications"
+msgid "Search Applications"
+msgstr "بەرنامەکان"
 
-#: src/Shortcuts/Backend/Shortcut.vala:61
-msgid "Ctrl"
-msgstr "کۆنتڕۆڵ"
-
-#: src/Shortcuts/Backend/Shortcut.vala:65
-msgid "Alt"
-msgstr "ئاڵت"
-
-#: src/Shortcuts/Backend/Shortcut.vala:69
-msgid "Meta"
+#: src/Shortcuts/Widgets/AppChooser.vala:33
+msgid "Type in a custom command"
 msgstr ""
 
-#: src/Shortcuts/Shortcuts.vala:49
-msgid "Accessibility"
-msgstr "دەستگەیشتن"
+#. TRANSLATORS: This string is used by screen reader
+#: src/Shortcuts/Widgets/AppChooser.vala:50
+#, fuzzy
+#| msgid "Select an area to grab"
+msgid "Select an app"
+msgstr "دیاریکردنی بەشێک لە ڕوونما بۆ وێنەگرتنی"
 
-#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:15
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
 msgstr "زیادکردنی قەتبڕ"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:37
-msgid "Enter a command here"
-msgstr "لێرە فەرمانێک بنووسە"
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
+#, fuzzy
+#| msgid "Custom"
+msgid "Custom Command"
+msgstr "تایبەت"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:70
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "دانانی قەتبڕێکی نوێ"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:75
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "ناچالاککردن"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:213
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "قەتبڕێکی نوێ بنووسە…"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:283
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "بەهۆی ناکۆکی لەنێوان قەتبڕەکاندا، نەتوانرا کورتکراوەی نوێ دابنرێت"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:284
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
@@ -1107,6 +1123,13 @@ msgstr "\"%s\" بەکارهاتووە بۆ \"%s → %s.\""
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 msgid "Reset to Default"
 msgstr "گەڕاندنەوەی قەتبڕەکان بۆ دۆخی بنەڕەت"
+
+#: src/Shortcuts/Shortcuts.vala:49
+msgid "Accessibility"
+msgstr "دەستگەیشتن"
+
+#~ msgid "Enter a command here"
+#~ msgstr "لێرە فەرمانێک بنووسە"
 
 #, c-format
 #~ msgid "%s is already used for %s"
