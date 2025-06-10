@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-20 21:39+0000\n"
-"PO-Revision-Date: 2025-05-21 21:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-06-10 19:54+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/uk/>\n"
 "Language: uk\n"
@@ -561,35 +561,35 @@ msgstr "Вибрати все"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Move Right by Word"
-msgstr ""
+msgstr "Переміститися на слово вправо"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Move Left by Word"
-msgstr ""
+msgstr "Переміститися на слово вліво"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Expand Selection"
-msgstr ""
+msgstr "Розширити виділення"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Shrink Selection"
-msgstr ""
+msgstr "Скоротити виділення"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "Розширити виділення на слово"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "Скоротити виділення на слово"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "Розширити виділення вгору"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "Розширити виділення вниз"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -608,7 +608,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Save"
@@ -620,7 +620,7 @@ msgstr "Зберегти як"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "New"
-msgstr ""
+msgstr "Новий"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
