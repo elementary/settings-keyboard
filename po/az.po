@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2020-10-04 21:14+0000\n"
+"PO-Revision-Date: 2025-06-11 20:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Azerbaijani <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/az/>\n"
+"Language-Team: Azerbaijani <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/az/>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
 msgid "Show On-screen Keyboard"
@@ -1044,14 +1044,12 @@ msgid "Custom"
 msgstr ""
 
 #: src/Shortcuts/Widgets/AppChooser.vala:15
-#, fuzzy
-#| msgid "Applications"
 msgid "Search Applications"
-msgstr "Proqramlar"
+msgstr "Proqramlar arasında axtarış"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:33
 msgid "Type in a custom command"
-msgstr ""
+msgstr "Xüsusi bir komanda yazın"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
@@ -1064,7 +1062,7 @@ msgstr ""
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
 msgid "Custom Command"
-msgstr ""
+msgstr "Xüsusi komanda"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
