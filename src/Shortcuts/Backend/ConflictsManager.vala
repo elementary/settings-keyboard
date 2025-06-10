@@ -52,7 +52,20 @@ class Keyboard.Shortcuts.ConflictsManager : GLib.Object {
     private static bool custom_shortcut_conflicts (Shortcut shortcut, out string name, out string group) {
         name = "";
         group = SectionID.CUSTOM.to_string ();
-        return CustomShortcutSettings.shortcut_conflicts (shortcut, out name, null);
+
+        var application_shortcuts = new GLib.Settings (CustomShortcuts.SETTINGS_SCHEMA);
+        var shortcuts = (CustomShortcuts.ParsedShortcut[]) application_shortcuts.get_value (CustomShortcuts.APPLICATION_SHORTCUTS);
+        for (int i = 0; i < shortcuts.length; i++) {
+            for (int j = 0; j < shortcuts[i].keybindings.length; j++) {
+                var action_shortcut = new Shortcut.parse (shortcuts[i].keybindings[j]);
+                if (shortcut.is_equal (action_shortcut)) {
+                    name = shortcuts[i].target;
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 
     private static bool standard_shortcut_conflicts (Shortcut shortcut, out string name, out string group) {
