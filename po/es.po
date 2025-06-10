@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-05-21 21:55+0000\n"
+"PO-Revision-Date: 2025-06-11 20:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/es/>\n"
@@ -1056,14 +1056,12 @@ msgid "Custom"
 msgstr "Personalizado"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:15
-#, fuzzy
-#| msgid "Applications"
 msgid "Search Applications"
-msgstr "Aplicaciones"
+msgstr "Buscar aplicaciones"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:33
 msgid "Type in a custom command"
-msgstr ""
+msgstr "Escriba un comando personalizado"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
@@ -1077,10 +1075,8 @@ msgid "Add Shortcut"
 msgstr "Añadir atajo"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
-#, fuzzy
-#| msgid "Command"
 msgid "Custom Command"
-msgstr "Orden"
+msgstr "Comando personalizado"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
