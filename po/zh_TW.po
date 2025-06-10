@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-06-03 03:55+0000\n"
-"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"PO-Revision-Date: 2025-06-11 20:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "l10n.elementaryos.org/projects/settings/keyboard/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -1051,14 +1051,12 @@ msgid "Custom"
 msgstr "自訂"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:15
-#, fuzzy
-#| msgid "Applications"
 msgid "Search Applications"
-msgstr "應用程式"
+msgstr "搜尋應用程式"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:33
 msgid "Type in a custom command"
-msgstr ""
+msgstr "輸入自訂指令"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
@@ -1072,10 +1070,8 @@ msgid "Add Shortcut"
 msgstr "新增快捷鍵"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
-#, fuzzy
-#| msgid "Command"
 msgid "Custom Command"
-msgstr "指令"
+msgstr "自訂指令"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
