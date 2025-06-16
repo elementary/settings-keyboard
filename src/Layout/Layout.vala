@@ -4,7 +4,7 @@
  */
 
 public class Keyboard.LayoutPage.Page : Gtk.Grid {
-    private const string MULTITASKING_VIEW_COMMAND = "dbus-send --session --dest=org.pantheon.gala --print-reply /org/pantheon/gala org.pantheon.gala.PerformAction int32:1";
+    private const string MULTITASKING_VIEW_COMMAND = "dbus-send --session --dest=io.elementary.gala --print-reply /io/elementary/gala io.elementary.gala.PerformAction int32:1";
 
     private AdvancedSettingsPanel? [] panels;
     private Display display;
