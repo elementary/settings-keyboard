@@ -1,3 +1,9 @@
+io.elementary.settings.keyboard (8.1.0) noble; urgency=medium
+
+  * Release 8.1.0 (#544)
+
+ -- elementary OS Team <builds@elementary.io>  Mon, 16 Jun 2025 16:40:28 +0000
+
 io.elementary.settings.keyboard (8.0.2) noble; urgency=medium
 
   * Release 8.0.2
