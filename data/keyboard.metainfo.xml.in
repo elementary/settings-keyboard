@@ -40,6 +40,22 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.1.0" date="2025-06-12" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/15">Add standard system shortcuts to list of conflicts</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/19">Add entries in "applications" shortcut section for all default applications</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/74">Application Keyboard Shortcut that opens Files (but not Home folder in Files)</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/161">Graphical way to add apps to Shortcuts → Applications</issue>
+        <issue url="https://github.com/elementary/settings-keyboard/issues/525">Blank line when removing custom shortcuts</issue>
+      </issues>
+    </release>
+
     <release version="8.0.2" date="2025-05-12" urgency="medium">
       <description>
         <p>Minor updates:</p>
