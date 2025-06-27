@@ -108,6 +108,17 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
             caps_lock_combo
         );
 
+        var per_window_switch = new Gtk.Switch () {
+            halign = START,
+            valign = CENTER,
+            action_name = "layout-settings.per-window"
+        };
+
+        var per_window_label = create_settings_label (
+            _("Different layout per window:"),
+            per_window_switch
+        );
+
         stack = new Gtk.Stack () {
             hexpand = true,
             vhomogeneous = false
@@ -157,7 +168,9 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
         attach (overlay_key_combo, 2, 2);
         attach (caps_lock_label, 1, 3);
         attach (caps_lock_combo, 2, 3);
-        attach (stack, 1, 4, 2);
+        attach (per_window_label, 1, 4);
+        attach (per_window_switch, 2, 4);
+        attach (stack, 1, 5, 2);
         attach (entry_test, 1, 11, 2);
 
         // Cannot be just called from the constructor because the stack switcher
@@ -203,6 +216,10 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
                 gala_behavior_settings.set_string ("overlay-action", "io.elementary.shortcut-overlay");
             }
         });
+
+        var action_group = new SimpleActionGroup ();
+        action_group.add_action (new GLib.Settings ("org.gnome.desktop.input-sources").create_action ("per-window"));
+        insert_action_group ("layout-settings", action_group);
     }
 
     private AdvancedSettingsPanel? third_level_layouts_panel () {
