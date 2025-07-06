@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-07-07 18:55+0000\n"
+"Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/pl/>\n"
 "Language: pl\n"
@@ -509,21 +509,19 @@ msgstr "Osadź pre-edytowany tekst w oknie aplikacji"
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Edit"
-msgstr ""
+msgstr "Edytuj"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Copy"
-msgstr ""
+msgstr "Kopiuj"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Paste"
-msgstr ""
+msgstr "Wklej"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "Własny"
+msgstr "Wytnij"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
@@ -531,11 +529,11 @@ msgstr "Cofnij"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Redo"
-msgstr ""
+msgstr "Powtórz"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Find"
-msgstr ""
+msgstr "Znajdź"
 
 #. / The name of Ctrl + A shortcut: "Selection -> Select All"
 #. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
@@ -556,43 +554,43 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Selection"
-msgstr ""
+msgstr "Zaznaczenie"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:89
 msgid "Select All"
-msgstr ""
+msgstr "Zaznacz wszystko"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
-msgstr ""
+msgstr "Przesuń w prawo o słowo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
-msgstr ""
+msgstr "Przesuń w lewo o słowo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
-msgstr ""
+msgstr "Rozszerz zaznaczenie"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
-msgstr ""
+msgstr "Zmniejsz zaznaczenie"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "Rozszerz zaznaczenie o słowo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "Zmniejsz zaznaczenie o słowo"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "Rozszerz zaznaczenie w górę"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "Rozszerz zaznaczenie w dół"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -611,7 +609,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "File"
-msgstr ""
+msgstr "Plik"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:108
 msgid "Save"
@@ -619,11 +617,11 @@ msgstr "Zapisz"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:110
 msgid "Save As"
-msgstr ""
+msgstr "Zapisz jako"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:112
 msgid "New"
-msgstr ""
+msgstr "Nowy"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:114
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
@@ -632,11 +630,11 @@ msgstr "Zamknij"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:116
 msgid "New Tab"
-msgstr ""
+msgstr "Nowa karta"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:118
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "Przywróć zamkniętą kartę"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 msgctxt "keyboard"
@@ -645,7 +643,7 @@ msgstr "Odśwież"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "Quit"
-msgstr ""
+msgstr "Wyjdź"
 
 #: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
@@ -1065,10 +1063,8 @@ msgstr "Wpisz własne polecenie"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
-#, fuzzy
-#| msgid "Select an area to grab"
 msgid "Select an app"
-msgstr "Wybierz obszar do pobrania"
+msgstr "Wybierz aplikację"
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
