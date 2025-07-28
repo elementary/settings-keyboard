@@ -271,6 +271,7 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
                 case Gdk.Key.AudioPrev:
                 case Gdk.Key.AudioNext:
                 case Gdk.Key.Eject:
+                case Gdk.Key.Tools:
                     // Accept certain keys as single key accelerators
                     var shortcut = new Keyboard.Shortcuts.Shortcut (keyval, mods);
                     update_binding (shortcut);
