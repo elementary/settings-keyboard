@@ -235,6 +235,8 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
             return;
         }
 
+        warning ("Got key %u", keyval);
+
         var mods = state & Gtk.accelerator_get_default_mod_mask ();
         if (mods > 0) {
             var shortcut = new Keyboard.Shortcuts.Shortcut (keyval, mods);
@@ -271,6 +273,7 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
                 case Gdk.Key.AudioPrev:
                 case Gdk.Key.AudioNext:
                 case Gdk.Key.Eject:
+                case Gdk.Key.Tools:
                     // Accept certain keys as single key accelerators
                     var shortcut = new Keyboard.Shortcuts.Shortcut (keyval, mods);
                     update_binding (shortcut);
