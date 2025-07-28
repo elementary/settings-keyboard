@@ -235,8 +235,6 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
             return;
         }
 
-        warning ("Got key %u", keyval);
-
         var mods = state & Gtk.accelerator_get_default_mod_mask ();
         if (mods > 0) {
             var shortcut = new Keyboard.Shortcuts.Shortcut (keyval, mods);
