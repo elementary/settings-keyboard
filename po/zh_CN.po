@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-08-03 08:55+0000\n"
+"PO-Revision-Date: 2025-08-08 13:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "l10n.elementaryos.org/projects/settings/keyboard/zh_Hans/>\n"
@@ -21,10 +21,8 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-03-14 07:05+0000\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
-#, fuzzy
-#| msgid "Show on-screen keyboard:"
 msgid "Show On-screen Keyboard"
-msgstr "显示屏幕键盘："
+msgstr "显示屏幕键盘"
 
 #: src/Behavior/Behavior.vala:16
 msgid "On-screen keyboard settings…"
@@ -60,7 +58,7 @@ msgstr "粘滞键"
 
 #: src/Behavior/Behavior.vala:118
 msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
-msgstr ""
+msgstr "可通过依次按下 ⌘、Alt、Ctrl 和 Shift 键来完成组合操作"
 
 #: src/Behavior/Behavior.vala:133 src/Plug.vala:132
 msgid "Slow Keys"
@@ -579,19 +577,19 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
-msgstr ""
+msgstr "扩大选择范围"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
-msgstr ""
+msgstr "缩小选择范围"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "按词扩展选区"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "按词缩小选区"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
