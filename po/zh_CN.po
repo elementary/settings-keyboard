@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-08-08 13:55+0000\n"
+"PO-Revision-Date: 2025-08-10 04:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "l10n.elementaryos.org/projects/settings/keyboard/zh_Hans/>\n"
@@ -87,11 +87,11 @@ msgstr ""
 
 #: src/Behavior/Behavior.vala:182
 msgid "Sound Settings…"
-msgstr ""
+msgstr "音效设置…"
 
 #: src/Behavior/Behavior.vala:187
 msgid "Caps Lock ⇪ or Num Lock keys are pressed"
-msgstr ""
+msgstr "按下 Caps Lock ⇪ 或 Num Lock 键时"
 
 #: src/Behavior/Behavior.vala:188
 msgid "Bounce Keys are rejected"
@@ -130,7 +130,7 @@ msgstr "启动 IBus 守护进程"
 
 #: src/InputMethod/InputMethod.vala:61
 msgid "Can be managed in System Settings → Applications → Startup"
-msgstr ""
+msgstr "可以在系统设置 → 应用程序 → 自动启动中管理"
 
 #. spawn_failed view shown if IBus Daemon is not running
 #: src/InputMethod/InputMethod.vala:67
@@ -138,10 +138,8 @@ msgid "Could not start the IBus daemon"
 msgstr "IBus 守护进程启动失败"
 
 #: src/InputMethod/InputMethod.vala:105
-#, fuzzy
-#| msgid "Add Engine"
 msgid "Add Engine…"
-msgstr "添加引擎"
+msgstr "添加引擎…"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
@@ -433,10 +431,8 @@ msgid "Add Layout"
 msgstr "添加布局"
 
 #: src/Layout/Widgets/Display.vala:41
-#, fuzzy
-#| msgid "Add Layout"
 msgid "Add Keyboard Layout…"
-msgstr "添加布局"
+msgstr "添加键盘布局…"
 
 #: src/Layout/Widgets/Display.vala:196
 msgid "Move up"
@@ -525,10 +521,8 @@ msgid "Paste"
 msgstr "粘贴"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "自定义"
+msgstr "剪切"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
@@ -569,11 +563,11 @@ msgstr "选择全部"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
-msgstr ""
+msgstr "向右移动一个单词"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
-msgstr ""
+msgstr "向左移动一个单词"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
@@ -593,11 +587,11 @@ msgstr "按词缩小选区"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "向上扩大选择范围"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "向下扩大选择范围"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
