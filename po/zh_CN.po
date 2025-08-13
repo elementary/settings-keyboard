@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-08-10 04:55+0000\n"
+"PO-Revision-Date: 2025-08-14 08:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "l10n.elementaryos.org/projects/settings/keyboard/zh_Hans/>\n"
@@ -66,7 +66,7 @@ msgstr "慢速键"
 
 #: src/Behavior/Behavior.vala:135
 msgid "Don't accept keypresses unless held"
-msgstr ""
+msgstr "只有在按键被持续按下时才生效"
 
 #: src/Behavior/Behavior.vala:159 src/Plug.vala:129
 msgid "Bounce Keys"
@@ -74,7 +74,7 @@ msgstr "弹回键"
 
 #: src/Behavior/Behavior.vala:161
 msgid "Ignore fast duplicate keypresses"
-msgstr ""
+msgstr "快速连按按键时忽略重复的敲击"
 
 #: src/Behavior/Behavior.vala:179
 msgid "Event Alerts"
@@ -83,7 +83,7 @@ msgstr "事件警告"
 #: src/Behavior/Behavior.vala:180
 #, c-format
 msgid "Play a sound or flash the screen. %s"
-msgstr ""
+msgstr "播放音效或让屏幕闪烁一下。%s"
 
 #: src/Behavior/Behavior.vala:182
 msgid "Sound Settings…"
@@ -95,15 +95,15 @@ msgstr "按下 Caps Lock ⇪ 或 Num Lock 键时"
 
 #: src/Behavior/Behavior.vala:188
 msgid "Bounce Keys are rejected"
-msgstr ""
+msgstr "弹回键被拒绝时"
 
 #: src/Behavior/Behavior.vala:189
 msgid "Sticky Keys are pressed"
-msgstr ""
+msgstr "按下粘滞键时"
 
 #: src/Behavior/Behavior.vala:190
 msgid "Slow Keys are rejected"
-msgstr ""
+msgstr "慢速按键被拒绝时"
 
 #: src/Behavior/Behavior.vala:206
 msgid "Type to test your settings"
@@ -635,7 +635,7 @@ msgstr "新建分页"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:118
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "重新打开已关闭的标签页"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 msgctxt "keyboard"
