@@ -27,16 +27,9 @@ public class Keyboard.LayoutPage.Display : Gtk.Frame {
 
         list = new Gtk.ListBox () {
             selection_mode = Gtk.SelectionMode.BROWSE,
-            hexpand = true,
-            vexpand = true,
+            hexpand = true
         };
-
-        var scroll = new Gtk.ScrolledWindow () {
-            hscrollbar_policy = Gtk.PolicyType.NEVER,
-            hexpand = true,
-            vexpand = true,
-            child = list
-        };
+        list.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
 
         var add_button_label = new Gtk.Label (_("Add Keyboard Layout…"));
 
@@ -56,7 +49,7 @@ public class Keyboard.LayoutPage.Display : Gtk.Frame {
         actionbar.add_css_class (Granite.STYLE_CLASS_FLAT);
 
         var box = new Gtk.Box (VERTICAL, 0);
-        box.append (scroll);
+        box.append (list);
         box.append (actionbar);
 
         child = box;
@@ -181,11 +174,7 @@ public class Keyboard.LayoutPage.Display : Gtk.Frame {
         construct {
             var label = new Gtk.Label (layout_name) {
                 hexpand = true,
-                halign = START,
-                margin_top = 6,
-                margin_bottom = 6,
-                margin_start = 6,
-                margin_end = 6,
+                halign = START
             };
 
             var remove_button = new Gtk.Button.from_icon_name ("list-remove-symbolic") {

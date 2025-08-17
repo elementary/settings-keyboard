@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2017-2023 elementary, Inc. (https://elementary.io)
  */
 
-public class Keyboard.LayoutPage.Page : Gtk.Grid {
+public class Keyboard.LayoutPage.Page : Gtk.Box {
     private const string MULTITASKING_VIEW_COMMAND = "dbus-send --session --dest=org.pantheon.gala --print-reply /org/pantheon/gala org.pantheon.gala.PerformAction int32:1";
 
     private AdvancedSettingsPanel? [] panels;
@@ -68,7 +68,7 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
 
         // ⌘ key behavior
         var overlay_key_combo = new Gtk.ComboBoxText () {
-            halign = START
+            hexpand = true
         };
         overlay_key_combo.append_text (_("Disabled"));
         overlay_key_combo.append_text (_("Applications Menu"));
@@ -141,24 +141,38 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
 
         update_entry_test_usable ();
 
-        column_homogeneous = true;
-        column_spacing = 12;
-        row_spacing = 12;
-        margin_start = 12;
-        margin_end = 12;
-        margin_bottom = 12;
-        margin_top = 12;
-        attach (display, 0, 0, 1, 12);
-        attach (switch_layout_label, 1, 0);
-        attach (switch_layout_combo, 2, 0);
-        attach (compose_key_label, 1, 1);
-        attach (compose_key_combo, 2, 1);
-        attach (overlay_key_label, 1, 2);
-        attach (overlay_key_combo, 2, 2);
-        attach (caps_lock_label, 1, 3);
-        attach (caps_lock_combo, 2, 3);
-        attach (stack, 1, 4, 2);
-        attach (entry_test, 1, 11, 2);
+        var grid = new Gtk.Grid () {
+            column_spacing = 12,
+            row_spacing = 6
+        };
+        grid.attach (switch_layout_label, 0, 0);
+        grid.attach (switch_layout_combo, 1, 0);
+        grid.attach (compose_key_label, 0, 1);
+        grid.attach (compose_key_combo, 1, 1);
+        grid.attach (overlay_key_label, 0, 2);
+        grid.attach (overlay_key_combo, 1, 2);
+        grid.attach (caps_lock_label, 0, 3);
+        grid.attach (caps_lock_combo, 1, 3);
+
+        var box = new Gtk.Box (VERTICAL, 18);
+        box.append (display);
+        box.append (grid);
+        box.append (stack);
+        box.append (entry_test);
+
+        var clamp = new Adw.Clamp () {
+            child = box,
+            margin_end = 9,
+            margin_bottom = 12,
+            margin_start = 9
+        };
+
+        var scrolled = new Gtk.ScrolledWindow () {
+            child = clamp,
+            hscrollbar_policy = NEVER
+        };
+
+        append (scrolled);
 
         // Cannot be just called from the constructor because the stack switcher
         // shows every child after the constructor has been called
@@ -350,7 +364,7 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
 
     private Gtk.ComboBoxText create_xkb_combobox (XkbModifier modifier) {
         var combo_box = new Gtk.ComboBoxText () {
-            halign = START,
+            hexpand = true,
             valign = CENTER
         };
 
@@ -376,7 +390,7 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
     private Gtk.Switch create_xkb_option_switch (SourceSettings settings, string xkb_command) {
         var option_switch = new Gtk.Switch () {
             halign = START,
-            valign = START
+            valign = CENTER
         };
 
         var modifier = new XkbModifier ("" + xkb_command);
@@ -417,7 +431,7 @@ public class Keyboard.LayoutPage.Page : Gtk.Grid {
     private Gtk.Label create_settings_label (string label, Gtk.Widget mnemonic_widget) {
         var settings_label = new Gtk.Label (label) {
             mnemonic_widget = mnemonic_widget,
-            xalign = 1
+            xalign = 0
         };
 
         size_group[0].add_widget (settings_label);
