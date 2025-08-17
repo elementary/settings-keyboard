@@ -18,7 +18,7 @@
 */
 
 namespace Keyboard.Shortcuts {
-    private enum Schema { WM, MUTTER, GALA, MEDIA, SOUND_INDICATOR, IBUS, COUNT }
+    private enum Schema { WM, MUTTER, GALA, MEDIA, SOUND_INDICATOR, IBUS, DOCK, COUNT }
 
     // helper class for gsettings
     // note that media key are stored as strings, all others as string vectors
@@ -40,10 +40,11 @@ namespace Keyboard.Shortcuts {
             schema_names = {
                 "org.gnome.desktop.wm.keybindings",
                 "org.gnome.mutter.keybindings",
-                "org.pantheon.desktop.gala.keybindings",
+                "io.elementary.desktop.wm.keybindings",
                 "org.gnome.settings-daemon.plugins.media-keys",
                 "io.elementary.desktop.wingpanel.sound",
-                "org.freedesktop.ibus.panel.emoji"
+                "org.freedesktop.ibus.panel.emoji",
+                "io.elementary.dock.keybindings"
             };
 
             foreach (var name in schema_names) {

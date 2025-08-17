@@ -77,7 +77,7 @@ namespace Keyboard.Shortcuts {
             workspaces_group = {};
             workspaces_group.icon_name = "preferences-desktop-workspaces";
             workspaces_group.label = _("Workspaces");
-            add_action (ref workspaces_group, Schema.WM, _("Multitasking View"), "show-desktop");
+            add_action (ref workspaces_group, Schema.GALA, _("Multitasking View"), "toggle-multitasking-view");
             add_action (ref workspaces_group, Schema.WM, _("Switch left"), "switch-to-workspace-left");
             add_action (ref workspaces_group, Schema.WM, _("Switch right"), "switch-to-workspace-right");
             add_action (ref workspaces_group, Schema.GALA, _("Switch to first"), "switch-to-workspace-first");
@@ -106,7 +106,7 @@ namespace Keyboard.Shortcuts {
             add_action (ref workspaces_group, Schema.WM, _("Move to right workspace"), "move-to-workspace-right");
 
             screenshot_group = {};
-            screenshot_group.icon_name = "io.elementary.settings.keyboard.screenshots";
+            screenshot_group.icon_name = "accessories-screenshot-tool";
             screenshot_group.label = _("Screenshots");
             add_action (ref screenshot_group, Schema.GALA, _("Grab the whole screen"), "screenshot");
             add_action (ref screenshot_group, Schema.GALA, _("Copy the whole screen to clipboard"), "screenshot-clip");
@@ -116,13 +116,22 @@ namespace Keyboard.Shortcuts {
             add_action (ref screenshot_group, Schema.GALA, _("Copy an area to clipboard"), "area-screenshot-clip");
 
             launchers_group = {};
-            launchers_group.icon_name = "preferences-desktop-applications";
+            launchers_group.icon_name = "io.elementary.settings.keyboard.applications";
             launchers_group.label = _("Applications");
             add_action (ref launchers_group, Schema.MEDIA, _("Email"), "email");
             add_action (ref launchers_group, Schema.MEDIA, _("Home Folder"), "home");
             add_action (ref launchers_group, Schema.MEDIA, _("Music"), "media");
             add_action (ref launchers_group, Schema.MEDIA, _("Terminal"), "terminal");
             add_action (ref launchers_group, Schema.MEDIA, _("Internet Browser"), "www");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch first dock item"), "launch-dock-1");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch second dock item"), "launch-dock-2");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch third dock item"), "launch-dock-3");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch fourth dock item"), "launch-dock-4");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch fifth dock item"), "launch-dock-5");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch sixth dock item"), "launch-dock-6");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch seventh dock item"), "launch-dock-7");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch eighth dock item"), "launch-dock-8");
+            add_action (ref launchers_group, Schema.DOCK, _("Launch ninth dock item"), "launch-dock-9");
 
             media_group = {};
             media_group.icon_name = "applications-multimedia";

@@ -2,7 +2,7 @@
 <gresources>
   <gresource prefix="/io/elementary/settings/keyboard">
     <file compressed="true">Behavior.css</file>
-    <file alias="io.elementary.settings.keyboard.screenshots.svg" compressed="true">screenshots.svg</file>
+    <file alias="io.elementary.settings.keyboard.applications.svg" compressed="true">applications.svg</file>
     <file alias="io.elementary.settings.keyboard.windows.svg" compressed="true">windows.svg</file>
   </gresource>
 </gresources>

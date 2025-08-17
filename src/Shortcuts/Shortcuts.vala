@@ -62,8 +62,6 @@ namespace Keyboard.Shortcuts {
         private SwitcherRow custom_shortcuts_row;
 
         construct {
-            CustomShortcutSettings.init ();
-
             unowned var list = Shortcuts.ShortcutsList.get_default ();
 
             section_switcher = new Gtk.ListBox ();
@@ -106,18 +104,14 @@ namespace Keyboard.Shortcuts {
             margin_start = 12;
             margin_end = 12;
             margin_bottom = 12;
+            margin_top = 12;
             append (switcher_frame);
             append (frame);
 
             for (int id = 0; id < SectionID.CUSTOM; id++) {
                 shortcut_views += new ShortcutListBox ((SectionID) id);
             }
-
-            if (CustomShortcutSettings.available) {
-                var custom_tree = new CustomShortcutListBox ();
-
-                shortcut_views += custom_tree;
-            }
+            shortcut_views += new CustomShortcutListBox ();
 
             foreach (unowned Gtk.Widget view in shortcut_views) {
                 stack.add_child (view);

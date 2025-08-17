@@ -7,97 +7,204 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 17:21+0000\n"
-"PO-Revision-Date: 2021-11-01 17:20+0000\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"PO-Revision-Date: 2025-06-11 20:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Bosnian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/bs/>\n"
+"Language-Team: Bosnian <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/bs/>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-12 06:18+0000\n"
 
-#: src/Dialogs/AddLayoutDialog.vala:21
-msgid "Input Language"
-msgstr "Jezik unosa"
-
-#: src/Dialogs/AddLayoutDialog.vala:22
+#: src/Behavior/Behavior.vala:8 src/Plug.vala:128
 #, fuzzy
-#| msgid "Layout"
-msgid "Layout List"
-msgstr "Raspored"
+#| msgid "Toggle On Screen Keyboard"
+msgid "Show On-screen Keyboard"
+msgstr "Tastatura na ekranu"
 
-#: src/Dialogs/AddLayoutDialog.vala:42
-msgid "Search input language"
-msgstr "Pretraži jezik unosa"
+#: src/Behavior/Behavior.vala:16
+msgid "On-screen keyboard settings…"
+msgstr "Podešavanja tastature na ekranu…"
 
-#: src/Dialogs/AddLayoutDialog.vala:102
-#, fuzzy
-#| msgid "Layout"
-msgid "Preview Layout"
-msgstr "Raspored"
+#: src/Behavior/Behavior.vala:38
+msgid "Delay:"
+msgstr "Odgoda:"
 
-#: src/Dialogs/AddLayoutDialog.vala:150 src/Dialogs/ConflictDialog.vala:36
-#: src/Dialogs/ProgressDialog.vala:60
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:54
-msgid "Cancel"
-msgstr "Otkaži"
+#: src/Behavior/Behavior.vala:42
+msgid "Interval:"
+msgstr "Interval:"
 
-#: src/Dialogs/AddLayoutDialog.vala:152
-msgid "Add Layout"
-msgstr "Dodaj raspored"
+#: src/Behavior/Behavior.vala:51 src/Plug.vala:131
+msgid "Repeat Keys"
+msgstr "Ponavljanje tipki"
 
-#. Caps Lock key functionality
-#: src/Dialogs/AddLayoutDialog.vala:245 src/Dialogs/AddLayoutDialog.vala:249
-#: src/Views/Layout.vala:91 src/Views/Layout.vala:253 src/Xkb/Handler.vala:95
-msgid "Default"
-msgstr "Zadano"
+#: src/Behavior/Behavior.vala:74
+msgid "Speed:"
+msgstr "Brzina:"
 
-#: src/Dialogs/ConflictDialog.vala:26
-#, c-format
-msgid "%s is already used for %s"
-msgstr "%s se već koristi za %s"
+#: src/Behavior/Behavior.vala:78
+msgid "Duration:"
+msgstr "Trajanje:"
 
-#: src/Dialogs/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Ako opet podesite prečicu na %s, deaktivirat će se %s."
+#: src/Behavior/Behavior.vala:87 src/Plug.vala:130
+msgid "Cursor Blinking"
+msgstr "Treptanje kursora"
 
-#: src/Dialogs/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Dodijeli nanovo"
-
-#: src/Dialogs/InstallEngineDialog.vala:24
-msgid "Choose an engine to install"
+#: src/Behavior/Behavior.vala:116 src/Plug.vala:133
+msgid "Sticky Keys"
 msgstr ""
 
-#: src/Dialogs/InstallEngineDialog.vala:25
-msgid "Select an engine from the list to install and use."
+#: src/Behavior/Behavior.vala:118
+msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
 msgstr ""
 
-#: src/Dialogs/InstallEngineDialog.vala:45
+#: src/Behavior/Behavior.vala:133 src/Plug.vala:132
+msgid "Slow Keys"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:135
+msgid "Don't accept keypresses unless held"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:159 src/Plug.vala:129
+msgid "Bounce Keys"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:161
+msgid "Ignore fast duplicate keypresses"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:179
 #, fuzzy
-#| msgid "Input Language"
-msgid "Languages"
-msgstr "Jezik unosa"
+#| msgid "Left Alt"
+msgid "Event Alerts"
+msgstr "Lijeva Alt tipka"
 
-#: src/Dialogs/InstallEngineDialog.vala:99
-msgid "Install"
+#: src/Behavior/Behavior.vala:180
+#, c-format
+msgid "Play a sound or flash the screen. %s"
 msgstr ""
 
-#: src/Dialogs/ProgressDialog.vala:47
-#, c-format
-msgid "Installing %s"
-msgstr "Instaliranje %s"
+#: src/Behavior/Behavior.vala:182
+msgid "Sound Settings…"
+msgstr ""
 
-#: src/Dialogs/ProgressDialog.vala:50
-#, c-format
-msgid "Removing %s"
-msgstr "Uklanjanje %s"
+#: src/Behavior/Behavior.vala:187
+msgid "Caps Lock ⇪ or Num Lock keys are pressed"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:188
+msgid "Bounce Keys are rejected"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:189
+msgid "Sticky Keys are pressed"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:190
+msgid "Slow Keys are rejected"
+msgstr ""
+
+#: src/Behavior/Behavior.vala:206
+msgid "Type to test your settings"
+msgstr "Kucajte kako biste testirali svoja podešavanja"
+
+#. no_daemon_runnning view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:50
+msgid "IBus Daemon is not running"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:51
+msgid ""
+"IBus daemon must run in the background to enable or configure input method "
+"engines."
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:60
+msgid "Start IBus Daemon"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:61
+msgid "Can be managed in System Settings → Applications → Startup"
+msgstr ""
+
+#. spawn_failed view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:67
+msgid "Could not start the IBus daemon"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:105
+msgid "Add Engine…"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
+msgid "Remove"
+msgstr "Ukloni"
+
+#: src/InputMethod/InputMethod.vala:149
+#, fuzzy
+#| msgid "Switch Windows"
+msgid "Switch engines:"
+msgstr "Zamijeni prozore"
+
+#. tree view to display the current layouts
+#. Layout switching keybinding
+#. Compose key position menu
+#: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
+#: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
+#: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+msgid "Disabled"
+msgstr "Deaktivirano"
+
+#: src/InputMethod/InputMethod.vala:166
+msgid "Show property panel:"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:173
+msgid "Do not show"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:174
+msgid "Auto hide"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:175
+msgid "Always show"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:177
+msgid "Embed preedit text in application window:"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:403
+msgid "IBus Daemon"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:406
+msgid "Use and manage input methods"
+msgstr ""
+
+#: src/InputMethod/InputMethod.vala:439
+#, fuzzy
+#| msgid "Type to test your layout"
+msgid "Type to test your input method"
+msgstr "Kucajte kako biste provjerili svoj raspored"
+
+#: src/InputMethod/InputMethod.vala:442
+#, fuzzy
+#| msgid "Show keyboard layout"
+msgid "A keyboard layout is active"
+msgstr "Prikaži raspored tastature"
 
 #: src/InputMethod/Installer/InstallList.vala:26
 msgid "Japanese"
@@ -111,6 +218,249 @@ msgstr ""
 msgid "Chinese"
 msgstr ""
 
+#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
+#. /to look for a input method engine they want to add.
+#. /It does not mean search engines in web browsers.
+#: src/InputMethod/Widgets/AddEngineDialog.vala:43
+msgid "Search engine"
+msgstr ""
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:73
+msgid "Install Unlisted Engines…"
+msgstr ""
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:75
+#: src/InputMethod/Widgets/ProgressDialog.vala:60
+#: src/Layout/Widgets/AddLayoutDialog.vala:150
+#: src/Shortcuts/Widgets/AppChooser.vala:47
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:77
+msgid "Add Engine"
+msgstr ""
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:24
+msgid "Choose an engine to install"
+msgstr ""
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:25
+msgid "Select an engine from the list to install and use."
+msgstr ""
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:45
+#, fuzzy
+#| msgid "Input Language"
+msgid "Languages"
+msgstr "Jezik unosa"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:99
+msgid "Install"
+msgstr ""
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:47
+#, c-format
+msgid "Installing %s"
+msgstr "Instaliranje %s"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:50
+#, c-format
+msgid "Removing %s"
+msgstr "Uklanjanje %s"
+
+#. Caps Lock key functionality
+#: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
+#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Widgets/AddLayoutDialog.vala:249
+msgid "Default"
+msgstr "Zadano"
+
+#: src/Layout/Layout.vala:31
+msgid "Alt + Caps Lock"
+msgstr "Alt + Caps lock"
+
+#: src/Layout/Layout.vala:32
+msgid "Alt + Shift"
+msgstr "Alt + Shift"
+
+#: src/Layout/Layout.vala:33
+msgid "Alt + Space"
+msgstr "Alt + Space"
+
+#: src/Layout/Layout.vala:34
+msgid "Both Shift keys together"
+msgstr "Obje Shift tipke zajedno"
+
+#: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
+#: src/Layout/Layout.vala:255
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#: src/Layout/Layout.vala:36
+msgid "Ctrl + Alt"
+msgstr "Ctrl + Alt"
+
+#: src/Layout/Layout.vala:37
+msgid "Ctrl + Shift"
+msgstr "Ctrl + Shift"
+
+#: src/Layout/Layout.vala:38
+msgid "Shift + Caps Lock"
+msgstr "Shift + Caps Lock"
+
+#: src/Layout/Layout.vala:46
+msgid "Switch layout:"
+msgstr "Promijeni raspored:"
+
+#: src/Layout/Layout.vala:54
+msgid "Menu"
+msgstr "Izbornik"
+
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
+#: src/Layout/Layout.vala:272
+msgid "Right Alt"
+msgstr "Desna Alt tipka"
+
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
+#: src/Layout/Layout.vala:273
+msgid "Right Ctrl"
+msgstr "Desna Ctrl tipka"
+
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
+#: src/Layout/Layout.vala:274
+msgid "Right ⌘"
+msgstr "Desna ⌘ tipka"
+
+#: src/Layout/Layout.vala:65
+msgid "Compose key:"
+msgstr "Tipka za sastavljanje:"
+
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+msgid "Applications Menu"
+msgstr "Izbornik aplikacija"
+
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+msgid "Multitasking View"
+msgstr "Prikaz radnih prostora"
+
+#: src/Layout/Layout.vala:78
+msgid "⌘ key behavior:"
+msgstr "Ponašanje tipke ⌘:"
+
+#: src/Layout/Layout.vala:84
+msgid "Shortcut Overlay"
+msgstr "Pregled prečica tastature"
+
+#: src/Layout/Layout.vala:93
+msgid "as Backspace"
+msgstr "kao Backspace"
+
+#: src/Layout/Layout.vala:94
+msgid "as Ctrl"
+msgstr "kao Ctrl"
+
+#: src/Layout/Layout.vala:95
+msgid "as Escape"
+msgstr "kao Esc tipka"
+
+#: src/Layout/Layout.vala:96
+msgid "as Num Lock"
+msgstr "kao Num Lock"
+
+#: src/Layout/Layout.vala:97
+msgid "as ⌘"
+msgstr "kao ⌘"
+
+#: src/Layout/Layout.vala:98
+#, fuzzy
+msgid "Swap with Ctrl"
+msgstr "Zamijeni s Ctrl tipkom"
+
+#: src/Layout/Layout.vala:99
+msgid "Swap with Escape"
+msgstr "Zamijeni s Esc tipkom"
+
+#: src/Layout/Layout.vala:107
+msgid "Caps Lock behavior:"
+msgstr "Ponašanje Caps Lock tipke:"
+
+#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+msgid "Key to choose 3rd level:"
+msgstr "Tipka za izbor 3. nivoa:"
+
+#: src/Layout/Layout.vala:256
+msgid "Left Alt"
+msgstr "Lijeva Alt tipka"
+
+#: src/Layout/Layout.vala:281
+msgid "Key to choose 5th level:"
+msgstr "TIpka za izbor 5. nivoa:"
+
+#: src/Layout/Layout.vala:298
+msgid "Kana Lock:"
+msgstr "Kana zaključavanje:"
+
+#: src/Layout/Layout.vala:305
+msgid "Nicola F Backspace:"
+msgstr "Nicola F Backspace:"
+
+#: src/Layout/Layout.vala:312
+#, fuzzy
+msgid "Hankaku Zenkaku as Escape:"
+msgstr "Zenkaku Hankaku kao Escape:"
+
+#: src/Layout/Layout.vala:331
+msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
+msgstr "Hangul/Hanja tipke na desnim Alt/Ctrl:"
+
+#: src/Layout/Layout.vala:409
+msgid "Type to test your layout"
+msgstr "Kucajte kako biste provjerili svoj raspored"
+
+#: src/Layout/Layout.vala:412
+#, fuzzy
+#| msgid "Input Method Settings…"
+msgid "Input Method is active"
+msgstr "Podešavanja načina unosa…"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:21
+msgid "Input Language"
+msgstr "Jezik unosa"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:22
+#, fuzzy
+#| msgid "Layout"
+msgid "Layout List"
+msgstr "Raspored"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:42
+msgid "Search input language"
+msgstr "Pretraži jezik unosa"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:102
+#, fuzzy
+#| msgid "Layout"
+msgid "Preview Layout"
+msgstr "Raspored"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:152
+msgid "Add Layout"
+msgstr "Dodaj raspored"
+
+#: src/Layout/Widgets/Display.vala:41
+#, fuzzy
+#| msgid "Add Layout"
+msgid "Add Keyboard Layout…"
+msgstr "Dodaj raspored"
+
+#: src/Layout/Widgets/Display.vala:196
+msgid "Move up"
+msgstr "Premjesti gore"
+
+#: src/Layout/Widgets/Display.vala:200
+msgid "Move down"
+msgstr "Premjesti dolje"
+
 #: src/Plug.vala:39
 msgid "Keyboard"
 msgstr "Tastatura"
@@ -119,861 +469,718 @@ msgstr "Tastatura"
 msgid "Configure keyboard behavior, layouts, and shortcuts"
 msgstr "Podesite ponašanje tasture, raspored i prečice"
 
-#: src/Plug.vala:54 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119 src/Plug.vala:120
+#: src/Plug.vala:54 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120 src/Plug.vala:121
 msgid "Layout"
 msgstr "Raspored"
 
-#: src/Plug.vala:55 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
-#: src/Plug.vala:124
+#: src/Plug.vala:55 src/Plug.vala:122 src/Plug.vala:123 src/Plug.vala:124
+#: src/Plug.vala:125
 #, fuzzy
 #| msgid "Input Method Settings…"
 msgid "Input Method"
 msgstr "Podešavanja načina unosa…"
 
-#: src/Plug.vala:56 src/Plug.vala:125
+#: src/Plug.vala:56 src/Plug.vala:126
 msgid "Shortcuts"
 msgstr "Prečice"
 
-#: src/Plug.vala:57 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
-#: src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132
+#: src/Plug.vala:57 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 msgid "Behavior"
 msgstr "Ponašanje"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:118
 msgid "Switch layout"
 msgstr "Promijeni raspored"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Compose Key"
 msgstr "Tipka za sastavljanje"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "⌘ key behavior"
 msgstr "Ponašanje tipke ⌘"
 
-#: src/Plug.vala:120
+#: src/Plug.vala:121
 msgid "Caps Lock behavior"
 msgstr "Ponašanje Caps Lock tipke"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 #, fuzzy
 #| msgid "Switch Windows"
 msgid "Switch engines"
 msgstr "Zamijeni prozore"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Show candidate window"
 msgstr ""
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Embed preedit text in application window"
 msgstr ""
 
-#: src/Plug.vala:127 src/Views/Behavior.vala:8
+#. / The name of Ctrl + C shortcut: "Edit -> Copy"
+#. / The name of Ctrl + V shortcut: "Edit -> Paste"
+#. / The name of Ctrl + X shortcut: "Edit -> Cut"
+#. / The name of Ctrl + Z shortcut: "Edit -> Undo"
+#. / The name of Ctrl + Y shortcut: "Edit -> Redo"
+#. / The name of Ctrl + F shortcut: "Edit -> Find"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Edit"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+msgid "Copy"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+msgid "Paste"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
 #, fuzzy
-#| msgid "Toggle On Screen Keyboard"
-msgid "Show On-screen Keyboard"
-msgstr "Tastatura na ekranu"
+#| msgid "Custom"
+msgid "Cut"
+msgstr "Prilagođeno"
 
-#: src/Plug.vala:128 src/Views/Behavior.vala:159
-msgid "Bounce Keys"
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+msgid "Undo"
+msgstr "Poništi"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+msgid "Redo"
 msgstr ""
 
-#: src/Plug.vala:129 src/Views/Behavior.vala:87
-msgid "Cursor Blinking"
-msgstr "Treptanje kursora"
-
-#: src/Plug.vala:130 src/Views/Behavior.vala:51
-msgid "Repeat Keys"
-msgstr "Ponavljanje tipki"
-
-#: src/Plug.vala:131 src/Views/Behavior.vala:133
-msgid "Slow Keys"
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Find"
 msgstr ""
 
-#: src/Plug.vala:132 src/Views/Behavior.vala:116
-msgid "Sticky Keys"
+#. / The name of Ctrl + A shortcut: "Selection -> Select All"
+#. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
+#. / The name of Ctrl + Left shortcut: "Selection -> Move Left by Word"
+#. / The name of Shift + Right shortcut: "Selection -> Expand Selection"
+#. / The name of Shift + Left shortcut: "Selection -> Shrink Selection"
+#. / The name of Shift + Ctrl + Right shortcut: "Selection -> Expand Selection by Word"
+#. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
+#. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
+#. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Selection"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:53 src/Views/Shortcuts.vala:39
-msgid "Windows"
-msgstr "Prozori"
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+msgid "Select All"
+msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:54
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+msgid "Move Right by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+msgid "Move Left by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+msgid "Expand Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+msgid "Shrink Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+msgid "Expand Selection by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+msgid "Shrink Selection by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+msgid "Expand Selection Up"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Expand Selection Down"
+msgstr ""
+
+#. / The name of Ctrl + S shortcut: "File -> Save"
+#. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
+#. / The name of Ctrl + N shortcut: "File -> New"
+#. / The name of Ctrl + W shortcut: "File -> Close"
+#. / The name of Ctrl + T shortcut: "File -> New Tab"
+#. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
+#. / The name of Ctrl + R shortcut: "File -> Refresh"
+#. / The name of Ctrl + Q shortcut: "File -> Quit"
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "File"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+msgid "Save"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+msgid "Save As"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+msgid "New"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "Zatvori"
 
-#: src/Shortcuts/ShortcutsList.vala:55
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+msgid "New Tab"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+msgid "Restore Closed Tab"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+msgctxt "keyboard"
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "Quit"
+msgstr ""
+
+#: src/Shortcuts/Backend/Shortcut.vala:53
+msgid "Shift"
+msgstr "Shift"
+
+#: src/Shortcuts/Backend/Shortcut.vala:61
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: src/Shortcuts/Backend/Shortcut.vala:65
+msgid "Alt"
+msgstr "Alt"
+
+#: src/Shortcuts/Backend/Shortcut.vala:69
+msgid "Meta"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+msgid "Windows"
+msgstr "Prozori"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:55
 msgid "Lower"
 msgstr "Spusti niže"
 
-#: src/Shortcuts/ShortcutsList.vala:56
+#: src/Shortcuts/Backend/ShortcutsList.vala:56
 msgid "Maximize"
 msgstr "Uvećaj"
 
-#: src/Shortcuts/ShortcutsList.vala:57
+#: src/Shortcuts/Backend/ShortcutsList.vala:57
 msgid "Unmaximize"
 msgstr "Poništi uvećanje"
 
-#: src/Shortcuts/ShortcutsList.vala:58
+#: src/Shortcuts/Backend/ShortcutsList.vala:58
 msgid "Toggle Maximized"
 msgstr "Uvećanje"
 
-#: src/Shortcuts/ShortcutsList.vala:59
+#: src/Shortcuts/Backend/ShortcutsList.vala:59
 msgid "Hide"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:60
+#: src/Shortcuts/Backend/ShortcutsList.vala:60
 msgid "Toggle Fullscreen"
 msgstr "Preko cijelog ekrana"
 
-#: src/Shortcuts/ShortcutsList.vala:61
+#: src/Shortcuts/Backend/ShortcutsList.vala:61
 msgid "Toggle on all Workspaces"
 msgstr "Aktiviraj na svim radnim prostorima"
 
-#: src/Shortcuts/ShortcutsList.vala:62
+#: src/Shortcuts/Backend/ShortcutsList.vala:62
 msgid "Toggle always on Top"
 msgstr "Uvijek na vrhu"
 
-#: src/Shortcuts/ShortcutsList.vala:63
+#: src/Shortcuts/Backend/ShortcutsList.vala:63
 msgid "Cycle Windows"
 msgstr "Kruži kroz prozore"
 
-#: src/Shortcuts/ShortcutsList.vala:64
+#: src/Shortcuts/Backend/ShortcutsList.vala:64
 msgid "Cycle Windows backwards"
 msgstr "Kruži kroz prozore unazad"
 
-#: src/Shortcuts/ShortcutsList.vala:65
+#: src/Shortcuts/Backend/ShortcutsList.vala:65
 #, fuzzy
 #| msgid "Cycle Windows backwards"
 msgid "Cycle Windows of application"
 msgstr "Kruži kroz prozore unazad"
 
-#: src/Shortcuts/ShortcutsList.vala:66
+#: src/Shortcuts/Backend/ShortcutsList.vala:66
 #, fuzzy
 #| msgid "Cycle Windows backwards"
 msgid "Cycle Windows of application backwards"
 msgstr "Kruži kroz prozore unazad"
 
-#: src/Shortcuts/ShortcutsList.vala:67
+#: src/Shortcuts/Backend/ShortcutsList.vala:67
 msgid "Tile Left"
 msgstr "Pomjeri ulijevo"
 
-#: src/Shortcuts/ShortcutsList.vala:68
+#: src/Shortcuts/Backend/ShortcutsList.vala:68
 msgid "Tile Right"
 msgstr "Pomjeri udesno"
 
-#: src/Shortcuts/ShortcutsList.vala:69
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
 msgid "Window Overview"
 msgstr "Pregled prozora"
 
-#: src/Shortcuts/ShortcutsList.vala:70
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
 msgid "Show All Windows"
 msgstr "Prikaži sve prozore"
 
-#: src/Shortcuts/ShortcutsList.vala:71
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
 msgid "Picture in Picture Mode"
 msgstr "Slika u slici"
 
-#: src/Shortcuts/ShortcutsList.vala:72
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
 #, fuzzy
 #| msgid "Move to left"
 msgid "Move to display above"
 msgstr "Premjesti ulijevo"
 
-#: src/Shortcuts/ShortcutsList.vala:73
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
 #, fuzzy
 #| msgid "Move to left"
 msgid "Move to display below"
 msgstr "Premjesti ulijevo"
 
-#: src/Shortcuts/ShortcutsList.vala:74
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
 #, fuzzy
 #| msgid "Move to right workspace"
 msgid "Move to right display"
 msgstr "Premjesti na desni radni prostor"
 
-#: src/Shortcuts/ShortcutsList.vala:75
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
 #, fuzzy
 #| msgid "Move to left workspace"
 msgid "Move to left display"
 msgstr "Premjesti na lijevi radni prostor"
 
-#: src/Shortcuts/ShortcutsList.vala:79 src/Views/Shortcuts.vala:41
+#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
 msgid "Workspaces"
 msgstr "Radni prostori"
 
-#: src/Shortcuts/ShortcutsList.vala:80 src/Views/Layout.vala:75
-msgid "Multitasking View"
-msgstr "Prikaz radnih prostora"
-
-#: src/Shortcuts/ShortcutsList.vala:81
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
 msgid "Switch left"
 msgstr "Prebaci nalijevo"
 
-#: src/Shortcuts/ShortcutsList.vala:82
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
 msgid "Switch right"
 msgstr "Prebaci nadesno"
 
-#: src/Shortcuts/ShortcutsList.vala:83
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
 msgid "Switch to first"
 msgstr "Prebaci na prvi"
 
-#: src/Shortcuts/ShortcutsList.vala:84
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
 msgid "Switch to new"
 msgstr "Prebaci na novi"
 
-#: src/Shortcuts/ShortcutsList.vala:85
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Switch to workspace 1"
 msgstr "Prebaci na radni prostor 1"
 
-#: src/Shortcuts/ShortcutsList.vala:86
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
 msgid "Switch to workspace 2"
 msgstr "Prebaci na radni prostor 2"
 
-#: src/Shortcuts/ShortcutsList.vala:87
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
 msgid "Switch to workspace 3"
 msgstr "Prebaci na radni prostor 3"
 
-#: src/Shortcuts/ShortcutsList.vala:88
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
 msgid "Switch to workspace 4"
 msgstr "Prebaci na radni prostor 4"
 
-#: src/Shortcuts/ShortcutsList.vala:89
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
 msgid "Switch to workspace 5"
 msgstr "Prebaci na radni prostor 5"
 
-#: src/Shortcuts/ShortcutsList.vala:90
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
 msgid "Switch to workspace 6"
 msgstr "Prebaci na radni prostor 6"
 
-#: src/Shortcuts/ShortcutsList.vala:91
+#: src/Shortcuts/Backend/ShortcutsList.vala:91
 msgid "Switch to workspace 7"
 msgstr "Prebaci na radni prostor 7"
 
-#: src/Shortcuts/ShortcutsList.vala:92
+#: src/Shortcuts/Backend/ShortcutsList.vala:92
 msgid "Switch to workspace 8"
 msgstr "Prebaci na radni prostor 8"
 
-#: src/Shortcuts/ShortcutsList.vala:93
+#: src/Shortcuts/Backend/ShortcutsList.vala:93
 msgid "Switch to workspace 9"
 msgstr "Prebaci na radni prostor 9"
 
-#: src/Shortcuts/ShortcutsList.vala:94
+#: src/Shortcuts/Backend/ShortcutsList.vala:94
 msgid "Cycle workspaces"
 msgstr "Kruži kroz radne prostore"
 
-#: src/Shortcuts/ShortcutsList.vala:95
+#: src/Shortcuts/Backend/ShortcutsList.vala:95
 msgid "Cycle workspaces backwards"
 msgstr "Kruži kroz radne prostore unazad"
 
-#: src/Shortcuts/ShortcutsList.vala:96
+#: src/Shortcuts/Backend/ShortcutsList.vala:96
 msgid "Move to workspace 1"
 msgstr "Premjesti na radni prostor 1"
 
-#: src/Shortcuts/ShortcutsList.vala:97
+#: src/Shortcuts/Backend/ShortcutsList.vala:97
 msgid "Move to workspace 2"
 msgstr "Premjesti na radni prostor 2"
 
-#: src/Shortcuts/ShortcutsList.vala:98
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
 msgid "Move to workspace 3"
 msgstr "Premjesti na radni prostor 3"
 
-#: src/Shortcuts/ShortcutsList.vala:99
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
 msgid "Move to workspace 4"
 msgstr "Premjesti na radni prostor 4"
 
-#: src/Shortcuts/ShortcutsList.vala:100
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
 msgid "Move to workspace 5"
 msgstr "Premjesti na radni prostor 5"
 
-#: src/Shortcuts/ShortcutsList.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
 msgid "Move to workspace 6"
 msgstr "Premjesti na radni prostor 6"
 
-#: src/Shortcuts/ShortcutsList.vala:102
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
 msgid "Move to workspace 7"
 msgstr "Premjesti na radni prostor 7"
 
-#: src/Shortcuts/ShortcutsList.vala:103
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
 msgid "Move to workspace 8"
 msgstr "Premjesti na radni prostor 8"
 
-#: src/Shortcuts/ShortcutsList.vala:104
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
 msgid "Move to workspace 9"
 msgstr "Premjesti na radni prostor 9"
 
-#: src/Shortcuts/ShortcutsList.vala:105
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
 msgid "Move to left workspace"
 msgstr "Premjesti na lijevi radni prostor"
 
-#: src/Shortcuts/ShortcutsList.vala:106
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
 msgid "Move to right workspace"
 msgstr "Premjesti na desni radni prostor"
 
-#: src/Shortcuts/ShortcutsList.vala:110 src/Views/Shortcuts.vala:43
+#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
 msgid "Screenshots"
 msgstr "Snimke ekrana"
 
-#: src/Shortcuts/ShortcutsList.vala:111
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
 msgid "Grab the whole screen"
 msgstr "Obuhvati cijeli ekran"
 
-#: src/Shortcuts/ShortcutsList.vala:112
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
 msgid "Copy the whole screen to clipboard"
 msgstr "Kopiraj cijeli ekran u međuspremnik"
 
-#: src/Shortcuts/ShortcutsList.vala:113
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
 msgid "Grab the current window"
 msgstr "Obuhvati trenutni prozor"
 
-#: src/Shortcuts/ShortcutsList.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
 msgid "Copy the current window to clipboard"
 msgstr "Kopiraj trenutni prozor u međuspremnik"
 
-#: src/Shortcuts/ShortcutsList.vala:115
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
 msgid "Select an area to grab"
 msgstr "Odaberi područje za snimku"
 
-#: src/Shortcuts/ShortcutsList.vala:116
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
 msgid "Copy an area to clipboard"
 msgstr "Kopiraj područje u međuspremnik"
 
-#: src/Shortcuts/ShortcutsList.vala:120 src/Views/Shortcuts.vala:45
+#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
 msgid "Applications"
 msgstr "Aplikacije"
 
-#: src/Shortcuts/ShortcutsList.vala:121
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
 msgid "Email"
 msgstr "E-pošta"
 
-#: src/Shortcuts/ShortcutsList.vala:122
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
 msgid "Home Folder"
 msgstr "Lična fascikla"
 
-#: src/Shortcuts/ShortcutsList.vala:123
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
 msgid "Music"
 msgstr "Muzika"
 
-#: src/Shortcuts/ShortcutsList.vala:124
+#: src/Shortcuts/Backend/ShortcutsList.vala:124
 msgid "Terminal"
 msgstr "Terminal"
 
-#: src/Shortcuts/ShortcutsList.vala:125
+#: src/Shortcuts/Backend/ShortcutsList.vala:125
 msgid "Internet Browser"
 msgstr "Internetski preglednik"
 
-#: src/Shortcuts/ShortcutsList.vala:129 src/Views/Shortcuts.vala:47
+#: src/Shortcuts/Backend/ShortcutsList.vala:126
+msgid "Launch first dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:127
+msgid "Launch second dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:128
+msgid "Launch third dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:129
+msgid "Launch fourth dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
+msgid "Launch fifth dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
+msgid "Launch sixth dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
+msgid "Launch seventh dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
+msgid "Launch eighth dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
+msgid "Launch ninth dock item"
+msgstr ""
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
 msgstr "Mediji"
 
-#: src/Shortcuts/ShortcutsList.vala:130
+#: src/Shortcuts/Backend/ShortcutsList.vala:139
 msgid "Volume Up"
 msgstr "Pojačaj zvuk"
 
-#: src/Shortcuts/ShortcutsList.vala:131
+#: src/Shortcuts/Backend/ShortcutsList.vala:140
 msgid "Volume Down"
 msgstr "Smanji zvuk"
 
-#: src/Shortcuts/ShortcutsList.vala:132
+#: src/Shortcuts/Backend/ShortcutsList.vala:141
 msgid "Mute"
 msgstr "Utišaj"
 
-#: src/Shortcuts/ShortcutsList.vala:133
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
 #, fuzzy
 #| msgid "Pause"
 msgid "Play/Pause"
 msgstr "Pauza"
 
-#: src/Shortcuts/ShortcutsList.vala:134
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
 msgid "Pause"
 msgstr "Pauza"
 
-#: src/Shortcuts/ShortcutsList.vala:135
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
 msgid "Stop"
 msgstr "Stop"
 
-#: src/Shortcuts/ShortcutsList.vala:136
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
 msgid "Previous Track"
 msgstr "Prethodni naslov"
 
-#: src/Shortcuts/ShortcutsList.vala:137
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
 msgid "Next Track"
 msgstr "Sljedeći naslov"
 
-#: src/Shortcuts/ShortcutsList.vala:138
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
 msgid "Eject"
 msgstr "Izbaci"
 
-#: src/Shortcuts/ShortcutsList.vala:142
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
 msgid "Universal Access"
 msgstr "Univerzalni pristup"
 
-#: src/Shortcuts/ShortcutsList.vala:143
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
 msgid "Decrease Text Size"
 msgstr "Smanji veličinu teksta"
 
-#: src/Shortcuts/ShortcutsList.vala:144
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
 msgid "Increase Text Size"
 msgstr "Povećaj veličinu teksta"
 
-#: src/Shortcuts/ShortcutsList.vala:145
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
 msgid "Magnifier Zoom in"
 msgstr "Uvećaj povećalo"
 
-#: src/Shortcuts/ShortcutsList.vala:146
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
 msgid "Magnifier Zoom out"
 msgstr "Umanji povećalo"
 
-#: src/Shortcuts/ShortcutsList.vala:147
+#: src/Shortcuts/Backend/ShortcutsList.vala:156
 msgid "Toggle On Screen Keyboard"
 msgstr "Tastatura na ekranu"
 
-#: src/Shortcuts/ShortcutsList.vala:148
+#: src/Shortcuts/Backend/ShortcutsList.vala:157
 msgid "Toggle Screenreader"
 msgstr "Čitač ekrana"
 
-#: src/Shortcuts/ShortcutsList.vala:152 src/Views/Shortcuts.vala:51
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
 msgid "System"
 msgstr "Sistem"
 
-#: src/Shortcuts/ShortcutsList.vala:153 src/Views/Layout.vala:74
-msgid "Applications Menu"
-msgstr "Izbornik aplikacija"
-
-#: src/Shortcuts/ShortcutsList.vala:154
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
 msgid "Lock"
 msgstr "Zaključaj"
 
-#: src/Shortcuts/ShortcutsList.vala:155
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
 msgid "Log Out"
 msgstr "Odjava"
 
-#: src/Shortcuts/ShortcutsList.vala:156
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
 msgid "Cycle display mode"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:160
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
 #, fuzzy
 #| msgid "Add Layout"
 msgid "Keyboard Layouts"
 msgstr "Dodaj raspored"
 
-#: src/Shortcuts/ShortcutsList.vala:161
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
 #, fuzzy
 #| msgid "Add Layout"
 msgid "Switch Keyboard Layout"
 msgstr "Dodaj raspored"
 
-#: src/Shortcuts/ShortcutsList.vala:162
+#: src/Shortcuts/Backend/ShortcutsList.vala:171
 msgid "Switch Keyboard Layout Backwards"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:163
+#: src/Shortcuts/Backend/ShortcutsList.vala:172
 msgid "Enable Emoji Typing"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:164
+#: src/Shortcuts/Backend/ShortcutsList.vala:173
 msgid "Enable Unicode Typing"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:168 src/Views/Shortcuts.vala:53
+#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
 msgid "Custom"
 msgstr "Prilagođeno"
 
-#. tree view to display the current layouts
-#. Layout switching keybinding
-#. Compose key position menu
-#: src/Shortcuts/Shortcut.vala:55 src/Views/InputMethod.vala:140
-#: src/Views/Layout.vala:30 src/Views/Layout.vala:52 src/Views/Layout.vala:73
-#: src/Views/Layout.vala:92
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:100
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:401
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:86
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:343
-msgid "Disabled"
-msgstr "Deaktivirano"
+#: src/Shortcuts/Widgets/AppChooser.vala:15
+msgid "Search Applications"
+msgstr "Pretraži aplikacije"
 
-#: src/Shortcuts/Shortcut.vala:61
-msgid "Shift"
-msgstr "Shift"
+#: src/Shortcuts/Widgets/AppChooser.vala:33
+msgid "Type in a custom command"
+msgstr "Unesite vlastitu komandu"
 
-#: src/Shortcuts/Shortcut.vala:69
-msgid "Ctrl"
-msgstr "Ctrl"
-
-#: src/Shortcuts/Shortcut.vala:73
-msgid "Alt"
-msgstr "Alt"
-
-#: src/Shortcuts/Shortcut.vala:77
-msgid "Meta"
-msgstr ""
-
-#: src/Views/Behavior.vala:16
-msgid "On-screen keyboard settings…"
-msgstr "Podešavanja tastature na ekranu…"
-
-#: src/Views/Behavior.vala:38
-msgid "Delay:"
-msgstr "Odgoda:"
-
-#: src/Views/Behavior.vala:42
-msgid "Interval:"
-msgstr "Interval:"
-
-#: src/Views/Behavior.vala:74
-msgid "Speed:"
-msgstr "Brzina:"
-
-#: src/Views/Behavior.vala:78
-msgid "Duration:"
-msgstr "Trajanje:"
-
-#: src/Views/Behavior.vala:118
-msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
-msgstr ""
-
-#: src/Views/Behavior.vala:135
-msgid "Don't accept keypresses unless held"
-msgstr ""
-
-#: src/Views/Behavior.vala:161
-msgid "Ignore fast duplicate keypresses"
-msgstr ""
-
-#: src/Views/Behavior.vala:179
+#. TRANSLATORS: This string is used by screen reader
+#: src/Shortcuts/Widgets/AppChooser.vala:50
 #, fuzzy
-#| msgid "Left Alt"
-msgid "Event Alerts"
-msgstr "Lijeva Alt tipka"
+#| msgid "Select an area to grab"
+msgid "Select an app"
+msgstr "Odaberi područje za snimku"
 
-#: src/Views/Behavior.vala:180
-#, c-format
-msgid "Play a sound or flash the screen. %s"
-msgstr ""
-
-#: src/Views/Behavior.vala:182
-msgid "Sound Settings…"
-msgstr ""
-
-#: src/Views/Behavior.vala:187
-msgid "Caps Lock ⇪ or Num Lock keys are pressed"
-msgstr ""
-
-#: src/Views/Behavior.vala:188
-msgid "Bounce Keys are rejected"
-msgstr ""
-
-#: src/Views/Behavior.vala:189
-msgid "Sticky Keys are pressed"
-msgstr ""
-
-#: src/Views/Behavior.vala:190
-msgid "Slow Keys are rejected"
-msgstr ""
-
-#: src/Views/Behavior.vala:206
-msgid "Type to test your settings"
-msgstr "Kucajte kako biste testirali svoja podešavanja"
-
-#. no_daemon_runnning view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:51
-msgid "IBus Daemon is not running"
-msgstr ""
-
-#: src/Views/InputMethod.vala:52
-msgid ""
-"IBus daemon must run in the background to enable or configure input method "
-"engines."
-msgstr ""
-
-#: src/Views/InputMethod.vala:61
-msgid "Start IBus Daemon"
-msgstr ""
-
-#: src/Views/InputMethod.vala:62
-msgid "Can be managed in System Settings → Applications → Startup"
-msgstr ""
-
-#. spawn_failed view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:68
-msgid "Could not start the IBus daemon"
-msgstr ""
-
-#: src/Views/InputMethod.vala:112
-msgid "Add…"
-msgstr "Dodaj…"
-
-#: src/Views/InputMethod.vala:116 src/Widgets/Layout/Display.vala:192
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:141
-msgid "Remove"
-msgstr "Ukloni"
-
-#: src/Views/InputMethod.vala:132
-#, fuzzy
-#| msgid "Switch Windows"
-msgid "Switch engines:"
-msgstr "Zamijeni prozore"
-
-#: src/Views/InputMethod.vala:149
-msgid "Show property panel:"
-msgstr ""
-
-#: src/Views/InputMethod.vala:156
-msgid "Do not show"
-msgstr ""
-
-#: src/Views/InputMethod.vala:157
-msgid "Auto hide"
-msgstr ""
-
-#: src/Views/InputMethod.vala:158
-msgid "Always show"
-msgstr ""
-
-#: src/Views/InputMethod.vala:160
-msgid "Embed preedit text in application window:"
-msgstr ""
-
-#: src/Views/InputMethod.vala:391
-msgid "IBus Daemon"
-msgstr ""
-
-#: src/Views/InputMethod.vala:394
-msgid "Use and manage input methods"
-msgstr ""
-
-#: src/Views/InputMethod.vala:457
-#, fuzzy
-#| msgid "Type to test your layout"
-msgid "Type to test your input method"
-msgstr "Kucajte kako biste provjerili svoj raspored"
-
-#: src/Views/InputMethod.vala:460
-#, fuzzy
-#| msgid "Show keyboard layout"
-msgid "A keyboard layout is active"
-msgstr "Prikaži raspored tastature"
-
-#: src/Views/Layout.vala:31
-msgid "Alt + Caps Lock"
-msgstr "Alt + Caps lock"
-
-#: src/Views/Layout.vala:32
-msgid "Alt + Shift"
-msgstr "Alt + Shift"
-
-#: src/Views/Layout.vala:33
-msgid "Alt + Space"
-msgstr "Alt + Space"
-
-#: src/Views/Layout.vala:34
-msgid "Both Shift keys together"
-msgstr "Obje Shift tipke zajedno"
-
-#: src/Views/Layout.vala:35 src/Views/Layout.vala:53 src/Views/Layout.vala:254
-msgid "Caps Lock"
-msgstr "Caps Lock"
-
-#: src/Views/Layout.vala:36
-msgid "Ctrl + Alt"
-msgstr "Ctrl + Alt"
-
-#: src/Views/Layout.vala:37
-msgid "Ctrl + Shift"
-msgstr "Ctrl + Shift"
-
-#: src/Views/Layout.vala:38
-msgid "Shift + Caps Lock"
-msgstr "Shift + Caps Lock"
-
-#: src/Views/Layout.vala:46
-msgid "Switch layout:"
-msgstr "Promijeni raspored:"
-
-#: src/Views/Layout.vala:54
-msgid "Menu"
-msgstr "Izbornik"
-
-#: src/Views/Layout.vala:55 src/Views/Layout.vala:256 src/Views/Layout.vala:271
-msgid "Right Alt"
-msgstr "Desna Alt tipka"
-
-#: src/Views/Layout.vala:56 src/Views/Layout.vala:257 src/Views/Layout.vala:272
-msgid "Right Ctrl"
-msgstr "Desna Ctrl tipka"
-
-#: src/Views/Layout.vala:57 src/Views/Layout.vala:258 src/Views/Layout.vala:273
-msgid "Right ⌘"
-msgstr "Desna ⌘ tipka"
-
-#: src/Views/Layout.vala:65
-msgid "Compose key:"
-msgstr "Tipka za sastavljanje:"
-
-#: src/Views/Layout.vala:78
-msgid "⌘ key behavior:"
-msgstr "Ponašanje tipke ⌘:"
-
-#: src/Views/Layout.vala:84
-msgid "Shortcut Overlay"
-msgstr "Pregled prečica tastature"
-
-#: src/Views/Layout.vala:93
-msgid "as Backspace"
-msgstr "kao Backspace"
-
-#: src/Views/Layout.vala:94
-msgid "as Ctrl"
-msgstr "kao Ctrl"
-
-#: src/Views/Layout.vala:95
-msgid "as Escape"
-msgstr "kao Esc tipka"
-
-#: src/Views/Layout.vala:96
-msgid "as Num Lock"
-msgstr "kao Num Lock"
-
-#: src/Views/Layout.vala:97
-msgid "as ⌘"
-msgstr "kao ⌘"
-
-#: src/Views/Layout.vala:98
-#, fuzzy
-msgid "Swap with Ctrl"
-msgstr "Zamijeni s Ctrl tipkom"
-
-#: src/Views/Layout.vala:99
-msgid "Swap with Escape"
-msgstr "Zamijeni s Esc tipkom"
-
-#: src/Views/Layout.vala:107
-msgid "Caps Lock behavior:"
-msgstr "Ponašanje Caps Lock tipke:"
-
-#: src/Views/Layout.vala:240 src/Views/Layout.vala:266
-msgid "Key to choose 3rd level:"
-msgstr "Tipka za izbor 3. nivoa:"
-
-#: src/Views/Layout.vala:255
-msgid "Left Alt"
-msgstr "Lijeva Alt tipka"
-
-#: src/Views/Layout.vala:280
-msgid "Key to choose 5th level:"
-msgstr "TIpka za izbor 5. nivoa:"
-
-#: src/Views/Layout.vala:297
-msgid "Kana Lock:"
-msgstr "Kana zaključavanje:"
-
-#: src/Views/Layout.vala:304
-msgid "Nicola F Backspace:"
-msgstr "Nicola F Backspace:"
-
-#: src/Views/Layout.vala:311
-#, fuzzy
-msgid "Hankaku Zenkaku as Escape:"
-msgstr "Zenkaku Hankaku kao Escape:"
-
-#: src/Views/Layout.vala:330
-msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
-msgstr "Hangul/Hanja tipke na desnim Alt/Ctrl:"
-
-#: src/Views/Layout.vala:408
-msgid "Type to test your layout"
-msgstr "Kucajte kako biste provjerili svoj raspored"
-
-#: src/Views/Layout.vala:411
-#, fuzzy
-#| msgid "Input Method Settings…"
-msgid "Input Method is active"
-msgstr "Podešavanja načina unosa…"
-
-#: src/Views/Shortcuts.vala:49
-msgid "Accessibility"
-msgstr ""
-
-#: src/Views/Shortcuts.vala:101
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "Add Shortcut"
 msgstr "Prečice"
 
-#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
-#. /to look for a input method engine they want to add.
-#. /It does not mean search engines in web browsers.
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:36
-msgid "Search engine"
-msgstr ""
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
+msgid "Custom Command"
+msgstr "Vlastita komanda"
 
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:52
-msgid "Install Unlisted Engines…"
-msgstr ""
-
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:56
-msgid "Add Engine"
-msgstr ""
-
-#: src/Widgets/Layout/Display.vala:41
-#, fuzzy
-#| msgid "Add Layout"
-msgid "Add Keyboard Layout…"
-msgstr "Dodaj raspored"
-
-#: src/Widgets/Layout/Display.vala:196
-msgid "Move up"
-msgstr "Premjesti gore"
-
-#: src/Widgets/Layout/Display.vala:200
-msgid "Move down"
-msgstr "Premjesti dolje"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:97
-#, fuzzy
-#| msgid "Enter Command"
-msgid "Enter a command here"
-msgstr "Unesi naredbu"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:130
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Set New Shortcut"
 msgstr "Prečica"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:135
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 #, fuzzy
 #| msgid "Disabled"
 msgid "Disable"
 msgstr "Deaktivirano"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:273
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr ""
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:343
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr ""
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:344
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, fuzzy, c-format
 #| msgid "%s is already used for %s"
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s se već koristi za %s"
 
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 #, fuzzy
 #| msgid "Default"
 msgid "Reset to Default"
 msgstr "Zadano"
+
+#: src/Shortcuts/Shortcuts.vala:49
+msgid "Accessibility"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Enter Command"
+#~ msgid "Enter a command here"
+#~ msgstr "Unesi naredbu"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s se već koristi za %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Ako opet podesite prečicu na %s, deaktivirat će se %s."
+
+#~ msgid "Reassign"
+#~ msgstr "Dodijeli nanovo"
+
+#~ msgid "Add…"
+#~ msgstr "Dodaj…"
 
 #, fuzzy
 #~| msgid "Toggle On Screen Keyboard"
@@ -1009,9 +1216,6 @@ msgstr "Zadano"
 
 #~ msgid "Add"
 #~ msgstr "Dodaj"
-
-#~ msgid "Command"
-#~ msgstr "Naredba"
 
 #~ msgid "Minimize"
 #~ msgstr "Minimiziraj"

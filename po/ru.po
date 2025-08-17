@@ -7,91 +7,196 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 17:21+0000\n"
-"PO-Revision-Date: 2024-01-30 06:46+0000\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"PO-Revision-Date: 2025-06-13 08:55+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/ru/>\n"
+"Language-Team: Russian <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-12 06:18+0000\n"
 
-#: src/Dialogs/AddLayoutDialog.vala:21
-msgid "Input Language"
-msgstr "Язык ввода"
+#: src/Behavior/Behavior.vala:8 src/Plug.vala:128
+msgid "Show On-screen Keyboard"
+msgstr "Показать экранную клавиатуру"
 
-#: src/Dialogs/AddLayoutDialog.vala:22
-msgid "Layout List"
-msgstr "Список раскладок"
+#: src/Behavior/Behavior.vala:16
+msgid "On-screen keyboard settings…"
+msgstr "Параметры экранной клавиатуры…"
 
-#: src/Dialogs/AddLayoutDialog.vala:42
-msgid "Search input language"
-msgstr "Поиск языка ввода"
+#: src/Behavior/Behavior.vala:38
+msgid "Delay:"
+msgstr "Задержка:"
 
-#: src/Dialogs/AddLayoutDialog.vala:102
-msgid "Preview Layout"
-msgstr "Предварительный просмотр раскладки"
+#: src/Behavior/Behavior.vala:42
+msgid "Interval:"
+msgstr "Интервал:"
 
-#: src/Dialogs/AddLayoutDialog.vala:150 src/Dialogs/ConflictDialog.vala:36
-#: src/Dialogs/ProgressDialog.vala:60
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:54
-msgid "Cancel"
-msgstr "Отменить"
+#: src/Behavior/Behavior.vala:51 src/Plug.vala:131
+msgid "Repeat Keys"
+msgstr "Повтор клавиш"
 
-#: src/Dialogs/AddLayoutDialog.vala:152
-msgid "Add Layout"
-msgstr "Добавить раскладку"
+#: src/Behavior/Behavior.vala:74
+msgid "Speed:"
+msgstr "Скорость:"
 
-#. Caps Lock key functionality
-#: src/Dialogs/AddLayoutDialog.vala:245 src/Dialogs/AddLayoutDialog.vala:249
-#: src/Views/Layout.vala:91 src/Views/Layout.vala:253 src/Xkb/Handler.vala:95
-msgid "Default"
-msgstr "По умолчанию"
+#: src/Behavior/Behavior.vala:78
+msgid "Duration:"
+msgstr "Длительность:"
 
-#: src/Dialogs/ConflictDialog.vala:26
+#: src/Behavior/Behavior.vala:87 src/Plug.vala:130
+msgid "Cursor Blinking"
+msgstr "Мигание курсора"
+
+#: src/Behavior/Behavior.vala:116 src/Plug.vala:133
+msgid "Sticky Keys"
+msgstr "Залипание клавиш"
+
+#: src/Behavior/Behavior.vala:118
+msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
+msgstr "Используйте ⌘, Alt, Ctrl или Shift последовательно"
+
+#: src/Behavior/Behavior.vala:133 src/Plug.vala:132
+msgid "Slow Keys"
+msgstr "Медленные клавиши"
+
+#: src/Behavior/Behavior.vala:135
+msgid "Don't accept keypresses unless held"
+msgstr "Принимать нажатия на клавиатуру только после зажатия клавиши"
+
+#: src/Behavior/Behavior.vala:159 src/Plug.vala:129
+msgid "Bounce Keys"
+msgstr "Отскакивающие клавиши"
+
+#: src/Behavior/Behavior.vala:161
+msgid "Ignore fast duplicate keypresses"
+msgstr "Игнорировать быстрые повторяющиеся нажатия"
+
+#: src/Behavior/Behavior.vala:179
+msgid "Event Alerts"
+msgstr "Оповещения о событиях"
+
+#: src/Behavior/Behavior.vala:180
 #, c-format
-msgid "%s is already used for %s"
-msgstr "%s уже используется для %s"
+msgid "Play a sound or flash the screen. %s"
+msgstr "Воспроизводить звук или подсвечивать экран. %s"
 
-#: src/Dialogs/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "Если вы переназначите сочетание клавиш на %s, то %s будет отключён."
+#: src/Behavior/Behavior.vala:182
+msgid "Sound Settings…"
+msgstr "Параметры звука…"
 
-#: src/Dialogs/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Переопределить"
+#: src/Behavior/Behavior.vala:187
+msgid "Caps Lock ⇪ or Num Lock keys are pressed"
+msgstr "Caps Lock ⇪ или Num Lock нажаты"
 
-#: src/Dialogs/InstallEngineDialog.vala:24
-msgid "Choose an engine to install"
-msgstr "Выберите метод ввода для установки"
+#: src/Behavior/Behavior.vala:188
+msgid "Bounce Keys are rejected"
+msgstr "Отскакивающие клавиши отклонены"
 
-#: src/Dialogs/InstallEngineDialog.vala:25
-msgid "Select an engine from the list to install and use."
-msgstr "Выберите метод из списка для установки и использования."
+#: src/Behavior/Behavior.vala:189
+msgid "Sticky Keys are pressed"
+msgstr "Залипающие клавиши нажаты"
 
-#: src/Dialogs/InstallEngineDialog.vala:45
-msgid "Languages"
-msgstr "Языки"
+#: src/Behavior/Behavior.vala:190
+msgid "Slow Keys are rejected"
+msgstr "Медленные клавиши отклонены"
 
-#: src/Dialogs/InstallEngineDialog.vala:99
-msgid "Install"
-msgstr "Установить"
+#: src/Behavior/Behavior.vala:206
+msgid "Type to test your settings"
+msgstr "Начните печатать, чтобы проверить настройки"
 
-#: src/Dialogs/ProgressDialog.vala:47
-#, c-format
-msgid "Installing %s"
-msgstr "Установка %s"
+#. no_daemon_runnning view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:50
+msgid "IBus Daemon is not running"
+msgstr "IBus Daemon не запущен"
 
-#: src/Dialogs/ProgressDialog.vala:50
-#, c-format
-msgid "Removing %s"
-msgstr "Удаление %s"
+#: src/InputMethod/InputMethod.vala:51
+msgid ""
+"IBus daemon must run in the background to enable or configure input method "
+"engines."
+msgstr ""
+"Сервис IBus должен работать в фоновом режиме, чтобы включить или настроить "
+"методы ввода."
+
+#: src/InputMethod/InputMethod.vala:60
+msgid "Start IBus Daemon"
+msgstr "Запустить IBus Daemon"
+
+#: src/InputMethod/InputMethod.vala:61
+msgid "Can be managed in System Settings → Applications → Startup"
+msgstr "Он может быть настроен в Параметры системы → Приложения → Автозапуск"
+
+#. spawn_failed view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:67
+msgid "Could not start the IBus daemon"
+msgstr "Не удалось запустить демон IBus"
+
+#: src/InputMethod/InputMethod.vala:105
+msgid "Add Engine…"
+msgstr "Добавить метод ввода…"
+
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/InputMethod/InputMethod.vala:149
+msgid "Switch engines:"
+msgstr "Переключить методы ввода:"
+
+#. tree view to display the current layouts
+#. Layout switching keybinding
+#. Compose key position menu
+#: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
+#: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
+#: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+msgid "Disabled"
+msgstr "Отключено"
+
+#: src/InputMethod/InputMethod.vala:166
+msgid "Show property panel:"
+msgstr "Показать панель свойств:"
+
+#: src/InputMethod/InputMethod.vala:173
+msgid "Do not show"
+msgstr "Не показывать"
+
+#: src/InputMethod/InputMethod.vala:174
+msgid "Auto hide"
+msgstr "Авто-скрытие"
+
+#: src/InputMethod/InputMethod.vala:175
+msgid "Always show"
+msgstr "Всегда показывать"
+
+#: src/InputMethod/InputMethod.vala:177
+msgid "Embed preedit text in application window:"
+msgstr "Вставить предварительно измененный текст в окно приложения:"
+
+#: src/InputMethod/InputMethod.vala:403
+msgid "IBus Daemon"
+msgstr "Демон IBus"
+
+#: src/InputMethod/InputMethod.vala:406
+msgid "Use and manage input methods"
+msgstr "Используйте и управляйте методами ввода"
+
+#: src/InputMethod/InputMethod.vala:439
+msgid "Type to test your input method"
+msgstr "Введите что-то для проверки метода ввода"
+
+#: src/InputMethod/InputMethod.vala:442
+msgid "A keyboard layout is active"
+msgstr "Раскладка клавиатуры активна"
 
 #: src/InputMethod/Installer/InstallList.vala:26
 msgid "Japanese"
@@ -105,6 +210,237 @@ msgstr "Корейский"
 msgid "Chinese"
 msgstr "Китайский"
 
+#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
+#. /to look for a input method engine they want to add.
+#. /It does not mean search engines in web browsers.
+#: src/InputMethod/Widgets/AddEngineDialog.vala:43
+msgid "Search engine"
+msgstr "Искать метод ввода"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:73
+msgid "Install Unlisted Engines…"
+msgstr "Установить методы ввода вне списка…"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:75
+#: src/InputMethod/Widgets/ProgressDialog.vala:60
+#: src/Layout/Widgets/AddLayoutDialog.vala:150
+#: src/Shortcuts/Widgets/AppChooser.vala:47
+msgid "Cancel"
+msgstr "Отменить"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:77
+msgid "Add Engine"
+msgstr "Добавить метод ввода"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:24
+msgid "Choose an engine to install"
+msgstr "Выберите метод ввода для установки"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:25
+msgid "Select an engine from the list to install and use."
+msgstr "Выберите метод из списка для установки и использования."
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:45
+msgid "Languages"
+msgstr "Языки"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:99
+msgid "Install"
+msgstr "Установить"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:47
+#, c-format
+msgid "Installing %s"
+msgstr "Установка %s"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:50
+#, c-format
+msgid "Removing %s"
+msgstr "Удаление %s"
+
+#. Caps Lock key functionality
+#: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
+#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Widgets/AddLayoutDialog.vala:249
+msgid "Default"
+msgstr "По умолчанию"
+
+#: src/Layout/Layout.vala:31
+msgid "Alt + Caps Lock"
+msgstr "Alt + Caps Lock"
+
+#: src/Layout/Layout.vala:32
+msgid "Alt + Shift"
+msgstr "Alt + Shift"
+
+#: src/Layout/Layout.vala:33
+msgid "Alt + Space"
+msgstr "Alt + Пробел"
+
+#: src/Layout/Layout.vala:34
+msgid "Both Shift keys together"
+msgstr "Оба Shift, нажатые вместе"
+
+#: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
+#: src/Layout/Layout.vala:255
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#: src/Layout/Layout.vala:36
+msgid "Ctrl + Alt"
+msgstr "Ctrl + Alt"
+
+#: src/Layout/Layout.vala:37
+msgid "Ctrl + Shift"
+msgstr "Ctrl + Shift"
+
+#: src/Layout/Layout.vala:38
+msgid "Shift + Caps Lock"
+msgstr "Shift + Caps Lock"
+
+#: src/Layout/Layout.vala:46
+msgid "Switch layout:"
+msgstr "Смена раскладки:"
+
+#: src/Layout/Layout.vala:54
+msgid "Menu"
+msgstr "Меню"
+
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
+#: src/Layout/Layout.vala:272
+msgid "Right Alt"
+msgstr "Правый Alt"
+
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
+#: src/Layout/Layout.vala:273
+msgid "Right Ctrl"
+msgstr "Правый Ctrl"
+
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
+#: src/Layout/Layout.vala:274
+msgid "Right ⌘"
+msgstr "Правый ⌘"
+
+#: src/Layout/Layout.vala:65
+msgid "Compose key:"
+msgstr "Композиционная клавиша:"
+
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+msgid "Applications Menu"
+msgstr "Меню приложений"
+
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+msgid "Multitasking View"
+msgstr "Многозадачный вид"
+
+#: src/Layout/Layout.vala:78
+msgid "⌘ key behavior:"
+msgstr "Поведение клавиши ⌘:"
+
+#: src/Layout/Layout.vala:84
+msgid "Shortcut Overlay"
+msgstr "Окно сочетаний клавиш"
+
+#: src/Layout/Layout.vala:93
+msgid "as Backspace"
+msgstr "как Backspace"
+
+#: src/Layout/Layout.vala:94
+msgid "as Ctrl"
+msgstr "как Ctrl"
+
+#: src/Layout/Layout.vala:95
+msgid "as Escape"
+msgstr "как Escape"
+
+#: src/Layout/Layout.vala:96
+msgid "as Num Lock"
+msgstr "как Num Lock"
+
+#: src/Layout/Layout.vala:97
+msgid "as ⌘"
+msgstr "как ⌘"
+
+#: src/Layout/Layout.vala:98
+msgid "Swap with Ctrl"
+msgstr "Поменять с Ctrl"
+
+#: src/Layout/Layout.vala:99
+msgid "Swap with Escape"
+msgstr "Поменять с Escape"
+
+#: src/Layout/Layout.vala:107
+msgid "Caps Lock behavior:"
+msgstr "Поведение Caps Lock:"
+
+#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+msgid "Key to choose 3rd level:"
+msgstr "Клавиша выбора 3-го уровня:"
+
+#: src/Layout/Layout.vala:256
+msgid "Left Alt"
+msgstr "Левый Alt"
+
+#: src/Layout/Layout.vala:281
+msgid "Key to choose 5th level:"
+msgstr "Клавиша выбора 5-го уровня:"
+
+#: src/Layout/Layout.vala:298
+msgid "Kana Lock:"
+msgstr "Kana Lock:"
+
+#: src/Layout/Layout.vala:305
+msgid "Nicola F Backspace:"
+msgstr "Backspace как в Nicola-F:"
+
+#: src/Layout/Layout.vala:312
+msgid "Hankaku Zenkaku as Escape:"
+msgstr "Hankaku Zenkaku как Escape:"
+
+#: src/Layout/Layout.vala:331
+msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
+msgstr "Hangul/Hanja на правых Alt/Ctrl:"
+
+#: src/Layout/Layout.vala:409
+msgid "Type to test your layout"
+msgstr "Начните печатать, чтобы проверить раскладку"
+
+#: src/Layout/Layout.vala:412
+msgid "Input Method is active"
+msgstr "Метод ввода активен"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:21
+msgid "Input Language"
+msgstr "Язык ввода"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:22
+msgid "Layout List"
+msgstr "Список раскладок"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:42
+msgid "Search input language"
+msgstr "Поиск языка ввода"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:102
+msgid "Preview Layout"
+msgstr "Предварительный просмотр раскладки"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:152
+msgid "Add Layout"
+msgstr "Добавить раскладку"
+
+#: src/Layout/Widgets/Display.vala:41
+msgid "Add Keyboard Layout…"
+msgstr "Добавить раскладку клавиатуры…"
+
+#: src/Layout/Widgets/Display.vala:196
+msgid "Move up"
+msgstr "Переместить выше"
+
+#: src/Layout/Widgets/Display.vala:200
+msgid "Move down"
+msgstr "Переместить ниже"
+
 #: src/Plug.vala:39
 msgid "Keyboard"
 msgstr "Клавиатура"
@@ -113,814 +449,681 @@ msgstr "Клавиатура"
 msgid "Configure keyboard behavior, layouts, and shortcuts"
 msgstr "Настройка поведения клавиатуры, раскладки и сочетаний клавиш"
 
-#: src/Plug.vala:54 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119 src/Plug.vala:120
+#: src/Plug.vala:54 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120 src/Plug.vala:121
 msgid "Layout"
 msgstr "Раскладка"
 
-#: src/Plug.vala:55 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
-#: src/Plug.vala:124
+#: src/Plug.vala:55 src/Plug.vala:122 src/Plug.vala:123 src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Input Method"
 msgstr "Метод ввода"
 
-#: src/Plug.vala:56 src/Plug.vala:125
+#: src/Plug.vala:56 src/Plug.vala:126
 msgid "Shortcuts"
 msgstr "Сочетания клавиш"
 
-#: src/Plug.vala:57 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
-#: src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132
+#: src/Plug.vala:57 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 msgid "Behavior"
 msgstr "Поведение"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:118
 msgid "Switch layout"
 msgstr "Смена раскладки"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Compose Key"
 msgstr "Композиционная клавиша"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "⌘ key behavior"
 msgstr "Поведение клавиши ⌘"
 
-#: src/Plug.vala:120
+#: src/Plug.vala:121
 msgid "Caps Lock behavior"
 msgstr "Поведение Caps Lock"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Switch engines"
 msgstr "Переключить метод"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Show candidate window"
 msgstr "Показать окно-кандидат"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Embed preedit text in application window"
 msgstr "Вставить предварительно измененный текст в окно приложения"
 
-#: src/Plug.vala:127 src/Views/Behavior.vala:8
-msgid "Show On-screen Keyboard"
-msgstr "Показать экранную клавиатуру"
+#. / The name of Ctrl + C shortcut: "Edit -> Copy"
+#. / The name of Ctrl + V shortcut: "Edit -> Paste"
+#. / The name of Ctrl + X shortcut: "Edit -> Cut"
+#. / The name of Ctrl + Z shortcut: "Edit -> Undo"
+#. / The name of Ctrl + Y shortcut: "Edit -> Redo"
+#. / The name of Ctrl + F shortcut: "Edit -> Find"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Edit"
+msgstr "Правка"
 
-#: src/Plug.vala:128 src/Views/Behavior.vala:159
-msgid "Bounce Keys"
-msgstr "Отскакивающие клавиши"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+msgid "Copy"
+msgstr "Копировать"
 
-#: src/Plug.vala:129 src/Views/Behavior.vala:87
-msgid "Cursor Blinking"
-msgstr "Мигание курсора"
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+msgid "Paste"
+msgstr "Вставить"
 
-#: src/Plug.vala:130 src/Views/Behavior.vala:51
-msgid "Repeat Keys"
-msgstr "Повтор клавиш"
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+msgid "Cut"
+msgstr "Вырезать"
 
-#: src/Plug.vala:131 src/Views/Behavior.vala:133
-msgid "Slow Keys"
-msgstr "Медленные клавиши"
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+msgid "Undo"
+msgstr "Отменить"
 
-#: src/Plug.vala:132 src/Views/Behavior.vala:116
-msgid "Sticky Keys"
-msgstr "Залипание клавиш"
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+msgid "Redo"
+msgstr "Повторить"
 
-#: src/Shortcuts/ShortcutsList.vala:53 src/Views/Shortcuts.vala:39
-msgid "Windows"
-msgstr "Окна"
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Find"
+msgstr "Найти"
 
-#: src/Shortcuts/ShortcutsList.vala:54
+#. / The name of Ctrl + A shortcut: "Selection -> Select All"
+#. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
+#. / The name of Ctrl + Left shortcut: "Selection -> Move Left by Word"
+#. / The name of Shift + Right shortcut: "Selection -> Expand Selection"
+#. / The name of Shift + Left shortcut: "Selection -> Shrink Selection"
+#. / The name of Shift + Ctrl + Right shortcut: "Selection -> Expand Selection by Word"
+#. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
+#. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
+#. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Selection"
+msgstr "Выделение"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+msgid "Select All"
+msgstr "Выделить всё"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+msgid "Move Right by Word"
+msgstr "Переместиться вправо на слово"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+msgid "Move Left by Word"
+msgstr "Переместиться влево на слово"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+msgid "Expand Selection"
+msgstr "Увеличить выделение"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+msgid "Shrink Selection"
+msgstr "Уменьшить выделение"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+msgid "Expand Selection by Word"
+msgstr "Увеличить выделение на слово"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+msgid "Shrink Selection by Word"
+msgstr "Уменьшить выделение на слово"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+msgid "Expand Selection Up"
+msgstr "Расширить выделение вверх"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Expand Selection Down"
+msgstr "Расширить выделение вниз"
+
+#. / The name of Ctrl + S shortcut: "File -> Save"
+#. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
+#. / The name of Ctrl + N shortcut: "File -> New"
+#. / The name of Ctrl + W shortcut: "File -> Close"
+#. / The name of Ctrl + T shortcut: "File -> New Tab"
+#. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
+#. / The name of Ctrl + R shortcut: "File -> Refresh"
+#. / The name of Ctrl + Q shortcut: "File -> Quit"
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "File"
+msgstr "Файл"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+msgid "Save As"
+msgstr "Сохранить как"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+msgid "New"
+msgstr "Новый"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/Shortcuts/ShortcutsList.vala:55
-msgid "Lower"
-msgstr "Убрать окно из фокуса"
-
-#: src/Shortcuts/ShortcutsList.vala:56
-msgid "Maximize"
-msgstr "Развернуть"
-
-#: src/Shortcuts/ShortcutsList.vala:57
-msgid "Unmaximize"
-msgstr "Восстановить размер"
-
-#: src/Shortcuts/ShortcutsList.vala:58
-msgid "Toggle Maximized"
-msgstr "Развернуть/восстановить"
-
-#: src/Shortcuts/ShortcutsList.vala:59
-msgid "Hide"
-msgstr "Скрыть"
-
-#: src/Shortcuts/ShortcutsList.vala:60
-msgid "Toggle Fullscreen"
-msgstr "Переключить полноэкранный режим"
-
-#: src/Shortcuts/ShortcutsList.vala:61
-msgid "Toggle on all Workspaces"
-msgstr "Показать на всех рабочих столах"
-
-#: src/Shortcuts/ShortcutsList.vala:62
-msgid "Toggle always on Top"
-msgstr "Поверх всех окон"
-
-#: src/Shortcuts/ShortcutsList.vala:63
-msgid "Cycle Windows"
-msgstr "Переключение окон"
-
-#: src/Shortcuts/ShortcutsList.vala:64
-msgid "Cycle Windows backwards"
-msgstr "Переключение окон в обратном направлении"
-
-#: src/Shortcuts/ShortcutsList.vala:65
-msgid "Cycle Windows of application"
-msgstr "Переключение окон приложения"
-
-#: src/Shortcuts/ShortcutsList.vala:66
-msgid "Cycle Windows of application backwards"
-msgstr "Переключение окон приложения в обратном направлении"
-
-#: src/Shortcuts/ShortcutsList.vala:67
-msgid "Tile Left"
-msgstr "Закрепить слева"
-
-#: src/Shortcuts/ShortcutsList.vala:68
-msgid "Tile Right"
-msgstr "Закрепить справа"
-
-#: src/Shortcuts/ShortcutsList.vala:69
-msgid "Window Overview"
-msgstr "Показать открытые окна"
-
-#: src/Shortcuts/ShortcutsList.vala:70
-msgid "Show All Windows"
-msgstr "Показать все открытые окна"
-
-#: src/Shortcuts/ShortcutsList.vala:71
-msgid "Picture in Picture Mode"
-msgstr "Режим «картинка в картинке»"
-
-#: src/Shortcuts/ShortcutsList.vala:72
-msgid "Move to display above"
-msgstr "Переместить на дисплей выше"
-
-#: src/Shortcuts/ShortcutsList.vala:73
-msgid "Move to display below"
-msgstr "Переместить на дисплей ниже"
-
-#: src/Shortcuts/ShortcutsList.vala:74
-msgid "Move to right display"
-msgstr "Переместить на дисплей справа"
-
-#: src/Shortcuts/ShortcutsList.vala:75
-msgid "Move to left display"
-msgstr "Переместить на дисплей слева"
-
-#: src/Shortcuts/ShortcutsList.vala:79 src/Views/Shortcuts.vala:41
-msgid "Workspaces"
-msgstr "Рабочие столы"
-
-#: src/Shortcuts/ShortcutsList.vala:80 src/Views/Layout.vala:75
-msgid "Multitasking View"
-msgstr "Многозадачный вид"
-
-#: src/Shortcuts/ShortcutsList.vala:81
-msgid "Switch left"
-msgstr "Переключиться на рабочий стол слева"
-
-#: src/Shortcuts/ShortcutsList.vala:82
-msgid "Switch right"
-msgstr "Переключиться на рабочий стол справа"
-
-#: src/Shortcuts/ShortcutsList.vala:83
-msgid "Switch to first"
-msgstr "Переключиться на первый рабочий стол"
-
-#: src/Shortcuts/ShortcutsList.vala:84
-msgid "Switch to new"
-msgstr "Переключиться на новый рабочий стол"
-
-#: src/Shortcuts/ShortcutsList.vala:85
-msgid "Switch to workspace 1"
-msgstr "Переключиться на рабочий стол 1"
-
-#: src/Shortcuts/ShortcutsList.vala:86
-msgid "Switch to workspace 2"
-msgstr "Переключиться на рабочий стол 2"
-
-#: src/Shortcuts/ShortcutsList.vala:87
-msgid "Switch to workspace 3"
-msgstr "Переключиться на рабочий стол 3"
-
-#: src/Shortcuts/ShortcutsList.vala:88
-msgid "Switch to workspace 4"
-msgstr "Переключиться на рабочий стол 4"
-
-#: src/Shortcuts/ShortcutsList.vala:89
-msgid "Switch to workspace 5"
-msgstr "Переключиться на рабочий стол 5"
-
-#: src/Shortcuts/ShortcutsList.vala:90
-msgid "Switch to workspace 6"
-msgstr "Переключиться на рабочий стол 6"
-
-#: src/Shortcuts/ShortcutsList.vala:91
-msgid "Switch to workspace 7"
-msgstr "Переключиться на рабочий стол 7"
-
-#: src/Shortcuts/ShortcutsList.vala:92
-msgid "Switch to workspace 8"
-msgstr "Переключиться на рабочий стол 8"
-
-#: src/Shortcuts/ShortcutsList.vala:93
-msgid "Switch to workspace 9"
-msgstr "Переключиться на рабочий стол 9"
-
-#: src/Shortcuts/ShortcutsList.vala:94
-msgid "Cycle workspaces"
-msgstr "Переключение рабочих столов"
-
-#: src/Shortcuts/ShortcutsList.vala:95
-msgid "Cycle workspaces backwards"
-msgstr "Переключение рабочих столов в обратном направлении"
-
-#: src/Shortcuts/ShortcutsList.vala:96
-msgid "Move to workspace 1"
-msgstr "Переместить окно на рабочий стол 1"
-
-#: src/Shortcuts/ShortcutsList.vala:97
-msgid "Move to workspace 2"
-msgstr "Переместить окно на рабочий стол 2"
-
-#: src/Shortcuts/ShortcutsList.vala:98
-msgid "Move to workspace 3"
-msgstr "Переместить окно на рабочий стол 3"
-
-#: src/Shortcuts/ShortcutsList.vala:99
-msgid "Move to workspace 4"
-msgstr "Переместить окно на рабочий стол 4"
-
-#: src/Shortcuts/ShortcutsList.vala:100
-msgid "Move to workspace 5"
-msgstr "Переместить окно на рабочий стол 5"
-
-#: src/Shortcuts/ShortcutsList.vala:101
-msgid "Move to workspace 6"
-msgstr "Переместить окно на рабочий стол 6"
-
-#: src/Shortcuts/ShortcutsList.vala:102
-msgid "Move to workspace 7"
-msgstr "Переместить окно на рабочий стол 7"
-
-#: src/Shortcuts/ShortcutsList.vala:103
-msgid "Move to workspace 8"
-msgstr "Переместить окно на рабочий стол 8"
-
-#: src/Shortcuts/ShortcutsList.vala:104
-msgid "Move to workspace 9"
-msgstr "Переместить окно на рабочий стол 9"
-
-#: src/Shortcuts/ShortcutsList.vala:105
-msgid "Move to left workspace"
-msgstr "Переместить на рабочий стол слева"
-
-#: src/Shortcuts/ShortcutsList.vala:106
-msgid "Move to right workspace"
-msgstr "Переместить на рабочий стол справа"
-
-#: src/Shortcuts/ShortcutsList.vala:110 src/Views/Shortcuts.vala:43
-msgid "Screenshots"
-msgstr "Снимки экрана"
-
-#: src/Shortcuts/ShortcutsList.vala:111
-msgid "Grab the whole screen"
-msgstr "Снять весь экран"
-
-#: src/Shortcuts/ShortcutsList.vala:112
-msgid "Copy the whole screen to clipboard"
-msgstr "Сохранить весь экран в буфер обмена"
-
-#: src/Shortcuts/ShortcutsList.vala:113
-msgid "Grab the current window"
-msgstr "Снять текущее окно"
-
-#: src/Shortcuts/ShortcutsList.vala:114
-msgid "Copy the current window to clipboard"
-msgstr "Сохранить текущее окно в буфер обмена"
-
-#: src/Shortcuts/ShortcutsList.vala:115
-msgid "Select an area to grab"
-msgstr "Выбрать область для снимка"
-
-#: src/Shortcuts/ShortcutsList.vala:116
-msgid "Copy an area to clipboard"
-msgstr "Сохранить область в буфер обмена"
-
-#: src/Shortcuts/ShortcutsList.vala:120 src/Views/Shortcuts.vala:45
-msgid "Applications"
-msgstr "Приложения"
-
-#: src/Shortcuts/ShortcutsList.vala:121
-msgid "Email"
-msgstr "Электронная почта"
-
-#: src/Shortcuts/ShortcutsList.vala:122
-msgid "Home Folder"
-msgstr "Домашняя папка"
-
-#: src/Shortcuts/ShortcutsList.vala:123
-msgid "Music"
-msgstr "Музыка"
-
-#: src/Shortcuts/ShortcutsList.vala:124
-msgid "Terminal"
-msgstr "Терминал"
-
-#: src/Shortcuts/ShortcutsList.vala:125
-msgid "Internet Browser"
-msgstr "Веб-браузер"
-
-#: src/Shortcuts/ShortcutsList.vala:129 src/Views/Shortcuts.vala:47
-msgid "Media"
-msgstr "Мультимедиа"
-
-#: src/Shortcuts/ShortcutsList.vala:130
-msgid "Volume Up"
-msgstr "Увеличить громкость"
-
-#: src/Shortcuts/ShortcutsList.vala:131
-msgid "Volume Down"
-msgstr "Уменьшить громкость"
-
-#: src/Shortcuts/ShortcutsList.vala:132
-msgid "Mute"
-msgstr "Приглушить звук"
-
-#: src/Shortcuts/ShortcutsList.vala:133
-msgid "Play/Pause"
-msgstr "Воспроизведение/Пауза"
-
-#: src/Shortcuts/ShortcutsList.vala:134
-msgid "Pause"
-msgstr "Пауза"
-
-#: src/Shortcuts/ShortcutsList.vala:135
-msgid "Stop"
-msgstr "Остановить"
-
-#: src/Shortcuts/ShortcutsList.vala:136
-msgid "Previous Track"
-msgstr "Предыдущая композиция"
-
-#: src/Shortcuts/ShortcutsList.vala:137
-msgid "Next Track"
-msgstr "Следующая композиция"
-
-#: src/Shortcuts/ShortcutsList.vala:138
-msgid "Eject"
-msgstr "Извлечь"
-
-#: src/Shortcuts/ShortcutsList.vala:142
-msgid "Universal Access"
-msgstr "Универсальный доступ"
-
-#: src/Shortcuts/ShortcutsList.vala:143
-msgid "Decrease Text Size"
-msgstr "Уменьшить размер текста"
-
-#: src/Shortcuts/ShortcutsList.vala:144
-msgid "Increase Text Size"
-msgstr "Увеличить размер текста"
-
-#: src/Shortcuts/ShortcutsList.vala:145
-msgid "Magnifier Zoom in"
-msgstr "Приблизить"
-
-#: src/Shortcuts/ShortcutsList.vala:146
-msgid "Magnifier Zoom out"
-msgstr "Отдалить"
-
-#: src/Shortcuts/ShortcutsList.vala:147
-msgid "Toggle On Screen Keyboard"
-msgstr "Включить экранную клавиатуру"
-
-#: src/Shortcuts/ShortcutsList.vala:148
-msgid "Toggle Screenreader"
-msgstr "Переключить экранного диктора"
-
-#: src/Shortcuts/ShortcutsList.vala:152 src/Views/Shortcuts.vala:51
-msgid "System"
-msgstr "Система"
-
-#: src/Shortcuts/ShortcutsList.vala:153 src/Views/Layout.vala:74
-msgid "Applications Menu"
-msgstr "Меню приложений"
-
-#: src/Shortcuts/ShortcutsList.vala:154
-msgid "Lock"
-msgstr "Заблокировать"
-
-#: src/Shortcuts/ShortcutsList.vala:155
-msgid "Log Out"
-msgstr "Выйти из системы"
-
-#: src/Shortcuts/ShortcutsList.vala:156
-msgid "Cycle display mode"
-msgstr "Переключение режима экрана"
-
-#: src/Shortcuts/ShortcutsList.vala:160
-msgid "Keyboard Layouts"
-msgstr "Раскладка клавиатуры"
-
-#: src/Shortcuts/ShortcutsList.vala:161
-msgid "Switch Keyboard Layout"
-msgstr "Переключить раскладку клавиатуры"
-
-#: src/Shortcuts/ShortcutsList.vala:162
-msgid "Switch Keyboard Layout Backwards"
-msgstr "Переключить раскладку клавиатуры наоборот"
-
-#: src/Shortcuts/ShortcutsList.vala:163
-msgid "Enable Emoji Typing"
-msgstr "Включить ввод эмодзи"
-
-#: src/Shortcuts/ShortcutsList.vala:164
-msgid "Enable Unicode Typing"
-msgstr "Включить ввод текста в Юникоде"
-
-#: src/Shortcuts/ShortcutsList.vala:168 src/Views/Shortcuts.vala:53
-msgid "Custom"
-msgstr "Пользовательские"
-
-#. tree view to display the current layouts
-#. Layout switching keybinding
-#. Compose key position menu
-#: src/Shortcuts/Shortcut.vala:55 src/Views/InputMethod.vala:140
-#: src/Views/Layout.vala:30 src/Views/Layout.vala:52 src/Views/Layout.vala:73
-#: src/Views/Layout.vala:92
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:100
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:401
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:86
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:343
-msgid "Disabled"
-msgstr "Отключено"
-
-#: src/Shortcuts/Shortcut.vala:61
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+msgid "New Tab"
+msgstr "Новая вкладка"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+msgid "Restore Closed Tab"
+msgstr "Восстановить закрытую вкладку"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+msgctxt "keyboard"
+msgid "Refresh"
+msgstr "Проверить обновления"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "Quit"
+msgstr "Выйти"
+
+#: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
 msgstr "Shift"
 
-#: src/Shortcuts/Shortcut.vala:69
+#: src/Shortcuts/Backend/Shortcut.vala:61
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/Shortcuts/Shortcut.vala:73
+#: src/Shortcuts/Backend/Shortcut.vala:65
 msgid "Alt"
 msgstr "Alt"
 
-#: src/Shortcuts/Shortcut.vala:77
+#: src/Shortcuts/Backend/Shortcut.vala:69
 msgid "Meta"
 msgstr "Meta"
 
-#: src/Views/Behavior.vala:16
-msgid "On-screen keyboard settings…"
-msgstr "Параметры экранной клавиатуры…"
-
-#: src/Views/Behavior.vala:38
-msgid "Delay:"
-msgstr "Задержка:"
-
-#: src/Views/Behavior.vala:42
-msgid "Interval:"
-msgstr "Интервал:"
-
-#: src/Views/Behavior.vala:74
-msgid "Speed:"
-msgstr "Скорость:"
-
-#: src/Views/Behavior.vala:78
-msgid "Duration:"
-msgstr "Длительность:"
-
-#: src/Views/Behavior.vala:118
-msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
-msgstr "Используйте ⌘, Alt, Ctrl или Shift последовательно"
-
-#: src/Views/Behavior.vala:135
-msgid "Don't accept keypresses unless held"
-msgstr "Принимать нажатия на клавиатуру только после зажатия клавиши"
-
-#: src/Views/Behavior.vala:161
-msgid "Ignore fast duplicate keypresses"
-msgstr "Игнорировать быстрые повторяющиеся нажатия"
-
-#: src/Views/Behavior.vala:179
-msgid "Event Alerts"
-msgstr "Оповещения о событиях"
-
-#: src/Views/Behavior.vala:180
-#, c-format
-msgid "Play a sound or flash the screen. %s"
-msgstr "Воспроизводить звук или подсвечивать экран. %s"
-
-#: src/Views/Behavior.vala:182
-msgid "Sound Settings…"
-msgstr "Параметры звука…"
-
-#: src/Views/Behavior.vala:187
-msgid "Caps Lock ⇪ or Num Lock keys are pressed"
-msgstr "Caps Lock ⇪ или Num Lock нажаты"
-
-#: src/Views/Behavior.vala:188
-msgid "Bounce Keys are rejected"
-msgstr "Отскакивающие клавиши отклонены"
-
-#: src/Views/Behavior.vala:189
-msgid "Sticky Keys are pressed"
-msgstr "Залипающие клавиши нажаты"
-
-#: src/Views/Behavior.vala:190
-msgid "Slow Keys are rejected"
-msgstr "Медленные клавиши отклонены"
-
-#: src/Views/Behavior.vala:206
-msgid "Type to test your settings"
-msgstr "Начните печатать, чтобы проверить настройки"
-
-#. no_daemon_runnning view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:51
-msgid "IBus Daemon is not running"
-msgstr "IBus Daemon не запущен"
-
-#: src/Views/InputMethod.vala:52
-msgid ""
-"IBus daemon must run in the background to enable or configure input method "
-"engines."
-msgstr ""
-"Сервис IBus должен работать в фоновом режиме, чтобы включить или настроить "
-"методы ввода."
-
-#: src/Views/InputMethod.vala:61
-msgid "Start IBus Daemon"
-msgstr "Запустить IBus Daemon"
-
-#: src/Views/InputMethod.vala:62
-msgid "Can be managed in System Settings → Applications → Startup"
-msgstr "Он может быть настроен в Параметры системы → Приложения → Автозапуск"
-
-#. spawn_failed view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:68
-msgid "Could not start the IBus daemon"
-msgstr "Не удалось запустить демон IBus"
-
-#: src/Views/InputMethod.vala:112
-msgid "Add…"
-msgstr "Добавить…"
-
-#: src/Views/InputMethod.vala:116 src/Widgets/Layout/Display.vala:192
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:141
-msgid "Remove"
-msgstr "Удалить"
-
-#: src/Views/InputMethod.vala:132
-msgid "Switch engines:"
-msgstr "Переключить методы ввода:"
-
-#: src/Views/InputMethod.vala:149
-msgid "Show property panel:"
-msgstr "Показать панель свойств:"
-
-#: src/Views/InputMethod.vala:156
-msgid "Do not show"
-msgstr "Не показывать"
-
-#: src/Views/InputMethod.vala:157
-msgid "Auto hide"
-msgstr "Авто-скрытие"
-
-#: src/Views/InputMethod.vala:158
-msgid "Always show"
-msgstr "Всегда показывать"
-
-#: src/Views/InputMethod.vala:160
-msgid "Embed preedit text in application window:"
-msgstr "Вставить предварительно измененный текст в окно приложения:"
-
-#: src/Views/InputMethod.vala:391
-msgid "IBus Daemon"
-msgstr "Демон IBus"
-
-#: src/Views/InputMethod.vala:394
-msgid "Use and manage input methods"
-msgstr "Используйте и управляйте методами ввода"
-
-#: src/Views/InputMethod.vala:457
-msgid "Type to test your input method"
-msgstr "Введите что-то для проверки метода ввода"
-
-#: src/Views/InputMethod.vala:460
-msgid "A keyboard layout is active"
-msgstr "Раскладка клавиатуры активна"
-
-#: src/Views/Layout.vala:31
-msgid "Alt + Caps Lock"
-msgstr "Alt + Caps Lock"
-
-#: src/Views/Layout.vala:32
-msgid "Alt + Shift"
-msgstr "Alt + Shift"
-
-#: src/Views/Layout.vala:33
-msgid "Alt + Space"
-msgstr "Alt + Пробел"
-
-#: src/Views/Layout.vala:34
-msgid "Both Shift keys together"
-msgstr "Оба Shift, нажатые вместе"
-
-#: src/Views/Layout.vala:35 src/Views/Layout.vala:53 src/Views/Layout.vala:254
-msgid "Caps Lock"
-msgstr "Caps Lock"
-
-#: src/Views/Layout.vala:36
-msgid "Ctrl + Alt"
-msgstr "Ctrl + Alt"
-
-#: src/Views/Layout.vala:37
-msgid "Ctrl + Shift"
-msgstr "Ctrl + Shift"
-
-#: src/Views/Layout.vala:38
-msgid "Shift + Caps Lock"
-msgstr "Shift + Caps Lock"
-
-#: src/Views/Layout.vala:46
-msgid "Switch layout:"
-msgstr "Смена раскладки:"
-
-#: src/Views/Layout.vala:54
-msgid "Menu"
-msgstr "Меню"
-
-#: src/Views/Layout.vala:55 src/Views/Layout.vala:256 src/Views/Layout.vala:271
-msgid "Right Alt"
-msgstr "Правый Alt"
-
-#: src/Views/Layout.vala:56 src/Views/Layout.vala:257 src/Views/Layout.vala:272
-msgid "Right Ctrl"
-msgstr "Правый Ctrl"
-
-#: src/Views/Layout.vala:57 src/Views/Layout.vala:258 src/Views/Layout.vala:273
-msgid "Right ⌘"
-msgstr "Правый ⌘"
-
-#: src/Views/Layout.vala:65
-msgid "Compose key:"
-msgstr "Композиционная клавиша:"
-
-#: src/Views/Layout.vala:78
-msgid "⌘ key behavior:"
-msgstr "Поведение клавиши ⌘:"
-
-#: src/Views/Layout.vala:84
-msgid "Shortcut Overlay"
-msgstr "Окно сочетаний клавиш"
-
-#: src/Views/Layout.vala:93
-msgid "as Backspace"
-msgstr "как Backspace"
-
-#: src/Views/Layout.vala:94
-msgid "as Ctrl"
-msgstr "как Ctrl"
-
-#: src/Views/Layout.vala:95
-msgid "as Escape"
-msgstr "как Escape"
-
-#: src/Views/Layout.vala:96
-msgid "as Num Lock"
-msgstr "как Num Lock"
-
-#: src/Views/Layout.vala:97
-msgid "as ⌘"
-msgstr "как ⌘"
-
-#: src/Views/Layout.vala:98
-msgid "Swap with Ctrl"
-msgstr "Поменять с Ctrl"
-
-#: src/Views/Layout.vala:99
-msgid "Swap with Escape"
-msgstr "Поменять с Escape"
-
-#: src/Views/Layout.vala:107
-msgid "Caps Lock behavior:"
-msgstr "Поведение Caps Lock:"
-
-#: src/Views/Layout.vala:240 src/Views/Layout.vala:266
-msgid "Key to choose 3rd level:"
-msgstr "Клавиша выбора 3-го уровня:"
-
-#: src/Views/Layout.vala:255
-msgid "Left Alt"
-msgstr "Левый Alt"
-
-#: src/Views/Layout.vala:280
-msgid "Key to choose 5th level:"
-msgstr "Клавиша выбора 5-го уровня:"
-
-#: src/Views/Layout.vala:297
-msgid "Kana Lock:"
-msgstr "Kana Lock:"
-
-#: src/Views/Layout.vala:304
-msgid "Nicola F Backspace:"
-msgstr "Backspace как в Nicola-F:"
-
-#: src/Views/Layout.vala:311
-msgid "Hankaku Zenkaku as Escape:"
-msgstr "Hankaku Zenkaku как Escape:"
-
-#: src/Views/Layout.vala:330
-msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
-msgstr "Hangul/Hanja на правых Alt/Ctrl:"
-
-#: src/Views/Layout.vala:408
-msgid "Type to test your layout"
-msgstr "Начните печатать, чтобы проверить раскладку"
-
-#: src/Views/Layout.vala:411
-msgid "Input Method is active"
-msgstr "Метод ввода активен"
-
-#: src/Views/Shortcuts.vala:49
-msgid "Accessibility"
+#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+msgid "Windows"
+msgstr "Окна"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:55
+msgid "Lower"
+msgstr "Убрать окно из фокуса"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:56
+msgid "Maximize"
+msgstr "Развернуть"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:57
+msgid "Unmaximize"
+msgstr "Восстановить размер"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:58
+msgid "Toggle Maximized"
+msgstr "Развернуть/восстановить"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:59
+msgid "Hide"
+msgstr "Скрыть"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:60
+msgid "Toggle Fullscreen"
+msgstr "Переключить полноэкранный режим"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:61
+msgid "Toggle on all Workspaces"
+msgstr "Показать на всех рабочих столах"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:62
+msgid "Toggle always on Top"
+msgstr "Поверх всех окон"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:63
+msgid "Cycle Windows"
+msgstr "Переключение окон"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:64
+msgid "Cycle Windows backwards"
+msgstr "Переключение окон в обратном направлении"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:65
+msgid "Cycle Windows of application"
+msgstr "Переключение окон приложения"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:66
+msgid "Cycle Windows of application backwards"
+msgstr "Переключение окон приложения в обратном направлении"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:67
+msgid "Tile Left"
+msgstr "Закрепить слева"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:68
+msgid "Tile Right"
+msgstr "Закрепить справа"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
+msgid "Window Overview"
+msgstr "Показать открытые окна"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
+msgid "Show All Windows"
+msgstr "Показать все открытые окна"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
+msgid "Picture in Picture Mode"
+msgstr "Режим «картинка в картинке»"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
+msgid "Move to display above"
+msgstr "Переместить на дисплей выше"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
+msgid "Move to display below"
+msgstr "Переместить на дисплей ниже"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
+msgid "Move to right display"
+msgstr "Переместить на дисплей справа"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
+msgid "Move to left display"
+msgstr "Переместить на дисплей слева"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
+msgid "Workspaces"
+msgstr "Рабочие столы"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
+msgid "Switch left"
+msgstr "Переключиться на рабочий стол слева"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
+msgid "Switch right"
+msgstr "Переключиться на рабочий стол справа"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
+msgid "Switch to first"
+msgstr "Переключиться на первый рабочий стол"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
+msgid "Switch to new"
+msgstr "Переключиться на новый рабочий стол"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
+msgid "Switch to workspace 1"
+msgstr "Переключиться на рабочий стол 1"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
+msgid "Switch to workspace 2"
+msgstr "Переключиться на рабочий стол 2"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
+msgid "Switch to workspace 3"
+msgstr "Переключиться на рабочий стол 3"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
+msgid "Switch to workspace 4"
+msgstr "Переключиться на рабочий стол 4"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
+msgid "Switch to workspace 5"
+msgstr "Переключиться на рабочий стол 5"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
+msgid "Switch to workspace 6"
+msgstr "Переключиться на рабочий стол 6"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:91
+msgid "Switch to workspace 7"
+msgstr "Переключиться на рабочий стол 7"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:92
+msgid "Switch to workspace 8"
+msgstr "Переключиться на рабочий стол 8"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:93
+msgid "Switch to workspace 9"
+msgstr "Переключиться на рабочий стол 9"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:94
+msgid "Cycle workspaces"
+msgstr "Переключение рабочих столов"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:95
+msgid "Cycle workspaces backwards"
+msgstr "Переключение рабочих столов в обратном направлении"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:96
+msgid "Move to workspace 1"
+msgstr "Переместить окно на рабочий стол 1"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:97
+msgid "Move to workspace 2"
+msgstr "Переместить окно на рабочий стол 2"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
+msgid "Move to workspace 3"
+msgstr "Переместить окно на рабочий стол 3"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
+msgid "Move to workspace 4"
+msgstr "Переместить окно на рабочий стол 4"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
+msgid "Move to workspace 5"
+msgstr "Переместить окно на рабочий стол 5"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
+msgid "Move to workspace 6"
+msgstr "Переместить окно на рабочий стол 6"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
+msgid "Move to workspace 7"
+msgstr "Переместить окно на рабочий стол 7"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
+msgid "Move to workspace 8"
+msgstr "Переместить окно на рабочий стол 8"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
+msgid "Move to workspace 9"
+msgstr "Переместить окно на рабочий стол 9"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
+msgid "Move to left workspace"
+msgstr "Переместить на рабочий стол слева"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
+msgid "Move to right workspace"
+msgstr "Переместить на рабочий стол справа"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
+msgid "Screenshots"
+msgstr "Снимки экрана"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
+msgid "Grab the whole screen"
+msgstr "Захватить весь экран"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
+msgid "Copy the whole screen to clipboard"
+msgstr "Сохранить весь экран в буфер обмена"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
+msgid "Grab the current window"
+msgstr "Захватить текущее окно"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
+msgid "Copy the current window to clipboard"
+msgstr "Сохранить текущее окно в буфер обмена"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
+msgid "Select an area to grab"
+msgstr "Выбрать область захвата"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
+msgid "Copy an area to clipboard"
+msgstr "Сохранить область в буфер обмена"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
+msgid "Applications"
+msgstr "Приложения"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
+msgid "Email"
+msgstr "Электронная почта"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
+msgid "Home Folder"
+msgstr "Домашняя папка"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
+msgid "Music"
+msgstr "Музыка"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:124
+msgid "Terminal"
+msgstr "Терминал"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:125
+msgid "Internet Browser"
+msgstr "Веб-браузер"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:126
+msgid "Launch first dock item"
+msgstr "Запустить первый элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:127
+msgid "Launch second dock item"
+msgstr "Запустить второй элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:128
+msgid "Launch third dock item"
+msgstr "Запустить третий элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:129
+msgid "Launch fourth dock item"
+msgstr "Запустить четвёртый элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
+msgid "Launch fifth dock item"
+msgstr "Запустить пятый элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
+msgid "Launch sixth dock item"
+msgstr "Запустить шестой элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
+msgid "Launch seventh dock item"
+msgstr "Запустить седьмой элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
+msgid "Launch eighth dock item"
+msgstr "Запустить восьмой элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
+msgid "Launch ninth dock item"
+msgstr "Запустить девятый элемент дока"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
+msgid "Media"
+msgstr "Мультимедиа"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:139
+msgid "Volume Up"
+msgstr "Увеличить громкость"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:140
+msgid "Volume Down"
+msgstr "Уменьшить громкость"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:141
+msgid "Mute"
+msgstr "Отключить звук"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
+msgid "Play/Pause"
+msgstr "Воспроизведение/Пауза"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
+msgid "Pause"
+msgstr "Пауза"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
+msgid "Stop"
+msgstr "Остановить"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
+msgid "Previous Track"
+msgstr "Предыдущая композиция"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
+msgid "Next Track"
+msgstr "Следующая композиция"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
+msgid "Eject"
+msgstr "Извлечь"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
+msgid "Universal Access"
 msgstr "Универсальный доступ"
 
-#: src/Views/Shortcuts.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
+msgid "Decrease Text Size"
+msgstr "Уменьшить размер текста"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
+msgid "Increase Text Size"
+msgstr "Увеличить размер текста"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
+msgid "Magnifier Zoom in"
+msgstr "Приблизить"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
+msgid "Magnifier Zoom out"
+msgstr "Отдалить"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:156
+msgid "Toggle On Screen Keyboard"
+msgstr "Включить экранную клавиатуру"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:157
+msgid "Toggle Screenreader"
+msgstr "Переключить экранного диктора"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
+msgid "System"
+msgstr "Система"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
+msgid "Lock"
+msgstr "Заблокировать"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
+msgid "Log Out"
+msgstr "Выйти из системы"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
+msgid "Cycle display mode"
+msgstr "Переключение режима экрана"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
+msgid "Keyboard Layouts"
+msgstr "Раскладка клавиатуры"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
+msgid "Switch Keyboard Layout"
+msgstr "Переключить раскладку клавиатуры"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:171
+msgid "Switch Keyboard Layout Backwards"
+msgstr "Переключить раскладку клавиатуры наоборот"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:172
+msgid "Enable Emoji Typing"
+msgstr "Включить ввод эмодзи"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:173
+msgid "Enable Unicode Typing"
+msgstr "Включить ввод текста в Юникоде"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
+msgid "Custom"
+msgstr "Пользовательские"
+
+#: src/Shortcuts/Widgets/AppChooser.vala:15
+msgid "Search Applications"
+msgstr "Поиск приложений"
+
+#: src/Shortcuts/Widgets/AppChooser.vala:33
+msgid "Type in a custom command"
+msgstr "Введите свою команду"
+
+#. TRANSLATORS: This string is used by screen reader
+#: src/Shortcuts/Widgets/AppChooser.vala:50
+msgid "Select an app"
+msgstr "Выберите приложение"
+
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
 msgstr "Добавить сочетание клавиш"
 
-#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
-#. /to look for a input method engine they want to add.
-#. /It does not mean search engines in web browsers.
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:36
-msgid "Search engine"
-msgstr "Искать метод ввода"
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
+msgid "Custom Command"
+msgstr "Пользовательская команда"
 
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:52
-msgid "Install Unlisted Engines…"
-msgstr "Установить методы ввода вне списка…"
-
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:56
-msgid "Add Engine"
-msgstr "Добавить метод ввода"
-
-#: src/Widgets/Layout/Display.vala:41
-msgid "Add Keyboard Layout…"
-msgstr "Добавить раскладку клавиатуры…"
-
-#: src/Widgets/Layout/Display.vala:196
-msgid "Move up"
-msgstr "Переместить выше"
-
-#: src/Widgets/Layout/Display.vala:200
-msgid "Move down"
-msgstr "Переместить ниже"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:97
-msgid "Enter a command here"
-msgstr "Введите команду сюда"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:130
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Задать новое сочетание клавиш"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:135
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Отключить"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:273
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Ввести новое сочетание клавиш…"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:343
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Не удалось установить новое сочетание клавиш из-за конфликтов"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:344
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "«%s» уже используется для «%s→%s»."
 
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 msgid "Reset to Default"
 msgstr "Сбросить до настроек по умолчанию"
+
+#: src/Shortcuts/Shortcuts.vala:49
+msgid "Accessibility"
+msgstr "Универсальный доступ"
+
+#~ msgid "Enter a command here"
+#~ msgstr "Введите команду сюда"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s уже используется для %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "Если вы переназначите сочетание клавиш на %s, то %s будет отключён."
+
+#~ msgid "Reassign"
+#~ msgstr "Переопределить"
+
+#~ msgid "Add…"
+#~ msgstr "Добавить…"
 
 #~ msgid "On-screen Keyboard"
 #~ msgstr "Экранная клавиатура"
@@ -951,9 +1154,6 @@ msgstr "Сбросить до настроек по умолчанию"
 
 #~ msgid "Add"
 #~ msgstr "Добавить"
-
-#~ msgid "Command"
-#~ msgstr "Команда"
 
 #~ msgid "Show candidate window:"
 #~ msgstr "Показать окно-кандидат:"

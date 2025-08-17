@@ -222,6 +222,7 @@ public class Keyboard.InputMethodPage.Page : Gtk.Box {
         margin_start = 12;
         margin_end = 12;
         margin_bottom = 12;
+        margin_top = 12;
         append (stack);
 
         set_visible_view ();

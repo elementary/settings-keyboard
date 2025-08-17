@@ -20,7 +20,7 @@
 public class Keyboard.Plug : Switchboard.Plug {
     public static GLib.Settings ibus_general_settings;
 
-    private Gtk.Box box;
+    private Adw.ToolbarView toolbarview;
     private Gtk.Stack stack;
 
     public Plug () {
@@ -47,12 +47,10 @@ public class Keyboard.Plug : Switchboard.Plug {
     }
 
     public override Gtk.Widget get_widget () {
-        if (box == null) {
+        if (toolbarview == null) {
             Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_resource_path ("/io/elementary/settings/keyboard");
 
-            stack = new Gtk.Stack () {
-                margin_top = 9
-            };
+            stack = new Gtk.Stack ();
             stack.add_titled (new Keyboard.LayoutPage.Page (), "layout", _("Layout"));
             stack.add_titled (new Keyboard.InputMethodPage.Page (), "inputmethod", _("Input Method"));
             stack.add_titled (new Keyboard.Shortcuts.Page (), "shortcuts", _("Shortcuts"));
@@ -74,12 +72,13 @@ public class Keyboard.Plug : Switchboard.Plug {
             };
             headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
 
-            box = new Gtk.Box (VERTICAL, 0);
-            box.append (headerbar);
-            box.append (stack);
+            toolbarview = new Adw.ToolbarView () {
+                content = stack
+            };
+            toolbarview.add_top_bar (headerbar);
         }
 
-        return box;
+        return toolbarview;
     }
 
     public override void shown () {

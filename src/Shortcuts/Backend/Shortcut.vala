@@ -1,21 +1,7 @@
 /*
-* Copyright (c) 2017 elementary, LLC. (https://elementary.io)
-*
-* This program is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public
-* License as published by the Free Software Foundation; either
-* version 2 of the License, or (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* General Public License for more details.
-*
-* You should have received a copy of the GNU General Public
-* License along with this program; if not, write to the
-* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-* Boston, MA 02110-1301 USA
-*/
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2017-2025 elementary, Inc. (https://elementary.io)
+ */
 
 // stores a shortcut, converts to gsettings format and readable format
 // and checks for validity
@@ -24,8 +10,14 @@ public class Keyboard.Shortcuts.Shortcut : GLib.Object {
     public uint accel_key { get; construct; }
 
     private const string SEPARATOR = " + ";
+    private const uint A_UPPERCASE_ASCII = 65;
+    private const uint Z_UPPERCASE_ASCII = 90;
 
     public Shortcut (uint key = 0, Gdk.ModifierType mod = (Gdk.ModifierType) 0) {
+        if (key >= A_UPPERCASE_ASCII && key <= Z_UPPERCASE_ASCII) {
+            key = (uint) (((char) key).to_string ().ascii_down ()[0]);
+        }
+
         Object (
             accel_key: key,
             modifiers: mod
@@ -99,11 +91,7 @@ public class Keyboard.Shortcuts.Shortcut : GLib.Object {
     }
 
     public bool is_equal (Shortcut shortcut) {
-        if (shortcut.modifiers == modifiers && shortcut.accel_key == accel_key) {
-            return true;
-        }
-
-        return false;
+        return shortcut.modifiers == modifiers && shortcut.accel_key == accel_key;
     }
 
     // validator

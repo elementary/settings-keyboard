@@ -7,90 +7,196 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 17:21+0000\n"
-"PO-Revision-Date: 2024-02-01 02:42+0000\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"PO-Revision-Date: 2025-06-13 08:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/ja/>\n"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-17 05:47+0000\n"
 
-#: src/Dialogs/AddLayoutDialog.vala:21
-msgid "Input Language"
-msgstr "入力言語"
+#: src/Behavior/Behavior.vala:8 src/Plug.vala:128
+msgid "Show On-screen Keyboard"
+msgstr "オンスクリーンキーボードを表示"
 
-#: src/Dialogs/AddLayoutDialog.vala:22
-msgid "Layout List"
-msgstr "レイアウトの一覧"
+#: src/Behavior/Behavior.vala:16
+msgid "On-screen keyboard settings…"
+msgstr "オンスクリーンキーボードの設定…"
 
-#: src/Dialogs/AddLayoutDialog.vala:42
-msgid "Search input language"
-msgstr "入力言語を検索"
+#: src/Behavior/Behavior.vala:38
+msgid "Delay:"
+msgstr "遅延:"
 
-#: src/Dialogs/AddLayoutDialog.vala:102
-msgid "Preview Layout"
-msgstr "レイアウトをプレビュー"
+#: src/Behavior/Behavior.vala:42
+msgid "Interval:"
+msgstr "間隔:"
 
-#: src/Dialogs/AddLayoutDialog.vala:150 src/Dialogs/ConflictDialog.vala:36
-#: src/Dialogs/ProgressDialog.vala:60
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:54
-msgid "Cancel"
-msgstr "キャンセル"
+#: src/Behavior/Behavior.vala:51 src/Plug.vala:131
+msgid "Repeat Keys"
+msgstr "連続入力"
 
-#: src/Dialogs/AddLayoutDialog.vala:152
-msgid "Add Layout"
-msgstr "レイアウトを追加"
+#: src/Behavior/Behavior.vala:74
+msgid "Speed:"
+msgstr "速度:"
 
-#. Caps Lock key functionality
-#: src/Dialogs/AddLayoutDialog.vala:245 src/Dialogs/AddLayoutDialog.vala:249
-#: src/Views/Layout.vala:91 src/Views/Layout.vala:253 src/Xkb/Handler.vala:95
-msgid "Default"
-msgstr "デフォルト"
+#: src/Behavior/Behavior.vala:78
+msgid "Duration:"
+msgstr "再生時間:"
 
-#: src/Dialogs/ConflictDialog.vala:26
+#: src/Behavior/Behavior.vala:87 src/Plug.vala:130
+msgid "Cursor Blinking"
+msgstr "カーソルの点滅"
+
+#: src/Behavior/Behavior.vala:116 src/Plug.vala:133
+msgid "Sticky Keys"
+msgstr "固定キー"
+
+#: src/Behavior/Behavior.vala:118
+msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
+msgstr ""
+"⌘、Alt、Ctrl、および Shift を含む操作を、キーを 1 つずつ押すことで実現します"
+
+#: src/Behavior/Behavior.vala:133 src/Plug.vala:132
+msgid "Slow Keys"
+msgstr "スローキー"
+
+#: src/Behavior/Behavior.vala:135
+msgid "Don't accept keypresses unless held"
+msgstr "キーが長く押された場合に入力とみなします"
+
+#: src/Behavior/Behavior.vala:159 src/Plug.vala:129
+msgid "Bounce Keys"
+msgstr "バウンスキー"
+
+#: src/Behavior/Behavior.vala:161
+msgid "Ignore fast duplicate keypresses"
+msgstr "同じキーが連打された場合、重複する入力を無視します"
+
+#: src/Behavior/Behavior.vala:179
+msgid "Event Alerts"
+msgstr "イベント警告"
+
+#: src/Behavior/Behavior.vala:180
 #, c-format
-msgid "%s is already used for %s"
-msgstr "%s はすでに %s で使用されています"
+msgid "Play a sound or flash the screen. %s"
+msgstr "音を鳴らしたり、画面を発光させたりします。%s"
 
-#: src/Dialogs/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
-msgstr "%s にショートカットを再割り当てすると、%s は無効になります。"
+#: src/Behavior/Behavior.vala:182
+msgid "Sound Settings…"
+msgstr "サウンドの設定…"
 
-#: src/Dialogs/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "再割り当て"
+#: src/Behavior/Behavior.vala:187
+msgid "Caps Lock ⇪ or Num Lock keys are pressed"
+msgstr "Caps Lock ⇪ または Num Lock キーが押下された場合"
 
-#: src/Dialogs/InstallEngineDialog.vala:24
-msgid "Choose an engine to install"
-msgstr "インストールするエンジンを選択してください"
+#: src/Behavior/Behavior.vala:188
+msgid "Bounce Keys are rejected"
+msgstr "バウンスキーが拒否された場合"
 
-#: src/Dialogs/InstallEngineDialog.vala:25
-msgid "Select an engine from the list to install and use."
-msgstr "インストールして使用するエンジンを一覧から選択してください。"
+#: src/Behavior/Behavior.vala:189
+msgid "Sticky Keys are pressed"
+msgstr "固定キーが押下された場合"
 
-#: src/Dialogs/InstallEngineDialog.vala:45
-msgid "Languages"
-msgstr "言語"
+#: src/Behavior/Behavior.vala:190
+msgid "Slow Keys are rejected"
+msgstr "スローキーが拒否された場合"
 
-#: src/Dialogs/InstallEngineDialog.vala:99
-msgid "Install"
-msgstr "インストール"
+#: src/Behavior/Behavior.vala:206
+msgid "Type to test your settings"
+msgstr "入力して設定を確認"
 
-#: src/Dialogs/ProgressDialog.vala:47
-#, c-format
-msgid "Installing %s"
-msgstr "%s をインストールしています"
+#. no_daemon_runnning view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:50
+msgid "IBus Daemon is not running"
+msgstr "IBus デーモンが起動していません"
 
-#: src/Dialogs/ProgressDialog.vala:50
-#, c-format
-msgid "Removing %s"
-msgstr "%s を削除しています"
+#: src/InputMethod/InputMethod.vala:51
+msgid ""
+"IBus daemon must run in the background to enable or configure input method "
+"engines."
+msgstr ""
+"インプットメソッドエンジンを有効化したり設定したりするには、IBus デーモンを"
+"バックグラウンドで起動しておく必要があります。"
+
+#: src/InputMethod/InputMethod.vala:60
+msgid "Start IBus Daemon"
+msgstr "IBus デーモンを起動"
+
+#: src/InputMethod/InputMethod.vala:61
+msgid "Can be managed in System Settings → Applications → Startup"
+msgstr "システム設定 → アプリケーション → 自動起動 で変更できます"
+
+#. spawn_failed view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:67
+msgid "Could not start the IBus daemon"
+msgstr "IBus デーモンを起動できませんでした"
+
+#: src/InputMethod/InputMethod.vala:105
+msgid "Add Engine…"
+msgstr "エンジンを追加…"
+
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
+msgid "Remove"
+msgstr "削除"
+
+#: src/InputMethod/InputMethod.vala:149
+msgid "Switch engines:"
+msgstr "エンジンを切り替え:"
+
+#. tree view to display the current layouts
+#. Layout switching keybinding
+#. Compose key position menu
+#: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
+#: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
+#: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+msgid "Disabled"
+msgstr "無効"
+
+#: src/InputMethod/InputMethod.vala:166
+msgid "Show property panel:"
+msgstr "プロパティパネルを表示:"
+
+#: src/InputMethod/InputMethod.vala:173
+msgid "Do not show"
+msgstr "表示しない"
+
+#: src/InputMethod/InputMethod.vala:174
+msgid "Auto hide"
+msgstr "自動的に非表示"
+
+#: src/InputMethod/InputMethod.vala:175
+msgid "Always show"
+msgstr "常に表示"
+
+#: src/InputMethod/InputMethod.vala:177
+msgid "Embed preedit text in application window:"
+msgstr "インライン入力:"
+
+#: src/InputMethod/InputMethod.vala:403
+msgid "IBus Daemon"
+msgstr "IBus デーモン"
+
+#: src/InputMethod/InputMethod.vala:406
+msgid "Use and manage input methods"
+msgstr "インプットメソッドを使用・管理します"
+
+#: src/InputMethod/InputMethod.vala:439
+msgid "Type to test your input method"
+msgstr "入力してインプットメソッドを確認"
+
+#: src/InputMethod/InputMethod.vala:442
+msgid "A keyboard layout is active"
+msgstr "キーボードレイアウトが有効です"
 
 #: src/InputMethod/Installer/InstallList.vala:26
 msgid "Japanese"
@@ -104,6 +210,237 @@ msgstr "韓国語"
 msgid "Chinese"
 msgstr "中国語"
 
+#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
+#. /to look for a input method engine they want to add.
+#. /It does not mean search engines in web browsers.
+#: src/InputMethod/Widgets/AddEngineDialog.vala:43
+msgid "Search engine"
+msgstr "エンジンを検索"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:73
+msgid "Install Unlisted Engines…"
+msgstr "一覧にないエンジンをインストール…"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:75
+#: src/InputMethod/Widgets/ProgressDialog.vala:60
+#: src/Layout/Widgets/AddLayoutDialog.vala:150
+#: src/Shortcuts/Widgets/AppChooser.vala:47
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:77
+msgid "Add Engine"
+msgstr "エンジンを追加"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:24
+msgid "Choose an engine to install"
+msgstr "インストールするエンジンを選択してください"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:25
+msgid "Select an engine from the list to install and use."
+msgstr "インストールして使用するエンジンを一覧から選択してください。"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:45
+msgid "Languages"
+msgstr "言語"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:99
+msgid "Install"
+msgstr "インストール"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:47
+#, c-format
+msgid "Installing %s"
+msgstr "%s をインストールしています"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:50
+#, c-format
+msgid "Removing %s"
+msgstr "%s を削除しています"
+
+#. Caps Lock key functionality
+#: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
+#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Widgets/AddLayoutDialog.vala:249
+msgid "Default"
+msgstr "デフォルト"
+
+#: src/Layout/Layout.vala:31
+msgid "Alt + Caps Lock"
+msgstr "Alt + Caps Lock"
+
+#: src/Layout/Layout.vala:32
+msgid "Alt + Shift"
+msgstr "Alt + Shift"
+
+#: src/Layout/Layout.vala:33
+msgid "Alt + Space"
+msgstr "Alt + Space"
+
+#: src/Layout/Layout.vala:34
+msgid "Both Shift keys together"
+msgstr "両方の Shift キーを同時押し"
+
+#: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
+#: src/Layout/Layout.vala:255
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#: src/Layout/Layout.vala:36
+msgid "Ctrl + Alt"
+msgstr "Ctrl + Alt"
+
+#: src/Layout/Layout.vala:37
+msgid "Ctrl + Shift"
+msgstr "Ctrl + Shift"
+
+#: src/Layout/Layout.vala:38
+msgid "Shift + Caps Lock"
+msgstr "Shift + Caps Lock"
+
+#: src/Layout/Layout.vala:46
+msgid "Switch layout:"
+msgstr "レイアウトを切り替え:"
+
+#: src/Layout/Layout.vala:54
+msgid "Menu"
+msgstr "メニュー"
+
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
+#: src/Layout/Layout.vala:272
+msgid "Right Alt"
+msgstr "右 Alt"
+
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
+#: src/Layout/Layout.vala:273
+msgid "Right Ctrl"
+msgstr "右 Ctrl"
+
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
+#: src/Layout/Layout.vala:274
+msgid "Right ⌘"
+msgstr "右 ⌘"
+
+#: src/Layout/Layout.vala:65
+msgid "Compose key:"
+msgstr "コンポーズキー:"
+
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+msgid "Applications Menu"
+msgstr "アプリケーションメニュー"
+
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+msgid "Multitasking View"
+msgstr "マルチタスク画面"
+
+#: src/Layout/Layout.vala:78
+msgid "⌘ key behavior:"
+msgstr "⌘ キーの挙動:"
+
+#: src/Layout/Layout.vala:84
+msgid "Shortcut Overlay"
+msgstr "ショートカットオーバーレイ"
+
+#: src/Layout/Layout.vala:93
+msgid "as Backspace"
+msgstr "バックスペース"
+
+#: src/Layout/Layout.vala:94
+msgid "as Ctrl"
+msgstr "Ctrl"
+
+#: src/Layout/Layout.vala:95
+msgid "as Escape"
+msgstr "Esc"
+
+#: src/Layout/Layout.vala:96
+msgid "as Num Lock"
+msgstr "Num Lock"
+
+#: src/Layout/Layout.vala:97
+msgid "as ⌘"
+msgstr "⌘"
+
+#: src/Layout/Layout.vala:98
+msgid "Swap with Ctrl"
+msgstr "Ctrl と入れ替える"
+
+#: src/Layout/Layout.vala:99
+msgid "Swap with Escape"
+msgstr "Esc と入れ替える"
+
+#: src/Layout/Layout.vala:107
+msgid "Caps Lock behavior:"
+msgstr "Caps Lock の挙動:"
+
+#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+msgid "Key to choose 3rd level:"
+msgstr "3rd level を選択するキー:"
+
+#: src/Layout/Layout.vala:256
+msgid "Left Alt"
+msgstr "左 Alt"
+
+#: src/Layout/Layout.vala:281
+msgid "Key to choose 5th level:"
+msgstr "5th level を選択するキー:"
+
+#: src/Layout/Layout.vala:298
+msgid "Kana Lock:"
+msgstr "かなロック:"
+
+#: src/Layout/Layout.vala:305
+msgid "Nicola F Backspace:"
+msgstr "NICOLA-F バックスペース:"
+
+#: src/Layout/Layout.vala:312
+msgid "Hankaku Zenkaku as Escape:"
+msgstr "半角/全角を Esc として扱う:"
+
+#: src/Layout/Layout.vala:331
+msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
+msgstr "ハングル/漢字キーを右 Alt/Ctrl に割り当て:"
+
+#: src/Layout/Layout.vala:409
+msgid "Type to test your layout"
+msgstr "入力してレイアウトを確認"
+
+#: src/Layout/Layout.vala:412
+msgid "Input Method is active"
+msgstr "インプットメソッドが有効です"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:21
+msgid "Input Language"
+msgstr "入力言語"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:22
+msgid "Layout List"
+msgstr "レイアウトの一覧"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:42
+msgid "Search input language"
+msgstr "入力言語を検索"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:102
+msgid "Preview Layout"
+msgstr "レイアウトをプレビュー"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:152
+msgid "Add Layout"
+msgstr "レイアウトを追加"
+
+#: src/Layout/Widgets/Display.vala:41
+msgid "Add Keyboard Layout…"
+msgstr "キーボードレイアウトを追加…"
+
+#: src/Layout/Widgets/Display.vala:196
+msgid "Move up"
+msgstr "上へ移動"
+
+#: src/Layout/Widgets/Display.vala:200
+msgid "Move down"
+msgstr "下へ移動"
+
 #: src/Plug.vala:39
 msgid "Keyboard"
 msgstr "キーボード"
@@ -112,815 +449,681 @@ msgstr "キーボード"
 msgid "Configure keyboard behavior, layouts, and shortcuts"
 msgstr "キーボードの挙動、レイアウト、ショートカットを設定します"
 
-#: src/Plug.vala:54 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119 src/Plug.vala:120
+#: src/Plug.vala:54 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120 src/Plug.vala:121
 msgid "Layout"
 msgstr "レイアウト"
 
-#: src/Plug.vala:55 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
-#: src/Plug.vala:124
+#: src/Plug.vala:55 src/Plug.vala:122 src/Plug.vala:123 src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Input Method"
 msgstr "インプットメソッド"
 
-#: src/Plug.vala:56 src/Plug.vala:125
+#: src/Plug.vala:56 src/Plug.vala:126
 msgid "Shortcuts"
 msgstr "ショートカット"
 
-#: src/Plug.vala:57 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
-#: src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132
+#: src/Plug.vala:57 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 msgid "Behavior"
 msgstr "挙動"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:118
 msgid "Switch layout"
 msgstr "レイアウトを切り替え"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Compose Key"
 msgstr "コンポーズキー"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "⌘ key behavior"
 msgstr "⌘ キーの挙動"
 
-#: src/Plug.vala:120
+#: src/Plug.vala:121
 msgid "Caps Lock behavior"
 msgstr "Caps Lock の挙動"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Switch engines"
 msgstr "エンジンを切り替え"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Show candidate window"
 msgstr "候補ウィンドウを表示"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Embed preedit text in application window"
 msgstr "インライン入力"
 
-#: src/Plug.vala:127 src/Views/Behavior.vala:8
-msgid "Show On-screen Keyboard"
-msgstr "オンスクリーンキーボードを表示"
+#. / The name of Ctrl + C shortcut: "Edit -> Copy"
+#. / The name of Ctrl + V shortcut: "Edit -> Paste"
+#. / The name of Ctrl + X shortcut: "Edit -> Cut"
+#. / The name of Ctrl + Z shortcut: "Edit -> Undo"
+#. / The name of Ctrl + Y shortcut: "Edit -> Redo"
+#. / The name of Ctrl + F shortcut: "Edit -> Find"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Edit"
+msgstr "編集"
 
-#: src/Plug.vala:128 src/Views/Behavior.vala:159
-msgid "Bounce Keys"
-msgstr "バウンスキー"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+msgid "Copy"
+msgstr "コピー"
 
-#: src/Plug.vala:129 src/Views/Behavior.vala:87
-msgid "Cursor Blinking"
-msgstr "カーソルの点滅"
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+msgid "Paste"
+msgstr "貼り付け"
 
-#: src/Plug.vala:130 src/Views/Behavior.vala:51
-msgid "Repeat Keys"
-msgstr "連続入力"
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+msgid "Cut"
+msgstr "切り取り"
 
-#: src/Plug.vala:131 src/Views/Behavior.vala:133
-msgid "Slow Keys"
-msgstr "スローキー"
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+msgid "Undo"
+msgstr "元に戻す"
 
-#: src/Plug.vala:132 src/Views/Behavior.vala:116
-msgid "Sticky Keys"
-msgstr "固定キー"
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+msgid "Redo"
+msgstr "やり直す"
 
-#: src/Shortcuts/ShortcutsList.vala:53 src/Views/Shortcuts.vala:39
-msgid "Windows"
-msgstr "ウィンドウ"
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Find"
+msgstr "検索"
 
-#: src/Shortcuts/ShortcutsList.vala:54
+#. / The name of Ctrl + A shortcut: "Selection -> Select All"
+#. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
+#. / The name of Ctrl + Left shortcut: "Selection -> Move Left by Word"
+#. / The name of Shift + Right shortcut: "Selection -> Expand Selection"
+#. / The name of Shift + Left shortcut: "Selection -> Shrink Selection"
+#. / The name of Shift + Ctrl + Right shortcut: "Selection -> Expand Selection by Word"
+#. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
+#. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
+#. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Selection"
+msgstr "選択"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+msgid "Select All"
+msgstr "すべて選択"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+msgid "Move Right by Word"
+msgstr "1 単語ずつ右に移動"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+msgid "Move Left by Word"
+msgstr "1 単語ずつ左に移動"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+msgid "Expand Selection"
+msgstr "選択範囲を拡大"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+msgid "Shrink Selection"
+msgstr "選択範囲を縮小"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+msgid "Expand Selection by Word"
+msgstr "1 単語ずつ選択範囲を拡大"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+msgid "Shrink Selection by Word"
+msgstr "1 単語ずつ選択範囲を縮小"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+msgid "Expand Selection Up"
+msgstr "選択範囲を上方向に拡大"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Expand Selection Down"
+msgstr "選択範囲を下方向に拡大"
+
+#. / The name of Ctrl + S shortcut: "File -> Save"
+#. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
+#. / The name of Ctrl + N shortcut: "File -> New"
+#. / The name of Ctrl + W shortcut: "File -> Close"
+#. / The name of Ctrl + T shortcut: "File -> New Tab"
+#. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
+#. / The name of Ctrl + R shortcut: "File -> Refresh"
+#. / The name of Ctrl + Q shortcut: "File -> Quit"
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "File"
+msgstr "ファイル"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+msgid "Save"
+msgstr "保存"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+msgid "Save As"
+msgstr "名前を付けて保存"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+msgid "New"
+msgstr "新規作成"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "閉じる"
 
-#: src/Shortcuts/ShortcutsList.vala:55
-msgid "Lower"
-msgstr "背面へ移動"
-
-#: src/Shortcuts/ShortcutsList.vala:56
-msgid "Maximize"
-msgstr "最大化"
-
-#: src/Shortcuts/ShortcutsList.vala:57
-msgid "Unmaximize"
-msgstr "元のサイズに戻す"
-
-#: src/Shortcuts/ShortcutsList.vala:58
-msgid "Toggle Maximized"
-msgstr "最大化／元のサイズに戻す"
-
-#: src/Shortcuts/ShortcutsList.vala:59
-msgid "Hide"
-msgstr "非表示にする"
-
-#: src/Shortcuts/ShortcutsList.vala:60
-msgid "Toggle Fullscreen"
-msgstr "全画面表示／全画面表示解除"
-
-#: src/Shortcuts/ShortcutsList.vala:61
-msgid "Toggle on all Workspaces"
-msgstr "すべてのワークスペースに表示／現在のワークスペースのみに表示"
-
-#: src/Shortcuts/ShortcutsList.vala:62
-msgid "Toggle always on Top"
-msgstr "最前面に維持／最前面に維持しない"
-
-#: src/Shortcuts/ShortcutsList.vala:63
-msgid "Cycle Windows"
-msgstr "ウィンドウを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:64
-msgid "Cycle Windows backwards"
-msgstr "逆順でウィンドウを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:65
-msgid "Cycle Windows of application"
-msgstr "同一アプリのウィンドウを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:66
-msgid "Cycle Windows of application backwards"
-msgstr "逆順で同一アプリのウィンドウを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:67
-msgid "Tile Left"
-msgstr "左にタイル"
-
-#: src/Shortcuts/ShortcutsList.vala:68
-msgid "Tile Right"
-msgstr "右にタイル"
-
-#: src/Shortcuts/ShortcutsList.vala:69
-msgid "Window Overview"
-msgstr "ウィンドウオーバービュー"
-
-#: src/Shortcuts/ShortcutsList.vala:70
-msgid "Show All Windows"
-msgstr "すべてのウィンドウを表示"
-
-#: src/Shortcuts/ShortcutsList.vala:71
-msgid "Picture in Picture Mode"
-msgstr "ピクチャーインピクチャーモード"
-
-#: src/Shortcuts/ShortcutsList.vala:72
-msgid "Move to display above"
-msgstr "上のディスプレイに移動"
-
-#: src/Shortcuts/ShortcutsList.vala:73
-msgid "Move to display below"
-msgstr "下のディスプレイに移動"
-
-#: src/Shortcuts/ShortcutsList.vala:74
-msgid "Move to right display"
-msgstr "右のディスプレイに移動"
-
-#: src/Shortcuts/ShortcutsList.vala:75
-msgid "Move to left display"
-msgstr "左のディスプレイに移動"
-
-#: src/Shortcuts/ShortcutsList.vala:79 src/Views/Shortcuts.vala:41
-msgid "Workspaces"
-msgstr "ワークスペース"
-
-#: src/Shortcuts/ShortcutsList.vala:80 src/Views/Layout.vala:75
-msgid "Multitasking View"
-msgstr "マルチタスク画面"
-
-#: src/Shortcuts/ShortcutsList.vala:81
-msgid "Switch left"
-msgstr "左に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:82
-msgid "Switch right"
-msgstr "右に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:83
-msgid "Switch to first"
-msgstr "最初に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:84
-msgid "Switch to new"
-msgstr "新規に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:85
-msgid "Switch to workspace 1"
-msgstr "ワークスペース 1 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:86
-msgid "Switch to workspace 2"
-msgstr "ワークスペース 2 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:87
-msgid "Switch to workspace 3"
-msgstr "ワークスペース 3 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:88
-msgid "Switch to workspace 4"
-msgstr "ワークスペース 4 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:89
-msgid "Switch to workspace 5"
-msgstr "ワークスペース 5 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:90
-msgid "Switch to workspace 6"
-msgstr "ワークスペース 6 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:91
-msgid "Switch to workspace 7"
-msgstr "ワークスペース 7 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:92
-msgid "Switch to workspace 8"
-msgstr "ワークスペース 8 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:93
-msgid "Switch to workspace 9"
-msgstr "ワークスペース 9 に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:94
-msgid "Cycle workspaces"
-msgstr "ワークスペースを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:95
-msgid "Cycle workspaces backwards"
-msgstr "ワークスペースを逆に切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:96
-msgid "Move to workspace 1"
-msgstr "ワークスペース 1 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:97
-msgid "Move to workspace 2"
-msgstr "ワークスペース 2 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:98
-msgid "Move to workspace 3"
-msgstr "ワークスペース 3 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:99
-msgid "Move to workspace 4"
-msgstr "ワークスペース 4 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:100
-msgid "Move to workspace 5"
-msgstr "ワークスペース 5 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:101
-msgid "Move to workspace 6"
-msgstr "ワークスペース 6 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:102
-msgid "Move to workspace 7"
-msgstr "ワークスペース 7 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:103
-msgid "Move to workspace 8"
-msgstr "ワークスペース 8 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:104
-msgid "Move to workspace 9"
-msgstr "ワークスペース 9 に移動"
-
-#: src/Shortcuts/ShortcutsList.vala:105
-msgid "Move to left workspace"
-msgstr "左のワークスペースに移動"
-
-#: src/Shortcuts/ShortcutsList.vala:106
-msgid "Move to right workspace"
-msgstr "右のワークスペースに移動"
-
-#: src/Shortcuts/ShortcutsList.vala:110 src/Views/Shortcuts.vala:43
-msgid "Screenshots"
-msgstr "スクリーンショット"
-
-#: src/Shortcuts/ShortcutsList.vala:111
-msgid "Grab the whole screen"
-msgstr "画面全体を取得"
-
-#: src/Shortcuts/ShortcutsList.vala:112
-msgid "Copy the whole screen to clipboard"
-msgstr "画面全体をクリップボードにコピー"
-
-#: src/Shortcuts/ShortcutsList.vala:113
-msgid "Grab the current window"
-msgstr "現在のウィンドウを取得"
-
-#: src/Shortcuts/ShortcutsList.vala:114
-msgid "Copy the current window to clipboard"
-msgstr "現在のウィンドウをクリップボードにコピー"
-
-#: src/Shortcuts/ShortcutsList.vala:115
-msgid "Select an area to grab"
-msgstr "範囲を選択して取得"
-
-#: src/Shortcuts/ShortcutsList.vala:116
-msgid "Copy an area to clipboard"
-msgstr "範囲を選択してクリップボードにコピー"
-
-#: src/Shortcuts/ShortcutsList.vala:120 src/Views/Shortcuts.vala:45
-msgid "Applications"
-msgstr "アプリケーション"
-
-#: src/Shortcuts/ShortcutsList.vala:121
-msgid "Email"
-msgstr "メール"
-
-#: src/Shortcuts/ShortcutsList.vala:122
-msgid "Home Folder"
-msgstr "ホームフォルダー"
-
-#: src/Shortcuts/ShortcutsList.vala:123
-msgid "Music"
-msgstr "音楽"
-
-#: src/Shortcuts/ShortcutsList.vala:124
-msgid "Terminal"
-msgstr "ターミナル"
-
-#: src/Shortcuts/ShortcutsList.vala:125
-msgid "Internet Browser"
-msgstr "インターネットブラウザー"
-
-#: src/Shortcuts/ShortcutsList.vala:129 src/Views/Shortcuts.vala:47
-msgid "Media"
-msgstr "メディア"
-
-#: src/Shortcuts/ShortcutsList.vala:130
-msgid "Volume Up"
-msgstr "音量を上げる"
-
-#: src/Shortcuts/ShortcutsList.vala:131
-msgid "Volume Down"
-msgstr "音量を下げる"
-
-#: src/Shortcuts/ShortcutsList.vala:132
-msgid "Mute"
-msgstr "消音"
-
-#: src/Shortcuts/ShortcutsList.vala:133
-msgid "Play/Pause"
-msgstr "再生/一時停止"
-
-#: src/Shortcuts/ShortcutsList.vala:134
-msgid "Pause"
-msgstr "一時停止"
-
-#: src/Shortcuts/ShortcutsList.vala:135
-msgid "Stop"
-msgstr "停止"
-
-#: src/Shortcuts/ShortcutsList.vala:136
-msgid "Previous Track"
-msgstr "前のトラック"
-
-#: src/Shortcuts/ShortcutsList.vala:137
-msgid "Next Track"
-msgstr "次のトラック"
-
-#: src/Shortcuts/ShortcutsList.vala:138
-msgid "Eject"
-msgstr "取り出し"
-
-#: src/Shortcuts/ShortcutsList.vala:142
-msgid "Universal Access"
-msgstr "ユニバーサルアクセス"
-
-#: src/Shortcuts/ShortcutsList.vala:143
-msgid "Decrease Text Size"
-msgstr "テキストサイズを縮小"
-
-#: src/Shortcuts/ShortcutsList.vala:144
-msgid "Increase Text Size"
-msgstr "テキストサイズを拡大"
-
-#: src/Shortcuts/ShortcutsList.vala:145
-msgid "Magnifier Zoom in"
-msgstr "拡大鏡で拡大表示"
-
-#: src/Shortcuts/ShortcutsList.vala:146
-msgid "Magnifier Zoom out"
-msgstr "拡大鏡で縮小表示"
-
-#: src/Shortcuts/ShortcutsList.vala:147
-msgid "Toggle On Screen Keyboard"
-msgstr "オンスクリーンキーボードを表示／非表示"
-
-#: src/Shortcuts/ShortcutsList.vala:148
-msgid "Toggle Screenreader"
-msgstr "スクリーンリーダーを有効化／無効化"
-
-#: src/Shortcuts/ShortcutsList.vala:152 src/Views/Shortcuts.vala:51
-msgid "System"
-msgstr "システム"
-
-#: src/Shortcuts/ShortcutsList.vala:153 src/Views/Layout.vala:74
-msgid "Applications Menu"
-msgstr "アプリケーションメニュー"
-
-#: src/Shortcuts/ShortcutsList.vala:154
-msgid "Lock"
-msgstr "ロック"
-
-#: src/Shortcuts/ShortcutsList.vala:155
-msgid "Log Out"
-msgstr "ログアウト"
-
-#: src/Shortcuts/ShortcutsList.vala:156
-msgid "Cycle display mode"
-msgstr "ディスプレイモードを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:160
-msgid "Keyboard Layouts"
-msgstr "キーボードレイアウト"
-
-#: src/Shortcuts/ShortcutsList.vala:161
-msgid "Switch Keyboard Layout"
-msgstr "キーボードレイアウトを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:162
-msgid "Switch Keyboard Layout Backwards"
-msgstr "逆順でキーボードレイアウトを切り替え"
-
-#: src/Shortcuts/ShortcutsList.vala:163
-msgid "Enable Emoji Typing"
-msgstr "絵文字入力を有効化"
-
-#: src/Shortcuts/ShortcutsList.vala:164
-msgid "Enable Unicode Typing"
-msgstr "Unicode 入力を有効化"
-
-#: src/Shortcuts/ShortcutsList.vala:168 src/Views/Shortcuts.vala:53
-msgid "Custom"
-msgstr "カスタム"
-
-#. tree view to display the current layouts
-#. Layout switching keybinding
-#. Compose key position menu
-#: src/Shortcuts/Shortcut.vala:55 src/Views/InputMethod.vala:140
-#: src/Views/Layout.vala:30 src/Views/Layout.vala:52 src/Views/Layout.vala:73
-#: src/Views/Layout.vala:92
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:100
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:401
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:86
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:343
-msgid "Disabled"
-msgstr "無効"
-
-#: src/Shortcuts/Shortcut.vala:61
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+msgid "New Tab"
+msgstr "新しいタブ"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+msgid "Restore Closed Tab"
+msgstr "閉じたタブを再度開く"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+msgctxt "keyboard"
+msgid "Refresh"
+msgstr "再読み込み"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "Quit"
+msgstr "終了"
+
+#: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
 msgstr "Shift"
 
-#: src/Shortcuts/Shortcut.vala:69
+#: src/Shortcuts/Backend/Shortcut.vala:61
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/Shortcuts/Shortcut.vala:73
+#: src/Shortcuts/Backend/Shortcut.vala:65
 msgid "Alt"
 msgstr "Alt"
 
-#: src/Shortcuts/Shortcut.vala:77
+#: src/Shortcuts/Backend/Shortcut.vala:69
 msgid "Meta"
 msgstr "Meta"
 
-#: src/Views/Behavior.vala:16
-msgid "On-screen keyboard settings…"
-msgstr "オンスクリーンキーボードの設定…"
-
-#: src/Views/Behavior.vala:38
-msgid "Delay:"
-msgstr "遅延:"
-
-#: src/Views/Behavior.vala:42
-msgid "Interval:"
-msgstr "間隔:"
-
-#: src/Views/Behavior.vala:74
-msgid "Speed:"
-msgstr "速度:"
-
-#: src/Views/Behavior.vala:78
-msgid "Duration:"
-msgstr "再生時間:"
-
-#: src/Views/Behavior.vala:118
-msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
-msgstr ""
-"⌘、Alt、Ctrl、および Shift を含む操作を、キーを1つずつ押すことで実現します"
-
-#: src/Views/Behavior.vala:135
-msgid "Don't accept keypresses unless held"
-msgstr "キーが長く押された場合に入力とみなします"
-
-#: src/Views/Behavior.vala:161
-msgid "Ignore fast duplicate keypresses"
-msgstr "同じキーが連打された場合、重複する入力を無視します"
-
-#: src/Views/Behavior.vala:179
-msgid "Event Alerts"
-msgstr "イベント警告"
-
-#: src/Views/Behavior.vala:180
-#, c-format
-msgid "Play a sound or flash the screen. %s"
-msgstr "音を鳴らしたり、画面を発光させたりします。%s"
-
-#: src/Views/Behavior.vala:182
-msgid "Sound Settings…"
-msgstr "サウンドの設定…"
-
-#: src/Views/Behavior.vala:187
-msgid "Caps Lock ⇪ or Num Lock keys are pressed"
-msgstr "Caps Lock ⇪ または Num Lock キーが押下された場合"
-
-#: src/Views/Behavior.vala:188
-msgid "Bounce Keys are rejected"
-msgstr "バウンスキーが拒否された場合"
-
-#: src/Views/Behavior.vala:189
-msgid "Sticky Keys are pressed"
-msgstr "固定キーが押下された場合"
-
-#: src/Views/Behavior.vala:190
-msgid "Slow Keys are rejected"
-msgstr "スローキーが拒否された場合"
-
-#: src/Views/Behavior.vala:206
-msgid "Type to test your settings"
-msgstr "入力して設定を確認"
-
-#. no_daemon_runnning view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:51
-msgid "IBus Daemon is not running"
-msgstr "IBus デーモンが起動していません"
-
-#: src/Views/InputMethod.vala:52
-msgid ""
-"IBus daemon must run in the background to enable or configure input method "
-"engines."
-msgstr ""
-"インプットメソッドエンジンを有効化したり設定したりするには、IBus デーモンを"
-"バックグラウンドで起動しておく必要があります。"
-
-#: src/Views/InputMethod.vala:61
-msgid "Start IBus Daemon"
-msgstr "IBus デーモンを起動"
-
-#: src/Views/InputMethod.vala:62
-msgid "Can be managed in System Settings → Applications → Startup"
-msgstr "システム設定 → アプリケーション → 自動起動 で変更できます"
-
-#. spawn_failed view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:68
-msgid "Could not start the IBus daemon"
-msgstr "IBus デーモンを起動できませんでした"
-
-#: src/Views/InputMethod.vala:112
-msgid "Add…"
-msgstr "追加…"
-
-#: src/Views/InputMethod.vala:116 src/Widgets/Layout/Display.vala:192
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:141
-msgid "Remove"
-msgstr "削除"
-
-#: src/Views/InputMethod.vala:132
-msgid "Switch engines:"
-msgstr "エンジンを切り替え:"
-
-#: src/Views/InputMethod.vala:149
-msgid "Show property panel:"
-msgstr "プロパティーパネルを表示:"
-
-#: src/Views/InputMethod.vala:156
-msgid "Do not show"
-msgstr "表示しない"
-
-#: src/Views/InputMethod.vala:157
-msgid "Auto hide"
-msgstr "自動的に非表示"
-
-#: src/Views/InputMethod.vala:158
-msgid "Always show"
-msgstr "常に表示"
-
-#: src/Views/InputMethod.vala:160
-msgid "Embed preedit text in application window:"
-msgstr "インライン入力:"
-
-#: src/Views/InputMethod.vala:391
-msgid "IBus Daemon"
-msgstr "IBus デーモン"
-
-#: src/Views/InputMethod.vala:394
-msgid "Use and manage input methods"
-msgstr "インプットメソッドを使用・管理します"
-
-#: src/Views/InputMethod.vala:457
-msgid "Type to test your input method"
-msgstr "入力してインプットメソッドを確認"
-
-#: src/Views/InputMethod.vala:460
-msgid "A keyboard layout is active"
-msgstr "キーボードレイアウトが有効です"
-
-#: src/Views/Layout.vala:31
-msgid "Alt + Caps Lock"
-msgstr "Alt + Caps Lock"
-
-#: src/Views/Layout.vala:32
-msgid "Alt + Shift"
-msgstr "Alt + Shift"
-
-#: src/Views/Layout.vala:33
-msgid "Alt + Space"
-msgstr "Alt + Space"
-
-#: src/Views/Layout.vala:34
-msgid "Both Shift keys together"
-msgstr "両方の Shift キーを同時押し"
-
-#: src/Views/Layout.vala:35 src/Views/Layout.vala:53 src/Views/Layout.vala:254
-msgid "Caps Lock"
-msgstr "Caps Lock"
-
-#: src/Views/Layout.vala:36
-msgid "Ctrl + Alt"
-msgstr "Ctrl + Alt"
-
-#: src/Views/Layout.vala:37
-msgid "Ctrl + Shift"
-msgstr "Ctrl + Shift"
-
-#: src/Views/Layout.vala:38
-msgid "Shift + Caps Lock"
-msgstr "Shift + Caps Lock"
-
-#: src/Views/Layout.vala:46
-msgid "Switch layout:"
-msgstr "レイアウトを切り替え:"
-
-#: src/Views/Layout.vala:54
-msgid "Menu"
-msgstr "メニュー"
-
-#: src/Views/Layout.vala:55 src/Views/Layout.vala:256 src/Views/Layout.vala:271
-msgid "Right Alt"
-msgstr "右 Alt"
-
-#: src/Views/Layout.vala:56 src/Views/Layout.vala:257 src/Views/Layout.vala:272
-msgid "Right Ctrl"
-msgstr "右 Ctrl"
-
-#: src/Views/Layout.vala:57 src/Views/Layout.vala:258 src/Views/Layout.vala:273
-msgid "Right ⌘"
-msgstr "右 ⌘"
-
-#: src/Views/Layout.vala:65
-msgid "Compose key:"
-msgstr "コンポーズキー:"
-
-#: src/Views/Layout.vala:78
-msgid "⌘ key behavior:"
-msgstr "⌘ キーの挙動:"
-
-#: src/Views/Layout.vala:84
-msgid "Shortcut Overlay"
-msgstr "ショートカットオーバーレイ"
-
-#: src/Views/Layout.vala:93
-msgid "as Backspace"
-msgstr "バックスペース"
-
-#: src/Views/Layout.vala:94
-msgid "as Ctrl"
-msgstr "Ctrl"
-
-#: src/Views/Layout.vala:95
-msgid "as Escape"
-msgstr "Esc"
-
-#: src/Views/Layout.vala:96
-msgid "as Num Lock"
-msgstr "Num Lock"
-
-#: src/Views/Layout.vala:97
-msgid "as ⌘"
-msgstr "⌘"
-
-#: src/Views/Layout.vala:98
-msgid "Swap with Ctrl"
-msgstr "Ctrl と入れ替える"
-
-#: src/Views/Layout.vala:99
-msgid "Swap with Escape"
-msgstr "Esc と入れ替える"
-
-#: src/Views/Layout.vala:107
-msgid "Caps Lock behavior:"
-msgstr "Caps Lock の挙動:"
-
-#: src/Views/Layout.vala:240 src/Views/Layout.vala:266
-msgid "Key to choose 3rd level:"
-msgstr "3rd level を選択するキー:"
-
-#: src/Views/Layout.vala:255
-msgid "Left Alt"
-msgstr "左 Alt"
-
-#: src/Views/Layout.vala:280
-msgid "Key to choose 5th level:"
-msgstr "5th level を選択するキー:"
-
-#: src/Views/Layout.vala:297
-msgid "Kana Lock:"
-msgstr "かなロック:"
-
-#: src/Views/Layout.vala:304
-msgid "Nicola F Backspace:"
-msgstr "NICOLA-F バックスペース:"
-
-#: src/Views/Layout.vala:311
-msgid "Hankaku Zenkaku as Escape:"
-msgstr "半角／全角を Esc として扱う:"
-
-#: src/Views/Layout.vala:330
-msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
-msgstr "ハングル／漢字キーを右 Alt／Ctrl に割り当て:"
-
-#: src/Views/Layout.vala:408
-msgid "Type to test your layout"
-msgstr "入力してレイアウトを確認"
-
-#: src/Views/Layout.vala:411
-msgid "Input Method is active"
-msgstr "インプットメソッドが有効です"
-
-#: src/Views/Shortcuts.vala:49
-msgid "Accessibility"
-msgstr "アクセシビリティー"
-
-#: src/Views/Shortcuts.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+msgid "Windows"
+msgstr "ウィンドウ"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:55
+msgid "Lower"
+msgstr "背面へ移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:56
+msgid "Maximize"
+msgstr "最大化"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:57
+msgid "Unmaximize"
+msgstr "元に戻す"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:58
+msgid "Toggle Maximized"
+msgstr "最大化/元に戻す"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:59
+msgid "Hide"
+msgstr "非表示にする"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:60
+msgid "Toggle Fullscreen"
+msgstr "全画面表示/全画面表示解除"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:61
+msgid "Toggle on all Workspaces"
+msgstr "すべてのワークスペースに表示/現在のワークスペースのみに表示"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:62
+msgid "Toggle always on Top"
+msgstr "最前面に維持/最前面に維持しない"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:63
+msgid "Cycle Windows"
+msgstr "ウィンドウを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:64
+msgid "Cycle Windows backwards"
+msgstr "逆順でウィンドウを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:65
+msgid "Cycle Windows of application"
+msgstr "同一アプリのウィンドウを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:66
+msgid "Cycle Windows of application backwards"
+msgstr "逆順で同一アプリのウィンドウを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:67
+msgid "Tile Left"
+msgstr "左にタイル"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:68
+msgid "Tile Right"
+msgstr "右にタイル"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
+msgid "Window Overview"
+msgstr "ウィンドウオーバービュー"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
+msgid "Show All Windows"
+msgstr "すべてのウィンドウを表示"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
+msgid "Picture in Picture Mode"
+msgstr "ピクチャーインピクチャーモード"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
+msgid "Move to display above"
+msgstr "上のディスプレイに移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
+msgid "Move to display below"
+msgstr "下のディスプレイに移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
+msgid "Move to right display"
+msgstr "右のディスプレイに移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
+msgid "Move to left display"
+msgstr "左のディスプレイに移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
+msgid "Workspaces"
+msgstr "ワークスペース"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
+msgid "Switch left"
+msgstr "左に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
+msgid "Switch right"
+msgstr "右に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
+msgid "Switch to first"
+msgstr "最初に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
+msgid "Switch to new"
+msgstr "新規に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
+msgid "Switch to workspace 1"
+msgstr "ワークスペース 1 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
+msgid "Switch to workspace 2"
+msgstr "ワークスペース 2 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
+msgid "Switch to workspace 3"
+msgstr "ワークスペース 3 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
+msgid "Switch to workspace 4"
+msgstr "ワークスペース 4 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
+msgid "Switch to workspace 5"
+msgstr "ワークスペース 5 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
+msgid "Switch to workspace 6"
+msgstr "ワークスペース 6 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:91
+msgid "Switch to workspace 7"
+msgstr "ワークスペース 7 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:92
+msgid "Switch to workspace 8"
+msgstr "ワークスペース 8 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:93
+msgid "Switch to workspace 9"
+msgstr "ワークスペース 9 に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:94
+msgid "Cycle workspaces"
+msgstr "ワークスペースを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:95
+msgid "Cycle workspaces backwards"
+msgstr "ワークスペースを逆に切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:96
+msgid "Move to workspace 1"
+msgstr "ワークスペース 1 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:97
+msgid "Move to workspace 2"
+msgstr "ワークスペース 2 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
+msgid "Move to workspace 3"
+msgstr "ワークスペース 3 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
+msgid "Move to workspace 4"
+msgstr "ワークスペース 4 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
+msgid "Move to workspace 5"
+msgstr "ワークスペース 5 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
+msgid "Move to workspace 6"
+msgstr "ワークスペース 6 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
+msgid "Move to workspace 7"
+msgstr "ワークスペース 7 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
+msgid "Move to workspace 8"
+msgstr "ワークスペース 8 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
+msgid "Move to workspace 9"
+msgstr "ワークスペース 9 に移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
+msgid "Move to left workspace"
+msgstr "左のワークスペースに移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
+msgid "Move to right workspace"
+msgstr "右のワークスペースに移動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
+msgid "Grab the whole screen"
+msgstr "画面全体を取得"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
+msgid "Copy the whole screen to clipboard"
+msgstr "画面全体をクリップボードにコピー"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
+msgid "Grab the current window"
+msgstr "現在のウィンドウを取得"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
+msgid "Copy the current window to clipboard"
+msgstr "現在のウィンドウをクリップボードにコピー"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
+msgid "Select an area to grab"
+msgstr "範囲を選択して取得"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
+msgid "Copy an area to clipboard"
+msgstr "範囲を選択してクリップボードにコピー"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
+msgid "Email"
+msgstr "メール"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
+msgid "Home Folder"
+msgstr "ホームフォルダー"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
+msgid "Music"
+msgstr "音楽"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:124
+msgid "Terminal"
+msgstr "ターミナル"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:125
+msgid "Internet Browser"
+msgstr "インターネットブラウザー"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:126
+msgid "Launch first dock item"
+msgstr "ドックの 1 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:127
+msgid "Launch second dock item"
+msgstr "ドックの 2 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:128
+msgid "Launch third dock item"
+msgstr "ドックの 3 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:129
+msgid "Launch fourth dock item"
+msgstr "ドックの 4 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
+msgid "Launch fifth dock item"
+msgstr "ドックの 5 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
+msgid "Launch sixth dock item"
+msgstr "ドックの 6 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
+msgid "Launch seventh dock item"
+msgstr "ドックの 7 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
+msgid "Launch eighth dock item"
+msgstr "ドックの 8 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
+msgid "Launch ninth dock item"
+msgstr "ドックの 9 番目の項目を起動"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
+msgid "Media"
+msgstr "メディア"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:139
+msgid "Volume Up"
+msgstr "音量を上げる"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:140
+msgid "Volume Down"
+msgstr "音量を下げる"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:141
+msgid "Mute"
+msgstr "ミュート"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
+msgid "Play/Pause"
+msgstr "再生/一時停止"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
+msgid "Pause"
+msgstr "一時停止"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
+msgid "Stop"
+msgstr "停止"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
+msgid "Previous Track"
+msgstr "前のトラック"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
+msgid "Next Track"
+msgstr "次のトラック"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
+msgid "Eject"
+msgstr "取り出し"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
+msgid "Universal Access"
+msgstr "ユニバーサルアクセス"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
+msgid "Decrease Text Size"
+msgstr "テキストサイズを縮小"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
+msgid "Increase Text Size"
+msgstr "テキストサイズを拡大"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
+msgid "Magnifier Zoom in"
+msgstr "拡大鏡で拡大表示"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
+msgid "Magnifier Zoom out"
+msgstr "拡大鏡で縮小表示"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:156
+msgid "Toggle On Screen Keyboard"
+msgstr "オンスクリーンキーボードを表示/非表示"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:157
+msgid "Toggle Screenreader"
+msgstr "スクリーンリーダーを有効化/無効化"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
+msgid "System"
+msgstr "システム"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
+msgid "Lock"
+msgstr "ロック"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
+msgid "Cycle display mode"
+msgstr "ディスプレイモードを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
+msgid "Keyboard Layouts"
+msgstr "キーボードレイアウト"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
+msgid "Switch Keyboard Layout"
+msgstr "キーボードレイアウトを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:171
+msgid "Switch Keyboard Layout Backwards"
+msgstr "逆順でキーボードレイアウトを切り替え"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:172
+msgid "Enable Emoji Typing"
+msgstr "絵文字入力を有効化"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:173
+msgid "Enable Unicode Typing"
+msgstr "Unicode 入力を有効化"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
+msgid "Custom"
+msgstr "カスタム"
+
+#: src/Shortcuts/Widgets/AppChooser.vala:15
+msgid "Search Applications"
+msgstr "アプリケーションを検索"
+
+#: src/Shortcuts/Widgets/AppChooser.vala:33
+msgid "Type in a custom command"
+msgstr "カスタムコマンドを入力"
+
+#. TRANSLATORS: This string is used by screen reader
+#: src/Shortcuts/Widgets/AppChooser.vala:50
+msgid "Select an app"
+msgstr "アプリを選択"
+
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
 msgstr "ショートカットを追加"
 
-#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
-#. /to look for a input method engine they want to add.
-#. /It does not mean search engines in web browsers.
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:36
-msgid "Search engine"
-msgstr "エンジンを検索"
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
+msgid "Custom Command"
+msgstr "カスタムコマンド"
 
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:52
-msgid "Install Unlisted Engines…"
-msgstr "一覧にないエンジンをインストール…"
-
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:56
-msgid "Add Engine"
-msgstr "エンジンを追加"
-
-#: src/Widgets/Layout/Display.vala:41
-msgid "Add Keyboard Layout…"
-msgstr "キーボードレイアウトを追加…"
-
-#: src/Widgets/Layout/Display.vala:196
-msgid "Move up"
-msgstr "上へ移動"
-
-#: src/Widgets/Layout/Display.vala:200
-msgid "Move down"
-msgstr "下へ移動"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:97
-msgid "Enter a command here"
-msgstr "コマンドを入力"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:130
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "新しいショートカットを設定"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:135
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "無効にする"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:273
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "新しいショートカットを入力…"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:343
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "指定されたショートカットは競合するため設定できません"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:344
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
-msgstr "“%s” はすでに “%s → %s” で使用されています。"
+msgstr "“%s”はすでに“%s → %s”で使用されています。"
 
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 msgid "Reset to Default"
 msgstr "デフォルトにリセット"
+
+#: src/Shortcuts/Shortcuts.vala:49
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+#~ msgid "Enter a command here"
+#~ msgstr "コマンドを入力"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s はすでに %s で使用されています"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr "%s にショートカットを再割り当てすると、%s は無効になります。"
+
+#~ msgid "Reassign"
+#~ msgstr "再割り当て"
+
+#~ msgid "Add…"
+#~ msgstr "追加…"
 
 #~ msgid "On-screen Keyboard"
 #~ msgstr "オンスクリーンキーボード"
@@ -951,9 +1154,6 @@ msgstr "デフォルトにリセット"
 
 #~ msgid "Add"
 #~ msgstr "追加"
-
-#~ msgid "Command"
-#~ msgstr "コマンド"
 
 #~ msgid "Show candidate window:"
 #~ msgstr "候補ウィンドウを表示:"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 17:21+0000\n"
-"PO-Revision-Date: 2023-10-16 18:10+0000\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"PO-Revision-Date: 2024-07-21 09:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "keyboard-plug-extra/uk/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/keyboard.metainfo.xml.in:10
 msgid "Keyboard Settings"
@@ -28,21 +28,45 @@ msgstr "Налаштування клавіатури"
 msgid "Configure keyboard behavior, layouts, and shortcuts"
 msgstr "Налаштування поведінки клавіатури, розкладки та комбінації клавіш"
 
-#: data/keyboard.metainfo.xml.in:36
+#: data/keyboard.metainfo.xml.in:37
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/keyboard.metainfo.xml.in:43 data/keyboard.metainfo.xml.in:59
-#: data/keyboard.metainfo.xml.in:75 data/keyboard.metainfo.xml.in:93
-#: data/keyboard.metainfo.xml.in:103 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
+#: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
+#: data/keyboard.metainfo.xml.in:99 data/keyboard.metainfo.xml.in:115
+#: data/keyboard.metainfo.xml.in:133
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
-#: data/keyboard.metainfo.xml.in:45
+#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:56
+#: data/keyboard.metainfo.xml.in:69 data/keyboard.metainfo.xml.in:88
+#: data/keyboard.metainfo.xml.in:102 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:136
+msgid "Updated translations"
+msgstr "Оновлені переклади"
+
+#: data/keyboard.metainfo.xml.in:65
+msgid "Updated shortcut category icons"
+msgstr "Оновлено піктограми категорій ярликів"
+
+#: data/keyboard.metainfo.xml.in:66
+msgid "Improved screen reader accessibility"
+msgstr "Поліпшення доступності для зчитувачів з екрана"
+
+#: data/keyboard.metainfo.xml.in:67
+msgid "New shortcut settings for launching dock items"
+msgstr "Нові налаштування ярликів для запуску елементів доку"
+
+#: data/keyboard.metainfo.xml.in:68
+msgid "Clearer actions for managing keyboard layouts"
+msgstr "Зрозуміліші дії для керування розкладками клавіатури"
+
+#: data/keyboard.metainfo.xml.in:85
 msgid "Fix potential crashes"
 msgstr "Усунено можливі збої"
 
-#: data/keyboard.metainfo.xml.in:46
+#: data/keyboard.metainfo.xml.in:86
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
@@ -50,47 +74,39 @@ msgstr ""
 "Додано ярлики \"Перемикання між вікнами застосунку\" та \"Перемикання між "
 "вікнами застосунку у зворотному порядку\""
 
-#: data/keyboard.metainfo.xml.in:47
+#: data/keyboard.metainfo.xml.in:87
 msgid "Improve experience installing input methods"
 msgstr "Поліпшення процесу встановлення методів вводу"
 
-#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:62
-#: data/keyboard.metainfo.xml.in:77 data/keyboard.metainfo.xml.in:96
-#: data/keyboard.metainfo.xml.in:106 data/keyboard.metainfo.xml.in:119
-msgid "Updated translations"
-msgstr "Оновлені переклади"
-
-#: data/keyboard.metainfo.xml.in:61
+#: data/keyboard.metainfo.xml.in:101
 msgid "Show the values associated with sliders while dragging"
 msgstr "Показ значень, пов'язаних із повзунками, під час перетягування"
 
-#: data/keyboard.metainfo.xml.in:87 data/keyboard.metainfo.xml.in:113
+#: data/keyboard.metainfo.xml.in:127
 msgid "New features:"
 msgstr "Нові функції:"
 
-#: data/keyboard.metainfo.xml.in:89
+#: data/keyboard.metainfo.xml.in:129
 msgid "Revert shortcuts to default"
 msgstr "Відновлення стандартних комбінацій клавіш"
 
-#: data/keyboard.metainfo.xml.in:90
+#: data/keyboard.metainfo.xml.in:130
 msgid "Easily disable a shortcut"
 msgstr "Просте вимкнення комбінації клавіш"
 
-#: data/keyboard.metainfo.xml.in:91
+#: data/keyboard.metainfo.xml.in:131
 msgid "Support Rime input method for Chinese"
 msgstr "Підтримка методу введення ієрогліфів для китайської мови"
 
-#: data/keyboard.metainfo.xml.in:95
+#: data/keyboard.metainfo.xml.in:135
 msgid "Remove custom shortcuts from their menu"
 msgstr "Вилучено налаштовувані комбінації клавіш з їхнього меню"
 
-#: data/keyboard.metainfo.xml.in:105
-msgid "Update for OS 7"
-msgstr "Оновлення для OS 7"
+#~ msgid "Update for OS 7"
+#~ msgstr "Оновлення для OS 7"
 
-#: data/keyboard.metainfo.xml.in:115
-msgid "Open Multitasking View with Super"
-msgstr "Відкриття багатозадачного вигляду клавішею Super"
+#~ msgid "Open Multitasking View with Super"
+#~ msgstr "Відкриття багатозадачного вигляду клавішею Super"
 
 #~ msgid "Redesigned custom shortcuts view"
 #~ msgstr "Перероблено вигляд розділу налаштовуваних комбінацій клавіш"

@@ -185,7 +185,7 @@ public class Keyboard.LayoutPage.Page : Gtk.Box {
             show_panel_for_active_layout ();
         });
 
-        var gala_behavior_settings = new GLib.Settings ("org.pantheon.desktop.gala.behavior");
+        var gala_behavior_settings = new GLib.Settings ("io.elementary.desktop.wm.behavior");
 
         var overlay_string = gala_behavior_settings.get_string ("overlay-action");
 

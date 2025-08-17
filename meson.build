@@ -1,7 +1,7 @@
 project(
     'keyboard',
     'vala', 'c',
-    version: '3.2.1'
+    version: '8.1.0'
 )
 
 gettext_name = 'io.elementary.settings.' + meson.project_name()
@@ -14,6 +14,7 @@ libdir = join_paths(prefix, get_option('libdir'))
 
 add_project_arguments(
     '-DGETTEXT_PACKAGE="@0@"'.format(gettext_name),
+    '-DG_LOG_DOMAIN="@0@"'.format(gettext_name),
     language:'c'
 )
 

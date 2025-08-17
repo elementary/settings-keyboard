@@ -7,92 +7,199 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 17:21+0000\n"
-"PO-Revision-Date: 2023-09-16 18:08+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/fi/>\n"
+"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"PO-Revision-Date: 2025-06-11 20:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Finnish <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-17 05:47+0000\n"
 
-#: src/Dialogs/AddLayoutDialog.vala:21
-msgid "Input Language"
-msgstr "Syötekieli"
+#: src/Behavior/Behavior.vala:8 src/Plug.vala:128
+msgid "Show On-screen Keyboard"
+msgstr "Näytä näyttönäppäimistö:"
 
-#: src/Dialogs/AddLayoutDialog.vala:22
-msgid "Layout List"
-msgstr "Asetteluluettelo"
+#: src/Behavior/Behavior.vala:16
+msgid "On-screen keyboard settings…"
+msgstr "Virtuaalinäppäimistön asetukset…"
 
-#: src/Dialogs/AddLayoutDialog.vala:42
-msgid "Search input language"
-msgstr "Hae syötekieli"
+#: src/Behavior/Behavior.vala:38
+msgid "Delay:"
+msgstr "Viive:"
 
-#: src/Dialogs/AddLayoutDialog.vala:102
-msgid "Preview Layout"
-msgstr "Esikatsele asettelu"
+#: src/Behavior/Behavior.vala:42
+msgid "Interval:"
+msgstr "Päivitysväli:"
 
-#: src/Dialogs/AddLayoutDialog.vala:150 src/Dialogs/ConflictDialog.vala:36
-#: src/Dialogs/ProgressDialog.vala:60
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:54
-msgid "Cancel"
-msgstr "Peru"
+#: src/Behavior/Behavior.vala:51 src/Plug.vala:131
+msgid "Repeat Keys"
+msgstr "Toistonäppäimet"
 
-#: src/Dialogs/AddLayoutDialog.vala:152
-msgid "Add Layout"
-msgstr "Lisää asettelu"
+#: src/Behavior/Behavior.vala:74
+msgid "Speed:"
+msgstr "Nopeus:"
 
-#. Caps Lock key functionality
-#: src/Dialogs/AddLayoutDialog.vala:245 src/Dialogs/AddLayoutDialog.vala:249
-#: src/Views/Layout.vala:91 src/Views/Layout.vala:253 src/Xkb/Handler.vala:95
-msgid "Default"
-msgstr "Oletus"
+#: src/Behavior/Behavior.vala:78
+msgid "Duration:"
+msgstr "Kesto:"
 
-#: src/Dialogs/ConflictDialog.vala:26
+#: src/Behavior/Behavior.vala:87 src/Plug.vala:130
+msgid "Cursor Blinking"
+msgstr "Kohdistimen vilkunta"
+
+#: src/Behavior/Behavior.vala:116 src/Plug.vala:133
+msgid "Sticky Keys"
+msgstr "Pohjaan jäävät näppäimet"
+
+#: src/Behavior/Behavior.vala:118
+msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
+msgstr "Käytä näppäimiä ⌘, Alt, Ctrl tai Shift peräkkäin sarjassa"
+
+#: src/Behavior/Behavior.vala:133 src/Plug.vala:132
+msgid "Slow Keys"
+msgstr "Hitaat näppäimet"
+
+#: src/Behavior/Behavior.vala:135
+msgid "Don't accept keypresses unless held"
+msgstr "Älä hyväksy näppäinpainalluksia ellei näppäimiä pidetä pohjassa"
+
+#: src/Behavior/Behavior.vala:159 src/Plug.vala:129
+msgid "Bounce Keys"
+msgstr "Kimmonäppäimet"
+
+#: src/Behavior/Behavior.vala:161
+msgid "Ignore fast duplicate keypresses"
+msgstr "Älä huomioi saman näppäimen nopeita kaksoispainalluksia"
+
+#: src/Behavior/Behavior.vala:179
+msgid "Event Alerts"
+msgstr "Tapahtumaäänet"
+
+#: src/Behavior/Behavior.vala:180
 #, c-format
-msgid "%s is already used for %s"
-msgstr "%s on jo käytössä toiminnolle %s"
+msgid "Play a sound or flash the screen. %s"
+msgstr "Toista ääni tai väläytä näyttöä. %s"
 
-#: src/Dialogs/ConflictDialog.vala:27
-#, c-format
-msgid "If you reassign the shortcut to %s, %s will be disabled."
+#: src/Behavior/Behavior.vala:182
+msgid "Sound Settings…"
+msgstr "Ääniasetukset…"
+
+#: src/Behavior/Behavior.vala:187
+msgid "Caps Lock ⇪ or Num Lock keys are pressed"
+msgstr "Näppäimiä Caps Lock ⇪ tai Num Lock painetaan"
+
+#: src/Behavior/Behavior.vala:188
+msgid "Bounce Keys are rejected"
+msgstr "Kimmonäppäimet hylätään"
+
+#: src/Behavior/Behavior.vala:189
+msgid "Sticky Keys are pressed"
+msgstr "Pohjaan jääviä näppäimiä painetaan"
+
+#: src/Behavior/Behavior.vala:190
+msgid "Slow Keys are rejected"
+msgstr "Hitaat näppäimet hylätään"
+
+#: src/Behavior/Behavior.vala:206
+msgid "Type to test your settings"
+msgstr "Kirjoita testataksesi asetuksia"
+
+#. no_daemon_runnning view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:50
+msgid "IBus Daemon is not running"
+msgstr "IBus-taustapalvelu ei ole käynnissä"
+
+#: src/InputMethod/InputMethod.vala:51
+#, fuzzy
+#| msgid ""
+#| "You need to run the IBus daemon to enable or configure input method "
+#| "engines."
+msgid ""
+"IBus daemon must run in the background to enable or configure input method "
+"engines."
 msgstr ""
-"Jos asetat pikanäppäimen toimintoon %s, toiminnon %s pikanäppäin poistetaan "
-"käytöstä."
+"IBus-taustapalvelu tulee olla käynnissä, jotta syötetapojen moottoreita voi "
+"ottaa käyttöön tai niiden asetuksia muuttaa."
 
-#: src/Dialogs/ConflictDialog.vala:38
-msgid "Reassign"
-msgstr "Aseta uudelleen"
+#: src/InputMethod/InputMethod.vala:60
+msgid "Start IBus Daemon"
+msgstr "Käynnistä IBus-taustapalvelu"
 
-#: src/Dialogs/InstallEngineDialog.vala:24
-msgid "Choose an engine to install"
-msgstr "Valitse asennettava moottori"
+#: src/InputMethod/InputMethod.vala:61
+msgid "Can be managed in System Settings → Applications → Startup"
+msgstr ""
 
-#: src/Dialogs/InstallEngineDialog.vala:25
-msgid "Select an engine from the list to install and use."
-msgstr "Valitse asennettava ja käytettävä moottori luettelosta."
+#. spawn_failed view shown if IBus Daemon is not running
+#: src/InputMethod/InputMethod.vala:67
+msgid "Could not start the IBus daemon"
+msgstr "IBus-taustapalvelua ei voitu käynnistää"
 
-#: src/Dialogs/InstallEngineDialog.vala:45
-msgid "Languages"
-msgstr "Kielet"
+#: src/InputMethod/InputMethod.vala:105
+msgid "Add Engine…"
+msgstr "Lisää moottori…"
 
-#: src/Dialogs/InstallEngineDialog.vala:99
-msgid "Install"
-msgstr "Asenna"
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
+msgid "Remove"
+msgstr "Poista"
 
-#: src/Dialogs/ProgressDialog.vala:47
-#, c-format
-msgid "Installing %s"
-msgstr "Asennetaan %s"
+#: src/InputMethod/InputMethod.vala:149
+msgid "Switch engines:"
+msgstr "Vaihda moottoreita:"
 
-#: src/Dialogs/ProgressDialog.vala:50
-#, c-format
-msgid "Removing %s"
-msgstr "Poistetaan %s"
+#. tree view to display the current layouts
+#. Layout switching keybinding
+#. Compose key position menu
+#: src/InputMethod/InputMethod.vala:157 src/Layout/Layout.vala:30
+#: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
+#: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+msgid "Disabled"
+msgstr "Pois käytöstä"
+
+#: src/InputMethod/InputMethod.vala:166
+msgid "Show property panel:"
+msgstr "Näytä ominaisuuspaneeli:"
+
+#: src/InputMethod/InputMethod.vala:173
+msgid "Do not show"
+msgstr "Älä näytä"
+
+#: src/InputMethod/InputMethod.vala:174
+msgid "Auto hide"
+msgstr "Piilota automaattisesti"
+
+#: src/InputMethod/InputMethod.vala:175
+msgid "Always show"
+msgstr "Näytä aina"
+
+#: src/InputMethod/InputMethod.vala:177
+msgid "Embed preedit text in application window:"
+msgstr "Upota esimuokattu teksti sovellusikkunaan:"
+
+#: src/InputMethod/InputMethod.vala:403
+msgid "IBus Daemon"
+msgstr "IBus-taustapalvelu"
+
+#: src/InputMethod/InputMethod.vala:406
+msgid "Use and manage input methods"
+msgstr "Käytä ja hallinnoi syötemenetelmiä"
+
+#: src/InputMethod/InputMethod.vala:439
+msgid "Type to test your input method"
+msgstr "Kirjoita testataksesi syötetapaa"
+
+#: src/InputMethod/InputMethod.vala:442
+msgid "A keyboard layout is active"
+msgstr "Näppäimistöasettelu on aktiivinen"
 
 #: src/InputMethod/Installer/InstallList.vala:26
 msgid "Japanese"
@@ -106,6 +213,237 @@ msgstr "Korea"
 msgid "Chinese"
 msgstr "Kiina"
 
+#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
+#. /to look for a input method engine they want to add.
+#. /It does not mean search engines in web browsers.
+#: src/InputMethod/Widgets/AddEngineDialog.vala:43
+msgid "Search engine"
+msgstr "Etsi moottoria"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:73
+msgid "Install Unlisted Engines…"
+msgstr "Asenna luettelemattomia moottoreita…"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:75
+#: src/InputMethod/Widgets/ProgressDialog.vala:60
+#: src/Layout/Widgets/AddLayoutDialog.vala:150
+#: src/Shortcuts/Widgets/AppChooser.vala:47
+msgid "Cancel"
+msgstr "Peru"
+
+#: src/InputMethod/Widgets/AddEngineDialog.vala:77
+msgid "Add Engine"
+msgstr "Lisää moottori"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:24
+msgid "Choose an engine to install"
+msgstr "Valitse asennettava moottori"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:25
+msgid "Select an engine from the list to install and use."
+msgstr "Valitse asennettava ja käytettävä moottori luettelosta."
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:45
+msgid "Languages"
+msgstr "Kielet"
+
+#: src/InputMethod/Widgets/InstallEngineDialog.vala:99
+msgid "Install"
+msgstr "Asenna"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:47
+#, c-format
+msgid "Installing %s"
+msgstr "Asennetaan %s"
+
+#: src/InputMethod/Widgets/ProgressDialog.vala:50
+#, c-format
+msgid "Removing %s"
+msgstr "Poistetaan %s"
+
+#. Caps Lock key functionality
+#: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
+#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Widgets/AddLayoutDialog.vala:249
+msgid "Default"
+msgstr "Oletus"
+
+#: src/Layout/Layout.vala:31
+msgid "Alt + Caps Lock"
+msgstr "Alt + Caps Lock"
+
+#: src/Layout/Layout.vala:32
+msgid "Alt + Shift"
+msgstr "Alt + Shift"
+
+#: src/Layout/Layout.vala:33
+msgid "Alt + Space"
+msgstr "Alt + välilyönti"
+
+#: src/Layout/Layout.vala:34
+msgid "Both Shift keys together"
+msgstr "Molemmat Shift-näppäimet samanaikaisesti"
+
+#: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
+#: src/Layout/Layout.vala:255
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#: src/Layout/Layout.vala:36
+msgid "Ctrl + Alt"
+msgstr "Ctrl + Alt"
+
+#: src/Layout/Layout.vala:37
+msgid "Ctrl + Shift"
+msgstr "Ctrl + Shift"
+
+#: src/Layout/Layout.vala:38
+msgid "Shift + Caps Lock"
+msgstr "Shift + Caps Lock"
+
+#: src/Layout/Layout.vala:46
+msgid "Switch layout:"
+msgstr "Vaihda asettelua:"
+
+#: src/Layout/Layout.vala:54
+msgid "Menu"
+msgstr "Valikko"
+
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
+#: src/Layout/Layout.vala:272
+msgid "Right Alt"
+msgstr "Oikea Alt"
+
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
+#: src/Layout/Layout.vala:273
+msgid "Right Ctrl"
+msgstr "Oikea Ctrl"
+
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
+#: src/Layout/Layout.vala:274
+msgid "Right ⌘"
+msgstr "Oikea ⌘"
+
+#: src/Layout/Layout.vala:65
+msgid "Compose key:"
+msgstr "Compose-näppäin:"
+
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+msgid "Applications Menu"
+msgstr "Sovellukset-valikko"
+
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+msgid "Multitasking View"
+msgstr "Moniajonäkymä"
+
+#: src/Layout/Layout.vala:78
+msgid "⌘ key behavior:"
+msgstr "⌘-näppäimen toiminta:"
+
+#: src/Layout/Layout.vala:84
+msgid "Shortcut Overlay"
+msgstr "Pikanäppäinten esittely"
+
+#: src/Layout/Layout.vala:93
+msgid "as Backspace"
+msgstr "askelpalauttimena"
+
+#: src/Layout/Layout.vala:94
+msgid "as Ctrl"
+msgstr "Ctrl-näppäimenä"
+
+#: src/Layout/Layout.vala:95
+msgid "as Escape"
+msgstr "Escape-näppäimenä"
+
+#: src/Layout/Layout.vala:96
+msgid "as Num Lock"
+msgstr "Num Lock -näppäimenä"
+
+#: src/Layout/Layout.vala:97
+msgid "as ⌘"
+msgstr "⌘-näppäimenä"
+
+#: src/Layout/Layout.vala:98
+msgid "Swap with Ctrl"
+msgstr "Vaihda Ctrl-näppäimen kanssa"
+
+#: src/Layout/Layout.vala:99
+msgid "Swap with Escape"
+msgstr "Vaihda Escapen kanssa"
+
+#: src/Layout/Layout.vala:107
+msgid "Caps Lock behavior:"
+msgstr "Caps Lockin toiminta:"
+
+#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+msgid "Key to choose 3rd level:"
+msgstr "Kolmannen tason valintanäppäin:"
+
+#: src/Layout/Layout.vala:256
+msgid "Left Alt"
+msgstr "Vasen Alt"
+
+#: src/Layout/Layout.vala:281
+msgid "Key to choose 5th level:"
+msgstr "Viidennen tason valintanäppäin:"
+
+#: src/Layout/Layout.vala:298
+msgid "Kana Lock:"
+msgstr "Kana Lock:"
+
+#: src/Layout/Layout.vala:305
+msgid "Nicola F Backspace:"
+msgstr "Nicola F Backspace:"
+
+#: src/Layout/Layout.vala:312
+msgid "Hankaku Zenkaku as Escape:"
+msgstr "Hankaku Zenkaku Escape-näppäimenä:"
+
+#: src/Layout/Layout.vala:331
+msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
+msgstr "Hangul/Hanja-näppäimet oikeanpuoleisissa Alt- ja Ctrl-näppäimissä:"
+
+#: src/Layout/Layout.vala:409
+msgid "Type to test your layout"
+msgstr "Kirjoita testataksesi asettelua"
+
+#: src/Layout/Layout.vala:412
+msgid "Input Method is active"
+msgstr "Syötetapa on aktiivinen"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:21
+msgid "Input Language"
+msgstr "Syötekieli"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:22
+msgid "Layout List"
+msgstr "Asetteluluettelo"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:42
+msgid "Search input language"
+msgstr "Hae syötekieli"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:102
+msgid "Preview Layout"
+msgstr "Esikatsele asettelu"
+
+#: src/Layout/Widgets/AddLayoutDialog.vala:152
+msgid "Add Layout"
+msgstr "Lisää asettelu"
+
+#: src/Layout/Widgets/Display.vala:41
+msgid "Add Keyboard Layout…"
+msgstr "Lisää näppäimistön asettelu…"
+
+#: src/Layout/Widgets/Display.vala:196
+msgid "Move up"
+msgstr "Siirrä ylös"
+
+#: src/Layout/Widgets/Display.vala:200
+msgid "Move down"
+msgstr "Siirrä alas"
+
 #: src/Plug.vala:39
 msgid "Keyboard"
 msgstr "Näppäimistö"
@@ -114,822 +452,687 @@ msgstr "Näppäimistö"
 msgid "Configure keyboard behavior, layouts, and shortcuts"
 msgstr "Määritä näppäimistön toiminta, asettelut ja pikanäppäimet"
 
-#: src/Plug.vala:54 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119 src/Plug.vala:120
+#: src/Plug.vala:54 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120 src/Plug.vala:121
 msgid "Layout"
 msgstr "Asettelu"
 
-#: src/Plug.vala:55 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
-#: src/Plug.vala:124
+#: src/Plug.vala:55 src/Plug.vala:122 src/Plug.vala:123 src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Input Method"
 msgstr "Syötetapa"
 
-#: src/Plug.vala:56 src/Plug.vala:125
+#: src/Plug.vala:56 src/Plug.vala:126
 msgid "Shortcuts"
 msgstr "Pikanäppäimet"
 
-#: src/Plug.vala:57 src/Plug.vala:126 src/Plug.vala:127 src/Plug.vala:128
-#: src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132
+#: src/Plug.vala:57 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
+#: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 msgid "Behavior"
 msgstr "Toiminta"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:118
 msgid "Switch layout"
 msgstr "Vaihda asettelua"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Compose Key"
 msgstr "Compose-näppäin"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "⌘ key behavior"
 msgstr "⌘-näppäimen toiminta"
 
-#: src/Plug.vala:120
+#: src/Plug.vala:121
 msgid "Caps Lock behavior"
 msgstr "Caps Lockin toiminta"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Switch engines"
 msgstr "Vaihda moottoreita"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Show candidate window"
 msgstr "Näytä ehdokasikkuna"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Embed preedit text in application window"
 msgstr "Upota esimuokattu teksti sovellusikkunaan"
 
-#: src/Plug.vala:127 src/Views/Behavior.vala:8
-msgid "Show On-screen Keyboard"
-msgstr "Näytä näyttönäppäimistö:"
+#. / The name of Ctrl + C shortcut: "Edit -> Copy"
+#. / The name of Ctrl + V shortcut: "Edit -> Paste"
+#. / The name of Ctrl + X shortcut: "Edit -> Cut"
+#. / The name of Ctrl + Z shortcut: "Edit -> Undo"
+#. / The name of Ctrl + Y shortcut: "Edit -> Redo"
+#. / The name of Ctrl + F shortcut: "Edit -> Find"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Edit"
+msgstr ""
 
-#: src/Plug.vala:128 src/Views/Behavior.vala:159
-msgid "Bounce Keys"
-msgstr "Kimmonäppäimet"
+#: src/Shortcuts/Backend/ConflictsManager.vala:76
+msgid "Copy"
+msgstr ""
 
-#: src/Plug.vala:129 src/Views/Behavior.vala:87
-msgid "Cursor Blinking"
-msgstr "Kohdistimen vilkunta"
+#: src/Shortcuts/Backend/ConflictsManager.vala:78
+msgid "Paste"
+msgstr ""
 
-#: src/Plug.vala:130 src/Views/Behavior.vala:51
-msgid "Repeat Keys"
-msgstr "Toistonäppäimet"
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#, fuzzy
+#| msgid "Custom"
+msgid "Cut"
+msgstr "Omavalintainen"
 
-#: src/Plug.vala:131 src/Views/Behavior.vala:133
-msgid "Slow Keys"
-msgstr "Hitaat näppäimet"
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
+msgid "Undo"
+msgstr "Kumoa"
 
-#: src/Plug.vala:132 src/Views/Behavior.vala:116
-msgid "Sticky Keys"
-msgstr "Pohjaan jäävät näppäimet"
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+msgid "Redo"
+msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:53 src/Views/Shortcuts.vala:39
-msgid "Windows"
-msgstr "Ikkunat"
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+msgid "Find"
+msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:54
+#. / The name of Ctrl + A shortcut: "Selection -> Select All"
+#. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
+#. / The name of Ctrl + Left shortcut: "Selection -> Move Left by Word"
+#. / The name of Shift + Right shortcut: "Selection -> Expand Selection"
+#. / The name of Shift + Left shortcut: "Selection -> Shrink Selection"
+#. / The name of Shift + Ctrl + Right shortcut: "Selection -> Expand Selection by Word"
+#. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
+#. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
+#. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:89
+msgid "Select All"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:91
+msgid "Move Right by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:93
+msgid "Move Left by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:95
+msgid "Expand Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:97
+msgid "Shrink Selection"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+msgid "Expand Selection by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
+msgid "Shrink Selection by Word"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+msgid "Expand Selection Up"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+msgid "Expand Selection Down"
+msgstr ""
+
+#. / The name of Ctrl + S shortcut: "File -> Save"
+#. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
+#. / The name of Ctrl + N shortcut: "File -> New"
+#. / The name of Ctrl + W shortcut: "File -> Close"
+#. / The name of Ctrl + T shortcut: "File -> New Tab"
+#. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
+#. / The name of Ctrl + R shortcut: "File -> Refresh"
+#. / The name of Ctrl + Q shortcut: "File -> Quit"
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "File"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:108
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:110
+msgid "Save As"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:112
+msgid "New"
+msgstr ""
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:54
 msgid "Close"
 msgstr "Sulje"
 
-#: src/Shortcuts/ShortcutsList.vala:55
-msgid "Lower"
-msgstr "Siirrä taakse"
-
-#: src/Shortcuts/ShortcutsList.vala:56
-msgid "Maximize"
-msgstr "Suurenna"
-
-#: src/Shortcuts/ShortcutsList.vala:57
-msgid "Unmaximize"
-msgstr "Palauta koko"
-
-#: src/Shortcuts/ShortcutsList.vala:58
-msgid "Toggle Maximized"
-msgstr "Suurenna / palauta koko"
-
-#: src/Shortcuts/ShortcutsList.vala:59
-msgid "Hide"
-msgstr "Piilota"
-
-#: src/Shortcuts/ShortcutsList.vala:60
-msgid "Toggle Fullscreen"
-msgstr "Koko näyttö päällä/pois"
-
-#: src/Shortcuts/ShortcutsList.vala:61
-msgid "Toggle on all Workspaces"
-msgstr "Vaihda kaikissa työtiloissa"
-
-#: src/Shortcuts/ShortcutsList.vala:62
-msgid "Toggle always on Top"
-msgstr "Aina päällimmäisenä päällä/pois"
-
-#: src/Shortcuts/ShortcutsList.vala:63
-msgid "Cycle Windows"
-msgstr "Vaihda ikkunoiden välillä"
-
-#: src/Shortcuts/ShortcutsList.vala:64
-msgid "Cycle Windows backwards"
-msgstr "Vaihda ikkunoiden välillä päinvastaisesti"
-
-#: src/Shortcuts/ShortcutsList.vala:65
-msgid "Cycle Windows of application"
-msgstr "Vaihda sovelluksen ikkunoiden välillä"
-
-#: src/Shortcuts/ShortcutsList.vala:66
-msgid "Cycle Windows of application backwards"
-msgstr "Vaihda sovelluksen ikkunoiden välillä päinvastaisesti"
-
-#: src/Shortcuts/ShortcutsList.vala:67
-msgid "Tile Left"
-msgstr "Tasaa vasemmalle"
-
-#: src/Shortcuts/ShortcutsList.vala:68
-msgid "Tile Right"
-msgstr "Tasaa oikealle"
-
-#: src/Shortcuts/ShortcutsList.vala:69
-msgid "Window Overview"
-msgstr "Ikkunan yleisnäkymä"
-
-#: src/Shortcuts/ShortcutsList.vala:70
-msgid "Show All Windows"
-msgstr "Näytä kaikki ikkunat"
-
-#: src/Shortcuts/ShortcutsList.vala:71
-msgid "Picture in Picture Mode"
-msgstr "Kuva kuvassa -tila (PIP)"
-
-#: src/Shortcuts/ShortcutsList.vala:72
-msgid "Move to display above"
-msgstr "Siirrä yllä olevalle näytölle"
-
-#: src/Shortcuts/ShortcutsList.vala:73
-msgid "Move to display below"
-msgstr "Siirrä alla olevalle näytölle"
-
-#: src/Shortcuts/ShortcutsList.vala:74
-msgid "Move to right display"
-msgstr "Siirrä oikealla olevalle näytölle"
-
-#: src/Shortcuts/ShortcutsList.vala:75
-msgid "Move to left display"
-msgstr "Siirrä vasemmalla olevalle näytölle"
-
-#: src/Shortcuts/ShortcutsList.vala:79 src/Views/Shortcuts.vala:41
-msgid "Workspaces"
-msgstr "Työtilat"
-
-#: src/Shortcuts/ShortcutsList.vala:80 src/Views/Layout.vala:75
-msgid "Multitasking View"
-msgstr "Moniajonäkymä"
-
-#: src/Shortcuts/ShortcutsList.vala:81
-msgid "Switch left"
-msgstr "Vaihda vasemmalle"
-
-#: src/Shortcuts/ShortcutsList.vala:82
-msgid "Switch right"
-msgstr "Vaihda oikealle"
-
-#: src/Shortcuts/ShortcutsList.vala:83
-msgid "Switch to first"
-msgstr "Vaihda ensimmäiseen"
-
-#: src/Shortcuts/ShortcutsList.vala:84
-msgid "Switch to new"
-msgstr "Vaihda uuteen"
-
-#: src/Shortcuts/ShortcutsList.vala:85
-msgid "Switch to workspace 1"
-msgstr "Vaihda työtilaan 1"
-
-#: src/Shortcuts/ShortcutsList.vala:86
-msgid "Switch to workspace 2"
-msgstr "Vaihda työtilaan 2"
-
-#: src/Shortcuts/ShortcutsList.vala:87
-msgid "Switch to workspace 3"
-msgstr "Vaihda työtilaan 3"
-
-#: src/Shortcuts/ShortcutsList.vala:88
-msgid "Switch to workspace 4"
-msgstr "Vaihda työtilaan 4"
-
-#: src/Shortcuts/ShortcutsList.vala:89
-msgid "Switch to workspace 5"
-msgstr "Vaihda työtilaan 5"
-
-#: src/Shortcuts/ShortcutsList.vala:90
-msgid "Switch to workspace 6"
-msgstr "Vaihda työtilaan 6"
-
-#: src/Shortcuts/ShortcutsList.vala:91
-msgid "Switch to workspace 7"
-msgstr "Vaihda työtilaan 7"
-
-#: src/Shortcuts/ShortcutsList.vala:92
-msgid "Switch to workspace 8"
-msgstr "Vaihda työtilaan 8"
-
-#: src/Shortcuts/ShortcutsList.vala:93
-msgid "Switch to workspace 9"
-msgstr "Vaihda työtilaan 9"
-
-#: src/Shortcuts/ShortcutsList.vala:94
-msgid "Cycle workspaces"
-msgstr "Vaihda työtilojen välillä"
-
-#: src/Shortcuts/ShortcutsList.vala:95
-msgid "Cycle workspaces backwards"
-msgstr "Vaihda työtilojen välillä päinvastaisesti"
-
-#: src/Shortcuts/ShortcutsList.vala:96
-msgid "Move to workspace 1"
-msgstr "Siirrä työtilaan 1"
-
-#: src/Shortcuts/ShortcutsList.vala:97
-msgid "Move to workspace 2"
-msgstr "Siirrä työtilaan 2"
-
-#: src/Shortcuts/ShortcutsList.vala:98
-msgid "Move to workspace 3"
-msgstr "Siirrä työtilaan 3"
-
-#: src/Shortcuts/ShortcutsList.vala:99
-msgid "Move to workspace 4"
-msgstr "Siirrä työtilaan 4"
-
-#: src/Shortcuts/ShortcutsList.vala:100
-msgid "Move to workspace 5"
-msgstr "Siirrä työtilaan 5"
-
-#: src/Shortcuts/ShortcutsList.vala:101
-msgid "Move to workspace 6"
-msgstr "Siirrä työtilaan 6"
-
-#: src/Shortcuts/ShortcutsList.vala:102
-msgid "Move to workspace 7"
-msgstr "Siirrä työtilaan 7"
-
-#: src/Shortcuts/ShortcutsList.vala:103
-msgid "Move to workspace 8"
-msgstr "Siirrä työtilaan 8"
-
-#: src/Shortcuts/ShortcutsList.vala:104
-msgid "Move to workspace 9"
-msgstr "Siirrä työtilaan 9"
-
-#: src/Shortcuts/ShortcutsList.vala:105
-msgid "Move to left workspace"
-msgstr "Siirrä vasemmalla olevaan työtilaan"
-
-#: src/Shortcuts/ShortcutsList.vala:106
-msgid "Move to right workspace"
-msgstr "Siirrä oikealla olevaan työtilaan"
-
-#: src/Shortcuts/ShortcutsList.vala:110 src/Views/Shortcuts.vala:43
-msgid "Screenshots"
-msgstr "Kuvakaappaukset"
-
-#: src/Shortcuts/ShortcutsList.vala:111
-msgid "Grab the whole screen"
-msgstr "Kaappaa koko näyttö"
-
-#: src/Shortcuts/ShortcutsList.vala:112
-msgid "Copy the whole screen to clipboard"
-msgstr "Tallenna koko näytön kuvakaappaus leikepöydälle"
-
-#: src/Shortcuts/ShortcutsList.vala:113
-msgid "Grab the current window"
-msgstr "Kaappaa nykyinen ikkuna"
-
-#: src/Shortcuts/ShortcutsList.vala:114
-msgid "Copy the current window to clipboard"
-msgstr "Kopioi nykyinen ikkuna leikepöydälle"
-
-#: src/Shortcuts/ShortcutsList.vala:115
-msgid "Select an area to grab"
-msgstr "Valitse kaapattava alue"
-
-#: src/Shortcuts/ShortcutsList.vala:116
-msgid "Copy an area to clipboard"
-msgstr "Kopioi alue leikepöydälle"
-
-#: src/Shortcuts/ShortcutsList.vala:120 src/Views/Shortcuts.vala:45
-msgid "Applications"
-msgstr "Sovellukset"
-
-#: src/Shortcuts/ShortcutsList.vala:121
-msgid "Email"
-msgstr "Sähköposti"
-
-#: src/Shortcuts/ShortcutsList.vala:122
-msgid "Home Folder"
-msgstr "Kotikansio"
-
-#: src/Shortcuts/ShortcutsList.vala:123
-msgid "Music"
-msgstr "Musiikki"
-
-#: src/Shortcuts/ShortcutsList.vala:124
-msgid "Terminal"
-msgstr "Pääte"
-
-#: src/Shortcuts/ShortcutsList.vala:125
-msgid "Internet Browser"
-msgstr "Internetselain"
-
-#: src/Shortcuts/ShortcutsList.vala:129 src/Views/Shortcuts.vala:47
-msgid "Media"
-msgstr "Media"
-
-#: src/Shortcuts/ShortcutsList.vala:130
-msgid "Volume Up"
-msgstr "Lisää äänenvoimakkuutta"
-
-#: src/Shortcuts/ShortcutsList.vala:131
-msgid "Volume Down"
-msgstr "Vähennä äänenvoimakkuutta"
-
-#: src/Shortcuts/ShortcutsList.vala:132
-msgid "Mute"
-msgstr "Vaimenna"
-
-#: src/Shortcuts/ShortcutsList.vala:133
-msgid "Play/Pause"
-msgstr "Toista/keskeytä"
-
-#: src/Shortcuts/ShortcutsList.vala:134
-msgid "Pause"
-msgstr "Keskeytä"
-
-#: src/Shortcuts/ShortcutsList.vala:135
-msgid "Stop"
-msgstr "Pysäytä"
-
-#: src/Shortcuts/ShortcutsList.vala:136
-msgid "Previous Track"
-msgstr "Edellinen kappale"
-
-#: src/Shortcuts/ShortcutsList.vala:137
-msgid "Next Track"
-msgstr "Seuraava kappale"
-
-#: src/Shortcuts/ShortcutsList.vala:138
-msgid "Eject"
-msgstr "Irrota"
-
-#: src/Shortcuts/ShortcutsList.vala:142
-msgid "Universal Access"
-msgstr "Esteettömyys"
-
-#: src/Shortcuts/ShortcutsList.vala:143
-msgid "Decrease Text Size"
-msgstr "Pienennä tekstin kokoa"
-
-#: src/Shortcuts/ShortcutsList.vala:144
-msgid "Increase Text Size"
-msgstr "Kasvata tekstin kokoa"
-
-#: src/Shortcuts/ShortcutsList.vala:145
-msgid "Magnifier Zoom in"
-msgstr "Lähennä suurennuslasilla"
-
-#: src/Shortcuts/ShortcutsList.vala:146
-msgid "Magnifier Zoom out"
-msgstr "Loitonna suurennuslasilla"
-
-#: src/Shortcuts/ShortcutsList.vala:147
-msgid "Toggle On Screen Keyboard"
-msgstr "Näyttönäppäimistö päällä/pois"
-
-#: src/Shortcuts/ShortcutsList.vala:148
-msgid "Toggle Screenreader"
-msgstr "Näytönlukija päällä/pois"
-
-#: src/Shortcuts/ShortcutsList.vala:152 src/Views/Shortcuts.vala:51
-msgid "System"
-msgstr "Järjestelmä"
-
-#: src/Shortcuts/ShortcutsList.vala:153 src/Views/Layout.vala:74
-msgid "Applications Menu"
-msgstr "Sovellukset-valikko"
-
-#: src/Shortcuts/ShortcutsList.vala:154
-msgid "Lock"
-msgstr "Lukitse"
-
-#: src/Shortcuts/ShortcutsList.vala:155
-msgid "Log Out"
-msgstr "Kirjaudu ulos"
-
-#: src/Shortcuts/ShortcutsList.vala:156
-msgid "Cycle display mode"
-msgstr "Vaihda näyttötilaa"
-
-#: src/Shortcuts/ShortcutsList.vala:160
-#, fuzzy
-#| msgid "Add Keyboard Layout…"
-msgid "Keyboard Layouts"
-msgstr "Lisää näppäimistön asettelu…"
-
-#: src/Shortcuts/ShortcutsList.vala:161
-#, fuzzy
-#| msgid "Add Keyboard Layout…"
-msgid "Switch Keyboard Layout"
-msgstr "Lisää näppäimistön asettelu…"
-
-#: src/Shortcuts/ShortcutsList.vala:162
-msgid "Switch Keyboard Layout Backwards"
+#: src/Shortcuts/Backend/ConflictsManager.vala:116
+msgid "New Tab"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:163
-msgid "Enable Emoji Typing"
+#: src/Shortcuts/Backend/ConflictsManager.vala:118
+msgid "Restore Closed Tab"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:164
-msgid "Enable Unicode Typing"
+#: src/Shortcuts/Backend/ConflictsManager.vala:120
+msgctxt "keyboard"
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: src/Shortcuts/Backend/ConflictsManager.vala:122
+msgid "Quit"
 msgstr ""
 
-#: src/Shortcuts/ShortcutsList.vala:168 src/Views/Shortcuts.vala:53
-msgid "Custom"
-msgstr "Omavalintainen"
-
-#. tree view to display the current layouts
-#. Layout switching keybinding
-#. Compose key position menu
-#: src/Shortcuts/Shortcut.vala:55 src/Views/InputMethod.vala:140
-#: src/Views/Layout.vala:30 src/Views/Layout.vala:52 src/Views/Layout.vala:73
-#: src/Views/Layout.vala:92
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:100
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:401
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:86
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:343
-msgid "Disabled"
-msgstr "Pois käytöstä"
-
-#: src/Shortcuts/Shortcut.vala:61
+#: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
 msgstr "Shift"
 
-#: src/Shortcuts/Shortcut.vala:69
+#: src/Shortcuts/Backend/Shortcut.vala:61
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/Shortcuts/Shortcut.vala:73
+#: src/Shortcuts/Backend/Shortcut.vala:65
 msgid "Alt"
 msgstr "Alt"
 
-#: src/Shortcuts/Shortcut.vala:77
+#: src/Shortcuts/Backend/Shortcut.vala:69
 msgid "Meta"
 msgstr ""
 
-#: src/Views/Behavior.vala:16
-msgid "On-screen keyboard settings…"
-msgstr "Virtuaalinäppäimistön asetukset…"
-
-#: src/Views/Behavior.vala:38
-msgid "Delay:"
-msgstr "Viive:"
-
-#: src/Views/Behavior.vala:42
-msgid "Interval:"
-msgstr "Päivitysväli:"
-
-#: src/Views/Behavior.vala:74
-msgid "Speed:"
-msgstr "Nopeus:"
-
-#: src/Views/Behavior.vala:78
-msgid "Duration:"
-msgstr "Kesto:"
-
-#: src/Views/Behavior.vala:118
-msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
-msgstr "Käytä näppäimiä ⌘, Alt, Ctrl tai Shift peräkkäin sarjassa"
-
-#: src/Views/Behavior.vala:135
-msgid "Don't accept keypresses unless held"
-msgstr "Älä hyväksy näppäinpainalluksia ellei näppäimiä pidetä pohjassa"
-
-#: src/Views/Behavior.vala:161
-msgid "Ignore fast duplicate keypresses"
-msgstr "Älä huomioi saman näppäimen nopeita kaksoispainalluksia"
-
-#: src/Views/Behavior.vala:179
-msgid "Event Alerts"
-msgstr "Tapahtumaäänet"
-
-#: src/Views/Behavior.vala:180
-#, c-format
-msgid "Play a sound or flash the screen. %s"
-msgstr "Toista ääni tai väläytä näyttöä. %s"
-
-#: src/Views/Behavior.vala:182
-msgid "Sound Settings…"
-msgstr "Ääniasetukset…"
-
-#: src/Views/Behavior.vala:187
-msgid "Caps Lock ⇪ or Num Lock keys are pressed"
-msgstr "Näppäimiä Caps Lock ⇪ tai Num Lock painetaan"
-
-#: src/Views/Behavior.vala:188
-msgid "Bounce Keys are rejected"
-msgstr "Kimmonäppäimet hylätään"
-
-#: src/Views/Behavior.vala:189
-msgid "Sticky Keys are pressed"
-msgstr "Pohjaan jääviä näppäimiä painetaan"
-
-#: src/Views/Behavior.vala:190
-msgid "Slow Keys are rejected"
-msgstr "Hitaat näppäimet hylätään"
-
-#: src/Views/Behavior.vala:206
-msgid "Type to test your settings"
-msgstr "Kirjoita testataksesi asetuksia"
-
-#. no_daemon_runnning view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:51
-msgid "IBus Daemon is not running"
-msgstr "IBus-taustapalvelu ei ole käynnissä"
-
-#: src/Views/InputMethod.vala:52
-#, fuzzy
-#| msgid ""
-#| "You need to run the IBus daemon to enable or configure input method "
-#| "engines."
-msgid ""
-"IBus daemon must run in the background to enable or configure input method "
-"engines."
-msgstr ""
-"IBus-taustapalvelu tulee olla käynnissä, jotta syötetapojen moottoreita voi "
-"ottaa käyttöön tai niiden asetuksia muuttaa."
-
-#: src/Views/InputMethod.vala:61
-msgid "Start IBus Daemon"
-msgstr "Käynnistä IBus-taustapalvelu"
-
-#: src/Views/InputMethod.vala:62
-msgid "Can be managed in System Settings → Applications → Startup"
-msgstr ""
-
-#. spawn_failed view shown if IBus Daemon is not running
-#: src/Views/InputMethod.vala:68
-msgid "Could not start the IBus daemon"
-msgstr "IBus-taustapalvelua ei voitu käynnistää"
-
-#: src/Views/InputMethod.vala:112
-msgid "Add…"
-msgstr "Lisää…"
-
-#: src/Views/InputMethod.vala:116 src/Widgets/Layout/Display.vala:192
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:141
-msgid "Remove"
-msgstr "Poista"
-
-#: src/Views/InputMethod.vala:132
-msgid "Switch engines:"
-msgstr "Vaihda moottoreita:"
-
-#: src/Views/InputMethod.vala:149
-msgid "Show property panel:"
-msgstr "Näytä ominaisuuspaneeli:"
-
-#: src/Views/InputMethod.vala:156
-msgid "Do not show"
-msgstr "Älä näytä"
-
-#: src/Views/InputMethod.vala:157
-msgid "Auto hide"
-msgstr "Piilota automaattisesti"
-
-#: src/Views/InputMethod.vala:158
-msgid "Always show"
-msgstr "Näytä aina"
-
-#: src/Views/InputMethod.vala:160
-msgid "Embed preedit text in application window:"
-msgstr "Upota esimuokattu teksti sovellusikkunaan:"
-
-#: src/Views/InputMethod.vala:391
-msgid "IBus Daemon"
-msgstr "IBus-taustapalvelu"
-
-#: src/Views/InputMethod.vala:394
-msgid "Use and manage input methods"
-msgstr "Käytä ja hallinnoi syötemenetelmiä"
-
-#: src/Views/InputMethod.vala:457
-msgid "Type to test your input method"
-msgstr "Kirjoita testataksesi syötetapaa"
-
-#: src/Views/InputMethod.vala:460
-msgid "A keyboard layout is active"
-msgstr "Näppäimistöasettelu on aktiivinen"
-
-#: src/Views/Layout.vala:31
-msgid "Alt + Caps Lock"
-msgstr "Alt + Caps Lock"
-
-#: src/Views/Layout.vala:32
-msgid "Alt + Shift"
-msgstr "Alt + Shift"
-
-#: src/Views/Layout.vala:33
-msgid "Alt + Space"
-msgstr "Alt + välilyönti"
-
-#: src/Views/Layout.vala:34
-msgid "Both Shift keys together"
-msgstr "Molemmat Shift-näppäimet samanaikaisesti"
-
-#: src/Views/Layout.vala:35 src/Views/Layout.vala:53 src/Views/Layout.vala:254
-msgid "Caps Lock"
-msgstr "Caps Lock"
-
-#: src/Views/Layout.vala:36
-msgid "Ctrl + Alt"
-msgstr "Ctrl + Alt"
-
-#: src/Views/Layout.vala:37
-msgid "Ctrl + Shift"
-msgstr "Ctrl + Shift"
-
-#: src/Views/Layout.vala:38
-msgid "Shift + Caps Lock"
-msgstr "Shift + Caps Lock"
-
-#: src/Views/Layout.vala:46
-msgid "Switch layout:"
-msgstr "Vaihda asettelua:"
-
-#: src/Views/Layout.vala:54
-msgid "Menu"
-msgstr "Valikko"
-
-#: src/Views/Layout.vala:55 src/Views/Layout.vala:256 src/Views/Layout.vala:271
-msgid "Right Alt"
-msgstr "Oikea Alt"
-
-#: src/Views/Layout.vala:56 src/Views/Layout.vala:257 src/Views/Layout.vala:272
-msgid "Right Ctrl"
-msgstr "Oikea Ctrl"
-
-#: src/Views/Layout.vala:57 src/Views/Layout.vala:258 src/Views/Layout.vala:273
-msgid "Right ⌘"
-msgstr "Oikea ⌘"
-
-#: src/Views/Layout.vala:65
-msgid "Compose key:"
-msgstr "Compose-näppäin:"
-
-#: src/Views/Layout.vala:78
-msgid "⌘ key behavior:"
-msgstr "⌘-näppäimen toiminta:"
-
-#: src/Views/Layout.vala:84
-msgid "Shortcut Overlay"
-msgstr "Pikanäppäinten esittely"
-
-#: src/Views/Layout.vala:93
-msgid "as Backspace"
-msgstr "askelpalauttimena"
-
-#: src/Views/Layout.vala:94
-msgid "as Ctrl"
-msgstr "Ctrl-näppäimenä"
-
-#: src/Views/Layout.vala:95
-msgid "as Escape"
-msgstr "Escape-näppäimenä"
-
-#: src/Views/Layout.vala:96
-msgid "as Num Lock"
-msgstr "Num Lock -näppäimenä"
-
-#: src/Views/Layout.vala:97
-msgid "as ⌘"
-msgstr "⌘-näppäimenä"
-
-#: src/Views/Layout.vala:98
-msgid "Swap with Ctrl"
-msgstr "Vaihda Ctrl-näppäimen kanssa"
-
-#: src/Views/Layout.vala:99
-msgid "Swap with Escape"
-msgstr "Vaihda Escapen kanssa"
-
-#: src/Views/Layout.vala:107
-msgid "Caps Lock behavior:"
-msgstr "Caps Lockin toiminta:"
-
-#: src/Views/Layout.vala:240 src/Views/Layout.vala:266
-msgid "Key to choose 3rd level:"
-msgstr "Kolmannen tason valintanäppäin:"
-
-#: src/Views/Layout.vala:255
-msgid "Left Alt"
-msgstr "Vasen Alt"
-
-#: src/Views/Layout.vala:280
-msgid "Key to choose 5th level:"
-msgstr "Viidennen tason valintanäppäin:"
-
-#: src/Views/Layout.vala:297
-msgid "Kana Lock:"
-msgstr "Kana Lock:"
-
-#: src/Views/Layout.vala:304
-msgid "Nicola F Backspace:"
-msgstr "Nicola F Backspace:"
-
-#: src/Views/Layout.vala:311
-msgid "Hankaku Zenkaku as Escape:"
-msgstr "Hankaku Zenkaku Escape-näppäimenä:"
-
-#: src/Views/Layout.vala:330
-msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
-msgstr "Hangul/Hanja-näppäimet oikeanpuoleisissa Alt- ja Ctrl-näppäimissä:"
-
-#: src/Views/Layout.vala:408
-msgid "Type to test your layout"
-msgstr "Kirjoita testataksesi asettelua"
-
-#: src/Views/Layout.vala:411
-msgid "Input Method is active"
-msgstr "Syötetapa on aktiivinen"
-
-#: src/Views/Shortcuts.vala:49
-msgid "Accessibility"
+#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+msgid "Windows"
+msgstr "Ikkunat"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:55
+msgid "Lower"
+msgstr "Siirrä taakse"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:56
+msgid "Maximize"
+msgstr "Suurenna"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:57
+msgid "Unmaximize"
+msgstr "Palauta koko"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:58
+msgid "Toggle Maximized"
+msgstr "Suurenna / palauta koko"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:59
+msgid "Hide"
+msgstr "Piilota"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:60
+msgid "Toggle Fullscreen"
+msgstr "Koko näyttö päällä/pois"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:61
+msgid "Toggle on all Workspaces"
+msgstr "Vaihda kaikissa työtiloissa"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:62
+msgid "Toggle always on Top"
+msgstr "Aina päällimmäisenä päällä/pois"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:63
+msgid "Cycle Windows"
+msgstr "Vaihda ikkunoiden välillä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:64
+msgid "Cycle Windows backwards"
+msgstr "Vaihda ikkunoiden välillä päinvastaisesti"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:65
+msgid "Cycle Windows of application"
+msgstr "Vaihda sovelluksen ikkunoiden välillä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:66
+msgid "Cycle Windows of application backwards"
+msgstr "Vaihda sovelluksen ikkunoiden välillä päinvastaisesti"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:67
+msgid "Tile Left"
+msgstr "Tasaa vasemmalle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:68
+msgid "Tile Right"
+msgstr "Tasaa oikealle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
+msgid "Window Overview"
+msgstr "Ikkunan yleisnäkymä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
+msgid "Show All Windows"
+msgstr "Näytä kaikki ikkunat"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
+msgid "Picture in Picture Mode"
+msgstr "Kuva kuvassa -tila (PIP)"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
+msgid "Move to display above"
+msgstr "Siirrä yllä olevalle näytölle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
+msgid "Move to display below"
+msgstr "Siirrä alla olevalle näytölle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
+msgid "Move to right display"
+msgstr "Siirrä oikealla olevalle näytölle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
+msgid "Move to left display"
+msgstr "Siirrä vasemmalla olevalle näytölle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
+msgid "Workspaces"
+msgstr "Työtilat"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
+msgid "Switch left"
+msgstr "Vaihda vasemmalle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
+msgid "Switch right"
+msgstr "Vaihda oikealle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
+msgid "Switch to first"
+msgstr "Vaihda ensimmäiseen"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
+msgid "Switch to new"
+msgstr "Vaihda uuteen"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
+msgid "Switch to workspace 1"
+msgstr "Vaihda työtilaan 1"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
+msgid "Switch to workspace 2"
+msgstr "Vaihda työtilaan 2"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
+msgid "Switch to workspace 3"
+msgstr "Vaihda työtilaan 3"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
+msgid "Switch to workspace 4"
+msgstr "Vaihda työtilaan 4"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
+msgid "Switch to workspace 5"
+msgstr "Vaihda työtilaan 5"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
+msgid "Switch to workspace 6"
+msgstr "Vaihda työtilaan 6"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:91
+msgid "Switch to workspace 7"
+msgstr "Vaihda työtilaan 7"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:92
+msgid "Switch to workspace 8"
+msgstr "Vaihda työtilaan 8"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:93
+msgid "Switch to workspace 9"
+msgstr "Vaihda työtilaan 9"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:94
+msgid "Cycle workspaces"
+msgstr "Vaihda työtilojen välillä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:95
+msgid "Cycle workspaces backwards"
+msgstr "Vaihda työtilojen välillä päinvastaisesti"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:96
+msgid "Move to workspace 1"
+msgstr "Siirrä työtilaan 1"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:97
+msgid "Move to workspace 2"
+msgstr "Siirrä työtilaan 2"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
+msgid "Move to workspace 3"
+msgstr "Siirrä työtilaan 3"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
+msgid "Move to workspace 4"
+msgstr "Siirrä työtilaan 4"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
+msgid "Move to workspace 5"
+msgstr "Siirrä työtilaan 5"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
+msgid "Move to workspace 6"
+msgstr "Siirrä työtilaan 6"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
+msgid "Move to workspace 7"
+msgstr "Siirrä työtilaan 7"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
+msgid "Move to workspace 8"
+msgstr "Siirrä työtilaan 8"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
+msgid "Move to workspace 9"
+msgstr "Siirrä työtilaan 9"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
+msgid "Move to left workspace"
+msgstr "Siirrä vasemmalla olevaan työtilaan"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
+msgid "Move to right workspace"
+msgstr "Siirrä oikealla olevaan työtilaan"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
+msgid "Screenshots"
+msgstr "Kuvakaappaukset"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
+msgid "Grab the whole screen"
+msgstr "Kaappaa koko näyttö"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
+msgid "Copy the whole screen to clipboard"
+msgstr "Tallenna koko näytön kuvakaappaus leikepöydälle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
+msgid "Grab the current window"
+msgstr "Kaappaa nykyinen ikkuna"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
+msgid "Copy the current window to clipboard"
+msgstr "Kopioi nykyinen ikkuna leikepöydälle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
+msgid "Select an area to grab"
+msgstr "Valitse kaapattava alue"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
+msgid "Copy an area to clipboard"
+msgstr "Kopioi alue leikepöydälle"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
+msgid "Email"
+msgstr "Sähköposti"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
+msgid "Home Folder"
+msgstr "Kotikansio"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
+msgid "Music"
+msgstr "Musiikki"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:124
+msgid "Terminal"
+msgstr "Pääte"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:125
+msgid "Internet Browser"
+msgstr "Internetselain"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:126
+msgid "Launch first dock item"
+msgstr "Käynnistä telakan ensimmäinen kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:127
+msgid "Launch second dock item"
+msgstr "Käynnistä telakan toinen kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:128
+msgid "Launch third dock item"
+msgstr "Käynnistä telakan kolmas kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:129
+msgid "Launch fourth dock item"
+msgstr "Käynnistä telakan neljäs kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
+msgid "Launch fifth dock item"
+msgstr "Käynnistä telakan viides kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
+msgid "Launch sixth dock item"
+msgstr "Käynnistä telakan kuudes kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
+msgid "Launch seventh dock item"
+msgstr "Käynnistä telakan seitsemäs kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
+msgid "Launch eighth dock item"
+msgstr "Käynnistä telakan kahdeksas kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
+msgid "Launch ninth dock item"
+msgstr "Käynnistä telakan yhdeksäs kohde"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
+msgid "Media"
+msgstr "Media"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:139
+msgid "Volume Up"
+msgstr "Lisää äänenvoimakkuutta"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:140
+msgid "Volume Down"
+msgstr "Vähennä äänenvoimakkuutta"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:141
+msgid "Mute"
+msgstr "Vaimenna"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
+msgid "Play/Pause"
+msgstr "Toista/keskeytä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
+msgid "Pause"
+msgstr "Keskeytä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
+msgid "Stop"
+msgstr "Pysäytä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
+msgid "Previous Track"
+msgstr "Edellinen kappale"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
+msgid "Next Track"
+msgstr "Seuraava kappale"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
+msgid "Eject"
+msgstr "Irrota"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
+msgid "Universal Access"
 msgstr "Esteettömyys"
 
-#: src/Views/Shortcuts.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
+msgid "Decrease Text Size"
+msgstr "Pienennä tekstin kokoa"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
+msgid "Increase Text Size"
+msgstr "Kasvata tekstin kokoa"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
+msgid "Magnifier Zoom in"
+msgstr "Lähennä suurennuslasilla"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
+msgid "Magnifier Zoom out"
+msgstr "Loitonna suurennuslasilla"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:156
+msgid "Toggle On Screen Keyboard"
+msgstr "Näyttönäppäimistö päällä/pois"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:157
+msgid "Toggle Screenreader"
+msgstr "Näytönlukija päällä/pois"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
+msgid "System"
+msgstr "Järjestelmä"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
+msgid "Lock"
+msgstr "Lukitse"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
+msgid "Log Out"
+msgstr "Kirjaudu ulos"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
+msgid "Cycle display mode"
+msgstr "Vaihda näyttötilaa"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
+msgid "Keyboard Layouts"
+msgstr "Näppäimistöasettelut"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
+msgid "Switch Keyboard Layout"
+msgstr "Vaihda näppäimistön asettelu"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:171
+msgid "Switch Keyboard Layout Backwards"
+msgstr "Vaihda näppäimistön asettelu taaksepäin"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:172
+msgid "Enable Emoji Typing"
+msgstr "Käytä Emoji-kirjoitusta"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:173
+msgid "Enable Unicode Typing"
+msgstr "Käytä Unicode-kirjoitusta"
+
+#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
+msgid "Custom"
+msgstr "Omavalintainen"
+
+#: src/Shortcuts/Widgets/AppChooser.vala:15
+msgid "Search Applications"
+msgstr "Etsi sovelluksia"
+
+#: src/Shortcuts/Widgets/AppChooser.vala:33
+msgid "Type in a custom command"
+msgstr "Kirjoita oma komento"
+
+#. TRANSLATORS: This string is used by screen reader
+#: src/Shortcuts/Widgets/AppChooser.vala:50
+#, fuzzy
+#| msgid "Select an area to grab"
+msgid "Select an app"
+msgstr "Valitse kaapattava alue"
+
+#: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
 msgstr "Lisää pikanäppäin"
 
-#. /TRANSLATORS: This text appears in a search entry and tell users to type some search word
-#. /to look for a input method engine they want to add.
-#. /It does not mean search engines in web browsers.
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:36
-msgid "Search engine"
-msgstr "Etsi moottoria"
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
+msgid "Custom Command"
+msgstr "Oma komento"
 
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:52
-msgid "Install Unlisted Engines…"
-msgstr "Asenna luettelemattomia moottoreita…"
-
-#: src/Widgets/InputMethod/AddEnginesPopover.vala:56
-msgid "Add Engine"
-msgstr "Lisää moottori"
-
-#: src/Widgets/Layout/Display.vala:41
-msgid "Add Keyboard Layout…"
-msgstr "Lisää näppäimistön asettelu…"
-
-#: src/Widgets/Layout/Display.vala:196
-msgid "Move up"
-msgstr "Siirrä ylös"
-
-#: src/Widgets/Layout/Display.vala:200
-msgid "Move down"
-msgstr "Siirrä alas"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:97
-msgid "Enter a command here"
-msgstr "Kirjoita komento tähän"
-
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:130
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
 msgstr "Aseta uusi pikanäppäin"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:135
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
 msgid "Disable"
 msgstr "Poista käytöstä"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:273
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
 msgid "Enter new shortcut…"
 msgstr "Aseta uusi pikanäppäin…"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:343
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Uutta pikanäppäintä ei voitu asettaa ristiriitojen vuoksi"
 
-#: src/Widgets/Shortcuts/CustomShortcutListBox.vala:344
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” on jo käytössä toiminnolle “%s → %s”."
 
-#: src/Widgets/Shortcuts/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
 msgid "Reset to Default"
 msgstr "Palauta oletusarvoon"
+
+#: src/Shortcuts/Shortcuts.vala:49
+msgid "Accessibility"
+msgstr "Esteettömyys"
+
+#~ msgid "Enter a command here"
+#~ msgstr "Kirjoita komento tähän"
+
+#, c-format
+#~ msgid "%s is already used for %s"
+#~ msgstr "%s on jo käytössä toiminnolle %s"
+
+#, c-format
+#~ msgid "If you reassign the shortcut to %s, %s will be disabled."
+#~ msgstr ""
+#~ "Jos asetat pikanäppäimen toimintoon %s, toiminnon %s pikanäppäin "
+#~ "poistetaan käytöstä."
+
+#~ msgid "Reassign"
+#~ msgstr "Aseta uudelleen"
+
+#~ msgid "Add…"
+#~ msgstr "Lisää…"
 
 #~ msgid "On-screen Keyboard"
 #~ msgstr "Näyttönäppäimistö"
@@ -960,9 +1163,6 @@ msgstr "Palauta oletusarvoon"
 
 #~ msgid "Add"
 #~ msgstr "Lisää"
-
-#~ msgid "Command"
-#~ msgstr "Komento"
 
 #~ msgid "Show candidate window:"
 #~ msgstr "Näytä ehdokasikkuna:"

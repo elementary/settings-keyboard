@@ -1,5 +1,5 @@
 # Keyboard Settings
-[![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-keyboard/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
+[![Translation status](https://l10n.elementaryos.org/widget/settings/keyboard/svg-badge.svg)](https://l10n.elementaryos.org/engage/settings/)
 
 ![screenshot](data/screenshot-layout.png?raw=true)
 

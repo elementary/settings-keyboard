@@ -240,7 +240,8 @@ public class Keyboard.Behaviour.Page : Gtk.Box {
             child = box,
             margin_start = 12,
             margin_end = 12,
-            margin_bottom = 12
+            margin_bottom = 12,
+            margin_top = 12
         };
 
         var scrolled = new Gtk.ScrolledWindow () {
@@ -251,7 +252,7 @@ public class Keyboard.Behaviour.Page : Gtk.Box {
 
         onscreen_keyboard_settings.clicked.connect (() => {
             try {
-                var appinfo = AppInfo.create_from_commandline ("onboard-settings", null, NONE);
+                var appinfo = GLib.AppInfo.create_from_commandline ("onboard-settings", null, NONE);
                 appinfo.launch (null, null);
             } catch (Error e) {
                 critical ("Unable to launch onboard-settings: %s", e.message);

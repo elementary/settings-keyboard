@@ -4,7 +4,7 @@ xkb_base = xkbconf.get_pkgconfig_variable('xkb_base')
 conf_data = configuration_data()
 conf_data.set('XKB_BASE', xkb_base)
 conf_data.set('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
-conf_data.set('GETTEXT_PACKAGE', meson.project_name() + '-plug')
+conf_data.set('GETTEXT_PACKAGE', gettext_name)
 config_file = configure_file (
     input: 'Config.vala.in',
     output: 'Config.vala',
@@ -12,36 +12,39 @@ config_file = configure_file (
 )
 
 plug_files = files(
-    'Plug.vala',
-    'Widgets/Shortcuts/ShortcutListBox.vala',
-    'Widgets/Shortcuts/CustomShortcutListBox.vala',
-    'Widgets/Layout/Display.vala',
-    'Widgets/Layout/AdvancedSettingsPanel.vala',
-    'Widgets/InputMethod/LanguagesRow.vala',
-    'Widgets/InputMethod/EnginesRow.vala',
-    'Widgets/InputMethod/Utils.vala',
-    'Views/Shortcuts.vala',
-    'Views/Layout.vala',
-    'Views/InputMethod.vala',
-    'Views/Behavior.vala',
-    'Shortcuts/Shortcut.vala',
-    'Shortcuts/Settings.vala',
-    'Shortcuts/ShortcutsList.vala',
-    'Shortcuts/CustomShortcutSettings.vala',
-    'Shortcuts/ConflictsManager.vala',
-    'Xkb/XkbModifier.vala',
-    'Xkb/Handler.vala',
-    'InputSources/SourceSettings.vala',
-    'InputSources/InputSource.vala',
-    'InputMethod/AddEnginesList.vala',
-    'InputMethod/Installer/UbuntuInstaller.vala',
-    'InputMethod/Installer/InstallList.vala',
+    'Behavior/Behavior.vala',
     'InputMethod/Installer/aptd-client.vala',
-    'Dialogs/ProgressDialog.vala',
-    'Dialogs/InstallEngineDialog.vala',
-    'Dialogs/ConflictDialog.vala',
-    'Dialogs/AddLayoutDialog.vala',
-    'Dialogs/AddEngineDialog.vala'
+    'InputMethod/Installer/InstallList.vala',
+    'InputMethod/Installer/UbuntuInstaller.vala',
+    'InputMethod/Widgets/AddEngineDialog.vala',
+    'InputMethod/Widgets/EnginesRow.vala',
+    'InputMethod/Widgets/InstallEngineDialog.vala',
+    'InputMethod/Widgets/LanguagesRow.vala',
+    'InputMethod/Widgets/ProgressDialog.vala',
+    'InputMethod/AddEnginesList.vala',
+    'InputMethod/InputMethod.vala',
+    'InputMethod/Utils.vala',
+    'InputSources/InputSource.vala',
+    'InputSources/SourceSettings.vala',
+    'InputSources/XkbLayoutHandler.vala',
+    'InputSources/XkbModifier.vala',
+    'Layout/Widgets/AddLayoutDialog.vala',
+    'Layout/Widgets/AdvancedSettingsPanel.vala',
+    'Layout/Widgets/Display.vala',
+    'Layout/Layout.vala',
+    'Shortcuts/Backend/ConflictsManager.vala',
+    'Shortcuts/Backend/CustomShortcuts.vala',
+    'Shortcuts/Backend/Settings.vala',
+    'Shortcuts/Backend/Shortcut.vala',
+    'Shortcuts/Backend/ShortcutsList.vala',
+    'Shortcuts/Backend/Utils.vala',
+    'Shortcuts/Widgets/AppChooser.vala',
+    'Shortcuts/Widgets/AppChooserRow.vala',
+    'Shortcuts/Widgets/CustomShortcutListBox.vala',
+    'Shortcuts/Widgets/CustomShortcutRow.vala',
+    'Shortcuts/Widgets/ShortcutListBox.vala',
+    'Shortcuts/Shortcuts.vala',
+    'Plug.vala'
 )
 
 switchboard_dep = dependency('switchboard-3')
