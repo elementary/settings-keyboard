@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-06-13 08:55+0000\n"
+"PO-Revision-Date: 2025-08-30 22:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/ja/>\n"
@@ -26,7 +26,7 @@ msgstr "オンスクリーンキーボードを表示"
 
 #: src/Behavior/Behavior.vala:16
 msgid "On-screen keyboard settings…"
-msgstr "オンスクリーンキーボードの設定…"
+msgstr "オンスクリーンキーボード設定…"
 
 #: src/Behavior/Behavior.vala:38
 msgid "Delay:"
@@ -88,7 +88,7 @@ msgstr "音を鳴らしたり、画面を発光させたりします。%s"
 
 #: src/Behavior/Behavior.vala:182
 msgid "Sound Settings…"
-msgstr "サウンドの設定…"
+msgstr "サウンド設定…"
 
 #: src/Behavior/Behavior.vala:187
 msgid "Caps Lock ⇪ or Num Lock keys are pressed"
