@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: keyboard-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2018-05-29 00:12+0000\n"
-"Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
-"Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
-"switchboard-plug-keyboard/mo/>\n"
+"PO-Revision-Date: 2025-09-05 02:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Moldavian <https://l10n.elementaryos.org/projects/settings/"
+"keyboard/ro_MD/>\n"
 "Language: mo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
 #, fuzzy
@@ -547,7 +547,7 @@ msgstr "Personalizat"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
-msgstr ""
+msgstr "Anula"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Redo"
@@ -1094,14 +1094,12 @@ msgid "Custom"
 msgstr "Personalizat"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:15
-#, fuzzy
-#| msgid "Applications"
 msgid "Search Applications"
-msgstr "Aplicații"
+msgstr "Căutați aplicații"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:33
 msgid "Type in a custom command"
-msgstr ""
+msgstr "Introduceți o comandă personalizată"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
@@ -1117,10 +1115,8 @@ msgid "Add Shortcut"
 msgstr "Comenzi rapide"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
-#, fuzzy
-#| msgid "Command"
 msgid "Custom Command"
-msgstr "Comandă"
+msgstr "Comandă personalizată"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
