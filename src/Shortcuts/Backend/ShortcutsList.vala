@@ -24,6 +24,22 @@ namespace Keyboard.Shortcuts {
         public string[] actions;
         public Schema[] schemas;
         public string[] keys;
+
+        public GLib.ListStore list;
+    }
+
+    public class Action : Object {
+        public Schema schema { get; construct; }
+        public string action { get; construct; }
+        public string key { get; construct; }
+
+        public Action (Schema schema, string action, string key) {
+            Object (
+                schema: schema,
+                action: action,
+                key: key
+            );
+        }
     }
 
     class ShortcutsList : GLib.Object {
@@ -188,6 +204,10 @@ namespace Keyboard.Shortcuts {
             };
         }
 
+        public ListModel get_model (SectionID group) {
+            return groups[group].list;
+        }
+
         public void get_group (SectionID group, out string[] a, out Schema[] s, out string[] k) {
             a = groups[group].actions;
             s = groups[group].schemas;
@@ -196,6 +216,16 @@ namespace Keyboard.Shortcuts {
         }
 
         public void add_action (ref Group group, Schema schema, string action, string key) {
+            var action_object = new Keyboard.Shortcuts.Action (schema, action, key);
+
+            if (group.list == null) {
+                group.list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action));
+            }
+
+            if (Settings.get_default ().valid (schema, key)) {
+                group.list.append (action_object);
+            }
+
             group.keys += key;
             group.schemas += schema;
             group.actions += action;
