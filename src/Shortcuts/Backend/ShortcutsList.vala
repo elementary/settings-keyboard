@@ -204,15 +204,8 @@ namespace Keyboard.Shortcuts {
             };
         }
 
-        public ListModel get_model (SectionID group) {
+        public ListStore get_model (SectionID group) {
             return groups[group].list;
-        }
-
-        public void get_group (SectionID group, out string[] a, out Schema[] s, out string[] k) {
-            a = groups[group].actions;
-            s = groups[group].schemas;
-            k = groups[group].keys;
-            return;
         }
 
         public void add_action (ref Group group, Schema schema, string action, string key) {
