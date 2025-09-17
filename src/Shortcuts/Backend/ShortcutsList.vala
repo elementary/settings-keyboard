@@ -21,9 +21,6 @@ namespace Keyboard.Shortcuts {
     struct Group {
         public string icon_name;
         public string label;
-        public string[] actions;
-        public Schema[] schemas;
-        public string[] keys;
 
         public GLib.ListStore list;
     }
@@ -218,10 +215,6 @@ namespace Keyboard.Shortcuts {
             if (Settings.get_default ().valid (schema, key)) {
                 group.list.append (action_object);
             }
-
-            group.keys += key;
-            group.schemas += schema;
-            group.actions += action;
         }
     }
 }
