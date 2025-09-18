@@ -20,31 +20,27 @@
 private class Keyboard.Shortcuts.ShortcutListBox : Gtk.Box {
     public SectionID group { get; construct; }
 
-    private string[] actions;
-    private Schema[] schemas;
-    private string[] keys;
-
     public ShortcutListBox (SectionID group) {
         Object (group: group);
     }
 
     construct {
-        ShortcutsList.get_default ().get_group (group, out actions, out schemas, out keys);
+        var sizegroup = new Gtk.SizeGroup (VERTICAL);
 
         var list_box = new Gtk.ListBox () {
             hexpand = true
         };
+        list_box.bind_model (
+            ShortcutsList.get_default ().get_model (group),
+            (object) => {
+                var action_object = (Keyboard.Shortcuts.Action) object;
 
-        var sizegroup = new Gtk.SizeGroup (Gtk.SizeGroupMode.VERTICAL);
-
-        for (int i = 0; i < actions.length; i++) {
-            if (Settings.get_default ().valid (schemas[i], keys[i])) {
-                var row = new ShortcutRow (actions[i], schemas[i], keys[i]);
-                list_box.append (row);
-
+                var row = new ShortcutRow (action_object.action, action_object.schema, action_object.key);
                 sizegroup.add_widget (row);
+
+                return row;
             }
-        }
+        );
 
         append (list_box);
     }

@@ -26,19 +26,14 @@ class Keyboard.Shortcuts.ConflictsManager : GLib.Object {
         unowned var list = ShortcutsList.get_default ();
 
         for (int group_id = 0; group_id < SectionID.CUSTOM; group_id++) {
-            string[] actions, keys;
-            Schema[] schemas;
+            var listmodel = list.get_model (group_id);
+            for (int i = 0; i < listmodel.n_items; i++) {
+                var shortcut_action = (Keyboard.Shortcuts.Action) listmodel.get_item (i);
 
-            name = "";
-            group = ((SectionID) group_id).to_string ();
-            list.get_group (group_id, out actions, out schemas, out keys);
+                var action_shortcut = Settings.get_default ().get_val (shortcut_action.schema, shortcut_action.key);
 
-            // For every action in group there is a corresponding schema and key entry
-            // so only need to iterate actions
-            for (int i = 0; i < actions.length; i++) {
-                var action_shortcut = Settings.get_default ().get_val (schemas[i], keys[i]);
                 if (shortcut.is_equal (action_shortcut)) {
-                    name = actions[i];
+                    name = shortcut_action.action;
                     return true;
                 }
             }

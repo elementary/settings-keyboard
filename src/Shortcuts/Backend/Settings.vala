@@ -18,7 +18,7 @@
 */
 
 namespace Keyboard.Shortcuts {
-    private enum Schema { WM, MUTTER, GALA, MEDIA, SOUND_INDICATOR, IBUS, DOCK, COUNT }
+    public enum Schema { WM, MUTTER, GALA, MEDIA, SOUND_INDICATOR, IBUS, DOCK, COUNT }
 
     // helper class for gsettings
     // note that media key are stored as strings, all others as string vectors
