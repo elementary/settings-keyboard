@@ -61,7 +61,9 @@ namespace Keyboard.Shortcuts {
         private ShortcutsList () {}
 
         construct {
-            windows_group = {};
+            windows_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             windows_group.icon_name = "io.elementary.settings.keyboard.windows";
             windows_group.label = _("Windows");
             add_action (ref windows_group, Schema.WM, _("Close"), "close");
@@ -87,7 +89,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref windows_group, Schema.WM, _("Move to right display"), "move-to-monitor-right");
             add_action (ref windows_group, Schema.WM, _("Move to left display"), "move-to-monitor-left");
 
-            workspaces_group = {};
+            workspaces_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             workspaces_group.icon_name = "preferences-desktop-workspaces";
             workspaces_group.label = _("Workspaces");
             add_action (ref workspaces_group, Schema.GALA, _("Multitasking View"), "toggle-multitasking-view");
@@ -118,7 +122,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref workspaces_group, Schema.WM, _("Move to left workspace"), "move-to-workspace-left");
             add_action (ref workspaces_group, Schema.WM, _("Move to right workspace"), "move-to-workspace-right");
 
-            screenshot_group = {};
+            screenshot_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             screenshot_group.icon_name = "accessories-screenshot-tool";
             screenshot_group.label = _("Screenshots");
             add_action (ref screenshot_group, Schema.GALA, _("Grab the whole screen"), "screenshot");
@@ -128,7 +134,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref screenshot_group, Schema.GALA, _("Select an area to grab"), "area-screenshot");
             add_action (ref screenshot_group, Schema.GALA, _("Copy an area to clipboard"), "area-screenshot-clip");
 
-            launchers_group = {};
+            launchers_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             launchers_group.icon_name = "io.elementary.settings.keyboard.applications";
             launchers_group.label = _("Applications");
             add_action (ref launchers_group, Schema.MEDIA, _("Email"), "email");
@@ -146,7 +154,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref launchers_group, Schema.DOCK, _("Launch eighth dock item"), "launch-dock-8");
             add_action (ref launchers_group, Schema.DOCK, _("Launch ninth dock item"), "launch-dock-9");
 
-            media_group = {};
+            media_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             media_group.icon_name = "applications-multimedia";
             media_group.label = _("Media");
             add_action (ref media_group, Schema.SOUND_INDICATOR, _("Volume Up"), "volume-up");
@@ -159,7 +169,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref media_group, Schema.MEDIA, _("Next Track"), "next");
             add_action (ref media_group, Schema.MEDIA, _("Eject"), "eject");
 
-            a11y_group = {};
+            a11y_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             a11y_group.icon_name = "preferences-desktop-accessibility";
             a11y_group.label = _("Universal Access");
             add_action (ref a11y_group, Schema.MEDIA, _("Decrease Text Size"), "decrease-text-size");
@@ -169,7 +181,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref a11y_group, Schema.MEDIA, _("Toggle On Screen Keyboard"), "on-screen-keyboard");
             add_action (ref a11y_group, Schema.MEDIA, _("Toggle Screenreader"), "screenreader");
 
-            system_group = {};
+            system_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             system_group.icon_name = "preferences-system";
             system_group.label = _("System");
             add_action (ref system_group, Schema.GALA, _("Applications Menu"), "panel-main-menu");
@@ -177,7 +191,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref system_group, Schema.MEDIA, _("Log Out"), "logout");
             add_action (ref system_group, Schema.MUTTER, _("Cycle display mode"), "switch-monitor");
 
-            keyboard_layouts_group = {};
+            keyboard_layouts_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             keyboard_layouts_group.icon_name = "preferences-desktop-locale";
             keyboard_layouts_group.label = _("Keyboard Layouts");
             add_action (ref keyboard_layouts_group, Schema.GALA, _("Switch Keyboard Layout"), "switch-input-source");
@@ -185,7 +201,9 @@ namespace Keyboard.Shortcuts {
             add_action (ref keyboard_layouts_group, Schema.IBUS, _("Enable Emoji Typing"), "hotkey");
             add_action (ref keyboard_layouts_group, Schema.IBUS, _("Enable Unicode Typing"), "unicode-hotkey");
 
-            custom_group = {};
+            custom_group = Group () {
+                list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action))
+            };
             custom_group.icon_name = "applications-other";
             custom_group.label = _("Custom");
 
@@ -207,10 +225,6 @@ namespace Keyboard.Shortcuts {
 
         public void add_action (ref Group group, Schema schema, string action, string key) {
             var action_object = new Keyboard.Shortcuts.Action (schema, action, key);
-
-            if (group.list == null) {
-                group.list = new GLib.ListStore (typeof (Keyboard.Shortcuts.Action));
-            }
 
             if (Settings.get_default ().valid (schema, key)) {
                 group.list.append (action_object);
