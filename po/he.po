@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-10-06 12:55+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/he/>\n"
 "Language: he\n"
@@ -506,21 +506,19 @@ msgstr "הטמעת טקסט קדם העריכה בחלון היישום"
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Edit"
-msgstr ""
+msgstr "עריכה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Copy"
-msgstr ""
+msgstr "העתקה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Paste"
-msgstr ""
+msgstr "הדבקה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "התאמה אישית"
+msgstr "גזירה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
@@ -528,11 +526,11 @@ msgstr "ביטול"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Redo"
-msgstr ""
+msgstr "ביצוע מחדש"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Find"
-msgstr ""
+msgstr "איתור"
 
 #. / The name of Ctrl + A shortcut: "Selection -> Select All"
 #. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
@@ -553,43 +551,43 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Selection"
-msgstr ""
+msgstr "בחירה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:89
 msgid "Select All"
-msgstr ""
+msgstr "בחירה בהכול"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
-msgstr ""
+msgstr "קפיצה מילה אחת ימינה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
-msgstr ""
+msgstr "קפיצה מילה אחת שמאלה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
-msgstr ""
+msgstr "הרחבת הבחירה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
-msgstr ""
+msgstr "כיווץ הבחירה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "הרחבת הבחירה במילה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "כיווץ הבחירה במילה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "הרחבת הבחירה למעלה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "הרחבת הבחירה למטה"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -608,7 +606,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "File"
-msgstr ""
+msgstr "קובץ"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:108
 msgid "Save"
@@ -616,11 +614,11 @@ msgstr "שמירה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:110
 msgid "Save As"
-msgstr ""
+msgstr "שמירה בשם"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:112
 msgid "New"
-msgstr ""
+msgstr "חדש"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:114
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
@@ -629,11 +627,11 @@ msgstr "סגירה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:116
 msgid "New Tab"
-msgstr ""
+msgstr "לשונית חדשה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:118
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "שחזור לשונית שנסגרה"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 msgctxt "keyboard"
@@ -642,7 +640,7 @@ msgstr "רענון"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "Quit"
-msgstr ""
+msgstr "יציאה"
 
 #: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
@@ -1062,10 +1060,8 @@ msgstr "יש להקליד פקודה מותאמת אישית"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
-#, fuzzy
-#| msgid "Select an area to grab"
 msgid "Select an app"
-msgstr "בחירת איזור ללכידה"
+msgstr "נא לבחור יישום"
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
