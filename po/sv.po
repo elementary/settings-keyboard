@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/sv/>\n"
@@ -183,7 +183,7 @@ msgstr "Bädda in förredigerad text i programfönstret:"
 
 #: src/InputMethod/InputMethod.vala:403
 msgid "IBus Daemon"
-msgstr "IBus Daemon"
+msgstr "IBus-daemon"
 
 #: src/InputMethod/InputMethod.vala:406
 msgid "Use and manage input methods"
