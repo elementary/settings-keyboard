@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-23 12:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/sv/>\n"
@@ -50,7 +50,7 @@ msgstr "Längd:"
 
 #: src/Behavior/Behavior.vala:87 src/Plug.vala:130
 msgid "Cursor Blinking"
-msgstr "Markör blinkning"
+msgstr "Markörblinkning"
 
 #: src/Behavior/Behavior.vala:116 src/Plug.vala:133
 msgid "Sticky Keys"
@@ -62,7 +62,7 @@ msgstr "Använd ⌘, Alt, Ctrl eller Shift i tur och ordning"
 
 #: src/Behavior/Behavior.vala:133 src/Plug.vala:132
 msgid "Slow Keys"
-msgstr "Långsamma nycklar"
+msgstr "Långsamma tangenter"
 
 #: src/Behavior/Behavior.vala:135
 msgid "Don't accept keypresses unless held"
@@ -70,7 +70,7 @@ msgstr "Accepterar inte tangenttryckningar om de inte hålls"
 
 #: src/Behavior/Behavior.vala:159 src/Plug.vala:129
 msgid "Bounce Keys"
-msgstr "Bounce-nycklar"
+msgstr "Studsiga tangenter"
 
 #: src/Behavior/Behavior.vala:161
 msgid "Ignore fast duplicate keypresses"
@@ -95,11 +95,11 @@ msgstr "Caps Lock ⇪ eller Num Lock-tangenterna är nedtryckta"
 
 #: src/Behavior/Behavior.vala:188
 msgid "Bounce Keys are rejected"
-msgstr "Bounce Keys avvisas"
+msgstr "Studsiga tangenter avvisas"
 
 #: src/Behavior/Behavior.vala:189
 msgid "Sticky Keys are pressed"
-msgstr "Sticky Keys är nedtryckta"
+msgstr "Klistriga tangenter är nedtryckta"
 
 #: src/Behavior/Behavior.vala:190
 msgid "Slow Keys are rejected"
@@ -735,19 +735,19 @@ msgstr "Bild-i-bild-läge"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:72
 msgid "Move to display above"
-msgstr "Flytta till displayen ovan"
+msgstr "Flytta till skärmen ovan"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:73
 msgid "Move to display below"
-msgstr "Flytta till displayen nedan"
+msgstr "Flytta till skärmen nedan"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:74
 msgid "Move to right display"
-msgstr "Flytta till höger display"
+msgstr "Flytta till skärmen till höger"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:75
 msgid "Move to left display"
-msgstr "Flytta till vänster display"
+msgstr "Flytta till skärmen till vänster"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
 msgid "Workspaces"
