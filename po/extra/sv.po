@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2024-08-07 18:17+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard-plug-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/keyboard.metainfo.xml.in:10
 msgid "Keyboard Settings"
@@ -30,72 +30,74 @@ msgstr ""
 
 #: data/keyboard.metainfo.xml.in:37
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
 #: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
 #: data/keyboard.metainfo.xml.in:99 data/keyboard.metainfo.xml.in:115
 #: data/keyboard.metainfo.xml.in:133
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre uppdateringar:"
 
 #: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:56
 #: data/keyboard.metainfo.xml.in:69 data/keyboard.metainfo.xml.in:88
 #: data/keyboard.metainfo.xml.in:102 data/keyboard.metainfo.xml.in:117
 #: data/keyboard.metainfo.xml.in:136
 msgid "Updated translations"
-msgstr ""
+msgstr "Uppdaterade översättningar"
 
 #: data/keyboard.metainfo.xml.in:65
 msgid "Updated shortcut category icons"
-msgstr ""
+msgstr "Uppdaterade ikoner för genvägskategorier"
 
 #: data/keyboard.metainfo.xml.in:66
 msgid "Improved screen reader accessibility"
-msgstr ""
+msgstr "Förbättrad tillgänglighet för skärmläsare"
 
 #: data/keyboard.metainfo.xml.in:67
 msgid "New shortcut settings for launching dock items"
-msgstr ""
+msgstr "Nya genvägsinställningar för start av dockningsobjekt"
 
 #: data/keyboard.metainfo.xml.in:68
 msgid "Clearer actions for managing keyboard layouts"
-msgstr ""
+msgstr "Tydligare åtgärder för att hantera tangentbordslayouter"
 
 #: data/keyboard.metainfo.xml.in:85
 msgid "Fix potential crashes"
-msgstr ""
+msgstr "Åtgärda potentiella krascher"
 
 #: data/keyboard.metainfo.xml.in:86
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
 msgstr ""
+"Lägg till genvägarna \"Växla programfönster\" och "
+"\"Växla programfönster bakåt\""
 
 #: data/keyboard.metainfo.xml.in:87
 msgid "Improve experience installing input methods"
-msgstr ""
+msgstr "Förbättra erfarenheten av att installera inmatningsmetoder"
 
 #: data/keyboard.metainfo.xml.in:101
 msgid "Show the values associated with sliders while dragging"
-msgstr ""
+msgstr "Visa de värden som är kopplade till reglagen när du drar dem"
 
 #: data/keyboard.metainfo.xml.in:127
 msgid "New features:"
-msgstr ""
+msgstr "Nya funktioner:"
 
 #: data/keyboard.metainfo.xml.in:129
 msgid "Revert shortcuts to default"
-msgstr ""
+msgstr "Återställ genvägar till standard"
 
 #: data/keyboard.metainfo.xml.in:130
 msgid "Easily disable a shortcut"
-msgstr ""
+msgstr "Inaktivera enkelt en genväg"
 
 #: data/keyboard.metainfo.xml.in:131
 msgid "Support Rime input method for Chinese"
-msgstr ""
+msgstr "Stöd för inmatningsmetoden Rime för kinesiska"
 
 #: data/keyboard.metainfo.xml.in:135
 msgid "Remove custom shortcuts from their menu"
-msgstr ""
+msgstr "Ta bort anpassade genvägar från deras meny"
