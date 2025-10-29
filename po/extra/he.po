@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2024-07-23 18:16+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
+"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
 "keyboard-plug-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/keyboard.metainfo.xml.in:10
 msgid "Keyboard Settings"
@@ -29,7 +29,7 @@ msgstr "הגדרת התנהגות המקלדת, הפריסות ומקשי הקי
 
 #: data/keyboard.metainfo.xml.in:37
 msgid "elementary, Inc."
-msgstr "elementary בע״מ"
+msgstr "elementary בע״מ."
 
 #: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
 #: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
