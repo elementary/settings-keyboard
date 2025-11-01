@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-10-23 12:55+0000\n"
+"PO-Revision-Date: 2025-10-31 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/sv/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
 msgid "Show On-screen Keyboard"
-msgstr "Visa tangentbord på skärmen"
+msgstr "Visa skärmtangentbord"
 
 #: src/Behavior/Behavior.vala:16
 msgid "On-screen keyboard settings…"
-msgstr "Inställningar för tangentbord på skärmen…"
+msgstr "Inställningar för skärmtangentbord…"
 
 #: src/Behavior/Behavior.vala:38
 msgid "Delay:"
@@ -58,7 +58,7 @@ msgstr "Klistriga tangenter"
 
 #: src/Behavior/Behavior.vala:118
 msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
-msgstr "Använd ⌘, Alt, Ctrl eller Shift i tur och ordning"
+msgstr "Använd ⌘, Alt, Ctrl eller Shift i sekvens"
 
 #: src/Behavior/Behavior.vala:133 src/Plug.vala:132
 msgid "Slow Keys"
@@ -66,7 +66,7 @@ msgstr "Långsamma tangenter"
 
 #: src/Behavior/Behavior.vala:135
 msgid "Don't accept keypresses unless held"
-msgstr "Accepterar inte tangenttryckningar om de inte hålls"
+msgstr "Acceptera inte tangenttryckningar om de inte hålls ner"
 
 #: src/Behavior/Behavior.vala:159 src/Plug.vala:129
 msgid "Bounce Keys"
@@ -112,7 +112,7 @@ msgstr "Skriv något för att testa dina inställningar"
 #. no_daemon_runnning view shown if IBus Daemon is not running
 #: src/InputMethod/InputMethod.vala:50
 msgid "IBus Daemon is not running"
-msgstr "IBus Daemon körs inte"
+msgstr "IBus-daemon körs inte"
 
 #: src/InputMethod/InputMethod.vala:51
 msgid ""
@@ -120,15 +120,15 @@ msgid ""
 "engines."
 msgstr ""
 "IBus-daemon måste köras i bakgrunden för att aktivera eller konfigurera "
-"inmatningsmetodmotorer."
+"motorer för inmatningsmetod."
 
 #: src/InputMethod/InputMethod.vala:60
 msgid "Start IBus Daemon"
-msgstr "Starta IBus Daemon"
+msgstr "Starta IBus-daemon"
 
 #: src/InputMethod/InputMethod.vala:61
 msgid "Can be managed in System Settings → Applications → Startup"
-msgstr "Kan hanteras i Systeminställningar → Program → Start"
+msgstr "Kan hanteras i Systeminställningar → Program → Uppstart"
 
 #. spawn_failed view shown if IBus Daemon is not running
 #: src/InputMethod/InputMethod.vala:67
@@ -146,7 +146,7 @@ msgstr "Ta bort"
 
 #: src/InputMethod/InputMethod.vala:149
 msgid "Switch engines:"
-msgstr "Byt motor:"
+msgstr "Växla motorer:"
 
 #. tree view to display the current layouts
 #. Layout switching keybinding
@@ -187,11 +187,11 @@ msgstr "IBus-daemon"
 
 #: src/InputMethod/InputMethod.vala:406
 msgid "Use and manage input methods"
-msgstr "Använda och hantera inmatningsmetoder"
+msgstr "Använd och hantera inmatningsmetoder"
 
 #: src/InputMethod/InputMethod.vala:439
 msgid "Type to test your input method"
-msgstr "Typ för att testa din inmatningsmetod"
+msgstr "Skriv för att testa din inmatningsmetod"
 
 #: src/InputMethod/InputMethod.vala:442
 msgid "A keyboard layout is active"
@@ -270,7 +270,7 @@ msgstr "Alt + Caps Lock"
 
 #: src/Layout/Layout.vala:32
 msgid "Alt + Shift"
-msgstr "Alt + Shift"
+msgstr "Alt + Skift"
 
 #: src/Layout/Layout.vala:33
 msgid "Alt + Space"
@@ -278,7 +278,7 @@ msgstr "Alt + Mellanslag"
 
 #: src/Layout/Layout.vala:34
 msgid "Both Shift keys together"
-msgstr "Båda shift tangenterna samtidigt"
+msgstr "Båda skift-tangenterna samtidigt"
 
 #: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
 #: src/Layout/Layout.vala:255
@@ -291,15 +291,15 @@ msgstr "Ctrl + Alt"
 
 #: src/Layout/Layout.vala:37
 msgid "Ctrl + Shift"
-msgstr "Ctrl + Shift"
+msgstr "Ctrl + Skift"
 
 #: src/Layout/Layout.vala:38
 msgid "Shift + Caps Lock"
-msgstr "Shift + Caps Lock"
+msgstr "Skift + Caps Lock"
 
 #: src/Layout/Layout.vala:46
 msgid "Switch layout:"
-msgstr "Byt layout:"
+msgstr "Växla layout:"
 
 #: src/Layout/Layout.vala:54
 msgid "Menu"
@@ -322,7 +322,7 @@ msgstr "Höger ⌘"
 
 #: src/Layout/Layout.vala:65
 msgid "Compose key:"
-msgstr "Skriv tangent:"
+msgstr "Skrivtangent:"
 
 #: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
 msgid "Applications Menu"
@@ -338,7 +338,7 @@ msgstr "⌘ tangentbeteende:"
 
 #: src/Layout/Layout.vala:84
 msgid "Shortcut Overlay"
-msgstr "Snabbkommandon"
+msgstr "Genvägsöverlägg"
 
 #: src/Layout/Layout.vala:93
 msgid "as Backspace"
@@ -366,11 +366,11 @@ msgstr "Byt med Ctrl"
 
 #: src/Layout/Layout.vala:99
 msgid "Swap with Escape"
-msgstr "Byt med esc"
+msgstr "Byt med Esc"
 
 #: src/Layout/Layout.vala:107
 msgid "Caps Lock behavior:"
-msgstr "Caps Lock beteende:"
+msgstr "Caps Lock-beteende:"
 
 #: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
 msgid "Key to choose 3rd level:"
@@ -398,7 +398,7 @@ msgstr "Hankaku Zenkaku som Escape:"
 
 #: src/Layout/Layout.vala:331
 msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
-msgstr "Hangul/Hanja keys på högra Alt/Ctrl:"
+msgstr "Hangul/Hanja-tangenter på högra Alt/Ctrl:"
 
 #: src/Layout/Layout.vala:409
 msgid "Type to test your layout"
@@ -446,8 +446,7 @@ msgstr "Tangentbord"
 
 #: src/Plug.vala:40
 msgid "Configure keyboard behavior, layouts, and shortcuts"
-msgstr ""
-"Konfigurera tangentbords-beteende, tangentbordslayout och snabbkommandon"
+msgstr "Konfigurera tangentbordsbeteende, layouter och genvägar"
 
 #: src/Plug.vala:54 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
 #: src/Plug.vala:120 src/Plug.vala:121
@@ -457,11 +456,11 @@ msgstr "Layout"
 #: src/Plug.vala:55 src/Plug.vala:122 src/Plug.vala:123 src/Plug.vala:124
 #: src/Plug.vala:125
 msgid "Input Method"
-msgstr "Metod för inmatning"
+msgstr "Inmatningsmetod"
 
 #: src/Plug.vala:56 src/Plug.vala:126
 msgid "Shortcuts"
-msgstr "Snabbkommandon"
+msgstr "Genvägar"
 
 #: src/Plug.vala:57 src/Plug.vala:127 src/Plug.vala:128 src/Plug.vala:129
 #: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
@@ -470,11 +469,11 @@ msgstr "Beteende"
 
 #: src/Plug.vala:118
 msgid "Switch layout"
-msgstr "Byt layout"
+msgstr "Växla layout"
 
 #: src/Plug.vala:119
 msgid "Compose Key"
-msgstr "Skriv tangent"
+msgstr "Skrivtangent"
 
 #: src/Plug.vala:120
 msgid "⌘ key behavior"
@@ -482,7 +481,7 @@ msgstr "⌘ tangentbeteende"
 
 #: src/Plug.vala:121
 msgid "Caps Lock behavior"
-msgstr "Caps Lock beteende"
+msgstr "Caps Lock-beteende"
 
 #: src/Plug.vala:123
 msgid "Switch engines"
@@ -554,7 +553,7 @@ msgstr "Hitta"
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Selection"
-msgstr "Urval"
+msgstr "Markering"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:89
 msgid "Select All"
@@ -562,35 +561,35 @@ msgstr "Välj alla"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
-msgstr "Flytta höger för ord"
+msgstr "Flytta höger efter ord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
-msgstr "Flytta ord för ord till vänster"
+msgstr "Flytta vänster efter ord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
-msgstr "Expandera urval"
+msgstr "Expandera markering"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
-msgstr "Val av krympning"
+msgstr "Minska markering"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
-msgstr "Expandera urvalet efter ord"
+msgstr "Expandera markering efter ord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
-msgstr "Krympa urvalet per ord"
+msgstr "Minska markering efter ord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
-msgstr "Expandera urvalet Upp"
+msgstr "Expandera markering uppåt"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
-msgstr "Expandera urvalet nedåt"
+msgstr "Expandera markering nedåt"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -609,7 +608,7 @@ msgstr "Expandera urvalet nedåt"
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "File"
-msgstr "Fil"
+msgstr "Arkiv"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:108
 msgid "Save"
@@ -647,7 +646,7 @@ msgstr "Avsluta"
 
 #: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
-msgstr "Shift"
+msgstr "Skift"
 
 #: src/Shortcuts/Backend/Shortcut.vala:61
 msgid "Ctrl"
@@ -667,7 +666,7 @@ msgstr "Fönster"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:55
 msgid "Lower"
-msgstr "Lägre"
+msgstr "Sänk"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:56
 msgid "Maximize"
@@ -707,23 +706,23 @@ msgstr "Växla fönster bakåt"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:65
 msgid "Cycle Windows of application"
-msgstr "Cykel Fönster för ansökan"
+msgstr "Växla programfönster"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:66
 msgid "Cycle Windows of application backwards"
-msgstr "Cykel Fönster för ansökan bakåt"
+msgstr "Växla programfönster bakåt"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:67
 msgid "Tile Left"
-msgstr "Stapla åt vänster"
+msgstr "Fäst åt vänster"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:68
 msgid "Tile Right"
-msgstr "Stapla åt höger"
+msgstr "Fäst åt höger"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:69
 msgid "Window Overview"
-msgstr "Fönster översikt"
+msgstr "Fönsteröversikt"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:70
 msgid "Show All Windows"
@@ -735,11 +734,11 @@ msgstr "Bild-i-bild-läge"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:72
 msgid "Move to display above"
-msgstr "Flytta till skärmen ovan"
+msgstr "Flytta till skärmen ovanför"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:73
 msgid "Move to display below"
-msgstr "Flytta till skärmen nedan"
+msgstr "Flytta till skärmen nedanför"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:74
 msgid "Move to right display"
@@ -755,11 +754,11 @@ msgstr "Arbetsytor"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:81
 msgid "Switch left"
-msgstr "Skifta åt vänster"
+msgstr "Växla åt vänster"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:82
 msgid "Switch right"
-msgstr "Skifta åt höger"
+msgstr "Växla åt höger"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:83
 msgid "Switch to first"
@@ -771,39 +770,39 @@ msgstr "Växla till ny"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Switch to workspace 1"
-msgstr "Byt till arbetsyta 1"
+msgstr "Växla till arbetsyta 1"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:86
 msgid "Switch to workspace 2"
-msgstr "Byt till arbetsyta 2"
+msgstr "Växla till arbetsyta 2"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:87
 msgid "Switch to workspace 3"
-msgstr "Byt till arbetsyta 3"
+msgstr "Växla till arbetsyta 3"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:88
 msgid "Switch to workspace 4"
-msgstr "Byt till arbetsyta 4"
+msgstr "Växla till arbetsyta 4"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:89
 msgid "Switch to workspace 5"
-msgstr "Byt till arbetsyta 5"
+msgstr "Växla till arbetsyta 5"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:90
 msgid "Switch to workspace 6"
-msgstr "Byt till arbetsyta 6"
+msgstr "Växla till arbetsyta 6"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:91
 msgid "Switch to workspace 7"
-msgstr "Byt till arbetsyta 7"
+msgstr "Växla till arbetsyta 7"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:92
 msgid "Switch to workspace 8"
-msgstr "Byt till arbetsyta 8"
+msgstr "Växla till arbetsyta 8"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:93
 msgid "Switch to workspace 9"
-msgstr "Byt till arbetsyta 9"
+msgstr "Växla till arbetsyta 9"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:94
 msgid "Cycle workspaces"
@@ -811,7 +810,7 @@ msgstr "Växla arbetsytor"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:95
 msgid "Cycle workspaces backwards"
-msgstr "Byt mellan arbetsytor baklänges"
+msgstr "Växla mellan arbetsytor bakåt"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:96
 msgid "Move to workspace 1"
@@ -859,23 +858,23 @@ msgstr "Flytta till höger arbetsyta"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
 msgid "Screenshots"
-msgstr "Skärmbilder"
+msgstr "Skärmdumpar"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:111
 msgid "Grab the whole screen"
-msgstr "Ta hela skärmen"
+msgstr "Fånga hela skärmen"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:112
 msgid "Copy the whole screen to clipboard"
-msgstr "Kopiera fullskärmsdump till urklipp"
+msgstr "Kopiera helskärmsdump till urklipp"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:113
 msgid "Grab the current window"
-msgstr "Fånga nuvarande fönster"
+msgstr "Fånga aktuellt fönster"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:114
 msgid "Copy the current window to clipboard"
-msgstr "Kopiera nuvarande fönster till urklipp"
+msgstr "Kopiera aktuellt fönster till urklipp"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:115
 msgid "Select an area to grab"
@@ -911,39 +910,39 @@ msgstr "Webbläsare"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:126
 msgid "Launch first dock item"
-msgstr "Starta första dockningsobjektet"
+msgstr "Starta första dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:127
 msgid "Launch second dock item"
-msgstr "Starta andra dockningsobjektet"
+msgstr "Starta andra dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:128
 msgid "Launch third dock item"
-msgstr "Starta tredje dockningsobjektet"
+msgstr "Starta tredje dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:129
 msgid "Launch fourth dock item"
-msgstr "Starta fjärde dockningsobjektet"
+msgstr "Starta fjärde dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:130
 msgid "Launch fifth dock item"
-msgstr "Starta det femte dockningsobjektet"
+msgstr "Starta femte dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:131
 msgid "Launch sixth dock item"
-msgstr "Starta sjätte dockningsobjektet"
+msgstr "Starta sjätte dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:132
 msgid "Launch seventh dock item"
-msgstr "Starta sjunde dockningsobjektet"
+msgstr "Starta sjunde dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:133
 msgid "Launch eighth dock item"
-msgstr "Starta åttonde dockningsobjektet"
+msgstr "Starta åttonde dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:134
 msgid "Launch ninth dock item"
-msgstr "Starta nionde dockningsobjektet"
+msgstr "Starta nionde dockobjektet"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
@@ -951,11 +950,11 @@ msgstr "Media"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:139
 msgid "Volume Up"
-msgstr "Öka ljudstyrka"
+msgstr "Öka volym"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:140
 msgid "Volume Down"
-msgstr "Sänk ljudstyrka"
+msgstr "Sänk volym"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:141
 msgid "Mute"
@@ -971,7 +970,7 @@ msgstr "Pausa"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:144
 msgid "Stop"
-msgstr "Stopp"
+msgstr "Stoppa"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:145
 msgid "Previous Track"
@@ -991,7 +990,7 @@ msgstr "Allmän åtkomst"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:152
 msgid "Decrease Text Size"
-msgstr "Minska text storlek"
+msgstr "Minska textstorlek"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:153
 msgid "Increase Text Size"
@@ -1007,7 +1006,7 @@ msgstr "Zooma ut med förstoringsglas"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:156
 msgid "Toggle On Screen Keyboard"
-msgstr "Växla Skrivbord på Skärmen"
+msgstr "Växla skärmtangentbord"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:157
 msgid "Toggle Screenreader"
@@ -1027,11 +1026,11 @@ msgstr "Logga ut"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:165
 msgid "Cycle display mode"
-msgstr "Visningsläge för cykel"
+msgstr "Växla skärmläge"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:169
 msgid "Keyboard Layouts"
-msgstr "Layouter för tangentbord"
+msgstr "Tangentbordslayouter"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:170
 msgid "Switch Keyboard Layout"
@@ -1039,19 +1038,19 @@ msgstr "Växla tangentbordslayout"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:171
 msgid "Switch Keyboard Layout Backwards"
-msgstr "Växla tangentbordslayout baklänges"
+msgstr "Växla tangentbordslayout bakåt"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:172
 msgid "Enable Emoji Typing"
-msgstr "Aktivera Emoji-typning"
+msgstr "Aktivera Emoji-skrivning"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:173
 msgid "Enable Unicode Typing"
-msgstr "Aktivera Unicode-typning"
+msgstr "Aktivera Unicode-skrivning"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
 msgid "Custom"
-msgstr "Egendefinierat"
+msgstr "Anpassad"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:15
 msgid "Search Applications"
@@ -1064,7 +1063,7 @@ msgstr "Skriv in anpassat kommando"
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
 msgid "Select an app"
-msgstr "Välj en app"
+msgstr "Välj ett program"
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
@@ -1077,7 +1076,7 @@ msgstr "Anpassat kommando"
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:103
 msgid "Set New Shortcut"
-msgstr "Ange ny genväg"
+msgstr "Ställ in ny genväg"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:113
@@ -1106,7 +1105,7 @@ msgstr "Återställ till standard"
 
 #: src/Shortcuts/Shortcuts.vala:49
 msgid "Accessibility"
-msgstr "Tillgänglighet"
+msgstr "Hjälpmedel"
 
 #, fuzzy
 #~| msgid "Enter Command"
