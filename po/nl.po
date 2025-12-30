@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-31 17:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/nl/>\n"
 "Language: nl\n"
@@ -509,21 +509,19 @@ msgstr "Verwerk voorbewerkte tekst in het applicatievenster"
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:76
 msgid "Copy"
-msgstr ""
+msgstr "Kopiëren"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:78
 msgid "Paste"
-msgstr ""
+msgstr "Plakken"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:80
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "Aangepast"
+msgstr "Knippen"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Undo"
@@ -531,11 +529,11 @@ msgstr "Ongedaan maken"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Redo"
-msgstr ""
+msgstr "Opnieuw doen"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Find"
-msgstr ""
+msgstr "Vinden"
 
 #. / The name of Ctrl + A shortcut: "Selection -> Select All"
 #. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
@@ -556,43 +554,43 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Selection"
-msgstr ""
+msgstr "Selectie"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:89
 msgid "Select All"
-msgstr ""
+msgstr "Alles selecteren"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:91
 msgid "Move Right by Word"
-msgstr ""
+msgstr "Ga naar rechts per woord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:93
 msgid "Move Left by Word"
-msgstr ""
+msgstr "Ga naar links per woord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:95
 msgid "Expand Selection"
-msgstr ""
+msgstr "Selectie uitbreiden"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:97
 msgid "Shrink Selection"
-msgstr ""
+msgstr "Selectie verkleinen"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Expand Selection by Word"
-msgstr ""
+msgstr "Selectie uitbreiden per woord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Shrink Selection by Word"
-msgstr ""
+msgstr "Selectie verkleinen per woord"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "Selectie naar boven uitbreiden"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "Selectie naar beneden uitbreiden"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -611,7 +609,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "File"
-msgstr ""
+msgstr "Bestand"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:108
 msgid "Save"
@@ -619,11 +617,11 @@ msgstr "Opslaan"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:110
 msgid "Save As"
-msgstr ""
+msgstr "Opslaan als"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:112
 msgid "New"
-msgstr ""
+msgstr "Nieuw"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:114
 #: src/Shortcuts/Backend/ShortcutsList.vala:54
@@ -632,11 +630,11 @@ msgstr "Sluiten"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:116
 msgid "New Tab"
-msgstr ""
+msgstr "Nieuw tabblad"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:118
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "Gesloten tabblad herstellen"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:120
 msgctxt "keyboard"
@@ -645,7 +643,7 @@ msgstr "Verversen"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:122
 msgid "Quit"
-msgstr ""
+msgstr "Weggaan"
 
 #: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
@@ -913,39 +911,39 @@ msgstr "Internetbrowser"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:126
 msgid "Launch first dock item"
-msgstr ""
+msgstr "Start eerste dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:127
 msgid "Launch second dock item"
-msgstr ""
+msgstr "Start tweede dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:128
 msgid "Launch third dock item"
-msgstr ""
+msgstr "Start derde dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:129
 msgid "Launch fourth dock item"
-msgstr ""
+msgstr "Start vierde dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:130
 msgid "Launch fifth dock item"
-msgstr ""
+msgstr "Start vijfde dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:131
 msgid "Launch sixth dock item"
-msgstr ""
+msgstr "Start zesde dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:132
 msgid "Launch seventh dock item"
-msgstr ""
+msgstr "Start zevende dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:133
 msgid "Launch eighth dock item"
-msgstr ""
+msgstr "Start achtste dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:134
 msgid "Launch ninth dock item"
-msgstr ""
+msgstr "Start negende dock-item"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
@@ -1065,10 +1063,8 @@ msgstr "Voer een aangepast commando in"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
-#, fuzzy
-#| msgid "Select an area to grab"
 msgid "Select an app"
-msgstr "Kies een opnamegebied"
+msgstr "Kies een app"
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
