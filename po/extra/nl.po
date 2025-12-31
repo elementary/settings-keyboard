@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-03-10 10:30+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
+"PO-Revision-Date: 2025-12-31 17:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
 "keyboard-plug-extra/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/keyboard.metainfo.xml.in:10
 msgid "Keyboard Settings"
@@ -71,14 +71,16 @@ msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
 msgstr ""
+"Voeg snelkoppelingen toe voor ‘De vensters van de applicatie doorlopen’ en "
+"'De vensters van de applicatie achterwaarts doorlopen'"
 
 #: data/keyboard.metainfo.xml.in:87
 msgid "Improve experience installing input methods"
-msgstr ""
+msgstr "De ervaring bij het installeren van de invoermethoden verbeteren"
 
 #: data/keyboard.metainfo.xml.in:101
 msgid "Show the values associated with sliders while dragging"
-msgstr ""
+msgstr "Toon de waarden die bij de schuifbalk horen tijdens het slepen"
 
 #: data/keyboard.metainfo.xml.in:127
 msgid "New features:"
@@ -86,21 +88,19 @@ msgstr "Nieuwe functies:"
 
 #: data/keyboard.metainfo.xml.in:129
 msgid "Revert shortcuts to default"
-msgstr ""
+msgstr "Zet de sneltoetsen terug naar de standaardinstellingen"
 
 #: data/keyboard.metainfo.xml.in:130
 msgid "Easily disable a shortcut"
-msgstr ""
+msgstr "Eenvoudig een sneltoets uitzetten"
 
 #: data/keyboard.metainfo.xml.in:131
 msgid "Support Rime input method for Chinese"
-msgstr ""
+msgstr "Ondersteuning voor de Rime-invoermethode voor Chinees"
 
 #: data/keyboard.metainfo.xml.in:135
-#, fuzzy
-#| msgid "Redesigned custom shortcuts view"
 msgid "Remove custom shortcuts from their menu"
-msgstr "Het overzicht van aangepaste sneltoetsen is bijgewerkt"
+msgstr "Verwijder aangepaste sneltoetsen uit hun menu"
 
 #~ msgid "Redesigned custom shortcuts view"
 #~ msgstr "Het overzicht van aangepaste sneltoetsen is bijgewerkt"
