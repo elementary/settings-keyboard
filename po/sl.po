@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-01-22 22:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/sl/>\n"
 "Language: sl\n"
@@ -82,10 +82,8 @@ msgid "Ignore fast duplicate keypresses"
 msgstr ""
 
 #: src/Behavior/Behavior.vala:179
-#, fuzzy
-#| msgid "Left Alt"
 msgid "Event Alerts"
-msgstr "Levi Alt"
+msgstr "Opozorilo ob dogodkih"
 
 #: src/Behavior/Behavior.vala:180
 #, c-format
