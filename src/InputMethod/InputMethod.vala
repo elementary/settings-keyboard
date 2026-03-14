@@ -360,7 +360,7 @@ public class Keyboard.InputMethodPage.Page : Gtk.Box {
     private void spawn_ibus_daemon () {
         bool is_spawn_succeeded = false;
         try {
-            is_spawn_succeeded = Process.spawn_sync ("/", { "ibus-daemon", "-drx" }, Environ.get (), SpawnFlags.SEARCH_PATH, null);
+            is_spawn_succeeded = Process.spawn_sync ("/", { "ibus", "start" }, Environ.get (), SpawnFlags.SEARCH_PATH, null);
         } catch (GLib.SpawnError e) {
             warning (e.message);
             set_visible_view (e.message);
@@ -405,7 +405,7 @@ public class Keyboard.InputMethodPage.Page : Gtk.Box {
             KeyFileDesktop.GROUP, KeyFileDesktop.KEY_COMMENT, preferred_language,
             _("Use and manage input methods")
         );
-        keyfile.set_string (KeyFileDesktop.GROUP, KeyFileDesktop.KEY_EXEC, "ibus-daemon -drx");
+        keyfile.set_string (KeyFileDesktop.GROUP, KeyFileDesktop.KEY_EXEC, "ibus start");
         keyfile.set_string (KeyFileDesktop.GROUP, KeyFileDesktop.KEY_ICON, "ibus-setup");
         keyfile.set_string (KeyFileDesktop.GROUP, KeyFileDesktop.KEY_TYPE, "Application");
         keyfile.set_boolean (KeyFileDesktop.GROUP, "X-GNOME-Autostart-enabled", enable);
