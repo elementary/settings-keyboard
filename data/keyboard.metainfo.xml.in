@@ -40,6 +40,16 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.1.1" date="2026-03-12" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Allow assigning Gdk.Key.Tools button</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="8.1.0" date="2025-06-16" urgency="medium">
       <description>
         <p>Minor updates:</p>
