@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"POT-Creation-Date: 2026-03-17 17:38+0000\n"
 "PO-Revision-Date: 2024-08-07 18:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/switchboard/"
@@ -31,70 +31,76 @@ msgstr "Configure o comportamento, as disposicións e os atallos do teclado"
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
-#: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
-#: data/keyboard.metainfo.xml.in:99 data/keyboard.metainfo.xml.in:115
-#: data/keyboard.metainfo.xml.in:133
+#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:55
+#: data/keyboard.metainfo.xml.in:71 data/keyboard.metainfo.xml.in:80
+#: data/keyboard.metainfo.xml.in:89 data/keyboard.metainfo.xml.in:109
+#: data/keyboard.metainfo.xml.in:125 data/keyboard.metainfo.xml.in:141
+#: data/keyboard.metainfo.xml.in:159
 msgid "Minor updates:"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:56
-#: data/keyboard.metainfo.xml.in:69 data/keyboard.metainfo.xml.in:88
-#: data/keyboard.metainfo.xml.in:102 data/keyboard.metainfo.xml.in:117
-#: data/keyboard.metainfo.xml.in:136
+#: data/keyboard.metainfo.xml.in:47
+msgid "Allow assigning Gdk.Key.Tools button"
+msgstr ""
+
+#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:57
+#: data/keyboard.metainfo.xml.in:73 data/keyboard.metainfo.xml.in:82
+#: data/keyboard.metainfo.xml.in:95 data/keyboard.metainfo.xml.in:114
+#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:143
+#: data/keyboard.metainfo.xml.in:162
 msgid "Updated translations"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:65
+#: data/keyboard.metainfo.xml.in:91
 msgid "Updated shortcut category icons"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:66
+#: data/keyboard.metainfo.xml.in:92
 msgid "Improved screen reader accessibility"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:67
+#: data/keyboard.metainfo.xml.in:93
 msgid "New shortcut settings for launching dock items"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:68
+#: data/keyboard.metainfo.xml.in:94
 msgid "Clearer actions for managing keyboard layouts"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:85
+#: data/keyboard.metainfo.xml.in:111
 msgid "Fix potential crashes"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:86
+#: data/keyboard.metainfo.xml.in:112
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:87
+#: data/keyboard.metainfo.xml.in:113
 msgid "Improve experience installing input methods"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:101
+#: data/keyboard.metainfo.xml.in:127
 msgid "Show the values associated with sliders while dragging"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:153
 msgid "New features:"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:129
+#: data/keyboard.metainfo.xml.in:155
 msgid "Revert shortcuts to default"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:130
+#: data/keyboard.metainfo.xml.in:156
 msgid "Easily disable a shortcut"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:131
+#: data/keyboard.metainfo.xml.in:157
 msgid "Support Rime input method for Chinese"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:135
+#: data/keyboard.metainfo.xml.in:161
 msgid "Remove custom shortcuts from their menu"
 msgstr ""
