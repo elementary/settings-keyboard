@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:38+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-03-22 14:55+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/fi/>\n"
 "Language: fi\n"
@@ -115,16 +115,12 @@ msgid "IBus Daemon is not running"
 msgstr "IBus-taustapalvelu ei ole käynnissä"
 
 #: src/InputMethod/InputMethod.vala:51
-#, fuzzy
-#| msgid ""
-#| "You need to run the IBus daemon to enable or configure input method "
-#| "engines."
 msgid ""
 "IBus daemon must run in the background to enable or configure input method "
 "engines."
 msgstr ""
-"IBus-taustapalvelu tulee olla käynnissä, jotta syötetapojen moottoreita voi "
-"ottaa käyttöön tai niiden asetuksia muuttaa."
+"IBus-taustapalvelu tulee olla käynnissä taustalla, jotta syötetapojen "
+"moottoreita voi ottaa käyttöön tai niiden asetuksia muuttaa."
 
 #: src/InputMethod/InputMethod.vala:60
 msgid "Start IBus Daemon"
@@ -512,21 +508,19 @@ msgstr "Upota esimuokattu teksti sovellusikkunaan"
 #: src/Shortcuts/Backend/ConflictsManager.vala:79
 #: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Edit"
-msgstr ""
+msgstr "Muokkaa"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Copy"
-msgstr ""
+msgstr "Kopioi"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Paste"
-msgstr ""
+msgstr "Liitä"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:75
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "Omavalintainen"
+msgstr "Leikkaa"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Undo"
@@ -534,11 +528,11 @@ msgstr "Kumoa"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Redo"
-msgstr ""
+msgstr "Tee uudelleen"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Find"
-msgstr ""
+msgstr "Etsi"
 
 #. / The name of Ctrl + A shortcut: "Selection -> Select All"
 #. / The name of Ctrl + Right shortcut: "Selection -> Move Right by Word"
@@ -559,11 +553,11 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:98
 #: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Selection"
-msgstr ""
+msgstr "Valinta"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Select All"
-msgstr ""
+msgstr "Valitse kaikki"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Move Right by Word"
@@ -575,11 +569,11 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection"
-msgstr ""
+msgstr "Laajenna valinta"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Shrink Selection"
-msgstr ""
+msgstr "Kutista valinta"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:94
 msgid "Expand Selection by Word"
@@ -591,11 +585,11 @@ msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:98
 msgid "Expand Selection Up"
-msgstr ""
+msgstr "Laajenna valintaa ylös"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Expand Selection Down"
-msgstr ""
+msgstr "Laajenna valintaa alas"
 
 #. / The name of Ctrl + S shortcut: "File -> Save"
 #. / The name of Ctrl + Shift + S shortcut: "File -> Save As"
@@ -614,7 +608,7 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:115
 #: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "File"
-msgstr ""
+msgstr "Tiedosto"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Save"
@@ -622,11 +616,11 @@ msgstr "Tallenna"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Save As"
-msgstr ""
+msgstr "Tallenna nimellä"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgid "New"
-msgstr ""
+msgstr "Uusi"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 #: src/Shortcuts/Backend/ShortcutsList.vala:69
@@ -635,11 +629,11 @@ msgstr "Sulje"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:111
 msgid "New Tab"
-msgstr ""
+msgstr "Uusi välilehti"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:113
 msgid "Restore Closed Tab"
-msgstr ""
+msgstr "Palauta suljettu välilehti"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:115
 msgctxt "keyboard"
@@ -648,7 +642,7 @@ msgstr "Päivitä"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "Quit"
-msgstr ""
+msgstr "Lopeta"
 
 #: src/Shortcuts/Backend/Shortcut.vala:53
 msgid "Shift"
@@ -1068,10 +1062,8 @@ msgstr "Kirjoita oma komento"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
-#, fuzzy
-#| msgid "Select an area to grab"
 msgid "Select an app"
-msgstr "Valitse kaapattava alue"
+msgstr "Valitse sovellus"
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
 msgid "Add Shortcut"
