@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:38+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
+"PO-Revision-Date: 2026-03-22 14:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard-plug-extra/sv/>\n"
@@ -41,7 +41,7 @@ msgstr "Mindre uppdateringar:"
 
 #: data/keyboard.metainfo.xml.in:47
 msgid "Allow assigning Gdk.Key.Tools button"
-msgstr ""
+msgstr "Tillåt tilldelning av knappen Gdk.Key.Tools"
 
 #: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:57
 #: data/keyboard.metainfo.xml.in:73 data/keyboard.metainfo.xml.in:82
