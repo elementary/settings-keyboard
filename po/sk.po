@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"POT-Creation-Date: 2026-03-17 17:38+0000\n"
 "PO-Revision-Date: 2025-06-11 20:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://l10n.elementaryos.org/projects/settings/"
@@ -145,7 +145,7 @@ msgstr "Nepodarilo sa spustiť proces služby IBus"
 msgid "Add Engine…"
 msgstr "Pridať engine"
 
-#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:181
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
 msgid "Remove"
 msgstr "Odstrániť"
@@ -161,9 +161,9 @@ msgstr "Prepínať enginy:"
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:328
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:82
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:340
 msgid "Disabled"
 msgstr "Vypnuté"
 
@@ -265,7 +265,7 @@ msgstr "Odstraňuje sa %s"
 
 #. Caps Lock key functionality
 #: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
-#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Layout.vala:268 src/Layout/Widgets/AddLayoutDialog.vala:245
 #: src/Layout/Widgets/AddLayoutDialog.vala:249
 msgid "Default"
 msgstr "Predvolené"
@@ -287,7 +287,7 @@ msgid "Both Shift keys together"
 msgstr "Oba klávesy Shift naraz"
 
 #: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
-#: src/Layout/Layout.vala:255
+#: src/Layout/Layout.vala:269
 msgid "Caps Lock"
 msgstr "Caps Lock"
 
@@ -311,18 +311,18 @@ msgstr "Prepnúť rozloženie:"
 msgid "Menu"
 msgstr "Menu"
 
-#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
-#: src/Layout/Layout.vala:272
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:271
+#: src/Layout/Layout.vala:286
 msgid "Right Alt"
 msgstr "Pravý Alt"
 
-#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
-#: src/Layout/Layout.vala:273
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:272
+#: src/Layout/Layout.vala:287
 msgid "Right Ctrl"
 msgstr "Pravý Ctrl"
 
-#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
-#: src/Layout/Layout.vala:274
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:273
+#: src/Layout/Layout.vala:288
 msgid "Right ⌘"
 msgstr "Pravý ⌘"
 
@@ -330,11 +330,11 @@ msgstr "Pravý ⌘"
 msgid "Compose key:"
 msgstr "Klávesa Compose:"
 
-#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:189
 msgid "Applications Menu"
 msgstr "Menu aplikácií"
 
-#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:97
 msgid "Multitasking View"
 msgstr "Zobrazenie úloh"
 
@@ -378,39 +378,39 @@ msgstr "Vymeniť s klávesou Esc"
 msgid "Caps Lock behavior:"
 msgstr "Správanie klávesy Caps Lock:"
 
-#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+#: src/Layout/Layout.vala:255 src/Layout/Layout.vala:281
 msgid "Key to choose 3rd level:"
 msgstr "Klávesa pre výber 3. úrovne:"
 
-#: src/Layout/Layout.vala:256
+#: src/Layout/Layout.vala:270
 msgid "Left Alt"
 msgstr "Ľavý Alt"
 
-#: src/Layout/Layout.vala:281
+#: src/Layout/Layout.vala:295
 msgid "Key to choose 5th level:"
 msgstr "Klávesa pre výber 5. úrovne:"
 
-#: src/Layout/Layout.vala:298
+#: src/Layout/Layout.vala:312
 msgid "Kana Lock:"
 msgstr "Kana Lock:"
 
-#: src/Layout/Layout.vala:305
+#: src/Layout/Layout.vala:319
 msgid "Nicola F Backspace:"
 msgstr "Nicola F. Backspace:"
 
-#: src/Layout/Layout.vala:312
+#: src/Layout/Layout.vala:326
 msgid "Hankaku Zenkaku as Escape:"
 msgstr "Hankaku Zenkaku ako Esc:"
 
-#: src/Layout/Layout.vala:331
+#: src/Layout/Layout.vala:345
 msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
 msgstr "Klávesy Hangul/Hanja na pravý Alt/Ctrl:"
 
-#: src/Layout/Layout.vala:409
+#: src/Layout/Layout.vala:423
 msgid "Type to test your layout"
 msgstr "Píšte pre otestovanie vášho rozloženia"
 
-#: src/Layout/Layout.vala:412
+#: src/Layout/Layout.vala:426
 msgid "Input Method is active"
 msgstr "Metóda vstupu je aktívna"
 
@@ -434,15 +434,15 @@ msgstr "Zobraziť ukážku rozloženia"
 msgid "Add Layout"
 msgstr "Pridať rozloženie"
 
-#: src/Layout/Widgets/Display.vala:41
+#: src/Layout/Widgets/Display.vala:34
 msgid "Add Keyboard Layout…"
 msgstr "Pridať rozloženie klávesnice…"
 
-#: src/Layout/Widgets/Display.vala:196
+#: src/Layout/Widgets/Display.vala:185
 msgid "Move up"
 msgstr "Posunúť nahor"
 
-#: src/Layout/Widgets/Display.vala:200
+#: src/Layout/Widgets/Display.vala:189
 msgid "Move down"
 msgstr "Posunúť nadol"
 
@@ -507,38 +507,38 @@ msgstr "Zabudovať text pred úpravou do okna aplikácie"
 #. / The name of Ctrl + Z shortcut: "Edit -> Undo"
 #. / The name of Ctrl + Y shortcut: "Edit -> Redo"
 #. / The name of Ctrl + F shortcut: "Edit -> Find"
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Edit"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Copy"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Paste"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
 #, fuzzy
 #| msgid "Custom"
 msgid "Cut"
 msgstr "Vlastné"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Undo"
 msgstr "Späť"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Redo"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Find"
 msgstr ""
 
@@ -551,51 +551,51 @@ msgstr ""
 #. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
 #. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
 #. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
-#: src/Shortcuts/Backend/ConflictsManager.vala:89
-#: src/Shortcuts/Backend/ConflictsManager.vala:91
-#: src/Shortcuts/Backend/ConflictsManager.vala:93
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
+#: src/Shortcuts/Backend/ConflictsManager.vala:98
+#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Select All"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Move Right by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Move Left by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Shrink Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
 msgid "Expand Selection by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
 msgid "Shrink Selection by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:98
 msgid "Expand Selection Up"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Expand Selection Down"
 msgstr ""
 
@@ -607,48 +607,48 @@ msgstr ""
 #. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
 #. / The name of Ctrl + R shortcut: "File -> Refresh"
 #. / The name of Ctrl + Q shortcut: "File -> Quit"
-#: src/Shortcuts/Backend/ConflictsManager.vala:108
-#: src/Shortcuts/Backend/ConflictsManager.vala:110
-#: src/Shortcuts/Backend/ConflictsManager.vala:112
-#: src/Shortcuts/Backend/ConflictsManager.vala:114
-#: src/Shortcuts/Backend/ConflictsManager.vala:116
-#: src/Shortcuts/Backend/ConflictsManager.vala:118
-#: src/Shortcuts/Backend/ConflictsManager.vala:120
-#: src/Shortcuts/Backend/ConflictsManager.vala:122
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
+#: src/Shortcuts/Backend/ConflictsManager.vala:115
+#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "File"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Save"
 msgstr "Uložiť"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Save As"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgid "New"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:114
-#: src/Shortcuts/Backend/ShortcutsList.vala:54
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
 msgid "Close"
 msgstr "Zatvoriť"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
 msgid "New Tab"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
 msgid "Restore Closed Tab"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:115
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "Obnoviť"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:122
+#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "Quit"
 msgstr ""
 
@@ -668,399 +668,399 @@ msgstr "Alt"
 msgid "Meta"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+#: src/Shortcuts/Backend/ShortcutsList.vala:68 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
 msgstr "Okná"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:55
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
 msgid "Lower"
 msgstr "Posunúť nižšie"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:56
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
 msgid "Maximize"
 msgstr "Maximalizovať"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:57
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
 msgid "Unmaximize"
 msgstr "Zrušiť maximalizáciu"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:58
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
 msgid "Toggle Maximized"
 msgstr "Prepnúť maximilizáciu"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:59
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
 msgid "Hide"
 msgstr "Skryť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:60
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
 msgid "Toggle Fullscreen"
 msgstr "Prepnúť zobrazenie na celú obrazovku"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:61
+#: src/Shortcuts/Backend/ShortcutsList.vala:76
 msgid "Toggle on all Workspaces"
 msgstr "Prepnúť na všetkých pracovných plochách"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:62
+#: src/Shortcuts/Backend/ShortcutsList.vala:77
 msgid "Toggle always on Top"
 msgstr "Prepínanie vždy navrchu"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:63
+#: src/Shortcuts/Backend/ShortcutsList.vala:78
 msgid "Cycle Windows"
 msgstr "Prepínať okná"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:64
+#: src/Shortcuts/Backend/ShortcutsList.vala:79
 msgid "Cycle Windows backwards"
 msgstr "Prepínať okná spätne"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:65
+#: src/Shortcuts/Backend/ShortcutsList.vala:80
 msgid "Cycle Windows of application"
 msgstr "Prepínať okná aplikácie"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:66
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
 msgid "Cycle Windows of application backwards"
 msgstr "Prepínať okná aplikácie spätne"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:67
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
 msgid "Tile Left"
 msgstr "Presunúť vľavo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:68
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
 msgid "Tile Right"
 msgstr "Presunúť vpravo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:69
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
 msgid "Window Overview"
 msgstr "Prehľad okien"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:70
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Show All Windows"
 msgstr "Zobraziť všetky okná"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:71
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
 msgid "Picture in Picture Mode"
 msgstr "Režim Obrázok v obrázku"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:72
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
 msgid "Move to display above"
 msgstr "Presunúť na vrchný displej"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:73
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
 msgid "Move to display below"
 msgstr "Presunúť na spodný displej"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:74
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
 msgid "Move to right display"
 msgstr "Presunúť na displej vpravo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:75
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
 msgid "Move to left display"
 msgstr "Presunúť na displej vľavo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
+#: src/Shortcuts/Backend/ShortcutsList.vala:96 src/Shortcuts/Shortcuts.vala:41
 msgid "Workspaces"
 msgstr "Pracovné plochy"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:81
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
 msgid "Switch left"
 msgstr "Prepnúť vľavo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:82
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
 msgid "Switch right"
 msgstr "Prepnúť vpravo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:83
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
 msgid "Switch to first"
 msgstr "Prepnúť na prvú"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:84
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
 msgid "Switch to new"
 msgstr "Prepnúť na novú"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:85
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
 msgid "Switch to workspace 1"
 msgstr "Prepnúť na pracovnú plochu 1"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:86
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
 msgid "Switch to workspace 2"
 msgstr "Prepnúť na pracovnú plochu 2"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:87
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
 msgid "Switch to workspace 3"
 msgstr "Prepnúť na pracovnú plochu 3"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:88
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
 msgid "Switch to workspace 4"
 msgstr "Prepnúť na pracovnú plochu 4"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:89
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
 msgid "Switch to workspace 5"
 msgstr "Prepnúť na pracovnú plochu 5"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:90
+#: src/Shortcuts/Backend/ShortcutsList.vala:107
 msgid "Switch to workspace 6"
 msgstr "Prepnúť na pracovnú plochu 6"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:91
+#: src/Shortcuts/Backend/ShortcutsList.vala:108
 msgid "Switch to workspace 7"
 msgstr "Prepnúť na pracovnú plochu 7"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:92
+#: src/Shortcuts/Backend/ShortcutsList.vala:109
 msgid "Switch to workspace 8"
 msgstr "Prepnúť na pracovnú plochu 8"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:93
+#: src/Shortcuts/Backend/ShortcutsList.vala:110
 msgid "Switch to workspace 9"
 msgstr "Prepnúť na pracovnú plochu 9"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:94
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
 msgid "Cycle workspaces"
 msgstr "Prepínať pracovné plochy"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:95
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
 msgid "Cycle workspaces backwards"
 msgstr "Prepínať pracovné plochy spätne"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:96
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
 msgid "Move to workspace 1"
 msgstr "Presunúť na pracovnú plochu 1"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:97
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
 msgid "Move to workspace 2"
 msgstr "Presunúť na pracovnú plochu 2"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:98
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
 msgid "Move to workspace 3"
 msgstr "Presunúť na pracovnú plochu 3"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:99
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
 msgid "Move to workspace 4"
 msgstr "Presunúť na pracovnú plochu 4"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:100
+#: src/Shortcuts/Backend/ShortcutsList.vala:117
 msgid "Move to workspace 5"
 msgstr "Presunúť na pracovnú plochu 5"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:118
 msgid "Move to workspace 6"
 msgstr "Presunúť na pracovnú plochu 6"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:102
+#: src/Shortcuts/Backend/ShortcutsList.vala:119
 msgid "Move to workspace 7"
 msgstr "Presunúť na pracovnú plochu 7"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:103
+#: src/Shortcuts/Backend/ShortcutsList.vala:120
 msgid "Move to workspace 8"
 msgstr "Presunúť na pracovnú plochu 8"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:104
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
 msgid "Move to workspace 9"
 msgstr "Presunúť na pracovnú plochu 9"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:105
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
 msgid "Move to left workspace"
 msgstr "Presunúť na plochu vľavo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:106
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
 msgid "Move to right workspace"
 msgstr "Presunúť na plochu vpravo"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
+#: src/Shortcuts/Backend/ShortcutsList.vala:129 src/Shortcuts/Shortcuts.vala:43
 msgid "Screenshots"
 msgstr "Snímky obrazoviek"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:111
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
 msgid "Grab the whole screen"
 msgstr "Zachytiť celú obrazovku"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:112
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
 msgid "Copy the whole screen to clipboard"
 msgstr "Kopírovať celú obrazovku do schránky"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:113
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
 msgid "Grab the current window"
 msgstr "Zachytiť aktuálne okno"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
 msgid "Copy the current window to clipboard"
 msgstr "Kopírovať aktuálne okno do schránky"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:115
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
 msgid "Select an area to grab"
 msgstr "Vybrať oblasť na zachytenie"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:116
+#: src/Shortcuts/Backend/ShortcutsList.vala:135
 msgid "Copy an area to clipboard"
 msgstr "Kopírovať oblasť do schránky"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
+#: src/Shortcuts/Backend/ShortcutsList.vala:141 src/Shortcuts/Shortcuts.vala:45
 msgid "Applications"
 msgstr "Aplikácie"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:121
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
 msgid "Email"
 msgstr "E-mail"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:122
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
 msgid "Home Folder"
 msgstr "Domovský priečinok"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:123
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
 msgid "Music"
 msgstr "Hudba"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:124
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
 msgid "Terminal"
 msgstr "Terminál"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:125
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
 msgid "Internet Browser"
 msgstr "Internetový prehliadač"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:126
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
 msgid "Launch first dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:127
+#: src/Shortcuts/Backend/ShortcutsList.vala:148
 msgid "Launch second dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:128
+#: src/Shortcuts/Backend/ShortcutsList.vala:149
 msgid "Launch third dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:129
+#: src/Shortcuts/Backend/ShortcutsList.vala:150
 msgid "Launch fourth dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:130
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
 msgid "Launch fifth dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:131
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
 msgid "Launch sixth dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:132
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
 msgid "Launch seventh dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:133
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
 msgid "Launch eighth dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:134
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
 msgid "Launch ninth dock item"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
 msgstr "Médiá"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:139
+#: src/Shortcuts/Backend/ShortcutsList.vala:162
 msgid "Volume Up"
 msgstr "Zvýšiť hlasitosť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:140
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
 msgid "Volume Down"
 msgstr "Znížiť hlasitosť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:141
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
 msgid "Mute"
 msgstr "Stlmiť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:142
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
 msgid "Play/Pause"
 msgstr "Prehrať/pozastaviť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:143
+#: src/Shortcuts/Backend/ShortcutsList.vala:166
 msgid "Pause"
 msgstr "Pozastaviť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:144
+#: src/Shortcuts/Backend/ShortcutsList.vala:167
 msgid "Stop"
 msgstr "Zastaviť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:145
+#: src/Shortcuts/Backend/ShortcutsList.vala:168
 msgid "Previous Track"
 msgstr "Predchádzajúca skladba"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:146
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
 msgid "Next Track"
 msgstr "Ďalšia skladba"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:147
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
 msgid "Eject"
 msgstr "Vysunúť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:151
+#: src/Shortcuts/Backend/ShortcutsList.vala:176
 msgid "Universal Access"
 msgstr "Univerzálny prístup"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:152
+#: src/Shortcuts/Backend/ShortcutsList.vala:177
 msgid "Decrease Text Size"
 msgstr "Zmenšiť veľkosť písma"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:153
+#: src/Shortcuts/Backend/ShortcutsList.vala:178
 msgid "Increase Text Size"
 msgstr "Zväčšiť veľkosť písma"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:154
+#: src/Shortcuts/Backend/ShortcutsList.vala:179
 msgid "Magnifier Zoom in"
 msgstr "Priblížiť lupou"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:155
+#: src/Shortcuts/Backend/ShortcutsList.vala:180
 msgid "Magnifier Zoom out"
 msgstr "Oddialiť lupou"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:156
+#: src/Shortcuts/Backend/ShortcutsList.vala:181
 msgid "Toggle On Screen Keyboard"
 msgstr "Prepnúť klávesnicu na obrazovke"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:157
+#: src/Shortcuts/Backend/ShortcutsList.vala:182
 msgid "Toggle Screenreader"
 msgstr "Prepnúť čítačku obrazovky"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
+#: src/Shortcuts/Backend/ShortcutsList.vala:188 src/Shortcuts/Shortcuts.vala:51
 msgid "System"
 msgstr "Systém"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:163
+#: src/Shortcuts/Backend/ShortcutsList.vala:190
 msgid "Lock"
 msgstr "Uzamknúť"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:164
+#: src/Shortcuts/Backend/ShortcutsList.vala:191
 msgid "Log Out"
 msgstr "Odhlásiť sa"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:165
+#: src/Shortcuts/Backend/ShortcutsList.vala:192
 msgid "Cycle display mode"
 msgstr "Prepínať režim obrazovky"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:169
+#: src/Shortcuts/Backend/ShortcutsList.vala:198
 #, fuzzy
 #| msgid "Add Keyboard Layout…"
 msgid "Keyboard Layouts"
 msgstr "Pridať rozloženie klávesnice…"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:170
+#: src/Shortcuts/Backend/ShortcutsList.vala:199
 #, fuzzy
 #| msgid "Add Keyboard Layout…"
 msgid "Switch Keyboard Layout"
 msgstr "Pridať rozloženie klávesnice…"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:171
+#: src/Shortcuts/Backend/ShortcutsList.vala:200
 msgid "Switch Keyboard Layout Backwards"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:172
+#: src/Shortcuts/Backend/ShortcutsList.vala:201
 msgid "Enable Emoji Typing"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:173
+#: src/Shortcuts/Backend/ShortcutsList.vala:202
 msgid "Enable Unicode Typing"
 msgstr ""
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
+#: src/Shortcuts/Backend/ShortcutsList.vala:208 src/Shortcuts/Shortcuts.vala:53
 msgid "Custom"
 msgstr "Vlastné"
 
@@ -1088,32 +1088,32 @@ msgid "Custom Command"
 msgstr "Vlastný príkaz"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:99
 msgid "Set New Shortcut"
 msgstr "Nastaviť novú skratku"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:109
 msgid "Disable"
 msgstr "Vypnúť"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:187
 msgid "Enter new shortcut…"
 msgstr "Pridajte novú skratku…"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:270
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Nie je možné nastaviť novú skratku kvôli konfliktom"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:295
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:271
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "„%s“ sa už používa pre „%s → %s“."
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:104
 msgid "Reset to Default"
 msgstr "Resetovať na predvolené"
 

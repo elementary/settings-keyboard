@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 19:54+0000\n"
-"PO-Revision-Date: 2025-08-30 22:55+0000\n"
+"POT-Creation-Date: 2026-03-17 17:38+0000\n"
+"PO-Revision-Date: 2026-03-21 06:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "keyboard-plug-extra/ja/>\n"
@@ -31,41 +31,47 @@ msgstr "キーボードの挙動、レイアウト、ショートカットを設
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:54
-#: data/keyboard.metainfo.xml.in:63 data/keyboard.metainfo.xml.in:83
-#: data/keyboard.metainfo.xml.in:99 data/keyboard.metainfo.xml.in:115
-#: data/keyboard.metainfo.xml.in:133
+#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:55
+#: data/keyboard.metainfo.xml.in:71 data/keyboard.metainfo.xml.in:80
+#: data/keyboard.metainfo.xml.in:89 data/keyboard.metainfo.xml.in:109
+#: data/keyboard.metainfo.xml.in:125 data/keyboard.metainfo.xml.in:141
+#: data/keyboard.metainfo.xml.in:159
 msgid "Minor updates:"
 msgstr "マイナーアップデート:"
 
-#: data/keyboard.metainfo.xml.in:47 data/keyboard.metainfo.xml.in:56
-#: data/keyboard.metainfo.xml.in:69 data/keyboard.metainfo.xml.in:88
-#: data/keyboard.metainfo.xml.in:102 data/keyboard.metainfo.xml.in:117
-#: data/keyboard.metainfo.xml.in:136
+#: data/keyboard.metainfo.xml.in:47
+msgid "Allow assigning Gdk.Key.Tools button"
+msgstr "Gdk.Key.Tools ボタンの割り当てに対応"
+
+#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:57
+#: data/keyboard.metainfo.xml.in:73 data/keyboard.metainfo.xml.in:82
+#: data/keyboard.metainfo.xml.in:95 data/keyboard.metainfo.xml.in:114
+#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:143
+#: data/keyboard.metainfo.xml.in:162
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/keyboard.metainfo.xml.in:65
+#: data/keyboard.metainfo.xml.in:91
 msgid "Updated shortcut category icons"
 msgstr "ショートカットタブのカテゴリーアイコンを更新"
 
-#: data/keyboard.metainfo.xml.in:66
+#: data/keyboard.metainfo.xml.in:92
 msgid "Improved screen reader accessibility"
 msgstr "スクリーンリーダーのアクセシビリティを改善"
 
-#: data/keyboard.metainfo.xml.in:67
+#: data/keyboard.metainfo.xml.in:93
 msgid "New shortcut settings for launching dock items"
 msgstr "ドック項目を起動するための新しいショートカット設定を追加"
 
-#: data/keyboard.metainfo.xml.in:68
+#: data/keyboard.metainfo.xml.in:94
 msgid "Clearer actions for managing keyboard layouts"
 msgstr "キーボードレイアウトを管理するためのアクションを明確化"
 
-#: data/keyboard.metainfo.xml.in:85
+#: data/keyboard.metainfo.xml.in:111
 msgid "Fix potential crashes"
 msgstr "クラッシュすることがある不具合を修正"
 
-#: data/keyboard.metainfo.xml.in:86
+#: data/keyboard.metainfo.xml.in:112
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
@@ -73,31 +79,31 @@ msgstr ""
 "“同一アプリのウィンドウを切り替え”および“逆順で同一アプリのウィンドウを切り替"
 "え”ショートカットを追加"
 
-#: data/keyboard.metainfo.xml.in:87
+#: data/keyboard.metainfo.xml.in:113
 msgid "Improve experience installing input methods"
 msgstr "インプットメソッドインストール時の UX を向上"
 
-#: data/keyboard.metainfo.xml.in:101
+#: data/keyboard.metainfo.xml.in:127
 msgid "Show the values associated with sliders while dragging"
 msgstr "スライダーをドラッグ中に値を表示するように修正"
 
-#: data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:153
 msgid "New features:"
 msgstr "新機能:"
 
-#: data/keyboard.metainfo.xml.in:129
+#: data/keyboard.metainfo.xml.in:155
 msgid "Revert shortcuts to default"
 msgstr "デフォルトのショートカットを復元できる機能を追加"
 
-#: data/keyboard.metainfo.xml.in:130
+#: data/keyboard.metainfo.xml.in:156
 msgid "Easily disable a shortcut"
 msgstr "ショートカットを簡単に無効化できる機能を追加"
 
-#: data/keyboard.metainfo.xml.in:131
+#: data/keyboard.metainfo.xml.in:157
 msgid "Support Rime input method for Chinese"
 msgstr "中国語のインプットメソッドエディター、Rime に対応"
 
-#: data/keyboard.metainfo.xml.in:135
+#: data/keyboard.metainfo.xml.in:161
 msgid "Remove custom shortcuts from their menu"
 msgstr "カスタムショートカットの削除はメニューから行うように修正"
 

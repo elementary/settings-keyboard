@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"POT-Creation-Date: 2026-03-17 17:38+0000\n"
 "PO-Revision-Date: 2025-08-22 15:58+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -137,7 +137,7 @@ msgstr "無法啟動 IBus 伺服程式"
 msgid "Add Engine…"
 msgstr "加入引擎…"
 
-#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:181
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
 msgid "Remove"
 msgstr "移除"
@@ -153,9 +153,9 @@ msgstr "切換引擎："
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:328
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:82
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:340
 msgid "Disabled"
 msgstr "已停用"
 
@@ -257,7 +257,7 @@ msgstr "正在移除 %s"
 
 #. Caps Lock key functionality
 #: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
-#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Layout.vala:268 src/Layout/Widgets/AddLayoutDialog.vala:245
 #: src/Layout/Widgets/AddLayoutDialog.vala:249
 msgid "Default"
 msgstr "預設"
@@ -279,7 +279,7 @@ msgid "Both Shift keys together"
 msgstr "兩個 Shift 鍵一起"
 
 #: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
-#: src/Layout/Layout.vala:255
+#: src/Layout/Layout.vala:269
 msgid "Caps Lock"
 msgstr "Caps Lock"
 
@@ -303,18 +303,18 @@ msgstr "切換鍵盤配置："
 msgid "Menu"
 msgstr "選單"
 
-#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
-#: src/Layout/Layout.vala:272
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:271
+#: src/Layout/Layout.vala:286
 msgid "Right Alt"
 msgstr "右側 Alt"
 
-#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
-#: src/Layout/Layout.vala:273
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:272
+#: src/Layout/Layout.vala:287
 msgid "Right Ctrl"
 msgstr "右側 Ctrl"
 
-#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
-#: src/Layout/Layout.vala:274
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:273
+#: src/Layout/Layout.vala:288
 msgid "Right ⌘"
 msgstr "右側 ⌘"
 
@@ -322,11 +322,11 @@ msgstr "右側 ⌘"
 msgid "Compose key:"
 msgstr "Compose 鍵："
 
-#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:189
 msgid "Applications Menu"
 msgstr "應用程式選單"
 
-#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:97
 msgid "Multitasking View"
 msgstr "多工作業檢視"
 
@@ -370,39 +370,39 @@ msgstr "和 Escape 互換"
 msgid "Caps Lock behavior:"
 msgstr "Caps Lock 行為："
 
-#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+#: src/Layout/Layout.vala:255 src/Layout/Layout.vala:281
 msgid "Key to choose 3rd level:"
 msgstr "選擇第三層的按鍵："
 
-#: src/Layout/Layout.vala:256
+#: src/Layout/Layout.vala:270
 msgid "Left Alt"
 msgstr "左側 Alt"
 
-#: src/Layout/Layout.vala:281
+#: src/Layout/Layout.vala:295
 msgid "Key to choose 5th level:"
 msgstr "選擇第五層的按鍵："
 
-#: src/Layout/Layout.vala:298
+#: src/Layout/Layout.vala:312
 msgid "Kana Lock:"
 msgstr "假名鎖定："
 
-#: src/Layout/Layout.vala:305
+#: src/Layout/Layout.vala:319
 msgid "Nicola F Backspace:"
 msgstr "Nicola F Backspace："
 
-#: src/Layout/Layout.vala:312
+#: src/Layout/Layout.vala:326
 msgid "Hankaku Zenkaku as Escape:"
 msgstr "全角半角按鍵視為 Escape："
 
-#: src/Layout/Layout.vala:331
+#: src/Layout/Layout.vala:345
 msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
 msgstr "諺文/漢字按鍵位於右側 Alt/Ctrl："
 
-#: src/Layout/Layout.vala:409
+#: src/Layout/Layout.vala:423
 msgid "Type to test your layout"
 msgstr "請按鍵盤以測試您的鍵盤配置"
 
-#: src/Layout/Layout.vala:412
+#: src/Layout/Layout.vala:426
 msgid "Input Method is active"
 msgstr "輸入法使用中"
 
@@ -426,15 +426,15 @@ msgstr "預覽鍵盤配置"
 msgid "Add Layout"
 msgstr "加入鍵盤配置"
 
-#: src/Layout/Widgets/Display.vala:41
+#: src/Layout/Widgets/Display.vala:34
 msgid "Add Keyboard Layout…"
 msgstr "加入鍵盤配置…"
 
-#: src/Layout/Widgets/Display.vala:196
+#: src/Layout/Widgets/Display.vala:185
 msgid "Move up"
 msgstr "上移"
 
-#: src/Layout/Widgets/Display.vala:200
+#: src/Layout/Widgets/Display.vala:189
 msgid "Move down"
 msgstr "下移"
 
@@ -499,36 +499,36 @@ msgstr "將預編輯文字內嵌於應用程式視窗中"
 #. / The name of Ctrl + Z shortcut: "Edit -> Undo"
 #. / The name of Ctrl + Y shortcut: "Edit -> Redo"
 #. / The name of Ctrl + F shortcut: "Edit -> Find"
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Edit"
 msgstr "編輯"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Copy"
 msgstr "複製"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Paste"
 msgstr "貼上"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
 msgid "Cut"
 msgstr "剪下"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Undo"
 msgstr "復原"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Redo"
 msgstr "重做"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Find"
 msgstr "尋找"
 
@@ -541,51 +541,51 @@ msgstr "尋找"
 #. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
 #. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
 #. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
-#: src/Shortcuts/Backend/ConflictsManager.vala:89
-#: src/Shortcuts/Backend/ConflictsManager.vala:91
-#: src/Shortcuts/Backend/ConflictsManager.vala:93
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
+#: src/Shortcuts/Backend/ConflictsManager.vala:98
+#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Selection"
 msgstr "選取"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Select All"
 msgstr "全部選取"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Move Right by Word"
 msgstr "向右移動一個單詞"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Move Left by Word"
 msgstr "向左移動一個單詞"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection"
 msgstr "擴大選取範圍"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Shrink Selection"
 msgstr "縮小選取範圍"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
 msgid "Expand Selection by Word"
 msgstr "擴大選取範圍一個單詞"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
 msgid "Shrink Selection by Word"
 msgstr "縮小選取範圍一個單詞"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:98
 msgid "Expand Selection Up"
 msgstr "向上擴大選取範圍"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Expand Selection Down"
 msgstr "向下擴大選取範圍"
 
@@ -597,48 +597,48 @@ msgstr "向下擴大選取範圍"
 #. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
 #. / The name of Ctrl + R shortcut: "File -> Refresh"
 #. / The name of Ctrl + Q shortcut: "File -> Quit"
-#: src/Shortcuts/Backend/ConflictsManager.vala:108
-#: src/Shortcuts/Backend/ConflictsManager.vala:110
-#: src/Shortcuts/Backend/ConflictsManager.vala:112
-#: src/Shortcuts/Backend/ConflictsManager.vala:114
-#: src/Shortcuts/Backend/ConflictsManager.vala:116
-#: src/Shortcuts/Backend/ConflictsManager.vala:118
-#: src/Shortcuts/Backend/ConflictsManager.vala:120
-#: src/Shortcuts/Backend/ConflictsManager.vala:122
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
+#: src/Shortcuts/Backend/ConflictsManager.vala:115
+#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "File"
 msgstr "檔案"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Save"
 msgstr "儲存"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Save As"
 msgstr "儲存為"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgid "New"
 msgstr "新增"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:114
-#: src/Shortcuts/Backend/ShortcutsList.vala:54
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
 msgid "Close"
 msgstr "關閉"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
 msgid "Restore Closed Tab"
 msgstr "重新開啟已關閉的分頁"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:115
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "重新整理"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:122
+#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "Quit"
 msgstr "離開"
 
@@ -658,395 +658,395 @@ msgstr "Alt"
 msgid "Meta"
 msgstr "Meta"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+#: src/Shortcuts/Backend/ShortcutsList.vala:68 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
 msgstr "視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:55
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
 msgid "Lower"
 msgstr "降低"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:56
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
 msgid "Maximize"
 msgstr "最大化"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:57
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
 msgid "Unmaximize"
 msgstr "取消最大化"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:58
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
 msgid "Toggle Maximized"
 msgstr "切換最大化"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:59
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
 msgid "Hide"
 msgstr "隱藏"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:60
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
 msgid "Toggle Fullscreen"
 msgstr "切換全螢幕"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:61
+#: src/Shortcuts/Backend/ShortcutsList.vala:76
 msgid "Toggle on all Workspaces"
 msgstr "切換是否顯示在所有工作區上"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:62
+#: src/Shortcuts/Backend/ShortcutsList.vala:77
 msgid "Toggle always on Top"
 msgstr "切換置於最上層"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:63
+#: src/Shortcuts/Backend/ShortcutsList.vala:78
 msgid "Cycle Windows"
 msgstr "循環切換視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:64
+#: src/Shortcuts/Backend/ShortcutsList.vala:79
 msgid "Cycle Windows backwards"
 msgstr "往後循環切換視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:65
+#: src/Shortcuts/Backend/ShortcutsList.vala:80
 msgid "Cycle Windows of application"
 msgstr "循環切換應用程式視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:66
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
 msgid "Cycle Windows of application backwards"
 msgstr "往後循環切換應用程式視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:67
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
 msgid "Tile Left"
 msgstr "向左鋪排"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:68
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
 msgid "Tile Right"
 msgstr "向右鋪排"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:69
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
 msgid "Window Overview"
 msgstr "視窗概覽"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:70
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Show All Windows"
 msgstr "顯示所有視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:71
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
 msgid "Picture in Picture Mode"
 msgstr "子母畫面模式"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:72
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
 msgid "Move to display above"
 msgstr "移動到上方顯示器"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:73
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
 msgid "Move to display below"
 msgstr "移動到下方顯示器"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:74
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
 msgid "Move to right display"
 msgstr "移動到右側顯示器"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:75
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
 msgid "Move to left display"
 msgstr "移動到左側顯示器"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
+#: src/Shortcuts/Backend/ShortcutsList.vala:96 src/Shortcuts/Shortcuts.vala:41
 msgid "Workspaces"
 msgstr "工作區"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:81
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
 msgid "Switch left"
 msgstr "切換至左側"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:82
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
 msgid "Switch right"
 msgstr "切換至右側"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:83
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
 msgid "Switch to first"
 msgstr "切換到第一個"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:84
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
 msgid "Switch to new"
 msgstr "切換到新的"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:85
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
 msgid "Switch to workspace 1"
 msgstr "切換到工作區 1"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:86
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
 msgid "Switch to workspace 2"
 msgstr "切換到工作區 2"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:87
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
 msgid "Switch to workspace 3"
 msgstr "切換到工作區 3"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:88
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
 msgid "Switch to workspace 4"
 msgstr "切換到工作區 4"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:89
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
 msgid "Switch to workspace 5"
 msgstr "切換到工作區 5"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:90
+#: src/Shortcuts/Backend/ShortcutsList.vala:107
 msgid "Switch to workspace 6"
 msgstr "切換到工作區 6"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:91
+#: src/Shortcuts/Backend/ShortcutsList.vala:108
 msgid "Switch to workspace 7"
 msgstr "切換到工作區 7"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:92
+#: src/Shortcuts/Backend/ShortcutsList.vala:109
 msgid "Switch to workspace 8"
 msgstr "切換到工作區 8"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:93
+#: src/Shortcuts/Backend/ShortcutsList.vala:110
 msgid "Switch to workspace 9"
 msgstr "切換到工作區 9"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:94
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
 msgid "Cycle workspaces"
 msgstr "循環切換工作區"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:95
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
 msgid "Cycle workspaces backwards"
 msgstr "往後循環切換工作區"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:96
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
 msgid "Move to workspace 1"
 msgstr "移動到工作區 1"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:97
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
 msgid "Move to workspace 2"
 msgstr "移動到工作區 2"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:98
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
 msgid "Move to workspace 3"
 msgstr "移動到工作區 3"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:99
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
 msgid "Move to workspace 4"
 msgstr "移動到工作區 4"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:100
+#: src/Shortcuts/Backend/ShortcutsList.vala:117
 msgid "Move to workspace 5"
 msgstr "移動到工作區 5"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:118
 msgid "Move to workspace 6"
 msgstr "移動到工作區 6"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:102
+#: src/Shortcuts/Backend/ShortcutsList.vala:119
 msgid "Move to workspace 7"
 msgstr "移動到工作區 7"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:103
+#: src/Shortcuts/Backend/ShortcutsList.vala:120
 msgid "Move to workspace 8"
 msgstr "移動到工作區 8"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:104
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
 msgid "Move to workspace 9"
 msgstr "移動到工作區 9"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:105
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
 msgid "Move to left workspace"
 msgstr "移動到左側工作區"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:106
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
 msgid "Move to right workspace"
 msgstr "移動到右側工作區"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
+#: src/Shortcuts/Backend/ShortcutsList.vala:129 src/Shortcuts/Shortcuts.vala:43
 msgid "Screenshots"
 msgstr "螢幕快照"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:111
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
 msgid "Grab the whole screen"
 msgstr "擷取整個螢幕"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:112
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
 msgid "Copy the whole screen to clipboard"
 msgstr "將整個螢幕複製到剪貼簿"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:113
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
 msgid "Grab the current window"
 msgstr "擷取目前視窗"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
 msgid "Copy the current window to clipboard"
 msgstr "複製目前的視窗到剪貼簿"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:115
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
 msgid "Select an area to grab"
 msgstr "選取要擷取的區域"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:116
+#: src/Shortcuts/Backend/ShortcutsList.vala:135
 msgid "Copy an area to clipboard"
 msgstr "將一塊區域複製到剪貼簿"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
+#: src/Shortcuts/Backend/ShortcutsList.vala:141 src/Shortcuts/Shortcuts.vala:45
 msgid "Applications"
 msgstr "應用程式"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:121
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
 msgid "Email"
 msgstr "電子郵件"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:122
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
 msgid "Home Folder"
 msgstr "家屋資料夾"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:123
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
 msgid "Music"
 msgstr "音樂"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:124
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
 msgid "Terminal"
 msgstr "終端機"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:125
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
 msgid "Internet Browser"
 msgstr "網際網路瀏覽器"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:126
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
 msgid "Launch first dock item"
 msgstr "啟動第 1 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:127
+#: src/Shortcuts/Backend/ShortcutsList.vala:148
 msgid "Launch second dock item"
 msgstr "啟動第 2 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:128
+#: src/Shortcuts/Backend/ShortcutsList.vala:149
 msgid "Launch third dock item"
 msgstr "啟動第 3 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:129
+#: src/Shortcuts/Backend/ShortcutsList.vala:150
 msgid "Launch fourth dock item"
 msgstr "啟動第 4 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:130
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
 msgid "Launch fifth dock item"
 msgstr "啟動第 5 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:131
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
 msgid "Launch sixth dock item"
 msgstr "啟動第 6 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:132
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
 msgid "Launch seventh dock item"
 msgstr "啟動第 7 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:133
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
 msgid "Launch eighth dock item"
 msgstr "啟動第 8 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:134
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
 msgid "Launch ninth dock item"
 msgstr "啟動第 9 個 Dock 項目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
 msgstr "媒體"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:139
+#: src/Shortcuts/Backend/ShortcutsList.vala:162
 msgid "Volume Up"
 msgstr "調高音量"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:140
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
 msgid "Volume Down"
 msgstr "調低音量"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:141
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
 msgid "Mute"
 msgstr "靜音"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:142
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
 msgid "Play/Pause"
 msgstr "播放/暫停"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:143
+#: src/Shortcuts/Backend/ShortcutsList.vala:166
 msgid "Pause"
 msgstr "暫停"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:144
+#: src/Shortcuts/Backend/ShortcutsList.vala:167
 msgid "Stop"
 msgstr "停止"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:145
+#: src/Shortcuts/Backend/ShortcutsList.vala:168
 msgid "Previous Track"
 msgstr "上一首曲目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:146
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
 msgid "Next Track"
 msgstr "下一首曲目"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:147
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
 msgid "Eject"
 msgstr "退出"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:151
+#: src/Shortcuts/Backend/ShortcutsList.vala:176
 msgid "Universal Access"
 msgstr "無障礙功能"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:152
+#: src/Shortcuts/Backend/ShortcutsList.vala:177
 msgid "Decrease Text Size"
 msgstr "縮小文字"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:153
+#: src/Shortcuts/Backend/ShortcutsList.vala:178
 msgid "Increase Text Size"
 msgstr "放大文字"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:154
+#: src/Shortcuts/Backend/ShortcutsList.vala:179
 msgid "Magnifier Zoom in"
 msgstr "放大鏡拉近"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:155
+#: src/Shortcuts/Backend/ShortcutsList.vala:180
 msgid "Magnifier Zoom out"
 msgstr "放大鏡拉遠"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:156
+#: src/Shortcuts/Backend/ShortcutsList.vala:181
 msgid "Toggle On Screen Keyboard"
 msgstr "切換螢幕鍵盤"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:157
+#: src/Shortcuts/Backend/ShortcutsList.vala:182
 msgid "Toggle Screenreader"
 msgstr "切換螢幕閱讀器"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
+#: src/Shortcuts/Backend/ShortcutsList.vala:188 src/Shortcuts/Shortcuts.vala:51
 msgid "System"
 msgstr "系統"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:163
+#: src/Shortcuts/Backend/ShortcutsList.vala:190
 msgid "Lock"
 msgstr "鎖定"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:164
+#: src/Shortcuts/Backend/ShortcutsList.vala:191
 msgid "Log Out"
 msgstr "登出"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:165
+#: src/Shortcuts/Backend/ShortcutsList.vala:192
 msgid "Cycle display mode"
 msgstr "循環切換顯示模式"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:169
+#: src/Shortcuts/Backend/ShortcutsList.vala:198
 msgid "Keyboard Layouts"
 msgstr "鍵盤配置"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:170
+#: src/Shortcuts/Backend/ShortcutsList.vala:199
 msgid "Switch Keyboard Layout"
 msgstr "切換鍵盤配置"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:171
+#: src/Shortcuts/Backend/ShortcutsList.vala:200
 msgid "Switch Keyboard Layout Backwards"
 msgstr "往後切換鍵盤配置"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:172
+#: src/Shortcuts/Backend/ShortcutsList.vala:201
 msgid "Enable Emoji Typing"
 msgstr "啟用表情符號輸入"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:173
+#: src/Shortcuts/Backend/ShortcutsList.vala:202
 msgid "Enable Unicode Typing"
 msgstr "啟用 Unicode 輸入"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
+#: src/Shortcuts/Backend/ShortcutsList.vala:208 src/Shortcuts/Shortcuts.vala:53
 msgid "Custom"
 msgstr "自訂"
 
@@ -1072,32 +1072,32 @@ msgid "Custom Command"
 msgstr "自訂指令"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:99
 msgid "Set New Shortcut"
 msgstr "設定新快捷鍵"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:109
 msgid "Disable"
 msgstr "停用"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:187
 msgid "Enter new shortcut…"
 msgstr "輸入新快捷鍵…"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:270
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "因為有衝突而無法設定新快捷鍵"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:295
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:271
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "%s 已經用作 \"%s → %s\"。"
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:104
 msgid "Reset to Default"
 msgstr "重設為預設值"
 

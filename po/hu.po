@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 19:54+0000\n"
+"POT-Creation-Date: 2026-03-17 17:38+0000\n"
 "PO-Revision-Date: 2025-06-19 11:55+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementaryos.org/projects/settings/"
@@ -140,7 +140,7 @@ msgstr "Nem sikerült elindítani az IBus daemont"
 msgid "Add Engine…"
 msgstr "Motor hozzáadása…"
 
-#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:192
+#: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:181
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
 msgid "Remove"
 msgstr "Eltávolítás"
@@ -156,9 +156,9 @@ msgstr "Motor váltása:"
 #: src/Layout/Layout.vala:52 src/Layout/Layout.vala:73
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:327
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:86
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:343
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:328
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:82
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:340
 msgid "Disabled"
 msgstr "Kikapcsolva"
 
@@ -260,7 +260,7 @@ msgstr "%s eltávolítása"
 
 #. Caps Lock key functionality
 #: src/InputSources/XkbLayoutHandler.vala:95 src/Layout/Layout.vala:91
-#: src/Layout/Layout.vala:254 src/Layout/Widgets/AddLayoutDialog.vala:245
+#: src/Layout/Layout.vala:268 src/Layout/Widgets/AddLayoutDialog.vala:245
 #: src/Layout/Widgets/AddLayoutDialog.vala:249
 msgid "Default"
 msgstr "Alapértelmezett"
@@ -282,7 +282,7 @@ msgid "Both Shift keys together"
 msgstr "Mindkét Shift billentyű együtt"
 
 #: src/Layout/Layout.vala:35 src/Layout/Layout.vala:53
-#: src/Layout/Layout.vala:255
+#: src/Layout/Layout.vala:269
 msgid "Caps Lock"
 msgstr "Caps Lock"
 
@@ -306,18 +306,18 @@ msgstr "Kiosztás váltása:"
 msgid "Menu"
 msgstr "Menü"
 
-#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:257
-#: src/Layout/Layout.vala:272
+#: src/Layout/Layout.vala:55 src/Layout/Layout.vala:271
+#: src/Layout/Layout.vala:286
 msgid "Right Alt"
 msgstr "Jobb Alt"
 
-#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:258
-#: src/Layout/Layout.vala:273
+#: src/Layout/Layout.vala:56 src/Layout/Layout.vala:272
+#: src/Layout/Layout.vala:287
 msgid "Right Ctrl"
 msgstr "Jobb Ctrl"
 
-#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:259
-#: src/Layout/Layout.vala:274
+#: src/Layout/Layout.vala:57 src/Layout/Layout.vala:273
+#: src/Layout/Layout.vala:288
 msgid "Right ⌘"
 msgstr "Jobb ⌘"
 
@@ -325,11 +325,11 @@ msgstr "Jobb ⌘"
 msgid "Compose key:"
 msgstr "Levélírás gomb:"
 
-#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:162
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:189
 msgid "Applications Menu"
 msgstr "Alkalmazásmenü"
 
-#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:80
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:97
 msgid "Multitasking View"
 msgstr "Többfeladatos nézet"
 
@@ -373,39 +373,39 @@ msgstr "Csere az Escape billentyűvel"
 msgid "Caps Lock behavior:"
 msgstr "Caps Lock viselkedése:"
 
-#: src/Layout/Layout.vala:241 src/Layout/Layout.vala:267
+#: src/Layout/Layout.vala:255 src/Layout/Layout.vala:281
 msgid "Key to choose 3rd level:"
 msgstr "Billentyű a 3. szint kiválasztásához:"
 
-#: src/Layout/Layout.vala:256
+#: src/Layout/Layout.vala:270
 msgid "Left Alt"
 msgstr "Bal Alt"
 
-#: src/Layout/Layout.vala:281
+#: src/Layout/Layout.vala:295
 msgid "Key to choose 5th level:"
 msgstr "Billentyű a 5. szint kiválasztásához:"
 
-#: src/Layout/Layout.vala:298
+#: src/Layout/Layout.vala:312
 msgid "Kana Lock:"
 msgstr "Kana zár:"
 
-#: src/Layout/Layout.vala:305
+#: src/Layout/Layout.vala:319
 msgid "Nicola F Backspace:"
 msgstr "Nicola F típusú Backspace:"
 
-#: src/Layout/Layout.vala:312
+#: src/Layout/Layout.vala:326
 msgid "Hankaku Zenkaku as Escape:"
 msgstr "Zenkaku Hankaku mint Escape:"
 
-#: src/Layout/Layout.vala:331
+#: src/Layout/Layout.vala:345
 msgid "Hangul/Hanja keys on Right Alt/Ctrl:"
 msgstr "Hangul/Hanja billentyűk a jobb Alt/Ctrl-on:"
 
-#: src/Layout/Layout.vala:409
+#: src/Layout/Layout.vala:423
 msgid "Type to test your layout"
 msgstr "Gépeljen a billentyűzetkiosztás teszteléséhez"
 
-#: src/Layout/Layout.vala:412
+#: src/Layout/Layout.vala:426
 msgid "Input Method is active"
 msgstr "A beviteli mód használatban van"
 
@@ -429,15 +429,15 @@ msgstr "Kiosztás előnézete"
 msgid "Add Layout"
 msgstr "Kiosztás hozzáadása"
 
-#: src/Layout/Widgets/Display.vala:41
+#: src/Layout/Widgets/Display.vala:34
 msgid "Add Keyboard Layout…"
 msgstr "Billentyűzetkiosztás hozzáadása…"
 
-#: src/Layout/Widgets/Display.vala:196
+#: src/Layout/Widgets/Display.vala:185
 msgid "Move up"
 msgstr "Mozgatás fel"
 
-#: src/Layout/Widgets/Display.vala:200
+#: src/Layout/Widgets/Display.vala:189
 msgid "Move down"
 msgstr "Mozgatás le"
 
@@ -504,36 +504,36 @@ msgstr "Előszerkesztett szöveg beágyazása az alkalmazás ablakába"
 #. / The name of Ctrl + Z shortcut: "Edit -> Undo"
 #. / The name of Ctrl + Y shortcut: "Edit -> Redo"
 #. / The name of Ctrl + F shortcut: "Edit -> Find"
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:76
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
 msgid "Copy"
 msgstr "Másolás"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:78
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Paste"
 msgstr "Beillesztés"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
 msgid "Cut"
 msgstr "Kivágás"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:82
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:79
 msgid "Redo"
 msgstr "Újra"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Find"
 msgstr "Keresés"
 
@@ -546,51 +546,51 @@ msgstr "Keresés"
 #. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
 #. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
 #. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
-#: src/Shortcuts/Backend/ConflictsManager.vala:89
-#: src/Shortcuts/Backend/ConflictsManager.vala:91
-#: src/Shortcuts/Backend/ConflictsManager.vala:93
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
+#: src/Shortcuts/Backend/ConflictsManager.vala:98
+#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Selection"
 msgstr "Kiválasztás"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:89
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Select All"
 msgstr "Összes kijelölése"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:91
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Move Right by Word"
 msgstr "Jobbra mozdulás egy szóval"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:93
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Move Left by Word"
 msgstr "Balra mozdulás egy szóval"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:95
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection"
 msgstr "Kijelölés kiterjesztése"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:97
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Shrink Selection"
 msgstr "Kijelölés zsugorítása"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
 msgid "Expand Selection by Word"
 msgstr "Kijelölés kiterjesztése egy szóval"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:101
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
 msgid "Shrink Selection by Word"
 msgstr "Kijelölés zsugorítása egy szóval"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:98
 msgid "Expand Selection Up"
 msgstr "Kijelölés kiterjesztése felfelé"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Expand Selection Down"
 msgstr "Kijelölés kiterjesztése lefelé"
 
@@ -602,48 +602,48 @@ msgstr "Kijelölés kiterjesztése lefelé"
 #. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
 #. / The name of Ctrl + R shortcut: "File -> Refresh"
 #. / The name of Ctrl + Q shortcut: "File -> Quit"
-#: src/Shortcuts/Backend/ConflictsManager.vala:108
-#: src/Shortcuts/Backend/ConflictsManager.vala:110
-#: src/Shortcuts/Backend/ConflictsManager.vala:112
-#: src/Shortcuts/Backend/ConflictsManager.vala:114
-#: src/Shortcuts/Backend/ConflictsManager.vala:116
-#: src/Shortcuts/Backend/ConflictsManager.vala:118
-#: src/Shortcuts/Backend/ConflictsManager.vala:120
-#: src/Shortcuts/Backend/ConflictsManager.vala:122
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
+#: src/Shortcuts/Backend/ConflictsManager.vala:115
+#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "File"
 msgstr "Fájl"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:108
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "Save"
 msgstr "Mentés"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:110
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
 msgid "Save As"
 msgstr "Mentés másként"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:112
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgid "New"
 msgstr "Új"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:114
-#: src/Shortcuts/Backend/ShortcutsList.vala:54
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
+#: src/Shortcuts/Backend/ShortcutsList.vala:69
 msgid "Close"
 msgstr "Bezárás"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:116
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
 msgid "New Tab"
 msgstr "Új lap"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:118
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
 msgid "Restore Closed Tab"
 msgstr "Bezárt lap visszaállítása"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:120
+#: src/Shortcuts/Backend/ConflictsManager.vala:115
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:122
+#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "Quit"
 msgstr "Kilépés"
 
@@ -663,395 +663,395 @@ msgstr "Alt"
 msgid "Meta"
 msgstr "Meta"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:53 src/Shortcuts/Shortcuts.vala:39
+#: src/Shortcuts/Backend/ShortcutsList.vala:68 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
 msgstr "Ablakok"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:55
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
 msgid "Lower"
 msgstr "Kicsinyítés"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:56
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
 msgid "Maximize"
 msgstr "Maximalizálás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:57
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
 msgid "Unmaximize"
 msgstr "Eredeti méret"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:58
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
 msgid "Toggle Maximized"
 msgstr "Maximalizált állapot váltása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:59
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
 msgid "Hide"
 msgstr "Elrejtés"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:60
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
 msgid "Toggle Fullscreen"
 msgstr "Váltás teljes képernyőre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:61
+#: src/Shortcuts/Backend/ShortcutsList.vala:76
 msgid "Toggle on all Workspaces"
 msgstr "Mindig a látható munkaterületen kapcsolása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:62
+#: src/Shortcuts/Backend/ShortcutsList.vala:77
 msgid "Toggle always on Top"
 msgstr "Mindig felül kapcsolása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:63
+#: src/Shortcuts/Backend/ShortcutsList.vala:78
 msgid "Cycle Windows"
 msgstr "Ablakok közötti váltás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:64
+#: src/Shortcuts/Backend/ShortcutsList.vala:79
 msgid "Cycle Windows backwards"
 msgstr "Ablakok közötti váltás visszafelé"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:65
+#: src/Shortcuts/Backend/ShortcutsList.vala:80
 msgid "Cycle Windows of application"
 msgstr "Az alkalmazás ablakai közötti váltás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:66
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
 msgid "Cycle Windows of application backwards"
 msgstr "Az alkalmazás ablakai közötti váltás visszafelé"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:67
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
 msgid "Tile Left"
 msgstr "Felosztás bal oldalra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:68
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
 msgid "Tile Right"
 msgstr "Felosztás jobb oldalra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:69
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
 msgid "Window Overview"
 msgstr "Ablakáttekintő nézet"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:70
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Show All Windows"
 msgstr "Összes ablak megtekintése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:71
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
 msgid "Picture in Picture Mode"
 msgstr "Kép a képben mód"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:72
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
 msgid "Move to display above"
 msgstr "Mozgatás a fenti kijelzőre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:73
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
 msgid "Move to display below"
 msgstr "Mozgatás az alsó kijelzőre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:74
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
 msgid "Move to right display"
 msgstr "Mozgatás a jobb oldali kijelzőre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:75
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
 msgid "Move to left display"
 msgstr "Mozgatás a bal oldali kijelzőre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:79 src/Shortcuts/Shortcuts.vala:41
+#: src/Shortcuts/Backend/ShortcutsList.vala:96 src/Shortcuts/Shortcuts.vala:41
 msgid "Workspaces"
 msgstr "Munkaterületek"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:81
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
 msgid "Switch left"
 msgstr "Váltás balra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:82
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
 msgid "Switch right"
 msgstr "Váltás jobbra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:83
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
 msgid "Switch to first"
 msgstr "Váltás az elsőre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:84
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
 msgid "Switch to new"
 msgstr "Váltás az újra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:85
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
 msgid "Switch to workspace 1"
 msgstr "Átváltás az 1. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:86
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
 msgid "Switch to workspace 2"
 msgstr "Átváltás a 2. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:87
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
 msgid "Switch to workspace 3"
 msgstr "Átváltás a 3. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:88
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
 msgid "Switch to workspace 4"
 msgstr "Átváltás a 4. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:89
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
 msgid "Switch to workspace 5"
 msgstr "Átváltás az 5. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:90
+#: src/Shortcuts/Backend/ShortcutsList.vala:107
 msgid "Switch to workspace 6"
 msgstr "Átváltás a 6. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:91
+#: src/Shortcuts/Backend/ShortcutsList.vala:108
 msgid "Switch to workspace 7"
 msgstr "Átváltás a 7. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:92
+#: src/Shortcuts/Backend/ShortcutsList.vala:109
 msgid "Switch to workspace 8"
 msgstr "Átváltás a 8. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:93
+#: src/Shortcuts/Backend/ShortcutsList.vala:110
 msgid "Switch to workspace 9"
 msgstr "Átváltás a 9. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:94
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
 msgid "Cycle workspaces"
 msgstr "Munkaterületek közötti váltás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:95
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
 msgid "Cycle workspaces backwards"
 msgstr "Munkaterületek közötti váltás visszafelé"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:96
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
 msgid "Move to workspace 1"
 msgstr "Áthelyezés az 1. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:97
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
 msgid "Move to workspace 2"
 msgstr "Áthelyezés a 2. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:98
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
 msgid "Move to workspace 3"
 msgstr "Áthelyezés a 3. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:99
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
 msgid "Move to workspace 4"
 msgstr "Áthelyezés a 4. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:100
+#: src/Shortcuts/Backend/ShortcutsList.vala:117
 msgid "Move to workspace 5"
 msgstr "Áthelyezés az 5. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:118
 msgid "Move to workspace 6"
 msgstr "Áthelyezés a 6. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:102
+#: src/Shortcuts/Backend/ShortcutsList.vala:119
 msgid "Move to workspace 7"
 msgstr "Áthelyezés a 7. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:103
+#: src/Shortcuts/Backend/ShortcutsList.vala:120
 msgid "Move to workspace 8"
 msgstr "Áthelyezés a 8. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:104
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
 msgid "Move to workspace 9"
 msgstr "Áthelyezés a 9. munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:105
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
 msgid "Move to left workspace"
 msgstr "Mozgatás a balra lévő munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:106
+#: src/Shortcuts/Backend/ShortcutsList.vala:123
 msgid "Move to right workspace"
 msgstr "Mozgatás a jobbra lévő munkaterületre"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:110 src/Shortcuts/Shortcuts.vala:43
+#: src/Shortcuts/Backend/ShortcutsList.vala:129 src/Shortcuts/Shortcuts.vala:43
 msgid "Screenshots"
 msgstr "Képernyőképek"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:111
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
 msgid "Grab the whole screen"
 msgstr "A teljes képernyő mentése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:112
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
 msgid "Copy the whole screen to clipboard"
 msgstr "A teljes képernyő mentése a vágólapra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:113
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
 msgid "Grab the current window"
 msgstr "Az aktuális ablak mentése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:133
 msgid "Copy the current window to clipboard"
 msgstr "Az aktuális ablak mentése a vágólapra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:115
+#: src/Shortcuts/Backend/ShortcutsList.vala:134
 msgid "Select an area to grab"
 msgstr "A kijelölt terület mentése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:116
+#: src/Shortcuts/Backend/ShortcutsList.vala:135
 msgid "Copy an area to clipboard"
 msgstr "A kijelölt terület mentése a vágólapra"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:120 src/Shortcuts/Shortcuts.vala:45
+#: src/Shortcuts/Backend/ShortcutsList.vala:141 src/Shortcuts/Shortcuts.vala:45
 msgid "Applications"
 msgstr "Alkalmazások"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:121
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
 msgid "Email"
 msgstr "E-mail"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:122
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
 msgid "Home Folder"
 msgstr "Saját mappa"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:123
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
 msgid "Music"
 msgstr "Zenék"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:124
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
 msgid "Terminal"
 msgstr "Terminál"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:125
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
 msgid "Internet Browser"
 msgstr "Internetböngésző"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:126
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
 msgid "Launch first dock item"
 msgstr "Első dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:127
+#: src/Shortcuts/Backend/ShortcutsList.vala:148
 msgid "Launch second dock item"
 msgstr "Második dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:128
+#: src/Shortcuts/Backend/ShortcutsList.vala:149
 msgid "Launch third dock item"
 msgstr "Harmadik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:129
+#: src/Shortcuts/Backend/ShortcutsList.vala:150
 msgid "Launch fourth dock item"
 msgstr "Negyedik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:130
+#: src/Shortcuts/Backend/ShortcutsList.vala:151
 msgid "Launch fifth dock item"
 msgstr "Ötödik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:131
+#: src/Shortcuts/Backend/ShortcutsList.vala:152
 msgid "Launch sixth dock item"
 msgstr "Hatodik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:132
+#: src/Shortcuts/Backend/ShortcutsList.vala:153
 msgid "Launch seventh dock item"
 msgstr "Hetedik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:133
+#: src/Shortcuts/Backend/ShortcutsList.vala:154
 msgid "Launch eighth dock item"
 msgstr "Nyolcadik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:134
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
 msgid "Launch ninth dock item"
 msgstr "Kilencedik dokkelem indítása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:138 src/Shortcuts/Shortcuts.vala:47
+#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
 msgstr "Média"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:139
+#: src/Shortcuts/Backend/ShortcutsList.vala:162
 msgid "Volume Up"
 msgstr "Hangosítás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:140
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
 msgid "Volume Down"
 msgstr "Halkítás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:141
+#: src/Shortcuts/Backend/ShortcutsList.vala:164
 msgid "Mute"
 msgstr "Némítás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:142
+#: src/Shortcuts/Backend/ShortcutsList.vala:165
 msgid "Play/Pause"
 msgstr "Lejátszás/szünet"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:143
+#: src/Shortcuts/Backend/ShortcutsList.vala:166
 msgid "Pause"
 msgstr "Szünet"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:144
+#: src/Shortcuts/Backend/ShortcutsList.vala:167
 msgid "Stop"
 msgstr "Megállítás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:145
+#: src/Shortcuts/Backend/ShortcutsList.vala:168
 msgid "Previous Track"
 msgstr "Előző szám"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:146
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
 msgid "Next Track"
 msgstr "Következő szám"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:147
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
 msgid "Eject"
 msgstr "Kiadás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:151
+#: src/Shortcuts/Backend/ShortcutsList.vala:176
 msgid "Universal Access"
 msgstr "Kisegítő lehetőségek"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:152
+#: src/Shortcuts/Backend/ShortcutsList.vala:177
 msgid "Decrease Text Size"
 msgstr "Betűméret csökkentése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:153
+#: src/Shortcuts/Backend/ShortcutsList.vala:178
 msgid "Increase Text Size"
 msgstr "Betűméret növelése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:154
+#: src/Shortcuts/Backend/ShortcutsList.vala:179
 msgid "Magnifier Zoom in"
 msgstr "Közelítés nagyítóval"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:155
+#: src/Shortcuts/Backend/ShortcutsList.vala:180
 msgid "Magnifier Zoom out"
 msgstr "Távolítás nagyítóval"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:156
+#: src/Shortcuts/Backend/ShortcutsList.vala:181
 msgid "Toggle On Screen Keyboard"
 msgstr "Képernyőbillentyűzet bekapcsolása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:157
+#: src/Shortcuts/Backend/ShortcutsList.vala:182
 msgid "Toggle Screenreader"
 msgstr "Képernyőolvasó kapcsolása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:51
+#: src/Shortcuts/Backend/ShortcutsList.vala:188 src/Shortcuts/Shortcuts.vala:51
 msgid "System"
 msgstr "Rendszer"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:163
+#: src/Shortcuts/Backend/ShortcutsList.vala:190
 msgid "Lock"
 msgstr "Zárolás"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:164
+#: src/Shortcuts/Backend/ShortcutsList.vala:191
 msgid "Log Out"
 msgstr "Kijelentkezés"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:165
+#: src/Shortcuts/Backend/ShortcutsList.vala:192
 msgid "Cycle display mode"
 msgstr "Kijelző módjának váltása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:169
+#: src/Shortcuts/Backend/ShortcutsList.vala:198
 msgid "Keyboard Layouts"
 msgstr "Billentyűzetkiosztások"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:170
+#: src/Shortcuts/Backend/ShortcutsList.vala:199
 msgid "Switch Keyboard Layout"
 msgstr "Billentyűzetkiosztás váltása"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:171
+#: src/Shortcuts/Backend/ShortcutsList.vala:200
 msgid "Switch Keyboard Layout Backwards"
 msgstr "Billentyűzetkiosztás váltása visszafelé"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:172
+#: src/Shortcuts/Backend/ShortcutsList.vala:201
 msgid "Enable Emoji Typing"
 msgstr "Emodzsiírás engedélyezése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:173
+#: src/Shortcuts/Backend/ShortcutsList.vala:202
 msgid "Enable Unicode Typing"
 msgstr "Unicode-írás engedélyezése"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:53
+#: src/Shortcuts/Backend/ShortcutsList.vala:208 src/Shortcuts/Shortcuts.vala:53
 msgid "Custom"
 msgstr "Egyedi"
 
@@ -1077,32 +1077,32 @@ msgid "Custom Command"
 msgstr "Egyéni parancs"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:103
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:99
 msgid "Set New Shortcut"
 msgstr "Új billentyűparancs beállítása"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:113
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:109
 msgid "Disable"
 msgstr "Letiltás"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:191
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:187
 msgid "Enter new shortcut…"
 msgstr "Adjon meg egy új billentyűparancsot…"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:293
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:273
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:270
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Új billentyűparancs beállítása sikertelen konfliktusok miatt"
 
-#: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:274
+#: src/Shortcuts/Widgets/CustomShortcutRow.vala:295
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:271
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "A(z) \"%s\" már használatban van: \"%s → %s”."
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:108
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:104
 msgid "Reset to Default"
 msgstr "Alapértelmezések visszaállítása"
 
