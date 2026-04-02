@@ -48,6 +48,9 @@
           <li>Updated translations</li>
         </ul>
       </description>
+      <issues>
+        <issue url="https://github.com/elementary/triage/issues/940">IBus notification when a user logs in</issue>
+      </issues>
     </release>
 
     <release version="8.1.0" date="2025-06-16" urgency="medium">
