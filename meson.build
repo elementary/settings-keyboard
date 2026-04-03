@@ -1,7 +1,7 @@
 project(
     'keyboard',
     'vala', 'c',
-    version: '8.1.0'
+    version: '8.1.1'
 )
 
 gettext_name = 'io.elementary.settings.' + meson.project_name()
