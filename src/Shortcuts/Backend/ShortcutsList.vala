@@ -40,7 +40,6 @@ namespace Keyboard.Shortcuts {
     }
 
     class ShortcutsList : GLib.Object {
-        public Group[] groups;
         public Group windows_group;
         public Group workspaces_group;
         public Group screenshot_group;
@@ -192,17 +191,6 @@ namespace Keyboard.Shortcuts {
             custom_group = Group ();
             custom_group.icon_name = "applications-other";
             custom_group.label = _("Custom");
-
-            groups = {
-                windows_group,
-                workspaces_group,
-                screenshot_group,
-                launchers_group,
-                media_group,
-                a11y_group,
-                system_group,
-                keyboard_layouts_group
-            };
         }
 
         public void add_action (SectionID section_id, Schema schema, string action, string key) {
