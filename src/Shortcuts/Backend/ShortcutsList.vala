@@ -18,7 +18,7 @@
 */
 
 namespace Keyboard.Shortcuts {
-    public struct Group {
+    struct Group {
         public string icon_name;
         public string label;
     }
