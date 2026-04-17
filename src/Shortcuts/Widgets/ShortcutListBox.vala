@@ -27,11 +27,18 @@ private class Keyboard.Shortcuts.ShortcutListBox : Gtk.Box {
     construct {
         var sizegroup = new Gtk.SizeGroup (VERTICAL);
 
+        var filter_model = new Gtk.FilterListModel (ShortcutsList.get_default ().list_store, new Gtk.CustomFilter ((obj) => {
+            var action_object = (Keyboard.Shortcuts.Action) obj;
+            return action_object.section_id == group;
+        })) {
+            incremental = true
+        };
+
         var list_box = new Gtk.ListBox () {
             hexpand = true
         };
         list_box.bind_model (
-            ShortcutsList.get_default ().get_model (group),
+            filter_model,
             (object) => {
                 var action_object = (Keyboard.Shortcuts.Action) object;
 

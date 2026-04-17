@@ -23,19 +23,15 @@ class Keyboard.Shortcuts.ConflictsManager : GLib.Object {
     }
 
     private static bool general_shortcut_conflicts (Shortcut shortcut, out string name, out string group) {
-        unowned var list = ShortcutsList.get_default ();
+        var listmodel = ShortcutsList.get_default ().list_store;
+        for (int i = 0; i < listmodel.n_items; i++) {
+            var shortcut_action = (Keyboard.Shortcuts.Action) listmodel.get_item (i);
 
-        for (int group_id = 0; group_id < SectionID.CUSTOM; group_id++) {
-            var listmodel = list.get_model (group_id);
-            for (int i = 0; i < listmodel.n_items; i++) {
-                var shortcut_action = (Keyboard.Shortcuts.Action) listmodel.get_item (i);
+            var action_shortcut = Settings.get_default ().get_val (shortcut_action.schema, shortcut_action.key);
 
-                var action_shortcut = Settings.get_default ().get_val (shortcut_action.schema, shortcut_action.key);
-
-                if (shortcut.is_equal (action_shortcut)) {
-                    name = shortcut_action.action;
-                    return true;
-                }
+            if (shortcut.is_equal (action_shortcut)) {
+                name = shortcut_action.action;
+                return true;
             }
         }
 
