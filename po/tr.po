@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:38+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-06-04 15:38+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Turkish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/tr/>\n"
 "Language: tr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-02-19 05:44+0000\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
@@ -1060,7 +1061,7 @@ msgstr "Uygulama Ara"
 
 #: src/Shortcuts/Widgets/AppChooser.vala:33
 msgid "Type in a custom command"
-msgstr ""
+msgstr "Özel komut gir"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
@@ -1074,10 +1075,8 @@ msgid "Add Shortcut"
 msgstr "Kısayol Ekle"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
-#, fuzzy
-#| msgid "Command"
 msgid "Custom Command"
-msgstr "Komut"
+msgstr "Özel Komut"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:99
