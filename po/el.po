@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:38+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-10 15:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/el/>\n"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: src/Behavior/Behavior.vala:179
 msgid "Event Alerts"
-msgstr ""
+msgstr "Ειδοποιήσεις συμβάντων"
 
 #: src/Behavior/Behavior.vala:180
 #, c-format
@@ -135,7 +135,7 @@ msgstr ""
 
 #: src/InputMethod/InputMethod.vala:105
 msgid "Add Engine…"
-msgstr ""
+msgstr "Προσθήκη μηχανής…"
 
 #: src/InputMethod/InputMethod.vala:133 src/Layout/Widgets/Display.vala:181
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:134
@@ -185,7 +185,7 @@ msgstr ""
 
 #: src/InputMethod/InputMethod.vala:406
 msgid "Use and manage input methods"
-msgstr ""
+msgstr "Χρήση και διαχείριση μεθόδων εισόδου"
 
 #: src/InputMethod/InputMethod.vala:439
 msgid "Type to test your input method"
