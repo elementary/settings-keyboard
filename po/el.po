@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:38+0000\n"
-"PO-Revision-Date: 2026-07-10 15:01+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/el/>\n"
@@ -169,11 +169,11 @@ msgstr ""
 
 #: src/InputMethod/InputMethod.vala:174
 msgid "Auto hide"
-msgstr ""
+msgstr "Αυτόματη απόκρυψη"
 
 #: src/InputMethod/InputMethod.vala:175
 msgid "Always show"
-msgstr ""
+msgstr "Πάντα εμφάνιση"
 
 #: src/InputMethod/InputMethod.vala:177
 msgid "Embed preedit text in application window:"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: src/InputMethod/InputMethod.vala:403
 msgid "IBus Daemon"
-msgstr ""
+msgstr "Υπηρεσία παρασκηνίου IBus"
 
 #: src/InputMethod/InputMethod.vala:406
 msgid "Use and manage input methods"
@@ -323,9 +323,8 @@ msgid "Compose key:"
 msgstr "Πλήκτρο σύνθεσης:"
 
 #: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:189
-#, fuzzy
 msgid "Applications Menu"
-msgstr "Εφαρμογές"
+msgstr "Μενού εφαρμογών"
 
 #: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:97
 msgid "Multitasking View"
@@ -727,7 +726,7 @@ msgstr "Μετατροπή σε Πλακάκι στα Δεξιά"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:84
 msgid "Window Overview"
-msgstr ""
+msgstr "Επισκόπηση παραθύρων"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Show All Windows"
