@@ -21,7 +21,6 @@ Package: io.elementary.settings.keyboard
 Architecture: any
 Depends: ibus,
          xkb-data,
-         onboard,
          ${misc:Depends},
          ${shlibs:Depends}
 Enhances: io.elementary.settings
