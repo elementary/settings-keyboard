@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 17:38+0000\n"
+"POT-Creation-Date: 2026-08-09 16:15+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
@@ -31,11 +31,11 @@ msgstr "הגדרת התנהגות המקלדת, הפריסות ומקשי הקי
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 
-#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:55
-#: data/keyboard.metainfo.xml.in:71 data/keyboard.metainfo.xml.in:80
-#: data/keyboard.metainfo.xml.in:89 data/keyboard.metainfo.xml.in:109
-#: data/keyboard.metainfo.xml.in:125 data/keyboard.metainfo.xml.in:141
-#: data/keyboard.metainfo.xml.in:159
+#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:58
+#: data/keyboard.metainfo.xml.in:74 data/keyboard.metainfo.xml.in:83
+#: data/keyboard.metainfo.xml.in:92 data/keyboard.metainfo.xml.in:112
+#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:144
+#: data/keyboard.metainfo.xml.in:162
 msgid "Minor updates:"
 msgstr "עדכונים משניים:"
 
@@ -43,35 +43,35 @@ msgstr "עדכונים משניים:"
 msgid "Allow assigning Gdk.Key.Tools button"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:57
-#: data/keyboard.metainfo.xml.in:73 data/keyboard.metainfo.xml.in:82
-#: data/keyboard.metainfo.xml.in:95 data/keyboard.metainfo.xml.in:114
-#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:143
-#: data/keyboard.metainfo.xml.in:162
+#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:60
+#: data/keyboard.metainfo.xml.in:76 data/keyboard.metainfo.xml.in:85
+#: data/keyboard.metainfo.xml.in:98 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:131 data/keyboard.metainfo.xml.in:146
+#: data/keyboard.metainfo.xml.in:165
 msgid "Updated translations"
 msgstr "תרגומים עודכנו"
 
-#: data/keyboard.metainfo.xml.in:91
+#: data/keyboard.metainfo.xml.in:94
 msgid "Updated shortcut category icons"
 msgstr "סמלי קטגוריות קיצורים עודכנו"
 
-#: data/keyboard.metainfo.xml.in:92
+#: data/keyboard.metainfo.xml.in:95
 msgid "Improved screen reader accessibility"
 msgstr "נגישות מקריא המסך השתפרה"
 
-#: data/keyboard.metainfo.xml.in:93
+#: data/keyboard.metainfo.xml.in:96
 msgid "New shortcut settings for launching dock items"
 msgstr "הגדרות קיצור חדשות להפעלת פריטים במעגן"
 
-#: data/keyboard.metainfo.xml.in:94
+#: data/keyboard.metainfo.xml.in:97
 msgid "Clearer actions for managing keyboard layouts"
 msgstr "פעולות ברורות יותר לניהול פריסות מקלדת"
 
-#: data/keyboard.metainfo.xml.in:111
+#: data/keyboard.metainfo.xml.in:114
 msgid "Fix potential crashes"
 msgstr "תוקנו דברים שיכלו לגרום לקריסות"
 
-#: data/keyboard.metainfo.xml.in:112
+#: data/keyboard.metainfo.xml.in:115
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
@@ -79,31 +79,31 @@ msgstr ""
 "נוספו הקיצורים „החלפה מעגלית בין חלונות של יישום” ו„החלפה מעגלית בין חלונות "
 "של יישום לאחור”"
 
-#: data/keyboard.metainfo.xml.in:113
+#: data/keyboard.metainfo.xml.in:116
 msgid "Improve experience installing input methods"
 msgstr "שופרה החוויה של התקנת שיטות קלט"
 
-#: data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:130
 msgid "Show the values associated with sliders while dragging"
 msgstr "הערכים שקשורים למחווני הגלילה מופיעים בעת גרירה"
 
-#: data/keyboard.metainfo.xml.in:153
+#: data/keyboard.metainfo.xml.in:156
 msgid "New features:"
 msgstr "יכולות חדשות:"
 
-#: data/keyboard.metainfo.xml.in:155
+#: data/keyboard.metainfo.xml.in:158
 msgid "Revert shortcuts to default"
 msgstr "קיצורי הדרך הוחזרו לברירת המחדל"
 
-#: data/keyboard.metainfo.xml.in:156
+#: data/keyboard.metainfo.xml.in:159
 msgid "Easily disable a shortcut"
 msgstr "אפשר להשבית קיצורי דרך בקלות"
 
-#: data/keyboard.metainfo.xml.in:157
+#: data/keyboard.metainfo.xml.in:160
 msgid "Support Rime input method for Chinese"
 msgstr "נוספה תמיכה בשיטת הקלט Rime לסינית"
 
-#: data/keyboard.metainfo.xml.in:161
+#: data/keyboard.metainfo.xml.in:164
 msgid "Remove custom shortcuts from their menu"
 msgstr "הוסרו קיצורי דרך מותאמים אישית מהתפריט שלהם"
 

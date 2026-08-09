@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 17:38+0000\n"
+"POT-Creation-Date: 2026-08-09 16:15+0000\n"
 "PO-Revision-Date: 2024-09-24 11:24+0000\n"
 "Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -31,11 +31,11 @@ msgstr "Klavye davranışını, düzenini ve kısayollarını ayarlayın"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:55
-#: data/keyboard.metainfo.xml.in:71 data/keyboard.metainfo.xml.in:80
-#: data/keyboard.metainfo.xml.in:89 data/keyboard.metainfo.xml.in:109
-#: data/keyboard.metainfo.xml.in:125 data/keyboard.metainfo.xml.in:141
-#: data/keyboard.metainfo.xml.in:159
+#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:58
+#: data/keyboard.metainfo.xml.in:74 data/keyboard.metainfo.xml.in:83
+#: data/keyboard.metainfo.xml.in:92 data/keyboard.metainfo.xml.in:112
+#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:144
+#: data/keyboard.metainfo.xml.in:162
 msgid "Minor updates:"
 msgstr "Küçük güncellemeler:"
 
@@ -43,35 +43,35 @@ msgstr "Küçük güncellemeler:"
 msgid "Allow assigning Gdk.Key.Tools button"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:57
-#: data/keyboard.metainfo.xml.in:73 data/keyboard.metainfo.xml.in:82
-#: data/keyboard.metainfo.xml.in:95 data/keyboard.metainfo.xml.in:114
-#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:143
-#: data/keyboard.metainfo.xml.in:162
+#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:60
+#: data/keyboard.metainfo.xml.in:76 data/keyboard.metainfo.xml.in:85
+#: data/keyboard.metainfo.xml.in:98 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:131 data/keyboard.metainfo.xml.in:146
+#: data/keyboard.metainfo.xml.in:165
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/keyboard.metainfo.xml.in:91
+#: data/keyboard.metainfo.xml.in:94
 msgid "Updated shortcut category icons"
 msgstr "Güncellenen kısayol kategorisi simgeleri"
 
-#: data/keyboard.metainfo.xml.in:92
+#: data/keyboard.metainfo.xml.in:95
 msgid "Improved screen reader accessibility"
 msgstr "Ekran okuyucu erişilebilirliği iyileştirildi"
 
-#: data/keyboard.metainfo.xml.in:93
+#: data/keyboard.metainfo.xml.in:96
 msgid "New shortcut settings for launching dock items"
 msgstr "Dock öğelerini başlatmak için yeni kısayol ayarları"
 
-#: data/keyboard.metainfo.xml.in:94
+#: data/keyboard.metainfo.xml.in:97
 msgid "Clearer actions for managing keyboard layouts"
 msgstr "Klavye düzenlerini yönetmek için daha net eylemler"
 
-#: data/keyboard.metainfo.xml.in:111
+#: data/keyboard.metainfo.xml.in:114
 msgid "Fix potential crashes"
 msgstr "Olası çökmeler düzeltildi"
 
-#: data/keyboard.metainfo.xml.in:112
+#: data/keyboard.metainfo.xml.in:115
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
@@ -79,31 +79,31 @@ msgstr ""
 "\"Uygulama pencereleri arasında geçiş\" ve \"Uygulama pencereleri arasında "
 "ters geçiş\" kısayolları eklendi"
 
-#: data/keyboard.metainfo.xml.in:113
+#: data/keyboard.metainfo.xml.in:116
 msgid "Improve experience installing input methods"
 msgstr "Giriş yöntemlerini yükleme deneyimi geliştirildi"
 
-#: data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:130
 msgid "Show the values associated with sliders while dragging"
 msgstr "Sürükleme sırasında kaydırıcılarla ilişkili değerleri göster"
 
-#: data/keyboard.metainfo.xml.in:153
+#: data/keyboard.metainfo.xml.in:156
 msgid "New features:"
 msgstr "Yeni özellikler:"
 
-#: data/keyboard.metainfo.xml.in:155
+#: data/keyboard.metainfo.xml.in:158
 msgid "Revert shortcuts to default"
 msgstr "Kısayolları varsayılana geri döndür"
 
-#: data/keyboard.metainfo.xml.in:156
+#: data/keyboard.metainfo.xml.in:159
 msgid "Easily disable a shortcut"
 msgstr "Kısayolu kolayca devre dışı bırakın"
 
-#: data/keyboard.metainfo.xml.in:157
+#: data/keyboard.metainfo.xml.in:160
 msgid "Support Rime input method for Chinese"
 msgstr "Çince için Rime giriş yöntemi desteği"
 
-#: data/keyboard.metainfo.xml.in:161
+#: data/keyboard.metainfo.xml.in:164
 msgid "Remove custom shortcuts from their menu"
 msgstr "Menülerinden özel kısayolları kaldırın"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 17:38+0000\n"
+"POT-Creation-Date: 2026-08-09 16:15+0000\n"
 "PO-Revision-Date: 2024-07-11 08:16+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -31,11 +31,11 @@ msgstr "Configure keyboard behaviour, layouts, and shortcuts"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:55
-#: data/keyboard.metainfo.xml.in:71 data/keyboard.metainfo.xml.in:80
-#: data/keyboard.metainfo.xml.in:89 data/keyboard.metainfo.xml.in:109
-#: data/keyboard.metainfo.xml.in:125 data/keyboard.metainfo.xml.in:141
-#: data/keyboard.metainfo.xml.in:159
+#: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:58
+#: data/keyboard.metainfo.xml.in:74 data/keyboard.metainfo.xml.in:83
+#: data/keyboard.metainfo.xml.in:92 data/keyboard.metainfo.xml.in:112
+#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:144
+#: data/keyboard.metainfo.xml.in:162
 msgid "Minor updates:"
 msgstr "Minor updates:"
 
@@ -43,35 +43,35 @@ msgstr "Minor updates:"
 msgid "Allow assigning Gdk.Key.Tools button"
 msgstr ""
 
-#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:57
-#: data/keyboard.metainfo.xml.in:73 data/keyboard.metainfo.xml.in:82
-#: data/keyboard.metainfo.xml.in:95 data/keyboard.metainfo.xml.in:114
-#: data/keyboard.metainfo.xml.in:128 data/keyboard.metainfo.xml.in:143
-#: data/keyboard.metainfo.xml.in:162
+#: data/keyboard.metainfo.xml.in:48 data/keyboard.metainfo.xml.in:60
+#: data/keyboard.metainfo.xml.in:76 data/keyboard.metainfo.xml.in:85
+#: data/keyboard.metainfo.xml.in:98 data/keyboard.metainfo.xml.in:117
+#: data/keyboard.metainfo.xml.in:131 data/keyboard.metainfo.xml.in:146
+#: data/keyboard.metainfo.xml.in:165
 msgid "Updated translations"
 msgstr "Updated translations"
 
-#: data/keyboard.metainfo.xml.in:91
+#: data/keyboard.metainfo.xml.in:94
 msgid "Updated shortcut category icons"
 msgstr "Updated shortcut category icons"
 
-#: data/keyboard.metainfo.xml.in:92
+#: data/keyboard.metainfo.xml.in:95
 msgid "Improved screen reader accessibility"
 msgstr "Improved screen reader accessibility"
 
-#: data/keyboard.metainfo.xml.in:93
+#: data/keyboard.metainfo.xml.in:96
 msgid "New shortcut settings for launching dock items"
 msgstr "New shortcut settings for launching dock items"
 
-#: data/keyboard.metainfo.xml.in:94
+#: data/keyboard.metainfo.xml.in:97
 msgid "Clearer actions for managing keyboard layouts"
 msgstr "Clearer actions for managing keyboard layouts"
 
-#: data/keyboard.metainfo.xml.in:111
+#: data/keyboard.metainfo.xml.in:114
 msgid "Fix potential crashes"
 msgstr "Fix potential crashes"
 
-#: data/keyboard.metainfo.xml.in:112
+#: data/keyboard.metainfo.xml.in:115
 msgid ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
@@ -79,31 +79,31 @@ msgstr ""
 "Add \"Cycle Windows of application\" and \"Cycle Windows of application "
 "backwards\" shortcuts"
 
-#: data/keyboard.metainfo.xml.in:113
+#: data/keyboard.metainfo.xml.in:116
 msgid "Improve experience installing input methods"
 msgstr "Improve experience installing input methods"
 
-#: data/keyboard.metainfo.xml.in:127
+#: data/keyboard.metainfo.xml.in:130
 msgid "Show the values associated with sliders while dragging"
 msgstr "Show the values associated with sliders while dragging"
 
-#: data/keyboard.metainfo.xml.in:153
+#: data/keyboard.metainfo.xml.in:156
 msgid "New features:"
 msgstr "New features:"
 
-#: data/keyboard.metainfo.xml.in:155
+#: data/keyboard.metainfo.xml.in:158
 msgid "Revert shortcuts to default"
 msgstr "Revert shortcuts to default"
 
-#: data/keyboard.metainfo.xml.in:156
+#: data/keyboard.metainfo.xml.in:159
 msgid "Easily disable a shortcut"
 msgstr "Easily disable a shortcut"
 
-#: data/keyboard.metainfo.xml.in:157
+#: data/keyboard.metainfo.xml.in:160
 msgid "Support Rime input method for Chinese"
 msgstr "Support Rime input method for Chinese"
 
-#: data/keyboard.metainfo.xml.in:161
+#: data/keyboard.metainfo.xml.in:164
 msgid "Remove custom shortcuts from their menu"
 msgstr "Remove custom shortcuts from their menu"
 
