@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 17:38+0000\n"
+"POT-Creation-Date: 2026-08-09 16:15+0000\n"
 "PO-Revision-Date: 2025-06-11 20:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementaryos.org/"
@@ -24,88 +24,84 @@ msgstr ""
 msgid "Show On-screen Keyboard"
 msgstr "Show On-screen Keyboard"
 
-#: src/Behavior/Behavior.vala:16
-msgid "On-screen keyboard settings…"
-msgstr "On-screen keyboard settings…"
-
-#: src/Behavior/Behavior.vala:38
+#: src/Behavior/Behavior.vala:30
 msgid "Delay:"
 msgstr "Delay:"
 
-#: src/Behavior/Behavior.vala:42
+#: src/Behavior/Behavior.vala:34
 msgid "Interval:"
 msgstr "Interval:"
 
-#: src/Behavior/Behavior.vala:51 src/Plug.vala:131
+#: src/Behavior/Behavior.vala:43 src/Plug.vala:131
 msgid "Repeat Keys"
 msgstr "Repeat Keys"
 
-#: src/Behavior/Behavior.vala:74
+#: src/Behavior/Behavior.vala:66
 msgid "Speed:"
 msgstr "Speed:"
 
-#: src/Behavior/Behavior.vala:78
+#: src/Behavior/Behavior.vala:70
 msgid "Duration:"
 msgstr "Duration:"
 
-#: src/Behavior/Behavior.vala:87 src/Plug.vala:130
+#: src/Behavior/Behavior.vala:79 src/Plug.vala:130
 msgid "Cursor Blinking"
 msgstr "Cursor Blinking"
 
-#: src/Behavior/Behavior.vala:116 src/Plug.vala:133
+#: src/Behavior/Behavior.vala:108 src/Plug.vala:133
 msgid "Sticky Keys"
 msgstr "Sticky Keys"
 
-#: src/Behavior/Behavior.vala:118
+#: src/Behavior/Behavior.vala:110
 msgid "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
 msgstr "Use ⌘, Alt, Ctrl, or Shift keys in sequence"
 
-#: src/Behavior/Behavior.vala:133 src/Plug.vala:132
+#: src/Behavior/Behavior.vala:125 src/Plug.vala:132
 msgid "Slow Keys"
 msgstr "Slow Keys"
 
-#: src/Behavior/Behavior.vala:135
+#: src/Behavior/Behavior.vala:127
 msgid "Don't accept keypresses unless held"
 msgstr "Don't accept keypresses unless held"
 
-#: src/Behavior/Behavior.vala:159 src/Plug.vala:129
+#: src/Behavior/Behavior.vala:151 src/Plug.vala:129
 msgid "Bounce Keys"
 msgstr "Bounce Keys"
 
-#: src/Behavior/Behavior.vala:161
+#: src/Behavior/Behavior.vala:153
 msgid "Ignore fast duplicate keypresses"
 msgstr "Ignore fast duplicate keypresses"
 
-#: src/Behavior/Behavior.vala:179
+#: src/Behavior/Behavior.vala:171
 msgid "Event Alerts"
 msgstr "Event Alerts"
 
-#: src/Behavior/Behavior.vala:180
+#: src/Behavior/Behavior.vala:172
 #, c-format
 msgid "Play a sound or flash the screen. %s"
 msgstr "Play a sound or flash the screen. %s"
 
-#: src/Behavior/Behavior.vala:182
+#: src/Behavior/Behavior.vala:174
 msgid "Sound Settings…"
 msgstr "Sound Settings…"
 
-#: src/Behavior/Behavior.vala:187
+#: src/Behavior/Behavior.vala:179
 msgid "Caps Lock ⇪ or Num Lock keys are pressed"
 msgstr "Caps Lock ⇪ or Num Lock keys are pressed"
 
-#: src/Behavior/Behavior.vala:188
+#: src/Behavior/Behavior.vala:180
 msgid "Bounce Keys are rejected"
 msgstr "Bounce Keys are rejected"
 
-#: src/Behavior/Behavior.vala:189
+#: src/Behavior/Behavior.vala:181
 msgid "Sticky Keys are pressed"
 msgstr "Sticky Keys are pressed"
 
-#: src/Behavior/Behavior.vala:190
+#: src/Behavior/Behavior.vala:182
 msgid "Slow Keys are rejected"
 msgstr "Slow Keys are rejected"
 
-#: src/Behavior/Behavior.vala:206
+#: src/Behavior/Behavior.vala:198
 msgid "Type to test your settings"
 msgstr "Type to test your settings"
 
@@ -156,8 +152,8 @@ msgstr "Switch engines:"
 #: src/Layout/Layout.vala:92 src/Shortcuts/Backend/Shortcut.vala:47
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:93
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:328
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:82
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:340
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:89
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:347
 msgid "Disabled"
 msgstr "Disabled"
 
@@ -324,11 +320,11 @@ msgstr "Right ⌘"
 msgid "Compose key:"
 msgstr "Compose key:"
 
-#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:189
+#: src/Layout/Layout.vala:74 src/Shortcuts/Backend/ShortcutsList.vala:178
 msgid "Applications Menu"
 msgstr "Applications Menu"
 
-#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:97
+#: src/Layout/Layout.vala:75 src/Shortcuts/Backend/ShortcutsList.vala:96
 msgid "Multitasking View"
 msgstr "Multitasking View"
 
@@ -501,38 +497,38 @@ msgstr "Embed preedit text in application window"
 #. / The name of Ctrl + Z shortcut: "Edit -> Undo"
 #. / The name of Ctrl + Y shortcut: "Edit -> Redo"
 #. / The name of Ctrl + F shortcut: "Edit -> Find"
+#: src/Shortcuts/Backend/ConflictsManager.vala:67
+#: src/Shortcuts/Backend/ConflictsManager.vala:69
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 #: src/Shortcuts/Backend/ConflictsManager.vala:75
 #: src/Shortcuts/Backend/ConflictsManager.vala:77
-#: src/Shortcuts/Backend/ConflictsManager.vala:79
-#: src/Shortcuts/Backend/ConflictsManager.vala:81
 msgid "Edit"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:71
+#: src/Shortcuts/Backend/ConflictsManager.vala:67
 msgid "Copy"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:73
+#: src/Shortcuts/Backend/ConflictsManager.vala:69
 msgid "Paste"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:75
+#: src/Shortcuts/Backend/ConflictsManager.vala:71
 #, fuzzy
 #| msgid "Custom"
 msgid "Cut"
 msgstr "Custom"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:77
+#: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Undo"
 msgstr "Undo"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:79
+#: src/Shortcuts/Backend/ConflictsManager.vala:75
 msgid "Redo"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:81
+#: src/Shortcuts/Backend/ConflictsManager.vala:77
 msgid "Find"
 msgstr ""
 
@@ -545,6 +541,8 @@ msgstr ""
 #. / The name of Shift + Ctrl + Left shortcut: "Selection -> Shrink Selection by Word"
 #. / The name of Shift + Up shortcut: "Selection -> Expand Selection Up"
 #. / The name of Shift + Down shortcut: "Selection -> Expand Selection Down"
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
 #: src/Shortcuts/Backend/ConflictsManager.vala:84
 #: src/Shortcuts/Backend/ConflictsManager.vala:86
 #: src/Shortcuts/Backend/ConflictsManager.vala:88
@@ -552,44 +550,42 @@ msgstr ""
 #: src/Shortcuts/Backend/ConflictsManager.vala:92
 #: src/Shortcuts/Backend/ConflictsManager.vala:94
 #: src/Shortcuts/Backend/ConflictsManager.vala:96
-#: src/Shortcuts/Backend/ConflictsManager.vala:98
-#: src/Shortcuts/Backend/ConflictsManager.vala:100
 msgid "Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:84
+#: src/Shortcuts/Backend/ConflictsManager.vala:80
 msgid "Select All"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:86
+#: src/Shortcuts/Backend/ConflictsManager.vala:82
 msgid "Move Right by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:88
+#: src/Shortcuts/Backend/ConflictsManager.vala:84
 msgid "Move Left by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:90
+#: src/Shortcuts/Backend/ConflictsManager.vala:86
 msgid "Expand Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:92
+#: src/Shortcuts/Backend/ConflictsManager.vala:88
 msgid "Shrink Selection"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:94
+#: src/Shortcuts/Backend/ConflictsManager.vala:90
 msgid "Expand Selection by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:96
+#: src/Shortcuts/Backend/ConflictsManager.vala:92
 msgid "Shrink Selection by Word"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:98
+#: src/Shortcuts/Backend/ConflictsManager.vala:94
 msgid "Expand Selection Up"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:100
+#: src/Shortcuts/Backend/ConflictsManager.vala:96
 msgid "Expand Selection Down"
 msgstr ""
 
@@ -601,48 +597,48 @@ msgstr ""
 #. / The name of Ctrl + Shift + T shortcut: "File -> Restore Closed Tab"
 #. / The name of Ctrl + R shortcut: "File -> Refresh"
 #. / The name of Ctrl + Q shortcut: "File -> Quit"
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
 #: src/Shortcuts/Backend/ConflictsManager.vala:103
 #: src/Shortcuts/Backend/ConflictsManager.vala:105
 #: src/Shortcuts/Backend/ConflictsManager.vala:107
 #: src/Shortcuts/Backend/ConflictsManager.vala:109
 #: src/Shortcuts/Backend/ConflictsManager.vala:111
 #: src/Shortcuts/Backend/ConflictsManager.vala:113
-#: src/Shortcuts/Backend/ConflictsManager.vala:115
-#: src/Shortcuts/Backend/ConflictsManager.vala:117
 msgid "File"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:103
+#: src/Shortcuts/Backend/ConflictsManager.vala:99
 msgid "Save"
 msgstr "Save"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ConflictsManager.vala:101
 msgid "Save As"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:107
+#: src/Shortcuts/Backend/ConflictsManager.vala:103
 msgid "New"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:109
-#: src/Shortcuts/Backend/ShortcutsList.vala:69
+#: src/Shortcuts/Backend/ConflictsManager.vala:105
+#: src/Shortcuts/Backend/ShortcutsList.vala:70
 msgid "Close"
 msgstr "Close"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:111
+#: src/Shortcuts/Backend/ConflictsManager.vala:107
 msgid "New Tab"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:113
+#: src/Shortcuts/Backend/ConflictsManager.vala:109
 msgid "Restore Closed Tab"
 msgstr ""
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:115
+#: src/Shortcuts/Backend/ConflictsManager.vala:111
 msgctxt "keyboard"
 msgid "Refresh"
 msgstr "Refresh"
 
-#: src/Shortcuts/Backend/ConflictsManager.vala:117
+#: src/Shortcuts/Backend/ConflictsManager.vala:113
 msgid "Quit"
 msgstr ""
 
@@ -662,395 +658,395 @@ msgstr "Alt"
 msgid "Meta"
 msgstr "Meta"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:68 src/Shortcuts/Shortcuts.vala:39
+#: src/Shortcuts/Backend/ShortcutsList.vala:69 src/Shortcuts/Shortcuts.vala:39
 msgid "Windows"
 msgstr "Windows"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:70
+#: src/Shortcuts/Backend/ShortcutsList.vala:71
 msgid "Lower"
 msgstr "Lower"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:71
+#: src/Shortcuts/Backend/ShortcutsList.vala:72
 msgid "Maximize"
 msgstr "Maximise"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:72
+#: src/Shortcuts/Backend/ShortcutsList.vala:73
 msgid "Unmaximize"
 msgstr "Unmaximise"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:73
+#: src/Shortcuts/Backend/ShortcutsList.vala:74
 msgid "Toggle Maximized"
 msgstr "Toggle Maximised"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:74
+#: src/Shortcuts/Backend/ShortcutsList.vala:75
 msgid "Hide"
 msgstr "Hide"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:75
+#: src/Shortcuts/Backend/ShortcutsList.vala:76
 msgid "Toggle Fullscreen"
 msgstr "Toggle Fullscreen"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:76
+#: src/Shortcuts/Backend/ShortcutsList.vala:77
 msgid "Toggle on all Workspaces"
 msgstr "Toggle on all Workspaces"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:77
+#: src/Shortcuts/Backend/ShortcutsList.vala:78
 msgid "Toggle always on Top"
 msgstr "Toggle always on Top"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:78
+#: src/Shortcuts/Backend/ShortcutsList.vala:79
 msgid "Cycle Windows"
 msgstr "Cycle Windows"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:79
+#: src/Shortcuts/Backend/ShortcutsList.vala:80
 msgid "Cycle Windows backwards"
 msgstr "Cycle Windows backwards"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:80
+#: src/Shortcuts/Backend/ShortcutsList.vala:81
 msgid "Cycle Windows of application"
 msgstr "Cycle Windows of application"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:81
+#: src/Shortcuts/Backend/ShortcutsList.vala:82
 msgid "Cycle Windows of application backwards"
 msgstr "Cycle Windows of application backwards"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:82
+#: src/Shortcuts/Backend/ShortcutsList.vala:83
 msgid "Tile Left"
 msgstr "Tile Left"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:83
+#: src/Shortcuts/Backend/ShortcutsList.vala:84
 msgid "Tile Right"
 msgstr "Tile Right"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:84
+#: src/Shortcuts/Backend/ShortcutsList.vala:85
 msgid "Window Overview"
 msgstr "Window Overview"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:85
+#: src/Shortcuts/Backend/ShortcutsList.vala:86
 msgid "Show All Windows"
 msgstr "Show All Windows"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:86
+#: src/Shortcuts/Backend/ShortcutsList.vala:87
 msgid "Picture in Picture Mode"
 msgstr "Picture in Picture Mode"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:87
+#: src/Shortcuts/Backend/ShortcutsList.vala:88
 msgid "Move to display above"
 msgstr "Move to display above"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:88
+#: src/Shortcuts/Backend/ShortcutsList.vala:89
 msgid "Move to display below"
 msgstr "Move to display below"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:89
+#: src/Shortcuts/Backend/ShortcutsList.vala:90
 msgid "Move to right display"
 msgstr "Move to right display"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:90
+#: src/Shortcuts/Backend/ShortcutsList.vala:91
 msgid "Move to left display"
 msgstr "Move to left display"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:96 src/Shortcuts/Shortcuts.vala:41
+#: src/Shortcuts/Backend/ShortcutsList.vala:95 src/Shortcuts/Shortcuts.vala:41
 msgid "Workspaces"
 msgstr "Workspaces"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:98
+#: src/Shortcuts/Backend/ShortcutsList.vala:97
 msgid "Switch left"
 msgstr "Switch left"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:99
+#: src/Shortcuts/Backend/ShortcutsList.vala:98
 msgid "Switch right"
 msgstr "Switch right"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:100
+#: src/Shortcuts/Backend/ShortcutsList.vala:99
 msgid "Switch to first"
 msgstr "Switch to first"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:101
+#: src/Shortcuts/Backend/ShortcutsList.vala:100
 msgid "Switch to new"
 msgstr "Switch to new"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:102
+#: src/Shortcuts/Backend/ShortcutsList.vala:101
 msgid "Switch to workspace 1"
 msgstr "Switch to workspace 1"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:103
+#: src/Shortcuts/Backend/ShortcutsList.vala:102
 msgid "Switch to workspace 2"
 msgstr "Switch to workspace 2"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:104
+#: src/Shortcuts/Backend/ShortcutsList.vala:103
 msgid "Switch to workspace 3"
 msgstr "Switch to workspace 3"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:105
+#: src/Shortcuts/Backend/ShortcutsList.vala:104
 msgid "Switch to workspace 4"
 msgstr "Switch to workspace 4"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:106
+#: src/Shortcuts/Backend/ShortcutsList.vala:105
 msgid "Switch to workspace 5"
 msgstr "Switch to workspace 5"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:107
+#: src/Shortcuts/Backend/ShortcutsList.vala:106
 msgid "Switch to workspace 6"
 msgstr "Switch to workspace 6"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:108
+#: src/Shortcuts/Backend/ShortcutsList.vala:107
 msgid "Switch to workspace 7"
 msgstr "Switch to workspace 7"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:109
+#: src/Shortcuts/Backend/ShortcutsList.vala:108
 msgid "Switch to workspace 8"
 msgstr "Switch to workspace 8"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:110
+#: src/Shortcuts/Backend/ShortcutsList.vala:109
 msgid "Switch to workspace 9"
 msgstr "Switch to workspace 9"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:111
+#: src/Shortcuts/Backend/ShortcutsList.vala:110
 msgid "Cycle workspaces"
 msgstr "Cycle workspaces"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:112
+#: src/Shortcuts/Backend/ShortcutsList.vala:111
 msgid "Cycle workspaces backwards"
 msgstr "Cycle workspaces backwards"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:113
+#: src/Shortcuts/Backend/ShortcutsList.vala:112
 msgid "Move to workspace 1"
 msgstr "Move to workspace 1"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:114
+#: src/Shortcuts/Backend/ShortcutsList.vala:113
 msgid "Move to workspace 2"
 msgstr "Move to workspace 2"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:115
+#: src/Shortcuts/Backend/ShortcutsList.vala:114
 msgid "Move to workspace 3"
 msgstr "Move to workspace 3"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:116
+#: src/Shortcuts/Backend/ShortcutsList.vala:115
 msgid "Move to workspace 4"
 msgstr "Move to workspace 4"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:117
+#: src/Shortcuts/Backend/ShortcutsList.vala:116
 msgid "Move to workspace 5"
 msgstr "Move to workspace 5"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:118
+#: src/Shortcuts/Backend/ShortcutsList.vala:117
 msgid "Move to workspace 6"
 msgstr "Move to workspace 6"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:119
+#: src/Shortcuts/Backend/ShortcutsList.vala:118
 msgid "Move to workspace 7"
 msgstr "Move to workspace 7"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:120
+#: src/Shortcuts/Backend/ShortcutsList.vala:119
 msgid "Move to workspace 8"
 msgstr "Move to workspace 8"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:121
+#: src/Shortcuts/Backend/ShortcutsList.vala:120
 msgid "Move to workspace 9"
 msgstr "Move to workspace 9"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:122
+#: src/Shortcuts/Backend/ShortcutsList.vala:121
 msgid "Move to left workspace"
 msgstr "Move to left workspace"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:123
+#: src/Shortcuts/Backend/ShortcutsList.vala:122
 msgid "Move to right workspace"
 msgstr "Move to right workspace"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:129 src/Shortcuts/Shortcuts.vala:43
+#: src/Shortcuts/Backend/ShortcutsList.vala:126 src/Shortcuts/Shortcuts.vala:43
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:130
+#: src/Shortcuts/Backend/ShortcutsList.vala:127
 msgid "Grab the whole screen"
 msgstr "Grab the whole screen"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:131
+#: src/Shortcuts/Backend/ShortcutsList.vala:128
 msgid "Copy the whole screen to clipboard"
 msgstr "Copy the whole screen to clipboard"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:132
+#: src/Shortcuts/Backend/ShortcutsList.vala:129
 msgid "Grab the current window"
 msgstr "Grab the current window"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:133
+#: src/Shortcuts/Backend/ShortcutsList.vala:130
 msgid "Copy the current window to clipboard"
 msgstr "Copy the current window to clipboard"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:134
+#: src/Shortcuts/Backend/ShortcutsList.vala:131
 msgid "Select an area to grab"
 msgstr "Select an area to grab"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:135
+#: src/Shortcuts/Backend/ShortcutsList.vala:132
 msgid "Copy an area to clipboard"
 msgstr "Copy an area to clipboard"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:141 src/Shortcuts/Shortcuts.vala:45
+#: src/Shortcuts/Backend/ShortcutsList.vala:136 src/Shortcuts/Shortcuts.vala:45
 msgid "Applications"
 msgstr "Applications"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:142
+#: src/Shortcuts/Backend/ShortcutsList.vala:137
 msgid "Email"
 msgstr "Email"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:143
+#: src/Shortcuts/Backend/ShortcutsList.vala:138
 msgid "Home Folder"
 msgstr "Home Folder"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:144
+#: src/Shortcuts/Backend/ShortcutsList.vala:139
 msgid "Music"
 msgstr "Music"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:145
+#: src/Shortcuts/Backend/ShortcutsList.vala:140
 msgid "Terminal"
 msgstr "Terminal"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:146
+#: src/Shortcuts/Backend/ShortcutsList.vala:141
 msgid "Internet Browser"
 msgstr "Internet Browser"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:147
+#: src/Shortcuts/Backend/ShortcutsList.vala:142
 msgid "Launch first dock item"
 msgstr "Launch first dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:148
+#: src/Shortcuts/Backend/ShortcutsList.vala:143
 msgid "Launch second dock item"
 msgstr "Launch second dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:149
+#: src/Shortcuts/Backend/ShortcutsList.vala:144
 msgid "Launch third dock item"
 msgstr "Launch third dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:150
+#: src/Shortcuts/Backend/ShortcutsList.vala:145
 msgid "Launch fourth dock item"
 msgstr "Launch fourth dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:151
+#: src/Shortcuts/Backend/ShortcutsList.vala:146
 msgid "Launch fifth dock item"
 msgstr "Launch fifth dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:152
+#: src/Shortcuts/Backend/ShortcutsList.vala:147
 msgid "Launch sixth dock item"
 msgstr "Launch sixth dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:153
+#: src/Shortcuts/Backend/ShortcutsList.vala:148
 msgid "Launch seventh dock item"
 msgstr "Launch seventh dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:154
+#: src/Shortcuts/Backend/ShortcutsList.vala:149
 msgid "Launch eighth dock item"
 msgstr "Launch eighth dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:155
+#: src/Shortcuts/Backend/ShortcutsList.vala:150
 msgid "Launch ninth dock item"
 msgstr "Launch ninth dock item"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:161 src/Shortcuts/Shortcuts.vala:47
+#: src/Shortcuts/Backend/ShortcutsList.vala:154 src/Shortcuts/Shortcuts.vala:47
 msgid "Media"
 msgstr "Media"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:162
+#: src/Shortcuts/Backend/ShortcutsList.vala:155
 msgid "Volume Up"
 msgstr "Volume Up"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:163
+#: src/Shortcuts/Backend/ShortcutsList.vala:156
 msgid "Volume Down"
 msgstr "Volume Down"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:164
+#: src/Shortcuts/Backend/ShortcutsList.vala:157
 msgid "Mute"
 msgstr "Mute"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:165
+#: src/Shortcuts/Backend/ShortcutsList.vala:158
 msgid "Play/Pause"
 msgstr "Play/Pause"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:166
+#: src/Shortcuts/Backend/ShortcutsList.vala:159
 msgid "Pause"
 msgstr "Pause"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:167
+#: src/Shortcuts/Backend/ShortcutsList.vala:160
 msgid "Stop"
 msgstr "Stop"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:168
+#: src/Shortcuts/Backend/ShortcutsList.vala:161
 msgid "Previous Track"
 msgstr "Previous Track"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:169
+#: src/Shortcuts/Backend/ShortcutsList.vala:162
 msgid "Next Track"
 msgstr "Next Track"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:170
+#: src/Shortcuts/Backend/ShortcutsList.vala:163
 msgid "Eject"
 msgstr "Eject"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:176
+#: src/Shortcuts/Backend/ShortcutsList.vala:167
 msgid "Universal Access"
 msgstr "Universal Access"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:177
+#: src/Shortcuts/Backend/ShortcutsList.vala:168
 msgid "Decrease Text Size"
 msgstr "Decrease Text Size"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:178
+#: src/Shortcuts/Backend/ShortcutsList.vala:169
 msgid "Increase Text Size"
 msgstr "Increase Text Size"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:179
+#: src/Shortcuts/Backend/ShortcutsList.vala:170
 msgid "Magnifier Zoom in"
 msgstr "Magnifier Zoom in"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:180
+#: src/Shortcuts/Backend/ShortcutsList.vala:171
 msgid "Magnifier Zoom out"
 msgstr "Magnifier Zoom out"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:181
+#: src/Shortcuts/Backend/ShortcutsList.vala:172
 msgid "Toggle On Screen Keyboard"
 msgstr "Toggle On Screen Keyboard"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:182
+#: src/Shortcuts/Backend/ShortcutsList.vala:173
 msgid "Toggle Screenreader"
 msgstr "Toggle Screenreader"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:188 src/Shortcuts/Shortcuts.vala:51
+#: src/Shortcuts/Backend/ShortcutsList.vala:177 src/Shortcuts/Shortcuts.vala:51
 msgid "System"
 msgstr "System"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:190
+#: src/Shortcuts/Backend/ShortcutsList.vala:179
 msgid "Lock"
 msgstr "Lock"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:191
+#: src/Shortcuts/Backend/ShortcutsList.vala:180
 msgid "Log Out"
 msgstr "Log Out"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:192
+#: src/Shortcuts/Backend/ShortcutsList.vala:181
 msgid "Cycle display mode"
 msgstr "Cycle display mode"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:198
+#: src/Shortcuts/Backend/ShortcutsList.vala:185
 msgid "Keyboard Layouts"
 msgstr "Keyboard Layouts"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:199
+#: src/Shortcuts/Backend/ShortcutsList.vala:186
 msgid "Switch Keyboard Layout"
 msgstr "Switch Keyboard Layout"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:200
+#: src/Shortcuts/Backend/ShortcutsList.vala:187
 msgid "Switch Keyboard Layout Backwards"
 msgstr "Switch Keyboard Layout Backwards"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:201
+#: src/Shortcuts/Backend/ShortcutsList.vala:188
 msgid "Enable Emoji Typing"
 msgstr "Enable Emoji Typing"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:202
+#: src/Shortcuts/Backend/ShortcutsList.vala:189
 msgid "Enable Unicode Typing"
 msgstr "Enable Unicode Typing"
 
-#: src/Shortcuts/Backend/ShortcutsList.vala:208 src/Shortcuts/Shortcuts.vala:53
+#: src/Shortcuts/Backend/ShortcutsList.vala:193 src/Shortcuts/Shortcuts.vala:53
 msgid "Custom"
 msgstr "Custom"
 
@@ -1078,38 +1074,41 @@ msgid "Custom Command"
 msgstr "Custom Command"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:99
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:106
 msgid "Set New Shortcut"
 msgstr "Set New Shortcut"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:109
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:116
 msgid "Disable"
 msgstr "Disable"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:187
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:194
 msgid "Enter new shortcut…"
 msgstr "Enter new shortcut…"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:294
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:270
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:277
 msgid "Unable to set new shortcut due to conflicts"
 msgstr "Unable to set new shortcut due to conflicts"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:295
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:271
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:278
 #, c-format
 msgid "“%s” is already used for “%s → %s”."
 msgstr "“%s” is already used for “%s → %s”."
 
-#: src/Shortcuts/Widgets/ShortcutListBox.vala:104
+#: src/Shortcuts/Widgets/ShortcutListBox.vala:111
 msgid "Reset to Default"
 msgstr "Reset to Default"
 
 #: src/Shortcuts/Shortcuts.vala:49
 msgid "Accessibility"
 msgstr "Accessibility"
+
+#~ msgid "On-screen keyboard settings…"
+#~ msgstr "On-screen keyboard settings…"
 
 #~ msgid "Enter a command here"
 #~ msgstr "Enter a command here"
