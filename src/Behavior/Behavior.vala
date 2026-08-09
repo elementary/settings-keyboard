@@ -13,18 +13,10 @@ public class Keyboard.Behaviour.Page : Gtk.Box {
             hexpand = true
         };
 
-        var onscreen_keyboard_settings = new Gtk.Button.with_label (_("On-screen keyboard settings…")) {
-            halign = START,
-            has_frame = false
-        };
-        onscreen_keyboard_settings.add_css_class ("link");
-        onscreen_keyboard_settings.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-
         var onscreen_keyboard_grid = new Gtk.Grid () {
             column_spacing = 12
         };
         onscreen_keyboard_grid.attach (onscreen_keyboard_header, 0, 0);
-        onscreen_keyboard_grid.attach (onscreen_keyboard_settings, 0, 1);
         onscreen_keyboard_grid.attach (onscreen_keyboard_switch, 1, 0, 1, 2);
 
         var scale_provider = new Gtk.CssProvider ();
@@ -249,15 +241,6 @@ public class Keyboard.Behaviour.Page : Gtk.Box {
         };
 
         append (scrolled);
-
-        onscreen_keyboard_settings.clicked.connect (() => {
-            try {
-                var appinfo = GLib.AppInfo.create_from_commandline ("onboard-settings", null, NONE);
-                appinfo.launch (null, null);
-            } catch (Error e) {
-                critical ("Unable to launch onboard-settings: %s", e.message);
-            }
-        });
 
         var applications_settings = new Settings ("org.gnome.desktop.a11y.applications");
         applications_settings.bind ("screen-keyboard-enabled", onscreen_keyboard_switch, "active", DEFAULT);
