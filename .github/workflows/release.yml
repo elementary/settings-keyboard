@@ -6,7 +6,7 @@ on:
     types: [closed]
 jobs:
   release:
-     runs-on: ubuntu-22.04
+     runs-on: ubuntu-latest
      if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'Release')
      steps:
      - uses: actions/checkout@v7
