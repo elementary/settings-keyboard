@@ -127,13 +127,13 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
         clear_button = new Gtk.Button () {
             child = new Gtk.Label (_("Disable")) { halign = START }
         };
-        clear_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
+        clear_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
         clear_button.add_css_class (Granite.STYLE_CLASS_MENUITEM);
 
         var remove_button = new Gtk.Button () {
             child = new Gtk.Label (_("Remove")) { halign = START }
         };
-        remove_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
+        remove_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
         remove_button.add_css_class (Granite.STYLE_CLASS_MENUITEM);
 
         var set_accel_item = new GLib.MenuItem (null, null);
@@ -157,10 +157,10 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
             menu_model = menu_model
         };
 
-        var menu_button_popover = (Gtk.PopoverMenu) menubutton.popover;
-        menu_button_popover.add_child (set_accel_button, "set-accel-button");
-        menu_button_popover.add_child (clear_button, "clear-button");
-        menu_button_popover.add_child (remove_button, "remove-button");
+        var popover = (Gtk.PopoverMenu) menubutton.popover;
+        popover.add_child (set_accel_button, "set-accel-button");
+        popover.add_child (clear_button, "clear-button");
+        popover.add_child (remove_button, "remove-button");
 
         var box = new Gtk.Box (HORIZONTAL, 12) {
             margin_top = 3,
@@ -178,6 +178,7 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
         render_keycaps ();
 
         clear_button.clicked.connect (() => {
+            popover.popdown ();
             if (!is_editing_shortcut) {
                 shortcut.keybindings = {};
                 render_keycaps ();
@@ -186,12 +187,14 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
         });
 
         remove_button.clicked.connect (() => {
+            popover.popdown ();
             shortcut = null;
             shortcut_changed ();
             unparent ();
         });
 
         set_accel_button.clicked.connect (() => {
+            popover.popdown ();
             edit_shortcut (true);
         });
 
