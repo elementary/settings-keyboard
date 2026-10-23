@@ -136,22 +136,31 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
         remove_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
         remove_button.add_css_class (Granite.STYLE_CLASS_MENUITEM);
 
-        var action_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-        action_box.append (set_accel_button);
-        action_box.append (clear_button);
-        action_box.append (remove_button);
+        var set_accel_item = new GLib.MenuItem (null, null);
+        set_accel_item.set_attribute_value ("custom", "set-accel-button");
 
-        var popover = new Gtk.Popover () {
-            child = action_box
-        };
-        popover.add_css_class (Granite.STYLE_CLASS_MENU);
+        var clear_item = new GLib.MenuItem (null, null);
+        clear_item.set_attribute_value ("custom", "clear-button");
+
+        var remove_item = new GLib.MenuItem (null, null);
+        remove_item.set_attribute_value ("custom", "remove-button");
+
+        var menu_model = new GLib.Menu ();
+        menu_model.append_item (set_accel_item);
+        menu_model.append_item (clear_item);
+        menu_model.append_item (remove_item);
 
         var menubutton = new Gtk.MenuButton () {
             has_frame = false,
             valign = CENTER,
             icon_name = "open-menu-symbolic",
-            popover = popover
+            menu_model = menu_model
         };
+
+        var menu_button_popover = (Gtk.PopoverMenu) menubutton.popover;
+        menu_button_popover.add_child (set_accel_button, "set-accel-button");
+        menu_button_popover.add_child (clear_button, "clear-button");
+        menu_button_popover.add_child (remove_button, "remove-button");
 
         var box = new Gtk.Box (HORIZONTAL, 12) {
             margin_top = 3,
@@ -169,7 +178,6 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
         render_keycaps ();
 
         clear_button.clicked.connect (() => {
-            popover.popdown ();
             if (!is_editing_shortcut) {
                 shortcut.keybindings = {};
                 render_keycaps ();
@@ -178,14 +186,12 @@ private class Keyboard.Shortcuts.CustomShortcutRow : Gtk.ListBoxRow {
         });
 
         remove_button.clicked.connect (() => {
-            popover.popdown ();
             shortcut = null;
             shortcut_changed ();
             unparent ();
         });
 
         set_accel_button.clicked.connect (() => {
-            popover.popdown ();
             edit_shortcut (true);
         });
 
