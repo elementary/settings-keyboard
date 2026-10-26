@@ -3,6 +3,15 @@
  * SPDX-FileCopyrightText: 2023 elementary, Inc. (https://elementary.io)
  */
 
+popover.menu button.destructive {
+    color: @error_color;
+    text-shadow: none;
+}
+
+popover.menu button.destructive:hover {
+    background-color: color-mix(in srgb, @error_color 20%, transparent);
+}
+
 scale value {
     background-color: alpha(@BLACK_700, 0.9);
     border-radius: 3px;

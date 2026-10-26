@@ -115,24 +115,33 @@ private class Keyboard.Shortcuts.ShortcutListBox : Gtk.Box {
             clear_button = new Gtk.Button () {
                 child = new Gtk.Label (_("Disable")) { halign = START }
             };
-            clear_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
+            clear_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
             clear_button.add_css_class (Granite.STYLE_CLASS_MENUITEM);
 
-            var action_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-            action_box.append (set_accel_button);
-            action_box.append (reset_button);
-            action_box.append (clear_button);
+            var set_accel_item = new GLib.MenuItem (null, null);
+            set_accel_item.set_attribute_value ("custom", "set-accel-button");
 
-            var popover = new Gtk.Popover () {
-                child = action_box
-            };
-            popover.add_css_class (Granite.STYLE_CLASS_MENU);
+            var reset_item = new GLib.MenuItem (null, null);
+            reset_item.set_attribute_value ("custom", "reset-button");
+
+            var clear_item = new GLib.MenuItem (null, null);
+            clear_item.set_attribute_value ("custom", "clear-button");
+
+            var menu_model = new GLib.Menu ();
+            menu_model.append_item (set_accel_item);
+            menu_model.append_item (reset_item);
+            menu_model.append_item (clear_item);
 
             var menubutton = new Gtk.MenuButton () {
                 has_frame = false,
                 icon_name = "open-menu-symbolic",
-                popover = popover,
+                menu_model = menu_model
             };
+
+            var popover = (Gtk.PopoverMenu) menubutton.popover;
+            popover.add_child (set_accel_button, "set-accel-button");
+            popover.add_child (reset_button, "reset-button");
+            popover.add_child (clear_button, "clear-button");
 
             var box = new Gtk.Box (HORIZONTAL, 12) {
                 margin_top = 3,
