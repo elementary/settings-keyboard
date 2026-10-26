@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-09 16:15+0000\n"
-"PO-Revision-Date: 2025-06-11 20:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-27 02:49+0000\n"
+"Last-Translator: CodeBeats <nicholai67@hotmail.com>\n"
 "Language-Team: Danish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard/da/>\n"
 "Language: da\n"
@@ -17,14 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-03-19 06:32+0000\n"
 
 #: src/Behavior/Behavior.vala:8 src/Plug.vala:128
-#, fuzzy
-#| msgid "Toggle On Screen Keyboard"
 msgid "Show On-screen Keyboard"
-msgstr "Skærmtastatur til/fra"
+msgstr "Vis Skærmtastatur"
 
 #: src/Behavior/Behavior.vala:30
 msgid "Delay:"
@@ -64,7 +62,7 @@ msgstr ""
 
 #: src/Behavior/Behavior.vala:127
 msgid "Don't accept keypresses unless held"
-msgstr ""
+msgstr "Accepter ikke tastetryk, medmindre de holdes nede"
 
 #: src/Behavior/Behavior.vala:151 src/Plug.vala:129
 msgid "Bounce Keys"
@@ -75,19 +73,17 @@ msgid "Ignore fast duplicate keypresses"
 msgstr ""
 
 #: src/Behavior/Behavior.vala:171
-#, fuzzy
-#| msgid "Left Alt"
 msgid "Event Alerts"
-msgstr "Venstre Alt"
+msgstr "Hændelsesalarmer"
 
 #: src/Behavior/Behavior.vala:172
 #, c-format
 msgid "Play a sound or flash the screen. %s"
-msgstr ""
+msgstr "Afspil en lyd eller få skærmen til at blinke. %s"
 
 #: src/Behavior/Behavior.vala:174
 msgid "Sound Settings…"
-msgstr ""
+msgstr "Lydindstillinger…"
 
 #: src/Behavior/Behavior.vala:179
 msgid "Caps Lock ⇪ or Num Lock keys are pressed"
@@ -162,22 +158,20 @@ msgid "Disabled"
 msgstr "Deaktiveret"
 
 #: src/InputMethod/InputMethod.vala:166
-#, fuzzy
-#| msgid "Show in Panel"
 msgid "Show property panel:"
-msgstr "Vis i Panel"
+msgstr "Vis egenskabs panel:"
 
 #: src/InputMethod/InputMethod.vala:173
 msgid "Do not show"
-msgstr ""
+msgstr "Vis ikke"
 
 #: src/InputMethod/InputMethod.vala:174
 msgid "Auto hide"
-msgstr ""
+msgstr "Skjul automatisk"
 
 #: src/InputMethod/InputMethod.vala:175
 msgid "Always show"
-msgstr ""
+msgstr "Vis altid"
 
 #: src/InputMethod/InputMethod.vala:177
 msgid "Embed preedit text in application window:"
@@ -192,16 +186,12 @@ msgid "Use and manage input methods"
 msgstr ""
 
 #: src/InputMethod/InputMethod.vala:439
-#, fuzzy
-#| msgid "Type to test your layout"
 msgid "Type to test your input method"
-msgstr "Skriv for at teste dit layout"
+msgstr "Skriv for at teste din inputmetode"
 
 #: src/InputMethod/InputMethod.vala:442
-#, fuzzy
-#| msgid "Show keyboard layout"
 msgid "A keyboard layout is active"
-msgstr "Vis tastatur layout"
+msgstr "Et tastaturlayout er aktivt"
 
 #: src/InputMethod/Installer/InstallList.vala:26
 msgid "Japanese"
@@ -246,10 +236,8 @@ msgid "Select an engine from the list to install and use."
 msgstr ""
 
 #: src/InputMethod/Widgets/InstallEngineDialog.vala:45
-#, fuzzy
-#| msgid "Input Language"
 msgid "Languages"
-msgstr "Input Sprog"
+msgstr "Sprog"
 
 #: src/InputMethod/Widgets/InstallEngineDialog.vala:99
 msgid "Install"
@@ -413,40 +401,32 @@ msgid "Type to test your layout"
 msgstr "Skriv for at teste dit layout"
 
 #: src/Layout/Layout.vala:426
-#, fuzzy
-#| msgid "Input Method Settings…"
 msgid "Input Method is active"
-msgstr "Input Metode Indstillinger…"
+msgstr "Inputmetode er aktiv"
 
 #: src/Layout/Widgets/AddLayoutDialog.vala:21
 msgid "Input Language"
 msgstr "Input Sprog"
 
 #: src/Layout/Widgets/AddLayoutDialog.vala:22
-#, fuzzy
-#| msgid "Layout"
 msgid "Layout List"
-msgstr "Layout"
+msgstr "Layout Liste"
 
 #: src/Layout/Widgets/AddLayoutDialog.vala:42
 msgid "Search input language"
 msgstr "Søg Input Sprog"
 
 #: src/Layout/Widgets/AddLayoutDialog.vala:102
-#, fuzzy
-#| msgid "Layout"
 msgid "Preview Layout"
-msgstr "Layout"
+msgstr "Forhåndsvis Layout"
 
 #: src/Layout/Widgets/AddLayoutDialog.vala:152
 msgid "Add Layout"
 msgstr "Tilføj Layout"
 
 #: src/Layout/Widgets/Display.vala:34
-#, fuzzy
-#| msgid "Add Layout"
 msgid "Add Keyboard Layout…"
-msgstr "Tilføj Layout"
+msgstr "Tilføj Tastaturlayout…"
 
 #: src/Layout/Widgets/Display.vala:185
 msgid "Move up"
@@ -471,10 +451,8 @@ msgstr "Layout"
 
 #: src/Plug.vala:55 src/Plug.vala:122 src/Plug.vala:123 src/Plug.vala:124
 #: src/Plug.vala:125
-#, fuzzy
-#| msgid "Input Method Settings…"
 msgid "Input Method"
-msgstr "Input Metode Indstillinger…"
+msgstr "Input Metode"
 
 #: src/Plug.vala:56 src/Plug.vala:126
 msgid "Shortcuts"
@@ -539,10 +517,8 @@ msgid "Paste"
 msgstr ""
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:71
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "Brugerdefineret"
+msgstr "Klip"
 
 #: src/Shortcuts/Backend/ConflictsManager.vala:73
 msgid "Undo"
@@ -987,10 +963,8 @@ msgid "Mute"
 msgstr "Lydløs"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:158
-#, fuzzy
-#| msgid "Pause"
 msgid "Play/Pause"
-msgstr "Pause"
+msgstr "Afspil/Pause"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:159
 msgid "Pause"
@@ -1057,16 +1031,12 @@ msgid "Cycle display mode"
 msgstr "Skift mellem display metode"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:185
-#, fuzzy
-#| msgid "Add Layout"
 msgid "Keyboard Layouts"
-msgstr "Tilføj Layout"
+msgstr "Tastaturlayouts"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:186
-#, fuzzy
-#| msgid "Add Layout"
 msgid "Switch Keyboard Layout"
-msgstr "Tilføj Layout"
+msgstr "Skift Tastaturlayout"
 
 #: src/Shortcuts/Backend/ShortcutsList.vala:187
 msgid "Switch Keyboard Layout Backwards"
@@ -1094,16 +1064,12 @@ msgstr "Skriv en brugerdefineret kommando"
 
 #. TRANSLATORS: This string is used by screen reader
 #: src/Shortcuts/Widgets/AppChooser.vala:50
-#, fuzzy
-#| msgid "Select an area to grab"
 msgid "Select an app"
-msgstr "Vælg et område at screnshotte"
+msgstr "Vælg en app"
 
 #: src/Shortcuts/Widgets/CustomShortcutListBox.vala:21
-#, fuzzy
-#| msgid "Shortcuts"
 msgid "Add Shortcut"
-msgstr "Genveje"
+msgstr "Tilføj Genveje"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:66
 msgid "Custom Command"
@@ -1111,17 +1077,13 @@ msgstr "Brugerdefineret Kommando"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:123
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:106
-#, fuzzy
-#| msgid "Shortcut"
 msgid "Set New Shortcut"
-msgstr "Genvej"
+msgstr "Angiv Ny Genvej"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:128
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:116
-#, fuzzy
-#| msgid "Disabled"
 msgid "Disable"
-msgstr "Deaktiveret"
+msgstr "Deaktiver"
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:221
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:194
@@ -1135,16 +1097,13 @@ msgstr ""
 
 #: src/Shortcuts/Widgets/CustomShortcutRow.vala:295
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:278
-#, fuzzy, c-format
-#| msgid "%s is already used for %s"
+#, c-format
 msgid "“%s” is already used for “%s → %s”."
-msgstr "%s er allerede brugt til %s"
+msgstr "“%s“ er allerede brugt til “%s → %s”."
 
 #: src/Shortcuts/Widgets/ShortcutListBox.vala:111
-#, fuzzy
-#| msgid "Default"
 msgid "Reset to Default"
-msgstr "Standard"
+msgstr "Nulstil til Standard"
 
 #: src/Shortcuts/Shortcuts.vala:49
 msgid "Accessibility"
