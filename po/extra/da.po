@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-09 16:15+0000\n"
-"PO-Revision-Date: 2026-11-20 22:04+0000\n"
+"PO-Revision-Date: 2026-11-22 21:04+0000\n"
 "Last-Translator: CodeBeats <nicholai67@hotmail.com>\n"
 "Language-Team: Danish <https://l10n.elementaryos.org/projects/settings/"
 "keyboard-plug-extra/da/>\n"
@@ -29,7 +29,7 @@ msgstr "Konfigurer tastaturets adfærd, layouts og genveje"
 
 #: data/keyboard.metainfo.xml.in:37
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/keyboard.metainfo.xml.in:45 data/keyboard.metainfo.xml.in:58
 #: data/keyboard.metainfo.xml.in:74 data/keyboard.metainfo.xml.in:83
